@@ -1,0 +1,14 @@
+Controlled callback test
+Input: sample key labels only
+Keyboard listener: not started
+
+INFO - 'h'
+INFO - 'i'
+INFO - Key.space
+INFO - 't'
+INFO - 'e'
+INFO - 's'
+INFO - 't'
+INFO - Key.enter
+
+PASS: 8 sample events written through the callback

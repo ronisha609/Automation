@@ -1,0 +1,7 @@
+{
+  "guestWifi": {
+    "ssid": "YOUR_GUEST_NETWORK_NAME",
+    "password": "YOUR_GUEST_PASSWORD",
+    "security": "WPA"
+  }
+}

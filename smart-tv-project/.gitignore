@@ -1,0 +1,32 @@
+# Local secrets and personal config: never commit, never package
+config.local.json
+*.local.json
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*_rsa
+webos_rsa
+lgtv_webos
+devmode_token
+ssap_client_key
+tokens/
+credentials*.json
+
+# Build output
+dist/
+*.ipk
+
+# Tools
+node_modules/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Logos copied from the TV: they belong to their owners
+app/logos/

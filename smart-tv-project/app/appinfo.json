@@ -1,0 +1,14 @@
+{
+  "id": "com.local.lgdashboard",
+  "version": "1.2.0",
+  "vendor": "Local",
+  "type": "web",
+  "main": "index.html",
+  "title": "LG Dashboard",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "bgColor": "#0b0d12",
+  "iconColor": "#0b0d12",
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true
+}
