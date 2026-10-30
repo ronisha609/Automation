@@ -1,6 +1,6 @@
 # CodeQL Security Scanning | GitHub Actions Setup Lab
 
-A configuration lab exploring how to connect CodeQL static analysis to a GitHub Actions workflow. This repository contains the workflow setup rather than a completed vulnerability investigation.
+A configuration lab exploring how to connect CodeQL static analysis to a GitHub Actions workflow. This folder preserves a workflow configuration sample rather than a completed vulnerability investigation.
 
 ## What Is Configured
 
@@ -21,10 +21,10 @@ GitHub Actions, YAML configuration, static-analysis workflow structure, scan tri
 
 ## Current Status
 
-The repository has a configured workflow, but no application source files to scan. No workflow runs were returned when checked during this portfolio update. This project demonstrates configuration practice; it does not yet demonstrate a successful scan, findings, or remediation.
+The sample is stored at `codeql-github-actions/.github/workflows/codeql.yml`. GitHub Actions discovers workflows in the repository-root `.github/workflows` directory, so this nested sample does not run here. Its triggers still refer to the original `master` branch; this repository uses `main`. No new scan was run as part of this documentation review. This project demonstrates configuration practice, without evidence here of a successful scan, findings, or remediation.
 
 ## Next Milestone
 
-Add a small application, run the workflow, and document a real finding, its fix, and the follow-up scan. That would make this a stronger application-security case study.
+To turn this into an active case study, place an adapted workflow in the repository-root `.github/workflows` directory, align its triggers and scan scope with this repository, run it, and document actual results and any remediation. That would make this a stronger application-security case study.
 
-[Cybersecurity labs](https://github.com/ronisha609/CyberSecurityLabs)
+[Cybersecurity labs](https://github.com/ronisha609/CyberSecurity)
