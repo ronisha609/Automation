@@ -6,6 +6,15 @@ It turns a TV into an Apple-TV-inspired control screen: big app shortcuts you dr
 
 > Part of a set of miscellaneous home-automation experiments. Reversible by design: everything installs through Developer Mode and uninstalls cleanly.
 
+## Skills & Learning Outcomes
+
+- Design remote-friendly controls and clear visual feedback with HTML, CSS, and JavaScript.
+- Connect weather data and local settings to an application interface.
+- Adapt code to an older browser and limited device resources.
+- Use scripts to package and deploy an app while keeping local configuration separate.
+
+For learners, the feature and setup sections connect these concepts to the implementation. For hiring teams, this project illustrates integration work, interface design, and problem-solving within platform constraints.
+
 ## Features
 
 - **D-pad navigation** tuned for the standard LG remote (no Magic Remote/pointer needed): directional focus that finds the nearest control by on-screen position.
@@ -74,3 +83,6 @@ config.example.json   Template for local guest-Wi-Fi config
 ## License
 
 [MIT](LICENSE)
+
+
+[Back to project directory](../README.md)
