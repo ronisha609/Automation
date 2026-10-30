@@ -2,6 +2,10 @@
 
 A course-based reference collection covering Python scripting, operating-system tasks, troubleshooting, reporting, and automation. The original README credits **Kyungrae Kim**, and that attribution is retained below. This collection should be presented as a learning reference rather than code independently authored by Ronisha Showers.
 
+## Skills & Learning Outcomes
+
+This reference material supports learning how to break administration tasks into functions, read and summarize records, inspect system conditions, and troubleshoot scripts. It helps connect Python fundamentals to repeatable IT tasks. These are study opportunities provided by the examples, not claims of independently authored solutions.
+
 ## Useful Examples to Explore
 
 | Example | What the code does | Skill area |
