@@ -83,6 +83,11 @@
     .pin{width:26px;height:26px;display:grid;place-items:center;border-radius:50%;border:2px solid var(--sand);box-shadow:0 4px 12px rgba(0,0,0,.45);font-size:13px;font-weight:700;color:#fff}
     .pin-user{background:var(--sage);color:var(--night)}.pin-incident{background:var(--flame)}.pin-construction{background:var(--copper);color:var(--night)}
     .loading{opacity:.7}
+    .place{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+    .place input,.place select,.req input{background:var(--night);border:1px solid var(--line);border-radius:10px;padding:9px 12px;color:var(--sand);font:inherit}
+    .place input{flex:1 1 180px;min-width:0}.place input::placeholder,.req input::placeholder{color:rgba(251,233,208,.45)}
+    .req{display:flex;gap:8px;flex-wrap:wrap;width:100%}.req input{flex:1 1 180px;min-width:0}
+    .topic{font-family:ui-monospace,Menlo,monospace;background:var(--night);border-radius:6px;padding:1px 6px;color:var(--sand)}
 
     @media(max-width:900px){.hero,.content-grid{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:520px){.shell{width:calc(100% - 32px);padding-top:14px}.summary{grid-template-columns:1fr}.map-head{display:block}.map-controls{margin-top:8px}#map{height:400px}}
@@ -105,10 +110,16 @@
           <button class="button" id="refreshBtn">Refresh</button>
           <span class="updated" id="updated">Loading local conditions…</span>
         </div>
+        <form class="place" id="placeForm" autocomplete="off">
+          <label for="placeTown" class="byline" style="flex-basis:100%">Or check any U.S. town</label>
+          <input id="placeTown" type="text" placeholder="Town or ZIP code">
+          <select id="placeState" aria-label="State"></select>
+          <button class="button" type="submit">Show</button>
+        </form>
       </div>
       <aside class="phone-card">
         <h2>Get it on your phone. <em>One message a morning.</em></h2>
-        <p>Local Pulse checks the weather service, NJ traffic and local news for you, then sends one short message with only what matters. No app to learn and nothing to connect.</p>
+        <p>Local Pulse checks the weather service, traffic and local news for you, then sends one short message with only what matters. No app to learn and nothing to connect.</p>
         <div id="joinBox" style="display:grid;gap:10px;justify-items:start"></div>
       </aside>
     </section>
@@ -141,8 +152,10 @@
   </main>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script>
-    const DEFAULT={label:"Central New Jersey",lat:40.2171,lon:-74.7429};
-    const state={snapshot:null,brief:null,location:{...DEFAULT},map:null,layers:[],currentAlerts:[],currentForecast:[],news:[]};
+    const DEFAULT={label:"Central New Jersey",lat:40.2171,lon:-74.7429,state:"NJ"};
+    const REQUEST_TOPIC="local-pulse-requests-55f784",MAIN_TOPIC="local-pulse-nj";
+    const STATES="AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY".split(" ");
+    const state={areas:[],snapshot:null,brief:null,location:{...DEFAULT},map:null,layers:[],currentAlerts:[],currentForecast:[],news:[]};
     const el=id=>document.getElementById(id);
     const esc=v=>String(v??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
     function km(a,b,c,d){const r=6371.0088,x=v=>v*Math.PI/180,p1=x(a),p2=x(c),dp=x(c-a),dl=x(d-b),q=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;return r*2*Math.atan2(Math.sqrt(q),Math.sqrt(1-q))}
@@ -155,15 +168,20 @@
     function pointMarker(lat,lon,type,title,body,url){if(!state.map||lat==null||lon==null)return;const link=url?`<br><a href="${esc(url)}" target="_blank" rel="noopener">Open details ↗</a>`:"";addLayer(L.marker([lat,lon],{icon:markerIcon(type)}).bindPopup(`<strong>${esc(clean(title,120))}</strong><br>${esc(clean(body,180))}${link}`))}
     async function getJson(url){const r=await fetch(url,{headers:{Accept:"application/geo+json, application/json"}});if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json()}
     async function loadSnapshot(){const r=await fetch(`data/local_conditions.json?v=${Date.now()}`);if(!r.ok)throw new Error("Local data unavailable");state.snapshot=await r.json();state.news=state.snapshot.news||[]}
+    async function loadAreas(){try{const r=await fetch("data/areas.json");if(r.ok)state.areas=(await r.json()).areas||[]}catch(_){}}
+    const slug=t=>String(t).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+    const isDefault=()=>!state.location.custom&&(state.location.label===DEFAULT.label||/Trenton/.test(state.location.label));
+    const inNJ=()=>(state.location.state||"")==="NJ";
+    function nearestArea(){let best=null;for(const a of state.areas){const d=miles(km(state.location.lat,state.location.lon,a.lat,a.lon));if(!best||d<best.d)best={...a,d}}return best&&best.d<=30?best:null}
     async function loadBrief(){try{const r=await fetch(`data/brief.json?v=${Date.now()}`);if(r.ok)state.brief=await r.json()}catch(_){}}
-    async function loadWeather(){try{const point=await getJson(`https://api.weather.gov/points/${state.location.lat},${state.location.lon}`),p=point.properties||{},place=p.relativeLocation?.properties||{};if(place.city)state.location.label=`${place.city}, ${place.state||""}`.trim().replace(/,$/,"");const [forecast,alerts]=await Promise.all([getJson(p.forecastHourly),getJson(`https://api.weather.gov/alerts/active?point=${state.location.lat},${state.location.lon}`)]);state.currentForecast=forecast.properties?.periods?.slice(0,12)||[];state.currentAlerts=alerts.features||[]}catch(_){state.currentForecast=state.snapshot?.weather?.periods||[];state.currentAlerts=(state.snapshot?.alerts||[]).map(a=>({properties:a,geometry:a.geometry}))}}
+    async function loadWeather(){try{const point=await getJson(`https://api.weather.gov/points/${state.location.lat},${state.location.lon}`),p=point.properties||{},place=p.relativeLocation?.properties||{};if(place.state)state.location.state=place.state;if(place.city&&!state.location.custom)state.location.label=`${place.city}, ${place.state||""}`.trim().replace(/,$/,"");const [forecast,alerts]=await Promise.all([getJson(p.forecastHourly),getJson(`https://api.weather.gov/alerts/active?point=${state.location.lat},${state.location.lon}`)]);state.currentForecast=forecast.properties?.periods?.slice(0,12)||[];state.currentAlerts=alerts.features||[]}catch(_){state.currentForecast=state.snapshot?.weather?.periods||[];state.currentAlerts=(state.snapshot?.alerts||[]).map(a=>({properties:a,geometry:a.geometry}))}}
     async function loadNews(){const place=state.location.label.split(",")[0],query=`"${place}" (traffic OR closure OR flooding OR weather OR school OR outage OR event)`,url=`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(query)}&mode=artlist&maxrecords=12&format=json&timespan=24h&sort=datedesc`;try{const data=await getJson(url);state.news=data.articles||data.items||state.news}catch(_){}}
     function nearbyRoads(){const limit=Number(el("radius").value),seen=new Set;return(state.snapshot?.traffic||[]).filter(i=>i.latitude!=null&&i.longitude!=null).map(i=>({...i,distanceMiles:miles(km(state.location.lat,state.location.lon,i.latitude,i.longitude))})).filter(i=>i.distanceMiles<=limit).sort((a,b)=>a.distanceMiles-b.distanceMiles).filter(i=>{const key=`${i.type}|${i.title}|${i.description}`;if(seen.has(key))return false;seen.add(key);return true})}
     const props=f=>f.properties||f;
     function meaning(period,alerts){const rain=Number(period?.probabilityOfPrecipitation?.value??period?.probabilityOfPrecipitation??0),temp=Number(period?.temperature??0),serious=alerts.some(f=>["extreme","severe"].includes(String(props(f).severity||"").toLowerCase())),flood=alerts.some(f=>/flood/i.test(`${props(f).event||""} ${props(f).headline||props(f).title||""}`));if(flood)return["Flooding may affect plans","Avoid flooded roads and check routes before leaving."];if(serious)return["Check alerts first","Severe weather could affect travel and outdoor plans."];if(rain>=50)return["Rain may change plans",`About a ${rain}% chance of rain. Bring rain gear and allow extra driving time.`];if(temp&&temp<=45)return["Dress warm",`Around ${temp}°${period?.temperatureUnit||"F"}. Add a warm layer for kids or longer outdoor plans.`];return["Plans look manageable","No major weather issue right now. Check again before a longer trip."]}
     function eventLabel(i){const t=`${i.title} ${i.description}`.toLowerCase();if(/crash|accident|overturned|disabled vehicle/.test(t))return"Crash or incident";if(/closed|closure|blocked/.test(t))return"Closure";return i.type==="construction"?"Construction":"Road event"}
     function renderBrief(fallback){
-      const b=state.brief, usingDefault=state.location.label===DEFAULT.label||/Trenton/.test(state.location.label);
+      const b=state.brief, usingDefault=isDefault();
       if(b&&b.text&&usingDefault){
         el("briefText").textContent=b.text;
         const when=b.generatedAt?new Date(b.generatedAt).toLocaleString([], {weekday:"short",hour:"numeric",minute:"2-digit"}):"";
@@ -174,38 +192,60 @@
         el("briefBy").textContent="Automatic summary for your location from live public data";
         el("briefLabel").textContent=`Right now · ${state.location.label}`;
       }
-      const join=[];
-      if(b&&b.ntfyTopic)join.push(`<p style="margin:0">1. Install the free <b>ntfy</b> app (iPhone or Android).<br>2. Tap <b>+</b> and subscribe to <b>${esc(b.ntfyTopic)}</b>.</p><a class="button primary" href="https://ntfy.sh/${esc(b.ntfyTopic)}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`);
-      if(b&&b.channelUrl)join.push(`<a class="button" href="${esc(b.channelUrl)}" target="_blank" rel="noopener">Or join on Telegram ↗</a>`);
-      join.push(`<p class="byline">Testing for 90 days. <a href="journal.html">See every message so far</a>.</p>`);
+      const join=[],steps=t=>`<p style="margin:0">1. Install the free <b>ntfy</b> app (iPhone or Android).<br>2. Tap <b>+</b> and subscribe to <span class="topic">${esc(t)}</span></p>`;
+      const area=nearestArea();
+      if(isDefault()){join.push(steps(MAIN_TOPIC)+`<a class="button primary" href="https://ntfy.sh/${MAIN_TOPIC}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`)}
+      else if(area){join.push(`<p class="byline" style="margin:0">Morning messages for <b>${esc(area.label)}</b></p>`+steps(area.topic)+`<a class="button primary" href="https://ntfy.sh/${esc(area.topic)}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`)}
+      else{const guess=state.location.custom?state.location.label:"";join.push(`<p style="margin:0">Morning messages aren't set up for this area yet. Ask for your town and you'll get it once it's added.</p><form class="req" id="reqForm"><input id="reqTown" type="text" placeholder="Town, State" value="${esc(guess)}" aria-label="Your town and state" maxlength="80"><button class="button primary" type="submit">Request my town</button></form><p class="byline" id="reqMsg" style="margin:0"></p>`)}
+      if(b&&b.channelUrl&&isDefault())join.push(`<a class="button" href="${esc(b.channelUrl)}" target="_blank" rel="noopener">Or join on Telegram ↗</a>`);
+      join.push(`<p class="byline" style="margin:0">Testing for 90 days. <a href="journal.html">See every message so far</a>.</p>`);
       el("joinBox").innerHTML=join.join("");
+      const rf=el("reqForm");if(rf)rf.addEventListener("submit",requestTown);
     }
+    async function requestTown(e){e.preventDefault();const v=el("reqTown").value.trim();if(v.length<3){el("reqMsg").textContent="Type your town and state, like Smithfield, VA.";return}
+      const btn=e.target.querySelector("button");btn.disabled=true;
+      try{const r=await fetch(`https://ntfy.sh/${REQUEST_TOPIC}`,{method:"POST",body:v,headers:{Title:"Town request"}});if(!r.ok)throw 0;
+        const parts=v.split(",").map(x=>x.trim()),topic=parts.length>1?`local-pulse-${slug(parts[1])}-${slug(parts[0])}`:"";
+        el("reqMsg").innerHTML=`Request sent. ${topic?`Subscribe to <span class="topic">${esc(topic)}</span> in ntfy now and messages start once your town is added.`:"We'll add it soon."}`}
+      catch(_){el("reqMsg").textContent="That didn't go through. Check your connection and try again.";btn.disabled=false}}
     function renderSummary(){
       const period=state.currentForecast[0]||{},roads=nearbyRoads(),alerts=state.currentAlerts,[title,text]=meaning(period,alerts),temp=period.temperature!=null?`${period.temperature}°${period.temperatureUnit||"F"}`:"Unavailable";
       el("weatherNow").textContent=temp;el("weatherDetail").textContent=period.shortForecast||"No forecast detail available.";
       const inc=roads.filter(r=>r.type==="incident").length,con=roads.filter(r=>r.type==="construction").length;
+      if(!inNJ()){el("roadNow").textContent="Not available yet";el("roadDetail").textContent=`Live crash and roadwork data covers New Jersey for now.`;el("roadCard").style.setProperty("--sev","var(--line)")}else{
       el("roadNow").textContent=roads.length?`${roads.length} nearby event${roads.length===1?"":"s"}`:"All clear";
       el("roadDetail").textContent=roads.length?`${inc} incident${inc===1?"":"s"} and ${con} construction zone${con===1?"":"s"} within ${el("radius").value} miles.`:"No crash or construction mapped nearby.";
-      el("roadCard").style.setProperty("--sev",inc?"var(--flame)":con?"var(--copper)":"var(--sage)");
+      el("roadCard").style.setProperty("--sev",inc?"var(--flame)":con?"var(--copper)":"var(--sage)");}
       const flood=alerts.filter(f=>/flood/i.test(`${props(f).event||""} ${props(f).headline||props(f).title||""}`));
       el("alertNow").textContent=alerts.length?`${alerts.length} active alert${alerts.length===1?"":"s"}`:"No alerts";
       el("alertDetail").textContent=flood.length?`${flood.length} flooding alert${flood.length===1?"":"s"}. Avoid flooded roads.`:"No flooding alert for this area.";
       el("alertCard").style.setProperty("--sev",flood.length?"var(--flame)":alerts.length?"var(--copper)":"var(--sage)");
       el("planNow").textContent=title;el("planDetail").textContent=text;
       const d=new Date(),halloween=d.getMonth()===9&&d.getDate()===31;
-      const take=`${halloween?"For trick-or-treating and errands":"For errands and outdoor plans"}: ${text} ${roads.length?`${roads.length} road event${roads.length===1?" is":"s are"} mapped within ${el("radius").value} miles.`:"No nearby road event is mapped right now."}`;
+      const take=`${halloween?"For trick-or-treating and errands":"For errands and outdoor plans"}: ${text} ${!inNJ()?"":roads.length?`${roads.length} road event${roads.length===1?" is":"s are"} mapped within ${el("radius").value} miles.`:"No nearby road event is mapped right now."}`;
       el("dailyTake").textContent=take;
       el("mapTitle").textContent=`What's happening near ${state.location.label}`;
       renderBrief(`${title}. ${take}`);
     }
-    function renderRoads(){const roads=nearbyRoads().slice(0,10);el("roadList").innerHTML=roads.length?roads.map(i=>`<article class="event ${esc(i.type)}"><h3>${esc(clean(i.title,170))}</h3><p>${esc(clean(i.description,260))}</p><div class="event-meta"><span class="tag">${esc(eventLabel(i))}</span><span class="tag">${i.distanceMiles.toFixed(1)} miles away</span><a href="https://www.google.com/maps/search/?api=1&query=${i.latitude},${i.longitude}" target="_blank" rel="noopener">Open map ↗</a></div></article>`).join(""):'<div class="empty">No 511NJ road event is mapped within this distance.</div>'}
+    function renderRoads(){if(!inNJ()){el("roadList").innerHTML=`<div class="empty">Live crash and roadwork data covers New Jersey for now. Weather, alerts and news on this page are live for ${esc(state.location.label)}.</div>`;return}const roads=nearbyRoads().slice(0,10);el("roadList").innerHTML=roads.length?roads.map(i=>`<article class="event ${esc(i.type)}"><h3>${esc(clean(i.title,170))}</h3><p>${esc(clean(i.description,260))}</p><div class="event-meta"><span class="tag">${esc(eventLabel(i))}</span><span class="tag">${i.distanceMiles.toFixed(1)} miles away</span><a href="https://www.google.com/maps/search/?api=1&query=${i.latitude},${i.longitude}" target="_blank" rel="noopener">Open map ↗</a></div></article>`).join(""):'<div class="empty">No 511NJ road event is mapped within this distance.</div>'}
     function renderWeather(){const alerts=state.currentAlerts;el("weatherList").innerHTML=alerts.length?alerts.map(f=>{const p=props(f);return`<article class="event weather"><h3>${esc(p.headline||p.title||p.event||"Weather alert")}</h3><p>${esc(clean(p.description||p.areaDesc||p.area||"",300))}</p><div class="event-meta"><span class="tag">${esc(p.severity||"Alert")}</span>${p.expires?`<span class="tag">Ends ${new Date(p.expires).toLocaleString()}</span>`:""}${p.web||p.url||p["@id"]?`<a href="${esc(p.web||p.url||p["@id"])}" target="_blank" rel="noopener">Official alert ↗</a>`:""}</div></article>`}).join(""):'<div class="empty">No active National Weather Service alert for this location.</div>'}
     function renderNews(){const news=(state.news||[]).slice(0,8);el("newsList").innerHTML=news.length?news.map(i=>`<article class="news-item"><a href="${esc(i.url||i.external_url)}" target="_blank" rel="noopener">${esc(clean(i.title,180))}</a><small>${esc(i.domain||i.source?.name||"Local coverage")}${i.seendate||i.seenDate?` · ${esc(i.seendate||i.seenDate)}`:""}</small></article>`).join(""):'<div class="empty">No recent local headline came back. Check 511NJ and the weather alerts above.</div>'}
     function renderMap(){if(!state.map)return;resetLayers();state.map.setView([state.location.lat,state.location.lon],Number(el("radius").value)<=16?11:10);pointMarker(state.location.lat,state.location.lon,"user",state.location.label,"Your area","");nearbyRoads().forEach(i=>pointMarker(i.latitude,i.longitude,i.type,i.title,`${eventLabel(i)} · ${i.distanceMiles.toFixed(1)} miles away`,i.link));state.currentAlerts.forEach(f=>{if(!f.geometry)return;try{addLayer(L.geoJSON(f.geometry,{style:{color:"#874F41",weight:2,fillColor:"#874F41",fillOpacity:.25}}).bindPopup(`<strong>${esc(props(f).headline||props(f).title||props(f).event||"Weather alert")}</strong>`))}catch(_){}})}
     function render(){renderSummary();renderRoads();renderWeather();renderNews();renderMap()}
     async function refresh(){document.body.classList.add("loading");el("updated").textContent="Refreshing…";try{await Promise.all([loadSnapshot(),loadBrief()]);await Promise.all([loadWeather(),loadNews()]);render();el("updated").textContent=`Updated ${new Date().toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}`}catch(_){el("updated").textContent="Some information could not load";render()}document.body.classList.remove("loading")}
-    function useLocation(){if(!navigator.geolocation){el("updated").textContent="Location isn't supported in this browser";return}el("updated").textContent="Finding conditions near you…";navigator.geolocation.getCurrentPosition(async p=>{state.location={label:"Your location",lat:p.coords.latitude,lon:p.coords.longitude};await refresh()},()=>{el("updated").textContent="Location wasn't shared. Showing Central New Jersey."},{enableHighAccuracy:false,timeout:10000,maximumAge:300000})}
-    el("locationBtn").addEventListener("click",useLocation);el("refreshBtn").addEventListener("click",refresh);el("radius").addEventListener("change",render);initMap();refresh();
+    function useLocation(){if(!navigator.geolocation){el("updated").textContent="Location isn't supported in this browser";return}el("updated").textContent="Finding conditions near you…";navigator.geolocation.getCurrentPosition(async p=>{state.location={label:"Your location",lat:p.coords.latitude,lon:p.coords.longitude,state:"",custom:false};await refresh()},()=>{el("updated").textContent="Location wasn't shared. Showing Central New Jersey."},{enableHighAccuracy:false,timeout:10000,maximumAge:300000})}
+    async function findPlace(e){e.preventDefault();const q=el("placeTown").value.trim(),st=el("placeState").value;if(!q){el("updated").textContent="Type a town or ZIP code first.";return}
+      el("updated").textContent="Looking up that town…";
+      const params=new URLSearchParams({format:"json",countrycodes:"us",limit:"1",addressdetails:"1"});
+      if(/^\d{5}$/.test(q))params.set("postalcode",q);else{params.set("city",q);if(st)params.set("state",st)}
+      try{const r=await fetch(`https://nominatim.openstreetmap.org/search?${params}`,{headers:{Accept:"application/json"}});const hits=await r.json();
+        if(!hits.length){el("updated").textContent="Couldn't find that town. Check the spelling or try a ZIP code.";return}
+        const h=hits[0],a=h.address||{},town=a.city||a.town||a.village||a.hamlet||a.suburb||q,code=(a["ISO3166-2-lvl4"]||"").split("-")[1]||st;
+        state.location={label:`${town}${code?", "+code:""}`,lat:Number(h.lat),lon:Number(h.lon),state:code,custom:true};await refresh()}
+      catch(_){el("updated").textContent="Town lookup isn't responding. Try again in a moment, or use your location."}}
+    el("placeState").innerHTML='<option value="">State</option>'+STATES.map(s=>`<option${s==="NJ"?" selected":""}>${s}</option>`).join("");
+    el("placeForm").addEventListener("submit",findPlace);
+    el("locationBtn").addEventListener("click",useLocation);el("refreshBtn").addEventListener("click",refresh);el("radius").addEventListener("change",render);initMap();loadAreas().then(refresh);
   </script>
 </body>
 </html>

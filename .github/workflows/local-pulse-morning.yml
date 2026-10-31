@@ -71,6 +71,12 @@ jobs:
           TELEGRAM_CHANNEL_URL: ${{ vars.TELEGRAM_CHANNEL_URL }}
         run: python brief.py --force --send --journal journal
 
+      - name: Send messages for every covered area
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        continue-on-error: true
+        working-directory: local-pulse
+        run: python area_briefs.py --send
+
       - name: Screenshot the dashboard
         if: steps.window.outputs.run == 'true' || inputs.ignore_window
         continue-on-error: true
@@ -82,7 +88,7 @@ jobs:
       - name: Update the 90-day log
         if: steps.window.outputs.run == 'true' || inputs.ignore_window
         working-directory: local-pulse
-        run: python journal.py --journal journal --start "$START_DATE" --days "$DAYS"
+        run: python journal.py --journal journal --start "$START_DATE" --days "$DAYS" --requests data/requests.json --areas data/area_briefs.json
 
       - name: Save to the repository
         if: steps.window.outputs.run == 'true' || inputs.ignore_window

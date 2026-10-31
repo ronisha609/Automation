@@ -22,7 +22,9 @@ Local Pulse **converts live public data into one decision-ready message**. It fu
 
 ## Live Product
 
-- **Morning message** pushed to any phone at 7:15 AM through the free ntfy app.
+- **Morning message** pushed to any phone at 7:15 AM through the free ntfy app, covering all 21 New Jersey counties and 47 major U.S. cities.
+- **Any U.S. town** on the dashboard: search by town or ZIP for live weather, alerts and news.
+- **Request my town**: residents outside coverage request their area; requests alert the owner instantly and are logged as demand.
 - **Dashboard** with a GPS-centered map, adjustable 10, 25 and 50 mile views, active alerts, road events and local headlines.
 - **90-day field log** with every message, daily screenshots and running totals of crash, alert, rain and frost warnings.
 - **Zero operating cost**: GitHub Actions, GitHub Pages, public data sources and ntfy delivery run free.
@@ -50,8 +52,8 @@ From November 1, 2026, the morning workflow runs daily for 90 days, then stops a
 
 ## Subscribe
 
-1. Install the free **ntfy** app from the App Store or Google Play ([ntfy.sh](https://ntfy.sh)).
-2. Tap **+** and subscribe to **local-pulse-nj**.
+1. Open the [dashboard](https://ronisha609.github.io/Automation/local-pulse/) and search your town.
+2. Install the free **ntfy** app and subscribe to the topic it shows, such as **local-pulse-nj** or **local-pulse-va-richmond**.
 
 ## Build Your Own
 
@@ -59,7 +61,7 @@ Local Pulse is one configuration of a pattern anyone can adapt to their own comm
 
 | Decision | Options | Local Pulse |
 | --- | --- | --- |
-| Coverage | Any area served by public weather, traffic and news feeds | Central New Jersey, 25-mile radius |
+| Coverage | Any area served by public weather, traffic and news feeds | 21 NJ counties with live traffic, 47 major U.S. cities, and towns added on request |
 | Brief writer | AI model, rule-based logic, or both | AI-assisted with a rule-based fallback, so delivery never depends on a paid service |
 | Delivery | Push notification app, messaging channel, SMS, email or a web page | Free push notifications plus a public dashboard |
 | Schedule | Fixed morning brief, change-triggered alerts, or both | Daily morning brief, data refreshed every 30 minutes |

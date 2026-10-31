@@ -89,5 +89,37 @@ class BriefTests(unittest.TestCase):
             self.assertEqual(json.loads((folder / "2026-11-03.json").read_text())["writtenBy"], "built-in rules")
 
 
+class AreaTests(unittest.TestCase):
+    def test_area_without_traffic_skips_road_line(self):
+        area = {"label": "Richmond, VA", "lat": 37.541, "lon": -77.436, "radiusMiles": 15,
+                "traffic": None, "counties": None}
+        facts = build_facts(snapshot(traffic=[CRASH_NEAR]), today=datetime(2026, 11, 3), area=area)
+        text = rules_brief(facts)
+        self.assertTrue(text.startswith("Good morning, Richmond, VA."))
+        self.assertNotIn("Roads", text)
+        self.assertNotIn("I-295", text)
+
+    def test_area_alerts_not_county_filtered(self):
+        area = {"label": "Richmond, VA", "lat": 37.541, "lon": -77.436, "traffic": None, "counties": None}
+        facts = build_facts(snapshot(alerts=[{"event": "Wind Advisory", "area": "Henrico"}]),
+                            today=datetime(2026, 11, 3), area=area)
+        self.assertEqual([a["event"] for a in facts["weatherAlerts"]], ["Wind Advisory"])
+
+    def test_areas_file_is_valid(self):
+        from make_areas import build
+        areas = build()
+        self.assertEqual(len({a["topic"] for a in areas}), len(areas))
+        self.assertEqual(sum(1 for a in areas if a["state"] == "NJ"), 21)
+        for a in areas:
+            self.assertTrue(-180 < a["lon"] < -60 and 18 < a["lat"] < 72, a["label"])
+
+    def test_request_merge_dedupes(self):
+        from requests_log import merge
+        merged = merge([], [{"id": "a", "time": 2, "message": "Smithfield, VA"},
+                            {"id": "a", "time": 2, "message": "Smithfield, VA"},
+                            {"id": "b", "time": 1, "message": "Ewing, NJ"}])
+        self.assertEqual([r["town"] for r in merged], ["Ewing, NJ", "Smithfield, VA"])
+
+
 if __name__ == "__main__":
     unittest.main()

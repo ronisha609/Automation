@@ -111,7 +111,10 @@ def nearby_roads(snapshot: dict[str, Any], lat: float = LATITUDE, lon: float = L
     return found
 
 
-def local_alerts(snapshot: dict[str, Any], counties: tuple[str, ...] = COUNTIES) -> list[dict[str, Any]]:
+def local_alerts(snapshot: dict[str, Any], counties: tuple[str, ...] | None = COUNTIES) -> list[dict[str, Any]]:
+    """Keep alerts naming the given counties. counties=None keeps all (alerts already fetched for a point)."""
+    if not counties:
+        return list(snapshot.get("alerts", []))
     pattern = re.compile("|".join(re.escape(c) for c in counties), re.IGNORECASE)
     return [a for a in snapshot.get("alerts", []) if pattern.search(a.get("area") or "")]
 
@@ -142,18 +145,25 @@ def hour_label(iso: str | None) -> str:
         return ""
 
 
-def build_facts(snapshot: dict[str, Any], today: datetime | None = None) -> dict[str, Any]:
+def build_facts(snapshot: dict[str, Any], today: datetime | None = None, area: dict[str, Any] | None = None) -> dict[str, Any]:
+    """area (optional): {"label", "lat", "lon", "radiusMiles", "counties", "traffic"} for areas other than the default."""
     today = today or datetime.now()
-    roads = nearby_roads(snapshot)
+    area = area or {}
+    label = area.get("label", AREA_LABEL)
+    traffic_available = area.get("traffic", "511nj") is not None
+    roads = nearby_roads(snapshot, area.get("lat", LATITUDE), area.get("lon", LONGITUDE),
+                         area.get("radiusMiles", ROAD_RADIUS_MILES)) if traffic_available else []
+    counties = area["counties"] if "counties" in area else COUNTIES
     return {
-        "area": AREA_LABEL,
+        "area": label,
+        "trafficAvailable": traffic_available,
         "date": today.strftime("%A, %B %-d"),
         "special": "Halloween" if (today.month, today.day) == (10, 31) else "",
         "weather": weather_summary(snapshot),
         "weatherAlerts": [
             {"event": a.get("event"), "headline": a.get("title"), "severity": a.get("severity"),
              "instruction": (a.get("instruction") or "")[:300]}
-            for a in local_alerts(snapshot)
+            for a in local_alerts(snapshot, counties)
         ],
         "roads": [
             {"what": e["label"], "where": tidy_place(e.get("title", "")), "detail": (e.get("description") or "")[:200],
@@ -189,7 +199,9 @@ def rules_brief(facts: dict[str, Any]) -> str:
         parts.append(f"The weather service has a {first['event']} for parts of the area, so check it before you head out.")
 
     serious = [r for r in roads if r["what"] in ("crash or incident", "closure")]
-    if serious:
+    if not facts.get("trafficAvailable", True):
+        pass  # no traffic feed for this area yet; say nothing rather than "roads look clear"
+    elif serious:
         r = serious[0]
         more = f" and {len(serious) - 1} more nearby" if len(serious) > 1 else ""
         parts.append(f"Watch for a {r['what']} at {r['where']} ({r['milesAway']} mi away){more}.")
@@ -286,12 +298,12 @@ def write_journal(brief: dict[str, Any], journal_dir: Path, day: str) -> Path:
 SITE_URL = "https://ronisha609.github.io/Automation/local-pulse/"
 
 
-def send_ntfy(text: str, topic: str) -> None:
+def send_ntfy(text: str, topic: str, title: str = "Local Pulse") -> None:
     """Free push notification through ntfy.sh. No account or key needed."""
     request = Request(
         f"https://ntfy.sh/{topic}",
         data=text.encode("utf-8"),
-        headers={"Title": "Local Pulse", "Tags": "round_pushpin", "Click": SITE_URL},
+        headers={"Title": title.encode("ascii", "ignore").decode(), "Tags": "round_pushpin", "Click": SITE_URL},
         method="POST",
     )
     with urlopen(request, timeout=30) as response:

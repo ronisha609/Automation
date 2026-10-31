@@ -25,7 +25,8 @@ def load_entries(journal_dir: Path) -> list[dict[str, Any]]:
     return entries
 
 
-def summarize(entries: list[dict[str, Any]], start: str, days: int) -> dict[str, Any]:
+def summarize(entries: list[dict[str, Any]], start: str, days: int,
+              requests: list[dict[str, Any]] | None = None, areas: dict[str, Any] | None = None) -> dict[str, Any]:
     counts = Counter(flag for e in entries for flag in e.get("flags", []))
     elapsed = (date.today() - date.fromisoformat(start)).days + 1 if start else len(entries)
     return {
@@ -36,6 +37,9 @@ def summarize(entries: list[dict[str, Any]], start: str, days: int) -> dict[str,
         "writtenByAI": sum(1 for e in entries if e.get("writtenBy", "").startswith("Claude")),
         "daysWith": {flag: counts.get(flag, 0) for flag in FLAG_ORDER},
         "screenshots": sum(1 for e in entries if e.get("hasScreenshot")),
+        "townRequests": len(requests or []),
+        "areasCovered": (areas or {}).get("areaCount", 0),
+        "areaMessagesLastRun": (areas or {}).get("sent", 0),
     }
 
 
@@ -45,6 +49,7 @@ def write_readme(journal_dir: Path, summary: dict[str, Any], entries: list[dict[
         "# Local Pulse: 90-Day Log",
         "",
         f"Started {summary['start']}. Day {summary['dayNumber']} of {summary['plannedDays']}. "
+        f"Covering {summary['areasCovered']} areas, with {summary['townRequests']} town requests so far. "
         "Each morning GitHub Actions collects public data, writes one plain-language message, "
         "posts it, takes a screenshot and saves the entry here.",
         "",
@@ -67,11 +72,14 @@ def main() -> int:
     parser.add_argument("--journal", type=Path, default=Path("journal"))
     parser.add_argument("--start", default="", help="first day of the 90-day run, YYYY-MM-DD")
     parser.add_argument("--days", type=int, default=90)
+    parser.add_argument("--requests", type=Path, help="data/requests.json")
+    parser.add_argument("--areas", type=Path, help="data/area_briefs.json")
     args = parser.parse_args()
 
     entries = load_entries(args.journal)
     start = args.start or (entries[0]["date"] if entries else date.today().isoformat())
-    summary = summarize(entries, start, args.days)
+    read = lambda p: json.loads(p.read_text(encoding="utf-8")) if p and p.exists() else {}
+    summary = summarize(entries, start, args.days, read(args.requests).get("requests", []), read(args.areas))
     index = {"summary": summary, "entries": list(reversed(entries))}
     args.journal.mkdir(parents=True, exist_ok=True)
     (args.journal / "index.json").write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
