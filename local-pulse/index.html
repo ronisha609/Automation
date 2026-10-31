@@ -194,16 +194,21 @@
         el("briefBy").textContent="Automatic summary for your location from live public data";
         el("briefLabel").textContent=`Right now · ${state.location.label}`;
       }
-      const join=[],steps=t=>`<p style="margin:0">1. Install the free <b>ntfy</b> app: <a href="https://apps.apple.com/us/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone</a> · <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android</a><br>2. Tap <b>+</b> and subscribe to <span class="topic">${esc(t)}</span></p>`;
+      const join=[],steps=t=>`<p style="margin:0">1. Install the free <b>ntfy</b> app: <a href="https://apps.apple.com/us/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone</a> · <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android</a><br>2. Open ntfy, tap <b>+</b> and paste <span class="topic">${esc(t)}</span>, then tap Subscribe.</p>`;
       const area=nearestArea();
-      if(isDefault()){join.push(steps(MAIN_TOPIC)+`<a class="button primary" href="https://ntfy.sh/${MAIN_TOPIC}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`)}
-      else if(area){join.push(`<p class="byline" style="margin:0">Morning messages for <b>${esc(area.label)}</b></p>`+steps(area.topic)+`<a class="button primary" href="https://ntfy.sh/${esc(area.topic)}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`)}
+      if(isDefault()){join.push(steps(MAIN_TOPIC)+`${getButtons(MAIN_TOPIC)}`)}
+      else if(area){join.push(`<p class="byline" style="margin:0">Morning messages for <b>${esc(area.label)}</b></p>`+steps(area.topic)+`${getButtons(area.topic)}`)}
       else{const guess=state.location.custom?state.location.label:"";join.push(`<p style="margin:0">Morning messages aren't set up for this area yet. Ask for your town and you'll get it once it's added.</p><form class="req" id="reqForm"><input id="reqTown" type="text" placeholder="Town, State" value="${esc(guess)}" aria-label="Your town and state" maxlength="80"><button class="button primary" type="submit">Request my town</button></form><p class="byline" id="reqMsg" style="margin:0"></p>`)}
       if(b&&b.channelUrl&&isDefault())join.push(`<a class="button" href="${esc(b.channelUrl)}" target="_blank" rel="noopener">Or join on Telegram ↗</a>`);
       join.push(`<p class="byline" style="margin:0">Testing for 90 days. <a href="journal.html">See every message so far</a>.</p>`);
       el("joinBox").innerHTML=join.join("");
       const rf=el("reqForm");if(rf)rf.addEventListener("submit",requestTown);
     }
+    const IOS_URL="https://apps.apple.com/us/app/ntfy/id1625396347",AND_URL="https://play.google.com/store/apps/details?id=io.heckel.ntfy";
+    function getButtons(topic){const ua=navigator.userAgent,ios=/iPhone|iPad|iPod/.test(ua),and=/Android/.test(ua);
+      const store=ios?`<a class="button primary" href="${IOS_URL}" target="_blank" rel="noopener">Download ntfy ↗</a>`:and?`<a class="button primary" href="${AND_URL}" target="_blank" rel="noopener">Download ntfy ↗</a>`:"";
+      return `<div class="actions">${store}<button class="button" type="button" data-copy="${esc(topic)}">Copy topic name</button></div>`}
+    document.addEventListener("click",async e=>{const b=e.target.closest("[data-copy]");if(!b)return;try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent="Copied. Paste it in ntfy"}catch(_){b.textContent=b.dataset.copy}});
     async function requestTown(e){e.preventDefault();const v=el("reqTown").value.trim();if(v.length<3){el("reqMsg").textContent="Type your town and state, like Smithfield, VA.";return}
       const btn=e.target.querySelector("button");btn.disabled=true;
       try{const r=await fetch(`https://ntfy.sh/${REQUEST_TOPIC}`,{method:"POST",body:v,headers:{Title:"Town request"}});if(!r.ok)throw 0;
