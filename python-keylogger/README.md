@@ -1,6 +1,6 @@
 # Python Keylogger | Keyboard Event Logging Lab
 
-An early Python cybersecurity learning project exploring how keyboard events can be converted into timestamped log records. I followed a tutorial to understand the connection between event listeners, callback functions, and local logging.
+An early Python cybersecurity lab that converts keyboard events into timestamped log records. The implementation follows a tutorial and maps event listeners to callback functions and local logging.
 
 ## What the Project Does
 
@@ -47,6 +47,6 @@ This image renders actual test output from a controlled callback check. Eight sa
 
 ## Learning Context & Credit
 
-This is a tutorial-based training project, based on [AskPython’s Python keylogger tutorial](https://www.askpython.com/python/examples/python-keylogger). It helped me explore event-driven Python and understand the artifacts produced by keyboard logging. Any live testing belongs on a device I own or have permission to test.
+This is a tutorial-based training project, based on [AskPython’s Python keylogger tutorial](https://www.askpython.com/python/examples/python-keylogger). It documents event-driven Python behavior and the artifacts produced by keyboard logging. Any live testing belongs on a device I own or have permission to test.
 
 [Cybersecurity labs](https://github.com/ronisha609/CyberSecurity) · [Intelligence portfolio](https://app.notion.com/p/3cd81644420380669bf8e68cab6082bf)
