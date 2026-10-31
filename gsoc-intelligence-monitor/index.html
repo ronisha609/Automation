@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive GSOC intelligence monitor for official weather, seismic, and cyber alerts.">
+  <title>Automated GSOC Intelligence Monitor</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07111f;
+      --panel: #0d1b2b;
+      --panel-2: #10243a;
+      --line: #27415e;
+      --text: #eef6ff;
+      --muted: #9fb2c8;
+      --blue: #4aa8ff;
+      --cyan: #55e1d3;
+      --high: #ff6b73;
+      --moderate: #ffbf5b;
+      --low: #5ee0a0;
+      --shadow: 0 18px 45px rgba(0, 0, 0, .28);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 85% 0%, rgba(74, 168, 255, .16), transparent 28rem),
+        linear-gradient(180deg, #07111f, #081421 55%, #07111f);
+      color: var(--text);
+      font: 15px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100vh;
+    }
+    button, input, select { font: inherit; }
+    button { cursor: pointer; }
+    a { color: #7fc4ff; }
+    .shell { width: min(1220px, calc(100% - 32px)); margin: 0 auto; padding: 28px 0 52px; }
+    .hero {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 28px;
+      background: linear-gradient(135deg, rgba(16, 36, 58, .98), rgba(8, 22, 37, .95));
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      border: 1px solid rgba(85, 225, 211, .2);
+      border-radius: 50%;
+      top: -150px;
+      right: -80px;
+      box-shadow: 0 0 0 38px rgba(74, 168, 255, .04), 0 0 0 76px rgba(74, 168, 255, .025);
+    }
+    .eyebrow { color: var(--cyan); font-weight: 800; letter-spacing: .13em; text-transform: uppercase; font-size: 12px; }
+    h1 { font-size: clamp(28px, 5vw, 48px); line-height: 1.06; margin: 10px 0 12px; max-width: 760px; }
+    .hero p { color: var(--muted); max-width: 760px; margin: 0; font-size: 17px; }
+    .status-line { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    .status-pill { display: inline-flex; gap: 8px; align-items: center; padding: 8px 12px; border-radius: 999px; background: rgba(7, 17, 31, .72); border: 1px solid var(--line); color: var(--muted); }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
+    .layout { display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 18px; margin-top: 18px; align-items: start; }
+    .panel { background: rgba(13, 27, 43, .94); border: 1px solid var(--line); border-radius: 18px; padding: 20px; box-shadow: var(--shadow); }
+    .panel h2 { margin: 0 0 16px; font-size: 18px; }
+    .settings { position: sticky; top: 16px; }
+    .field { margin: 0 0 13px; }
+    label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+    input, select {
+      width: 100%; border: 1px solid var(--line); background: #071421; color: var(--text); border-radius: 10px; padding: 11px 12px; outline: none;
+    }
+    input:focus, select:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(74, 168, 255, .12); }
+    .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .actions { display: grid; gap: 9px; margin-top: 18px; }
+    .button { border: 1px solid var(--line); border-radius: 11px; padding: 11px 14px; font-weight: 850; color: var(--text); background: #132c46; }
+    .button:hover { transform: translateY(-1px); border-color: #4f789f; }
+    .button.primary { background: linear-gradient(135deg, #147bd1, #165ead); border-color: #278dde; }
+    .button.secondary { background: linear-gradient(135deg, #126a68, #155752); border-color: #2d8f88; }
+    .button.ghost { background: transparent; }
+    .privacy { color: var(--muted); font-size: 12px; margin: 14px 0 0; }
+    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
+    .metric { padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(180deg, rgba(16,36,58,.9), rgba(9,23,38,.9)); }
+    .metric span { display: block; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; font-weight: 800; }
+    .metric strong { display: block; margin-top: 4px; font-size: 28px; }
+    .metric.high strong { color: var(--high); }
+    .metric.moderate strong { color: var(--moderate); }
+    .metric.low strong { color: var(--low); }
+    .toolbar { display: grid; grid-template-columns: 1fr 170px; gap: 10px; margin-bottom: 12px; }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    .chip { border: 1px solid var(--line); background: transparent; color: var(--muted); padding: 7px 11px; border-radius: 999px; font-weight: 800; }
+    .chip.active { color: var(--text); background: #173451; border-color: #4776a0; }
+    .items { display: grid; gap: 12px; }
+    .item { border: 1px solid var(--line); border-left: 4px solid var(--blue); border-radius: 14px; padding: 16px; background: rgba(8, 22, 37, .75); }
+    .item[data-risk="High"] { border-left-color: var(--high); }
+    .item[data-risk="Moderate"] { border-left-color: var(--moderate); }
+    .item[data-risk="Low"] { border-left-color: var(--low); }
+    .item-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+    .item h3 { margin: 0; font-size: 17px; line-height: 1.35; }
+    .badge { flex: 0 0 auto; padding: 5px 9px; border-radius: 999px; font-weight: 900; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; background: #173451; }
+    .badge.High { color: var(--high); background: rgba(255, 107, 115, .11); }
+    .badge.Moderate { color: var(--moderate); background: rgba(255, 191, 91, .11); }
+    .badge.Low { color: var(--low); background: rgba(94, 224, 160, .11); }
+    .meta { color: var(--muted); font-size: 12px; margin: 6px 0 10px; }
+    .assessment { margin: 0 0 10px; }
+    .item ul { margin: 6px 0 12px 20px; padding: 0; color: #c5d4e4; }
+    .action { background: rgba(74, 168, 255, .08); border: 1px solid rgba(74, 168, 255, .2); border-radius: 10px; padding: 10px 12px; }
+    .empty { text-align: center; color: var(--muted); padding: 44px 12px; border: 1px dashed var(--line); border-radius: 14px; }
+    .source-grid { display: grid; gap: 9px; }
+    .source-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; padding: 10px 12px; border-radius: 10px; background: #081625; border: 1px solid var(--line); }
+    .source-row small { color: var(--muted); display: block; }
+    .source-state { font-size: 12px; font-weight: 900; color: var(--muted); }
+    .source-state.ok { color: var(--low); }
+    .source-state.fail { color: var(--high); }
+    .footer-note { color: var(--muted); margin: 18px 0 0; font-size: 13px; }
+    .loading { opacity: .62; pointer-events: none; }
+    @media (max-width: 880px) {
+      .layout { grid-template-columns: 1fr; }
+      .settings { position: static; }
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 520px) {
+      .shell { width: min(100% - 20px, 1220px); padding-top: 10px; }
+      .hero, .panel { padding: 16px; border-radius: 14px; }
+      .field-grid, .toolbar { grid-template-columns: 1fr; }
+      .item-top { display: block; }
+      .badge { display: inline-block; margin-top: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">Automation Intelligence Lab</div>
+      <h1>Automated GSOC Intelligence Monitor</h1>
+      <p>Collect official public alerts, filter the noise, rank risk, and convert the results into a clear intelligence brief.</p>
+      <div class="status-line">
+        <span class="status-pill"><span class="dot"></span><span id="modeLabel">Demo mode ready</span></span>
+        <span class="status-pill" id="generatedLabel">No collection run</span>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel settings" aria-label="Monitor controls">
+        <h2>Monitor Settings</h2>
+        <div class="field">
+          <label for="location">Location label</label>
+          <input id="location" value="Central New Jersey">
+        </div>
+        <div class="field-grid">
+          <div class="field">
+            <label for="lat">Latitude</label>
+            <input id="lat" type="number" step="0.0001" value="40.2171">
+          </div>
+          <div class="field">
+            <label for="lon">Longitude</label>
+            <input id="lon" type="number" step="0.0001" value="-74.7429">
+          </div>
+        </div>
+        <div class="field-grid">
+          <div class="field">
+            <label for="radius">USGS radius (km)</label>
+            <input id="radius" type="number" min="10" max="2000" value="300">
+          </div>
+          <div class="field">
+            <label for="lookback">CISA lookback (days)</label>
+            <input id="lookback" type="number" min="1" max="90" value="14">
+          </div>
+        </div>
+        <div class="actions">
+          <button class="button secondary" id="demoBtn">Load Demonstration</button>
+          <button class="button primary" id="liveBtn">Collect Official Live Data</button>
+          <button class="button" id="exportBtn">Export Markdown Brief</button>
+          <button class="button ghost" id="clearBtn">Clear Results</button>
+        </div>
+        <p class="privacy">Use a city center or approximate coordinates. A residential address is unnecessary.</p>
+      </aside>
+
+      <div>
+        <section class="metrics" aria-label="Risk summary">
+          <div class="metric high"><span>High</span><strong id="highCount">0</strong></div>
+          <div class="metric moderate"><span>Moderate</span><strong id="moderateCount">0</strong></div>
+          <div class="metric low"><span>Low</span><strong id="lowCount">0</strong></div>
+          <div class="metric"><span>Sources online</span><strong id="sourceCount">0/3</strong></div>
+        </section>
+
+        <section class="panel">
+          <h2>Priority Watch Items</h2>
+          <div class="toolbar">
+            <input id="search" type="search" placeholder="Search alerts, sources, or indicators">
+            <select id="category">
+              <option value="All">All categories</option>
+              <option value="Weather">Weather</option>
+              <option value="Seismic">Seismic</option>
+              <option value="Cyber">Cyber</option>
+            </select>
+          </div>
+          <div class="filters" id="riskFilters">
+            <button class="chip active" data-risk="All">All</button>
+            <button class="chip" data-risk="High">High</button>
+            <button class="chip" data-risk="Moderate">Moderate</button>
+            <button class="chip" data-risk="Low">Low</button>
+          </div>
+          <div class="items" id="items">
+            <div class="empty">Load the demonstration or collect official live data.</div>
+          </div>
+        </section>
+
+        <section class="panel" style="margin-top:18px">
+          <h2>Collection Status</h2>
+          <div class="source-grid" id="sources"></div>
+          <p class="footer-note">Automated ranking supports triage. Verify critical information through the linked official record before acting.</p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const SOURCE_NAMES = ["National Weather Service", "U.S. Geological Survey", "CISA KEV"];
+    const RISK_WEIGHT = { High: 3, Moderate: 2, Low: 1, Information: 0 };
+    const state = { items: [], sources: {}, risk: "All", demo: false, generated: null };
+
+    const el = id => document.getElementById(id);
+    const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
+    const config = () => ({
+      location: el("location").value.trim() || "Monitored location",
+      lat: Number(el("lat").value),
+      lon: Number(el("lon").value),
+      radius: Number(el("radius").value),
+      lookback: Number(el("lookback").value)
+    });
+
+    function saveSettings() {
+      localStorage.setItem("gsoc-monitor-config", JSON.stringify(config()));
+    }
+
+    function restoreSettings() {
+      try {
+        const saved = JSON.parse(localStorage.getItem("gsoc-monitor-config"));
+        if (!saved) return;
+        el("location").value = saved.location;
+        el("lat").value = saved.lat;
+        el("lon").value = saved.lon;
+        el("radius").value = saved.radius;
+        el("lookback").value = saved.lookback;
+      } catch (_) {}
+    }
+
+    function distanceKm(lat1, lon1, lat2, lon2) {
+      const r = 6371.0088, toRad = value => value * Math.PI / 180;
+      const p1 = toRad(lat1), p2 = toRad(lat2);
+      const dp = toRad(lat2 - lat1), dl = toRad(lon2 - lon1);
+      const a = Math.sin(dp / 2) ** 2 + Math.cos(p1) * Math.cos(p2) * Math.sin(dl / 2) ** 2;
+      return r * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    function nwsRisk(severity = "", urgency = "") {
+      if (["extreme", "severe"].includes(severity.toLowerCase()) || urgency.toLowerCase() === "immediate") return "High";
+      if (severity.toLowerCase() === "moderate" || ["expected", "future"].includes(urgency.toLowerCase())) return "Moderate";
+      return "Low";
+    }
+
+    function parseNws(payload) {
+      return (payload.features || []).map(feature => {
+        const p = feature.properties || {}, severity = p.severity || "Unknown", urgency = p.urgency || "Unknown";
+        const area = p.areaDesc || "Area not specified";
+        return {
+          source: "National Weather Service", category: "Weather", risk: nwsRisk(severity, urgency),
+          title: p.headline || p.event || "Weather alert", published: p.sent || p.effective || "",
+          summary: `${p.event || "Weather alert"} affecting ${area}. Severity: ${severity}; urgency: ${urgency}.`,
+          indicators: [`Severity: ${severity}`, `Urgency: ${urgency}`, `Area: ${area}`],
+          action: "Verify timing and affected areas, then adjust movement or operating plans.",
+          url: p.web || p["@id"] || feature.id || "https://www.weather.gov/"
+        };
+      });
+    }
+
+    function parseUsgs(payload, cfg) {
+      return (payload.features || []).flatMap(feature => {
+        const p = feature.properties || {}, coords = feature.geometry?.coordinates || [];
+        if (coords.length < 2) return [];
+        const distance = distanceKm(cfg.lat, cfg.lon, Number(coords[1]), Number(coords[0]));
+        if (distance > cfg.radius) return [];
+        const mag = Number(p.mag || 0), alert = String(p.alert || "").toLowerCase(), tsunami = Boolean(p.tsunami);
+        const risk = tsunami || ["red", "orange"].includes(alert) || mag >= 5 ? "High" : (mag >= 3.5 || distance <= 100 ? "Moderate" : "Low");
+        return [{
+          source: "U.S. Geological Survey", category: "Seismic", risk,
+          title: p.title || `M ${mag.toFixed(1)} earthquake`,
+          published: p.time ? new Date(p.time).toISOString() : "",
+          summary: `Magnitude ${mag.toFixed(1)} event approximately ${distance.toFixed(0)} km from the monitored location.`,
+          indicators: [`Magnitude: ${mag.toFixed(1)}`, `Distance: ${distance.toFixed(0)} km`, `Tsunami flag: ${tsunami ? "Yes" : "No"}`],
+          action: "Review USGS impact products and monitor local emergency guidance if felt locally.",
+          url: p.url || "https://earthquake.usgs.gov/"
+        }];
+      });
+    }
+
+    function parseCisa(payload, cfg) {
+      const cutoff = new Date(); cutoff.setUTCDate(cutoff.getUTCDate() - cfg.lookback);
+      return (payload.vulnerabilities || []).flatMap(v => {
+        const added = new Date(`${v.dateAdded}T00:00:00Z`);
+        if (Number.isNaN(added.valueOf()) || added < cutoff) return [];
+        const ransomware = String(v.knownRansomwareCampaignUse || "Unknown");
+        const cve = v.cveID || "CVE not listed", vendor = v.vendorProject || "Unknown vendor", product = v.product || "Unknown product";
+        return [{
+          source: "CISA KEV", category: "Cyber", risk: ransomware.toLowerCase() === "known" ? "High" : "Moderate",
+          title: `${cve}: ${v.vulnerabilityName || `${vendor} ${product} vulnerability`}`,
+          published: v.dateAdded || "",
+          summary: `CISA added an actively exploited vulnerability affecting ${vendor} ${product}. Known ransomware use: ${ransomware}.`,
+          indicators: [`CVE: ${cve}`, `Vendor/Product: ${vendor} ${product}`, `Federal due date: ${v.dueDate || "Not listed"}`],
+          action: v.requiredAction || "Validate exposure and apply vendor mitigations.",
+          url: `https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=${encodeURIComponent(cve)}`
+        }];
+      });
+    }
+
+    function demoItems() {
+      const now = new Date(), date = now.toISOString(), short = date.slice(0, 10);
+      return [
+        { source:"National Weather Service", category:"Weather", risk:"High", title:"DEMO: Severe Thunderstorm Warning", published:date, summary:"Severe thunderstorm warning affecting Demo County, New Jersey.", indicators:["Severity: Severe","Urgency: Immediate","Area: Demo County"], action:"Verify timing and adjust movement plans.", url:"https://www.weather.gov/" },
+        { source:"CISA KEV", category:"Cyber", risk:"High", title:"DEMO: Actively exploited vulnerability", published:short, summary:"Demonstration KEV entry associated with known ransomware use.", indicators:["CVE: CVE-DEMO-0001","Ransomware use: Known","Exposure: Requires validation"], action:"Validate exposure and apply vendor mitigation guidance.", url:"https://www.cisa.gov/known-exploited-vulnerabilities-catalog" },
+        { source:"U.S. Geological Survey", category:"Seismic", risk:"Moderate", title:"DEMO: M 3.6 earthquake", published:date, summary:"Magnitude 3.6 event approximately 15 km from the monitored location.", indicators:["Magnitude: 3.6","Distance: 15 km","Tsunami flag: No"], action:"Review impact products and monitor local guidance.", url:"https://earthquake.usgs.gov/" },
+        { source:"National Weather Service", category:"Weather", risk:"Low", title:"DEMO: Coastal Flood Advisory", published:date, summary:"Minor coastal flooding may affect low-lying roads during the stated window.", indicators:["Severity: Minor","Urgency: Expected","Area: Coastal Demo Zone"], action:"Monitor road conditions and avoid flood-prone routes.", url:"https://www.weather.gov/" }
+      ];
+    }
+
+    function dedupeAndSort(items) {
+      const seen = new Set();
+      return items.filter(item => {
+        const key = `${item.source}|${item.title}|${item.url}`.toLowerCase();
+        if (seen.has(key)) return false; seen.add(key); return true;
+      }).sort((a, b) => (RISK_WEIGHT[b.risk] - RISK_WEIGHT[a.risk]) || String(b.published).localeCompare(String(a.published)));
+    }
+
+    function setBusy(value) { document.body.classList.toggle("loading", value); }
+
+    async function fetchJson(url) {
+      const response = await fetch(url, { headers: { Accept: "application/geo+json, application/json" } });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    }
+
+    async function loadLive() {
+      saveSettings(); setBusy(true); state.demo = false; state.items = []; state.sources = {};
+      const cfg = config();
+      const jobs = [
+        ["National Weather Service", `https://api.weather.gov/alerts/active?point=${cfg.lat},${cfg.lon}`, parseNws],
+        ["U.S. Geological Survey", "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson", data => parseUsgs(data, cfg)],
+        ["CISA KEV", "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json", data => parseCisa(data, cfg)]
+      ];
+      await Promise.all(jobs.map(async ([name, url, parser]) => {
+        try {
+          const parsed = parser(await fetchJson(url));
+          state.items.push(...parsed); state.sources[name] = { ok:true, detail:`${parsed.length} matching item(s)` };
+        } catch (error) {
+          state.sources[name] = { ok:false, detail:error.message || "Collection failed" };
+        }
+      }));
+      state.items = dedupeAndSort(state.items); state.generated = new Date(); setBusy(false); render();
+    }
+
+    function loadDemo() {
+      saveSettings(); state.demo = true; state.items = dedupeAndSort(demoItems()); state.generated = new Date();
+      state.sources = Object.fromEntries(SOURCE_NAMES.map(name => [name, {ok:true, detail:"Demonstration record loaded"}])); render();
+    }
+
+    function filteredItems() {
+      const query = el("search").value.trim().toLowerCase(), category = el("category").value;
+      return state.items.filter(item => {
+        const text = [item.title,item.source,item.summary,...item.indicators].join(" ").toLowerCase();
+        return (state.risk === "All" || item.risk === state.risk) && (category === "All" || item.category === category) && (!query || text.includes(query));
+      });
+    }
+
+    function render() {
+      const counts = risk => state.items.filter(item => item.risk === risk).length;
+      el("highCount").textContent = counts("High"); el("moderateCount").textContent = counts("Moderate"); el("lowCount").textContent = counts("Low");
+      const online = Object.values(state.sources).filter(source => source.ok).length; el("sourceCount").textContent = `${online}/3`;
+      el("modeLabel").textContent = state.demo ? "Demonstration mode" : (state.generated ? "Official live collection" : "Monitor ready");
+      el("generatedLabel").textContent = state.generated ? `Generated ${state.generated.toLocaleString()}` : "No collection run";
+
+      const items = filteredItems();
+      el("items").innerHTML = items.length ? items.map(item => `
+        <article class="item" data-risk="${escapeHtml(item.risk)}">
+          <div class="item-top"><h3>${escapeHtml(item.title)}</h3><span class="badge ${escapeHtml(item.risk)}">${escapeHtml(item.risk)}</span></div>
+          <div class="meta">${escapeHtml(item.source)} · ${escapeHtml(item.category)} · ${escapeHtml(item.published || "Time not provided")}</div>
+          <p class="assessment">${escapeHtml(item.summary)}</p>
+          <ul>${item.indicators.map(value => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+          <div class="action"><strong>Action:</strong> ${escapeHtml(item.action)}</div>
+          <p style="margin:10px 0 0"><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">Open official source ↗</a></p>
+        </article>`).join("") : '<div class="empty">No items match the active filters.</div>';
+
+      el("sources").innerHTML = SOURCE_NAMES.map(name => {
+        const source = state.sources[name] || {ok:false, detail:"Not collected"};
+        return `<div class="source-row"><div><strong>${escapeHtml(name)}</strong><small>${escapeHtml(source.detail)}</small></div><span class="source-state ${source.ok ? "ok" : "fail"}">${source.ok ? "AVAILABLE" : "UNAVAILABLE"}</span></div>`;
+      }).join("");
+    }
+
+    function exportMarkdown() {
+      if (!state.generated) return alert("Load data before exporting a brief.");
+      const high = state.items.filter(i => i.risk === "High").length, moderate = state.items.filter(i => i.risk === "Moderate").length, low = state.items.filter(i => i.risk === "Low").length;
+      const lines = [`# GSOC Intelligence Brief — ${config().location}`, "", `**Generated:** ${state.generated.toISOString()}  `, `**Mode:** ${state.demo ? "Demonstration" : "Official live collection"}  `, `**Summary:** ${high} high, ${moderate} moderate, ${low} low priority item(s).`, "", "## Priority Watch Items", ""];
+      state.items.forEach((item, index) => lines.push(`### ${index + 1}. [${item.risk}] ${item.title}`, "", `- **Source:** ${item.source}`, `- **Category:** ${item.category}`, `- **Assessment:** ${item.summary}`, `- **Indicators:** ${item.indicators.join("; ")}`, `- **Action:** ${item.action}`, `- **Official record:** ${item.url}`, ""));
+      lines.push("## Analytic Note", "", "Automated ranking supports triage. Verify critical information through the linked official source before acting.", "");
+      const blob = new Blob([lines.join("\n")], {type:"text/markdown"}), link = document.createElement("a");
+      link.href = URL.createObjectURL(blob); link.download = `gsoc-brief-${new Date().toISOString().slice(0,10)}.md`; link.click(); URL.revokeObjectURL(link.href);
+    }
+
+    el("demoBtn").addEventListener("click", loadDemo); el("liveBtn").addEventListener("click", loadLive); el("exportBtn").addEventListener("click", exportMarkdown);
+    el("clearBtn").addEventListener("click", () => { state.items=[]; state.sources={}; state.generated=null; state.demo=false; render(); });
+    el("search").addEventListener("input", render); el("category").addEventListener("change", render);
+    el("riskFilters").addEventListener("click", event => { const button=event.target.closest("button[data-risk]"); if(!button)return; state.risk=button.dataset.risk; document.querySelectorAll(".chip").forEach(chip=>chip.classList.toggle("active",chip===button)); render(); });
+    restoreSettings(); render();
+  </script>
+</body>
+</html>
