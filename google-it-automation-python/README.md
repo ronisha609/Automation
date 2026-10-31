@@ -1,4 +1,4 @@
-# Python IT Automation | Learning Reference Collection
+# Python IT Automation | Attributed Reference Collection
 
 A course-based reference collection covering Python scripting, operating-system tasks, troubleshooting, reporting, and automation. The original README credits **Kyungrae Kim**, and that attribution is retained below. This collection is maintained as attributed reference material rather than independently authored code.
 
@@ -13,7 +13,7 @@ This reference material demonstrates how administration tasks can be decomposed 
 | [System health checks](using-python-to-interact-with-the-operating-system/week-one/health_checks.py) | Checks available disk space and CPU usage, then evaluates network checks. | System monitoring and conditional logic |
 | [CSV department reporting](using-python-to-interact-with-the-operating-system/week-two/generate_report.py) | Reads employee records, counts employees by department, and writes a sorted report. | CSV parsing, data aggregation, and report generation |
 | [File and text processing](using-python-to-interact-with-the-operating-system/week-five) | Includes text-processing examples and tests. | Python scripting and unit testing |
-| [Troubleshooting exercises](troubleshooting-and-debugging-technique) | Organizes debugging and performance-related learning material. | Troubleshooting foundations |
+| [Troubleshooting exercises](troubleshooting-and-debugging-technique) | Organizes debugging and performance-analysis reference material. | Troubleshooting foundations |
 
 The first two descriptions were checked against the source files. They are code capabilities, not claims of a newly completed execution or original authorship. Some scripts contain course-specific paths and need adaptation before running locally.
 
