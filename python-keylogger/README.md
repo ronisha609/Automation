@@ -9,7 +9,7 @@ An early Python cybersecurity lab that converts keyboard events into timestamped
 - Converts the key into text and sends it to Python’s logging system.
 - Configures local output in `keylog.txt` with timestamps.
 
-## What This Shows
+## Validated Behavior
 
 | Area | Skill demonstrated |
 | --- | --- |
@@ -25,7 +25,7 @@ An early Python cybersecurity lab that converts keyboard events into timestamped
 
 ![Keylogger source walkthrough](images/code-walkthrough.png)
 
-This code image condenses the formatting of [main.py](main.py). It shows the logging configuration, callback, and listener connection.
+This code image condenses the formatting of [main.py](main.py). It captures the logging configuration, callback, and listener connection.
 
 ### 2. Controlled Test Result
 
