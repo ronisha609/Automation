@@ -109,7 +109,7 @@
       <aside class="phone-card">
         <h2>Get it on your phone. <em>One message a morning.</em></h2>
         <p>Local Pulse checks the weather service, NJ traffic and local news for you, then sends one short message with only what matters. No app to learn and nothing to connect.</p>
-        <div id="joinBox"></div>
+        <div id="joinBox" style="display:grid;gap:10px;justify-items:start"></div>
       </aside>
     </section>
 
@@ -174,9 +174,11 @@
         el("briefBy").textContent="Automatic summary for your location from live public data";
         el("briefLabel").textContent=`Right now · ${state.location.label}`;
       }
-      el("joinBox").innerHTML=b&&b.channelUrl
-        ?`<a class="button primary" href="${esc(b.channelUrl)}" target="_blank" rel="noopener">Get it free on Telegram ↗</a>`
-        :`<p class="byline">Phone messages are being tested for 90 days. <a href="journal.html">See every message so far</a>.</p>`;
+      const join=[];
+      if(b&&b.ntfyTopic)join.push(`<p style="margin:0">1. Install the free <b>ntfy</b> app (iPhone or Android).<br>2. Tap <b>+</b> and subscribe to <b>${esc(b.ntfyTopic)}</b>.</p><a class="button primary" href="https://ntfy.sh/${esc(b.ntfyTopic)}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`);
+      if(b&&b.channelUrl)join.push(`<a class="button" href="${esc(b.channelUrl)}" target="_blank" rel="noopener">Or join on Telegram ↗</a>`);
+      join.push(`<p class="byline">Testing for 90 days. <a href="journal.html">See every message so far</a>.</p>`);
+      el("joinBox").innerHTML=join.join("");
     }
     function renderSummary(){
       const period=state.currentForecast[0]||{},roads=nearbyRoads(),alerts=state.currentAlerts,[title,text]=meaning(period,alerts),temp=period.temperature!=null?`${period.temperature}°${period.temperatureUnit||"F"}`:"Unavailable";

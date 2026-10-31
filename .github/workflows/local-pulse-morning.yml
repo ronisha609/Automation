@@ -2,7 +2,7 @@ name: Local Pulse morning message
 
 # Runs once each morning for the 90-day test:
 # collect fresh data -> write the brief (AI if a key is set, otherwise built-in rules)
-# -> post it to Telegram (if set up) -> screenshot the dashboard -> update the 90-day log.
+# -> send it as a free phone notification (ntfy) and to Telegram (if set up) -> screenshot the dashboard -> update the 90-day log.
 # Everything here is free on a public repository. The only optional cost is the AI key.
 
 on:
@@ -65,6 +65,7 @@ jobs:
         working-directory: local-pulse
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: local-pulse-nj
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHANNEL_URL: ${{ vars.TELEGRAM_CHANNEL_URL }}

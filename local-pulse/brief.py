@@ -13,6 +13,7 @@ Usage:
 Environment variables (all optional):
     ANTHROPIC_API_KEY        Lets Claude write the brief.
     LOCAL_PULSE_MODEL        Claude model to use (default: claude-haiku-5-5).
+    NTFY_TOPIC               Free push notifications through the ntfy app, e.g. local-pulse-nj.
     TELEGRAM_BOT_TOKEN       Bot that posts the brief.
     TELEGRAM_CHAT_ID         Channel to post to, e.g. @localpulse_cnj.
     TELEGRAM_CHANNEL_URL     Public join link shown on the website, e.g. https://t.me/localpulse_cnj.
@@ -282,6 +283,22 @@ def write_journal(brief: dict[str, Any], journal_dir: Path, day: str) -> Path:
     return path
 
 
+SITE_URL = "https://ronisha609.github.io/Automation/local-pulse/"
+
+
+def send_ntfy(text: str, topic: str) -> None:
+    """Free push notification through ntfy.sh. No account or key needed."""
+    request = Request(
+        f"https://ntfy.sh/{topic}",
+        data=text.encode("utf-8"),
+        headers={"Title": "Local Pulse", "Tags": "round_pushpin", "Click": SITE_URL},
+        method="POST",
+    )
+    with urlopen(request, timeout=30) as response:
+        if response.status >= 300:
+            raise RuntimeError(f"ntfy refused the message: HTTP {response.status}")
+
+
 def send_telegram(text: str, token: str, chat_id: str) -> None:
     data = urlencode({"chat_id": chat_id, "text": text, "disable_web_page_preview": "true"}).encode()
     request = Request(f"https://api.telegram.org/bot{token}/sendMessage", data=data, method="POST")
@@ -342,7 +359,9 @@ def main() -> int:
             brief["note"] = note
         print(f"Wrote a new brief ({source}).")
 
+    ntfy_topic = os.environ.get("NTFY_TOPIC", "").strip() or previous.get("ntfyTopic", "")
     brief["channelUrl"] = channel_url
+    brief["ntfyTopic"] = ntfy_topic
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
     print(brief["text"])
@@ -353,13 +372,26 @@ def main() -> int:
         print(f"Logged {write_journal(brief, args.journal, day)}")
 
     if args.send:
+        failures = 0
+        if ntfy_topic:
+            try:
+                send_ntfy(brief["text"], ntfy_topic)
+                print(f"Sent to ntfy topic {ntfy_topic}.")
+            except Exception as exc:
+                failures += 1
+                print(f"ntfy send failed: {exc}")
         token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
         chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
-        if not (token and chat_id):
-            print("Skipping send: TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID are not set.")
-        else:
-            send_telegram(brief["text"], token, chat_id)
-            print(f"Sent to {chat_id}.")
+        if token and chat_id:
+            try:
+                send_telegram(brief["text"], token, chat_id)
+                print(f"Sent to Telegram {chat_id}.")
+            except Exception as exc:
+                failures += 1
+                print(f"Telegram send failed: {exc}")
+        if not ntfy_topic and not (token and chat_id):
+            print("Skipping send: no NTFY_TOPIC or Telegram settings.")
+        # A failed send is reported but doesn't stop the screenshot and the 90-day log.
     return 0
 
 

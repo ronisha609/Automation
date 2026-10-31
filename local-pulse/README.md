@@ -12,7 +12,7 @@ Local Pulse turns public weather, flooding, traffic and local news data into **o
 Every 30 minutes                    Every morning (90-day test)
 ─────────────────                   ─────────────────────────────
 National Weather Service ─┐         snapshot ─► pick what matters ─► write the message ─► send to phones
-NJDOT 511NJ crashes/work  ├─► snapshot          (distance, county,    (Claude AI, or       (Telegram channel)
+NJDOT 511NJ crashes/work  ├─► snapshot          (distance, county,    (Claude AI, or       (ntfy app, Telegram)
 GDELT local news         ─┘   (data/)            severity)             built-in rules)          │
                                                                                                ▼
                                                      screenshot the dashboard ─► save to the 90-day log
@@ -21,8 +21,13 @@ GDELT local news         ─┘   (data/)            severity)             built
 1. **Collect.** `update_dashboard_data.py` pulls weather, alerts, crashes, construction and headlines every 30 minutes and records which sources worked.
 2. **Pick what matters.** `brief.py` keeps only road events within 25 miles, alerts for nearby counties and weather that changes plans, ranking crashes above routine roadwork.
 3. **Write the message.** If an `ANTHROPIC_API_KEY` is set, Claude writes the message from those facts under strict rules (only the given facts, plain words, under 450 characters). Otherwise built-in rules write it, so the pipeline never depends on a paid service.
-4. **Deliver.** The message is posted to a public Telegram channel anyone can join, and shown at the top of the dashboard.
+4. **Deliver.** The message is sent as a free phone notification through [ntfy](https://ntfy.sh) (anyone can subscribe to the `local-pulse-nj` topic in the ntfy app, no account needed), optionally to a Telegram channel, and shown at the top of the dashboard.
 5. **Keep the evidence.** Each morning's message, a phone-sized screenshot and tags for what it warned about are saved to `journal/` and shown on the 90-day log page.
+
+## Get the morning message
+
+1. Install the free **ntfy** app from the App Store or Google Play ([ntfy.sh](https://ntfy.sh)).
+2. Tap **+** and subscribe to **local-pulse-nj**.
 
 ## The 90-day test
 
@@ -34,13 +39,14 @@ From November 1, 2026, the morning workflow runs for 90 days and then stops by i
 
 ## Cost
 
-Everything runs free on a public GitHub repository: the data sources, GitHub Actions, GitHub Pages and Telegram. The AI is optional. With a key, it is called once a day, and a monthly spending limit can be set in the Claude Console.
+Everything runs free on a public GitHub repository: the data sources, GitHub Actions, GitHub Pages and ntfy notifications. The AI is optional. With a key, it is called once a day, and a monthly spending limit can be set in the Claude Console.
 
 ## Setup
 
 | What | Where | Needed? |
 | --- | --- | --- |
 | `ANTHROPIC_API_KEY` | Settings → Secrets and variables → Actions → **Secrets** | Optional. Lets Claude write the message. |
+| `NTFY_TOPIC` | Set in the morning workflow (`local-pulse-nj`) | Already set up. Free phone notifications. |
 | `TELEGRAM_BOT_TOKEN` | Actions **Secrets** | Optional. From @BotFather on Telegram. |
 | `TELEGRAM_CHAT_ID` | Actions **Variables** | Optional. The channel, e.g. `@localpulse_cnj`. |
 | `TELEGRAM_CHANNEL_URL` | Actions **Variables** | Optional. Join link shown on the site, e.g. `https://t.me/localpulse_cnj`. |
