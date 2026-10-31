@@ -1,0 +1,99 @@
+name: Local Pulse morning message
+
+# Runs once each morning for the 90-day test:
+# collect fresh data -> write the brief (AI if a key is set, otherwise built-in rules)
+# -> send it as a free phone notification (ntfy) and to Telegram (if set up) -> screenshot the dashboard -> update the 90-day log.
+# Everything here is free on a public repository. The only optional cost is the AI key.
+
+on:
+  workflow_dispatch:
+    inputs:
+      ignore_window:
+        description: "Run even outside the 90-day window (for testing)"
+        type: boolean
+        default: false
+  schedule:
+    # 11:15 UTC = 7:15 AM Eastern during daylight time, 6:15 AM after clocks fall back.
+    - cron: "15 11 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: local-pulse-data
+  cancel-in-progress: false
+
+env:
+  START_DATE: "2026-11-01"
+  DAYS: "90"
+
+jobs:
+  morning:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the 90-day window
+        id: window
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import os
+          from datetime import date, datetime, timedelta
+          from zoneinfo import ZoneInfo
+          today = datetime.now(ZoneInfo("America/New_York")).date()
+          start = date.fromisoformat(os.environ["START_DATE"])
+          end = start + timedelta(days=int(os.environ["DAYS"]))
+          print(f"run={'true' if start <= today < end else 'false'}")
+          EOF
+          cat "$GITHUB_OUTPUT"
+
+      - name: Check out repository
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect fresh public data
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        working-directory: local-pulse
+        run: python update_dashboard_data.py --output data/local_conditions.json
+
+      - name: Write and send the morning message
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        working-directory: local-pulse
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: local-pulse-nj
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          TELEGRAM_CHANNEL_URL: ${{ vars.TELEGRAM_CHANNEL_URL }}
+        run: python brief.py --force --send --journal journal
+
+      - name: Screenshot the dashboard
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        continue-on-error: true
+        run: |
+          pip install --quiet playwright
+          python -m playwright install --with-deps chromium
+          python local-pulse/screenshot.py --output "local-pulse/journal/screens/$(TZ=America/New_York date +%F).jpg"
+
+      - name: Update the 90-day log
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        working-directory: local-pulse
+        run: python journal.py --journal journal --start "$START_DATE" --days "$DAYS"
+
+      - name: Save to the repository
+        if: steps.window.outputs.run == 'true' || inputs.ignore_window
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add local-pulse/data local-pulse/journal
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "Local Pulse morning message $(TZ=America/New_York date +%F)"
+            git pull --rebase
+            git push
+          fi

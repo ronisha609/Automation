@@ -1,4 +1,4 @@
-name: Update local conditions dashboard
+name: Local Pulse data refresh
 
 on:
   workflow_dispatch:
@@ -8,12 +8,16 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: local-pulse-data
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: gsoc-intelligence-monitor
+        working-directory: local-pulse
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -35,5 +39,6 @@ jobs:
             echo "No data changes to publish."
           else
             git commit -m "Refresh local conditions dashboard data"
+            git pull --rebase
             git push
           fi
