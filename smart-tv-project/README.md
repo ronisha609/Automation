@@ -6,14 +6,14 @@ It turns a TV into an Apple-TV-inspired control screen: big app shortcuts you dr
 
 > Part of a set of miscellaneous home-automation experiments. Reversible by design: everything installs through Developer Mode and uninstalls cleanly.
 
-## Skills & Learning Outcomes
+## Capabilities Demonstrated
 
 - Design remote-friendly controls and clear visual feedback with HTML, CSS, and JavaScript.
 - Connect weather data and local settings to an application interface.
 - Adapt code to an older browser and limited device resources.
 - Use scripts to package and deploy an app while keeping local configuration separate.
 
-For learners, the feature and setup sections connect these concepts to the implementation. For hiring teams, this project illustrates integration work, interface design, and problem-solving within platform constraints.
+The feature and setup sections map each capability to the implementation, including interface design, API integration, deployment steps, and platform constraints.
 
 ## Features
 
