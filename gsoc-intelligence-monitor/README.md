@@ -1,107 +1,74 @@
-# Automated GSOC Intelligence Monitor
+# Automated Local Conditions Monitor
 
-This automation lab collects official public alerts, filters them against a monitored location and time window, ranks each item, removes duplicates, and generates a concise GSOC-style intelligence brief.
+This automation lab transforms public weather, road, and local news data into one practical answer: **what could affect your day before you leave?**
 
-The monitor combines **OSINT collection, API automation, GEOINT filtering, alert triage, source validation, intelligence writing, and decision support** in one repeatable workflow.
+It collects current conditions, maps nearby disruptions, filters them by distance, and translates the results into plain language for commuting, errands, school, outdoor plans, and neighborhood events.
 
-## Interactive Dashboard
+## Live Dashboard
 
-[Open the live GSOC Intelligence Monitor](https://ronisha609.github.io/Automation/gsoc-intelligence-monitor/)
+[Open Before You Head Out](https://ronisha609.github.io/Automation/gsoc-intelligence-monitor/)
 
-The browser dashboard provides demonstration scenarios, official live-source collection, location controls, risk and category filters, keyword search, collection-status reporting, and Markdown brief export. Live browser collection depends on each source allowing direct cross-origin requests; the Python monitor records the same source failures from the command line.
+The dashboard shows:
 
-## Operational Workflow
+- Current weather and rain probability for the selected area.
+- Active National Weather Service alerts, including flooding.
+- Nearby crashes, closures, and construction from NJDOT 511NJ.
+- A GPS-centered map with adjustable 10, 25, and 50 mile views.
+- Recent local headlines that could change travel or daily plans.
+- A short, plain-language assessment of what the conditions mean.
 
-1. Collect active weather alerts from the National Weather Service.
-2. Filter USGS earthquake data by distance from the monitored location.
-3. Identify recent additions to CISA's Known Exploited Vulnerabilities catalog.
-4. Normalize records into one intelligence-item structure.
-5. Assign transparent High, Moderate, or Low priorities.
-6. Remove duplicate records and rank the remaining items.
-7. Generate a Markdown brief with indicators, actions, official links, and collection status.
+Use **Use my location** for nearby results. The location remains in the browser and is used only to request public weather data and calculate distance from mapped road events.
 
-## Capabilities Demonstrated
+## Automated Collection
 
-- Engineers a multi-source collection workflow with Python and public APIs.
-- Applies location filtering with the Haversine distance formula.
-- Converts incompatible government data formats into one structured model.
-- Prioritizes alerts through documented severity and urgency rules.
-- Preserves collection failures instead of silently dropping unavailable sources.
-- Produces a decision-ready brief while separating automation from analyst judgment.
-- Protects residential privacy by using configurable coordinates instead of a street address.
+GitHub Actions refreshes the shared data snapshot every 30 minutes. The collector preserves the status of each source, so a failed feed remains visible instead of silently disappearing.
 
-## Official Data Sources
+| Source | What it contributes |
+| --- | --- |
+| National Weather Service | Hourly forecast, watches, warnings, advisories, and flood alerts |
+| NJDOT 511NJ | Active crashes, closures, disabled vehicles, and construction |
+| GDELT | Recent local reporting connected to traffic, weather, outages, schools, and events |
 
-| Source | Intelligence value | Endpoint |
-| --- | --- | --- |
-| National Weather Service | Active watches, warnings, and advisories for a configured point | `https://api.weather.gov/alerts/active` |
-| U.S. Geological Survey | Recent earthquake data in GeoJSON | `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson` |
-| CISA Known Exploited Vulnerabilities | Vulnerabilities confirmed as exploited in the wild | `https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json` |
+## Intelligence and Automation Skills
 
-## Quick Start
+- Engineers a scheduled multi-source collection pipeline.
+- Normalizes JSON, GeoJSON, and RSS into a usable data model.
+- Applies GEOINT distance filtering and renders operational map layers.
+- Separates official alerts, transport data, and media reporting by source.
+- Converts raw feeds into clear decisions for a nontechnical audience.
+- Preserves source failures and partial collection for honest reporting.
+- Delivers a responsive public dashboard through GitHub Pages.
 
-Python 3.10 or newer is recommended. The project uses only the Python standard library.
+## Run Locally
+
+The dashboard is a static page. Start a local server from the repository root:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/gsoc-intelligence-monitor/`.
+
+Refresh its cached public data with:
+
+```bash
+cd gsoc-intelligence-monitor
+python update_dashboard_data.py --output data/local_conditions.json
+```
+
+## Original Intelligence Monitor
+
+The repository also includes the original Python alert monitor, which collects National Weather Service alerts, USGS earthquake data, and CISA Known Exploited Vulnerabilities, ranks the records, removes duplicates, and generates a concise intelligence brief.
 
 ```bash
 cp config.example.json config.json
 python monitor.py --config config.json --output output/brief.md
-```
-
-Use an approximate location or city center. A home address is unnecessary.
-
-### Offline demonstration
-
-```bash
-python monitor.py --config config.example.json --demo \
-  --output examples/sample_brief.md \
-  --json-output examples/sample_items.json
-```
-
-Demo records are fictional and labeled. They validate parsing, scoring, deduplication, and report generation without presenting invented data as current intelligence.
-
-## Configuration
-
-| Field | Purpose |
-| --- | --- |
-| `location_label` | Human-readable location used in the brief |
-| `latitude` / `longitude` | Approximate point for weather and distance filtering |
-| `earthquake_radius_km` | Maximum distance for USGS events |
-| `cisa_lookback_days` | Number of days to retain new CISA KEV entries |
-| `max_items` | Maximum number of ranked items in the brief |
-| `user_agent` | Contact identifier requested by public API operators |
-
-The location can also be set without editing a file:
-
-```bash
-MONITOR_LOCATION="Central New Jersey" \
-MONITOR_LAT="40.2171" \
-MONITOR_LON="-74.7429" \
-python monitor.py
-```
-
-## Priority Logic
-
-- **NWS:** Severe or Extreme alerts and Immediate urgency are High priority.
-- **USGS:** Tsunami flags, orange/red impact alerts, or magnitude 5.0+ events are High priority. Magnitude 3.5+ or events within 100 km are Moderate.
-- **CISA KEV:** New entries associated with known ransomware campaigns are High priority; other recent entries are Moderate.
-
-These rules support triage. They do not replace source verification, organizational exposure checks, local context, or analyst judgment.
-
-## Validation
-
-```bash
 python -m unittest discover -s tests -v
 ```
 
-The tests validate severity mapping, geographic filtering, CISA recency handling, deduplication, and risk ranking.
-
-## Intelligence Value
-
-The finished lab proves the ability to build the collection pipeline and evaluate its output. It demonstrates the same workflow used in GSOC and intelligence functions: define what matters, collect from reliable sources, filter noise, rank risk, identify collection failures, and deliver clear action.
-
 ## Source Documentation
 
-- [NWS API Web Service](https://www.weather.gov/documentation/services-web-api)
-- [NWS Alerts Web Service](https://www.weather.gov/documentation/services-web-alerts)
-- [USGS Earthquake GeoJSON Feeds](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
-- [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+- [National Weather Service API](https://www.weather.gov/documentation/services-web-api)
+- [NJDOT 511NJ](https://511nj.org/)
+- [GDELT DOC API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/)
+- [Leaflet](https://leafletjs.com/)
