@@ -4,6 +4,12 @@ This automation lab collects official public alerts, filters them against a moni
 
 The monitor combines **OSINT collection, API automation, GEOINT filtering, alert triage, source validation, intelligence writing, and decision support** in one repeatable workflow.
 
+## Interactive Dashboard
+
+[Open the live GSOC Intelligence Monitor](https://ronisha609.github.io/Automation/gsoc-intelligence-monitor/)
+
+The browser dashboard provides demonstration scenarios, official live-source collection, location controls, risk and category filters, keyword search, collection-status reporting, and Markdown brief export. Live browser collection depends on each source allowing direct cross-origin requests; the Python monitor records the same source failures from the command line.
+
 ## Operational Workflow
 
 1. Collect active weather alerts from the National Weather Service.
