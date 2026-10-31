@@ -1,0 +1,47 @@
+[
+  {
+    "source": "National Weather Service",
+    "category": "Weather",
+    "title": "DEMO: Severe Thunderstorm Warning",
+    "risk": "High",
+    "published": "2026-10-31T10:33:12.858327+00:00",
+    "summary": "Severe Thunderstorm Warning affecting Demo County, New Jersey. Severity: Severe; urgency: Immediate.",
+    "url": "https://api.weather.gov/alerts/demo-weather",
+    "indicators": [
+      "Severity: Severe",
+      "Urgency: Immediate",
+      "Area: Demo County, New Jersey"
+    ],
+    "recommended_action": "Verify the alert, review timing and affected areas, and adjust movement plans."
+  },
+  {
+    "source": "CISA Known Exploited Vulnerabilities",
+    "category": "Cyber",
+    "title": "CVE-DEMO-0001: Demonstration vulnerability",
+    "risk": "High",
+    "published": "2026-10-31",
+    "summary": "CISA added an actively exploited vulnerability affecting Demo Vendor Demo Product. Known ransomware use: Known.",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-DEMO-0001",
+    "indicators": [
+      "CVE: CVE-DEMO-0001",
+      "Vendor/Product: Demo Vendor Demo Product",
+      "Federal due date: 2026-11-14"
+    ],
+    "recommended_action": "Validate exposure and apply vendor mitigations."
+  },
+  {
+    "source": "U.S. Geological Survey",
+    "category": "Seismic",
+    "title": "DEMO: M 3.6 earthquake",
+    "risk": "Moderate",
+    "published": "2026-10-31T10:33:12.858000+00:00",
+    "summary": "Magnitude 3.6 earthquake approximately 15 km from the monitored location.",
+    "url": "https://earthquake.usgs.gov/",
+    "indicators": [
+      "Magnitude: 3.6",
+      "Distance: 15 km",
+      "Tsunami flag: No"
+    ],
+    "recommended_action": "Verify USGS impact products and monitor local emergency guidance if felt locally."
+  }
+]
