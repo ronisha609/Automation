@@ -19,7 +19,7 @@ A configuration lab that maps CodeQL static analysis into a GitHub Actions workf
 
 GitHub Actions, YAML configuration, static-analysis workflow structure, scan triggers, and job permissions.
 
-## Learning Outcomes & Practical Value
+## Operational Value
 
 The workflow traces automated checks from repository checkout through language selection, initialization, and analysis. It also defines the permissions required to execute security scanning while separating configuration evidence from completed scan and remediation evidence.
 
