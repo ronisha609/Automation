@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T15:22:38.595105+00:00",
+  "generatedAt": "2026-10-31T16:00:11.544888+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -8,16 +8,6 @@
   "weather": {
     "location": "Trenton, NJ",
     "periods": [
-      {
-        "startTime": "2026-10-31T11:00:00-04:00",
-        "temperature": 53,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "N",
-        "shortForecast": "Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=small"
-      },
       {
         "startTime": "2026-10-31T12:00:00-04:00",
         "temperature": 55,
@@ -127,6 +117,16 @@
         "shortForecast": "Partly Cloudy",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+      },
+      {
+        "startTime": "2026-10-31T23:00:00-04:00",
+        "temperature": 42,
+        "temperatureUnit": "F",
+        "windSpeed": "0 mph",
+        "windDirection": "",
+        "shortForecast": "Partly Cloudy",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       }
     ]
   },
@@ -148,6 +148,60 @@
   "traffic": [
     {
       "type": "incident",
+      "title": "NY 27 eastbound : Crash",
+      "description": "NYSDOT - Region 10: Crash on NY 27 eastbound at Liberty Avenue (Freeport) 1 Right lane of 3 lanes closed",
+      "published": "Sat, 31 Oct 2026 11:58:12 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 40.6576631536748,
+      "longitude": -73.5715952962138
+    },
+    {
+      "type": "incident",
+      "title": "I-87 - NYS Thruway southbound : Crash",
+      "description": "NYSTA - Statewide Ops.: crash on I-87 - NYS Thruway southbound at After Exit 17 (I-87) - Newburgh (I-84 - Rte 17K) starting 11:34 AM, 10/31/2026 [CARS CAD-263040158]",
+      "published": "Sat, 31 Oct 2026 11:34:48 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 41.531499,
+      "longitude": -74.075607
+    },
+    {
+      "type": "incident",
+      "title": "I-84 westbound : Crash with Property Damage",
+      "description": "NYSDOT - Region 8: Crash with property damage on I-84 westbound west of Exit 69 (I-84) - Brewster (US6 - US202 - NY121) (Southeast) right shoulder of 2 lanes blocked MM 69.0 CAD#96707080",
+      "published": "Sat, 31 Oct 2026 11:34:49 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 41.3851,
+      "longitude": -73.5861
+    },
+    {
+      "type": "incident",
+      "title": "I-295 southbound : Crash",
+      "description": "NYSDOT - Region 11: Crash on I-295 southbound at East Tremont Avenue (New York) 2 Left lanes of 3 lanes blocked",
+      "published": "Sat, 31 Oct 2026 11:34:16 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 40.8222378220096,
+      "longitude": -73.8192026736842
+    },
+    {
+      "type": "incident",
+      "title": "Bronx River Parkway northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 11: Disabled vehicle on Bronx River Parkway northbound ramp from Cross Bronx Expressway; East 177th Street (New York) 1 Right lane of 3 lanes blocked",
+      "published": "Sat, 31 Oct 2026 11:32:00 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 40.8379859092982,
+      "longitude": -73.8731529544918
+    },
+    {
+      "type": "incident",
+      "title": "I-87 - NYS Thruway southbound : Crash",
+      "description": "NYSTA - Statewide Ops.: crash on I-87 - NYS Thruway southbound at After Exit 17 (I-87) - Newburgh (I-84 - Rte 17K) starting 11:29 AM, 10/31/2026 [CARS CAD-263040154]",
+      "published": "Sat, 31 Oct 2026 11:29:24 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 41.52286,
+      "longitude": -74.074364
+    },
+    {
+      "type": "incident",
       "title": "NY 9H northbound : Disabled vehicle",
       "description": "NYSDOT - Region 8: Disabled Vehicle on NY 9H northbound at NY 23B (Claverack) right shoulder of 1 lane blocked CAD#96706080",
       "published": "Sat, 31 Oct 2026 11:21:13 -0400",
@@ -157,39 +211,12 @@
     },
     {
       "type": "incident",
-      "title": "Harlem River Drive northbound : Crash",
-      "description": "NYSDOT - Region 11: Crash on Harlem River Drive northbound approaching I-95 Cross Bronx Expressway (New York) 2 Left lanes of 4 lanes blocked",
-      "published": "Sat, 31 Oct 2026 10:41:07 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 40.838676664438,
-      "longitude": -73.9332981493244
-    },
-    {
-      "type": "incident",
-      "title": "Sprain Brook State Pkwy southbound : Crash",
-      "description": "NYSDOT - Region 8: Crash on Sprain Brook State Pkwy southbound at Exit - NY 100 (Yonkers) right shoulder of 3 lanes blocked MM 0.9 CAD # 96705080",
-      "published": "Sat, 31 Oct 2026 10:38:34 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 40.944,
-      "longitude": -73.8474
-    },
-    {
-      "type": "incident",
       "title": "OTHER : Other",
       "description": "ConnDOT: Race Brook Road (CT-114, Both Directions) CLOSED between Bunker Hill Road and Williamsburg Drive because of Crash (Police Investigation). Reported Saturday, October 31 at 10:31 am.",
       "published": "Sat, 31 Oct 2026 10:33:13 -0400",
       "link": "https://511nj.org/",
       "latitude": 41.313617,
       "longitude": -73.02145
-    },
-    {
-      "type": "incident",
-      "title": "I-91 southbound : Crash",
-      "description": "ConnDOT: Crash (3 Vehicle) on I-91 Southbound between Exits 37 and 36. The 2 right lanes are closed. Reported Saturday, October 31 at 10:30 am.",
-      "published": "Sat, 31 Oct 2026 10:50:50 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 41.855239,
-      "longitude": -72.663938
     },
     {
       "type": "incident",
@@ -229,24 +256,6 @@
     },
     {
       "type": "incident",
-      "title": "NJ 42 northbound : Unanticipated Construction Delay",
-      "description": "NJ DOT - STMC: Unanticipated Construction Delay on NJ 42 Northbound from South of Exit 13 - NJ 55 (Deptford Twp) to I-295 (Bellmawr), All lanes closed",
-      "published": "Sat, 31 Oct 2026 10:23:22 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 39.8420219421387,
-      "longitude": -75.093391418457
-    },
-    {
-      "type": "incident",
-      "title": "I-295 northbound : Unanticipated Construction Delay",
-      "description": "NJ DOT - STMC: Unanticipated Construction Delay on I-295 Northbound Ramp To Exit 27 - I-76 To I-676 (Bellmawr), ramp lane, right shoulder closed",
-      "published": "Sat, 31 Oct 2026 10:23:43 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 39.8730201721191,
-      "longitude": -75.1018676757812
-    },
-    {
-      "type": "incident",
       "title": "CT 15 southbound : Crash",
       "description": "ConnDOT: RT 15 Southbound CLOSED between Exits 46 and 42B because of Crash (1 Vehicle). Reported Saturday, October 31 at 6:03 am.",
       "published": "Sat, 31 Oct 2026 06:03:11 -0400",
@@ -283,6 +292,15 @@
     },
     {
       "type": "construction",
+      "title": "I-87 - NYS Thruway southbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left lane closed on I-87 - NYS Thruway southbound from After Exit 1 (I-87) - Yonkers - Hall Place to After Major Deegan Expressway (I-87) NYC Line until 3:30 PM, 10/31/2026 [CARS CAD-263040161]",
+      "published": "Sat, 31 Oct 2026 11:43:21 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 40.913646,
+      "longitude": -73.873849
+    },
+    {
+      "type": "construction",
       "title": "CT 72 westbound : Roadwork",
       "description": "ConnDOT: Road Work on RT 72 Westbound before Exit 2 (1.3 miles) in effect today until 2:00 pm. The right lane is closed. Reported Saturday, October 31 at 11:17 am.",
       "published": "Sat, 31 Oct 2026 11:18:22 -0400",
@@ -293,8 +311,8 @@
     {
       "type": "construction",
       "title": "I-95 northbound : Roadwork",
-      "description": "ConnDOT: I-95 Northbound is congested between Exits 16 and 18 (1.9 miles) because of Road Work between Exits 17 and 18 (1.6 miles). Road Work in effect today until 4:00 pm. The right lane is closed. Reported Saturday, October 31 at 11:04 am.",
-      "published": "Sat, 31 Oct 2026 11:04:45 -0400",
+      "description": "ConnDOT: I-95 Northbound is congested between Exits 15 and 18 (2.8 miles) because of Road Work between Exits 17 and 18 (1.0 miles). Road Work in effect today until 4:00 pm. The right lane is closed. Reported Saturday, October 31 at 11:04 am.",
+      "published": "Sat, 31 Oct 2026 11:42:07 -0400",
       "link": "https://511nj.org/",
       "latitude": 41.120999,
       "longitude": -73.36504
@@ -568,15 +586,6 @@
       "link": "https://511nj.org/",
       "latitude": 43.132562,
       "longitude": -75.293185
-    },
-    {
-      "type": "construction",
-      "title": "CT 9 southbound : Roadwork",
-      "description": "ConnDOT: Road Work on RT 9 Southbound between Exits 38 and 37A (2.0 miles) in effect today until 2:00 pm. The right lane is closed. Reported Saturday, October 31 at 8:10 am.",
-      "published": "Sat, 31 Oct 2026 08:10:33 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 41.701253,
-      "longitude": -72.75795
     },
     {
       "type": "construction",
@@ -3102,7 +3111,7 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 15 records",
+    "incidents": "available: 16 records",
     "construction": "available: 313 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
