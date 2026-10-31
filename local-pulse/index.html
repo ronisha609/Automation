@@ -192,7 +192,7 @@
         el("briefBy").textContent="Automatic summary for your location from live public data";
         el("briefLabel").textContent=`Right now · ${state.location.label}`;
       }
-      const join=[],steps=t=>`<p style="margin:0">1. Install the free <b>ntfy</b> app (iPhone or Android).<br>2. Tap <b>+</b> and subscribe to <span class="topic">${esc(t)}</span></p>`;
+      const join=[],steps=t=>`<p style="margin:0">1. Install the free <b>ntfy</b> app: <a href="https://apps.apple.com/us/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone</a> · <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android</a><br>2. Tap <b>+</b> and subscribe to <span class="topic">${esc(t)}</span></p>`;
       const area=nearestArea();
       if(isDefault()){join.push(steps(MAIN_TOPIC)+`<a class="button primary" href="https://ntfy.sh/${MAIN_TOPIC}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`)}
       else if(area){join.push(`<p class="byline" style="margin:0">Morning messages for <b>${esc(area.label)}</b></p>`+steps(area.topic)+`<a class="button primary" href="https://ntfy.sh/${esc(area.topic)}" target="_blank" rel="noopener">Get it free on ntfy ↗</a>`)}

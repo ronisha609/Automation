@@ -53,7 +53,7 @@ From November 1, 2026, the morning workflow runs daily for 90 days, then stops a
 ## Subscribe
 
 1. Open the [dashboard](https://ronisha609.github.io/Automation/local-pulse/) and search your town.
-2. Install the free **ntfy** app and subscribe to the topic it shows, such as **local-pulse-nj** or **local-pulse-va-richmond**.
+2. Install the free **ntfy** app for [iPhone](https://apps.apple.com/us/app/ntfy/id1625396347) or [Android](https://play.google.com/store/apps/details?id=io.heckel.ntfy) and subscribe to the topic it shows, such as **local-pulse-nj** or **local-pulse-va-richmond**.
 
 ## Build Your Own
 
