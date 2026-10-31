@@ -1,0 +1,21 @@
+{
+  "generatedAt": null,
+  "defaultLocation": {
+    "label": "Central New Jersey",
+    "latitude": 40.2171,
+    "longitude": -74.7429
+  },
+  "weather": {
+    "location": "Central New Jersey",
+    "periods": []
+  },
+  "alerts": [],
+  "traffic": [],
+  "news": [],
+  "statuses": {
+    "weather": "awaiting first update",
+    "incidents": "awaiting first update",
+    "construction": "awaiting first update",
+    "news": "awaiting first update"
+  }
+}
