@@ -1,8 +1,8 @@
 # Automation & Workflow Engineering Labs
 
-This engineering portfolio builds **repeatable automation workflows** that eliminate manual friction, integrate systems, enforce consistency, and strengthen technical operations. The collection combines Python scripting, interface development, APIs, event-driven logic, CI/CD configuration, and security-focused workflow design.
+This portfolio engineers **repeatable automation workflows** that cut manual work, connect systems, enforce consistency, and strengthen technical operations. The collection applies Python scripting, interface development, APIs, event-driven logic, CI/CD configuration, and security-focused workflow design.
 
-Each lab attacks an operational bottleneck by defining inputs, engineering processing logic, validating outputs, isolating failures, and documenting maintainable technical decisions.
+Each lab targets an operational bottleneck, defines the inputs, engineers the logic, validates the output, isolates failures, and documents the final workflow.
 
 [Cybersecurity](https://github.com/ronisha609/CyberSecurity) · [Intelligence](https://github.com/ronisha609/Intelligence) · [Application development labs](https://github.com/ronisha609/Miscellaneous)
 
