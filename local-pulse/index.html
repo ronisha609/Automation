@@ -89,6 +89,7 @@
     .place input,.place select,.req input{background:var(--night);border:1px solid var(--line);border-radius:10px;padding:9px 12px;color:var(--sand);font:inherit}
     .place input{flex:1 1 180px;min-width:0}.place input::placeholder,.req input::placeholder{color:rgba(251,233,208,.45)}
     .req{display:flex;gap:8px;flex-wrap:wrap;width:100%}.req input{flex:1 1 180px;min-width:0}
+    .req-more{width:100%}.req-more summary{cursor:pointer;color:var(--sage);font-weight:600}.req-more summary:hover{color:var(--sand)}
     .topic{font-family:ui-monospace,Menlo,monospace;background:var(--night);border-radius:6px;padding:1px 6px;color:var(--sand)}
 
     @media(max-width:900px){.hero,.content-grid{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}}
@@ -198,7 +199,10 @@
       const area=nearestArea();
       if(isDefault()){join.push(steps(MAIN_TOPIC)+`${getButtons(MAIN_TOPIC)}`)}
       else if(area){join.push(`<p class="byline" style="margin:0">Morning messages for <b>${esc(area.label)}</b></p>`+steps(area.topic)+`${getButtons(area.topic)}`)}
-      else{const guess=state.location.custom?state.location.label:"";join.push(`<p style="margin:0">Morning messages aren't set up for this area yet. Ask for your town and you'll get it once it's added.</p><form class="req" id="reqForm"><input id="reqTown" type="text" placeholder="Town, State" value="${esc(guess)}" aria-label="Your town and state" maxlength="80"><button class="button primary" type="submit">Request my town</button></form><p class="byline" id="reqMsg" style="margin:0"></p>`)}
+      const guess=state.location.custom?state.location.label:"";
+      const reqForm=`<form class="req" id="reqForm"><input id="reqTown" type="text" placeholder="Town, State" value="${esc(guess)}" aria-label="Your town and state" maxlength="80"><button class="button primary" type="submit">Request my town</button></form><p class="byline" id="reqMsg" style="margin:0"></p>`;
+      if(isDefault()||area){join.push(`<details class="req-more"><summary>Don't see your town? Request it</summary><p class="byline" style="margin:6px 0">Tell us your town and state. Morning messages start once it's added.</p>${reqForm}</details>`)}
+      else{join.push(`<p style="margin:0">Morning messages aren't set up for this area yet. Ask for your town and you'll get it once it's added.</p>${reqForm}`)}
       if(b&&b.channelUrl&&isDefault())join.push(`<a class="button" href="${esc(b.channelUrl)}" target="_blank" rel="noopener">Or join on Telegram ↗</a>`);
       join.push(`<p class="byline" style="margin:0">Testing for 90 days. <a href="journal.html">See every message so far</a>.</p>`);
       el("joinBox").innerHTML=join.join("");
