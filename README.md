@@ -21,7 +21,7 @@ Each lab targets an operational bottleneck, defines the inputs, engineers the lo
 
 | Lab | Operational objective | Capabilities demonstrated | Evidence and context |
 | --- | --- | --- | --- |
-| [Automated GSOC Intelligence Monitor](gsoc-intelligence-monitor/README.md) | Collect, filter, rank, and brief official weather, seismic, and cyber alerts | Python, public APIs, GEOINT filtering, risk scoring, deduplication, intelligence writing | Working demo, tests, source-status reporting, and configurable live collection |
+| [Automated Local Conditions Monitor](gsoc-intelligence-monitor/README.md) | Collect weather, flooding, crashes, construction, and local reporting; map nearby disruptions; and translate them into clear daily decisions | Python, scheduled APIs, RSS and GeoJSON parsing, GEOINT filtering, source validation, responsive mapping | Live public dashboard, 30-minute refresh, GPS-centered views, and plain-language guidance |
 | [Smart TV Dashboard](smart-tv-project/README.md) | Integrate app shortcuts and household information into one TV interface | JavaScript, HTML/CSS, APIs, local settings, device constraints, deployment scripting | Personal build; README explains platform limits |
 | [CodeQL & GitHub Actions](codeql-github-actions/README.md) | Configure automated code checks and workflow controls | YAML, workflow triggers, static analysis, job permissions | Configuration sample; nested workflow is not active |
 | [Python Keyboard Event Logging Lab](python-keylogger/README.md) | Instrument input events and validate local log records | Python, callbacks, event listeners, logging | Tutorial-based lab with a documented controlled callback test |
