@@ -1,6 +1,6 @@
 # Automation & Workflow Engineering Labs
 
-This high-impact engineering portfolio builds **repeatable automation workflows** that eliminate manual friction, integrate systems, enforce consistency, and strengthen technical operations. The collection combines Python scripting, interface development, APIs, event-driven logic, CI/CD configuration, and security-focused workflow design.
+This engineering portfolio builds **repeatable automation workflows** that eliminate manual friction, integrate systems, enforce consistency, and strengthen technical operations. The collection combines Python scripting, interface development, APIs, event-driven logic, CI/CD configuration, and security-focused workflow design.
 
 Each lab attacks an operational bottleneck by defining inputs, engineering processing logic, validating outputs, isolating failures, and documenting maintainable technical decisions.
 
