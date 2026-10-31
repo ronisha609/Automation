@@ -4,7 +4,7 @@ This high-impact engineering portfolio builds **repeatable automation workflows*
 
 Each lab attacks an operational bottleneck by defining inputs, engineering processing logic, validating outputs, isolating failures, and documenting maintainable technical decisions.
 
-[Cybersecurity](https://github.com/ronisha609/CyberSecurity) · [Intelligence](https://github.com/ronisha609/Intelligence) · [Earlier coding projects](https://github.com/ronisha609/Miscellaneous)
+[Cybersecurity](https://github.com/ronisha609/CyberSecurity) · [Intelligence](https://github.com/ronisha609/Intelligence) · [Application development labs](https://github.com/ronisha609/Miscellaneous)
 
 ## Automation Capabilities
 
