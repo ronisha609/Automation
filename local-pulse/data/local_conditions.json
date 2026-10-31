@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T15:08:38.797698+00:00",
+  "generatedAt": "2026-10-31T15:22:38.595105+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -148,12 +148,12 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "New Jersey Turnpike - Western Spur southbound : Disabled vehicle",
-      "description": "NJ Turnpike Auth.: Disabled vehicle on New Jersey Turnpike - Western Spur southbound South of Northern Mixing Bowl (Ridgefield) left lane blocked",
-      "published": "Sat, 31 Oct 2026 10:47:50 -0400",
+      "title": "NY 9H northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on NY 9H northbound at NY 23B (Claverack) right shoulder of 1 lane blocked CAD#96706080",
+      "published": "Sat, 31 Oct 2026 11:21:13 -0400",
       "link": "https://511nj.org/",
-      "latitude": 40.823480165,
-      "longitude": -74.0338797407
+      "latitude": 42.2225,
+      "longitude": -73.735
     },
     {
       "type": "incident",
@@ -199,15 +199,6 @@
       "link": "https://511nj.org/",
       "latitude": 40.8506393432617,
       "longitude": -73.986328125
-    },
-    {
-      "type": "incident",
-      "title": "I-95 southbound : Crash",
-      "description": "NYSDOT - Region 11: Crash on I-95 southbound just past Exit 2A - Jerome Avenue (New York) 1 Left lane of 4 lanes blocked",
-      "published": "Sat, 31 Oct 2026 11:05:52 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 40.8452343613312,
-      "longitude": -73.9154237400975
     },
     {
       "type": "incident",
@@ -289,6 +280,15 @@
       "link": "https://511nj.org/",
       "latitude": 40.8567846997699,
       "longitude": -73.9734259635123
+    },
+    {
+      "type": "construction",
+      "title": "CT 72 westbound : Roadwork",
+      "description": "ConnDOT: Road Work on RT 72 Westbound before Exit 2 (1.3 miles) in effect today until 2:00 pm. The right lane is closed. Reported Saturday, October 31 at 11:17 am.",
+      "published": "Sat, 31 Oct 2026 11:18:22 -0400",
+      "link": "https://511nj.org/",
+      "latitude": 41.669908,
+      "longitude": -72.778249
     },
     {
       "type": "construction",
@@ -3102,8 +3102,8 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 16 records",
-    "construction": "available: 312 records",
+    "incidents": "available: 15 records",
+    "construction": "available: 313 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T15:17:01.455582+00:00",
+ "generatedAt": "2026-10-31T15:31:16.869828+00:00",
  "areaCount": 68,
  "sent": 68,
  "failed": 0,
@@ -15,7 +15,7 @@
   "nj-bergen": {
    "label": "Bergen County, NJ",
    "topic": "local-pulse-nj-bergen",
-   "text": "Good morning, Bergen County, NJ. Watch for a crash or incident at US 1&9 both directions : Overturned tractor trailer (3.8 mi away) and 5 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Bergen County, NJ. Watch for a crash or incident at US 1&9 both directions : Overturned tractor trailer (3.8 mi away) and 4 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "crash or closure",
     "construction"
@@ -58,7 +58,7 @@
   "nj-essex": {
    "label": "Essex County, NJ",
    "topic": "local-pulse-nj-essex",
-   "text": "Good morning, Essex County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (9.4 mi away) and 4 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Essex County, NJ. Watch for a crash or incident at US 1&9 both directions : Overturned tractor trailer (12.5 mi away) and 3 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "crash or closure",
     "construction"
@@ -77,7 +77,7 @@
   "nj-hudson": {
    "label": "Hudson County, NJ",
    "topic": "local-pulse-nj-hudson",
-   "text": "Good morning, Hudson County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (7.0 mi away) and 5 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Hudson County, NJ. Watch for a crash or incident at US 1&9 both directions : Overturned tractor trailer (9.7 mi away) and 4 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "crash or closure",
     "construction"
@@ -134,7 +134,7 @@
   "nj-passaic": {
    "label": "Passaic County, NJ",
    "topic": "local-pulse-nj-passaic",
-   "text": "Good morning, Passaic County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (9.7 mi away) and 5 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Passaic County, NJ. Watch for a crash or incident at US 1&9 both directions : Overturned tractor trailer (10.7 mi away) and 3 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "crash or closure",
     "construction"
@@ -168,7 +168,7 @@
   "nj-union": {
    "label": "Union County, NJ",
    "topic": "local-pulse-nj-union",
-   "text": "Good morning, Union County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (14.4 mi away) and 2 more nearby. It's 54°F, Sunny, up to 59°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Union County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (4.1 mi away) and 1 more nearby. It's 54°F, Sunny, up to 59°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "crash or closure",
     "construction"
@@ -201,7 +201,7 @@
   "il-chicago": {
    "label": "Chicago, IL",
    "topic": "local-pulse-il-chicago",
-   "text": "Good morning, Chicago, IL. It's 56°F, Scattered Rain Showers, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Chicago, IL. It's 57°F, Scattered Rain Showers, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -209,7 +209,7 @@
   "tx-houston": {
    "label": "Houston, TX",
    "topic": "local-pulse-tx-houston",
-   "text": "Good morning, Houston, TX. It's 73°F, Chance Rain Showers, up to 79°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Houston, TX. It's 71°F, Chance Rain Showers, up to 79°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -250,7 +250,7 @@
   "tx-dallas": {
    "label": "Dallas, TX",
    "topic": "local-pulse-tx-dallas",
-   "text": "Good morning, Dallas, TX. It's 65°F, Mostly Cloudy, up to 76°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Dallas, TX. It's 69°F, Mostly Cloudy, up to 76°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -307,7 +307,7 @@
   "in-indianapolis": {
    "label": "Indianapolis, IN",
    "topic": "local-pulse-in-indianapolis",
-   "text": "Good morning, Indianapolis, IN. It's 58°F, Cloudy, up to 68°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Indianapolis, IN. It's 59°F, Mostly Cloudy, up to 68°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -324,7 +324,7 @@
   "wa-seattle": {
    "label": "Seattle, WA",
    "topic": "local-pulse-wa-seattle",
-   "text": "Good morning, Seattle, WA. It's 39°F, Sunny, up to 53°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Seattle, WA. It's 41°F, Sunny, up to 53°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -348,7 +348,7 @@
   "tn-nashville": {
    "label": "Nashville, TN",
    "topic": "local-pulse-tn-nashville",
-   "text": "Good morning, Nashville, TN. It's 65°F, Mostly Cloudy, up to 80°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Nashville, TN. It's 71°F, Cloudy, up to 80°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -380,7 +380,7 @@
   "ma-boston": {
    "label": "Boston, MA",
    "topic": "local-pulse-ma-boston",
-   "text": "Good morning, Boston, MA. It's 50°F, Sunny, up to 54°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Boston, MA. It's 46°F, Sunny, up to 54°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -388,7 +388,7 @@
   "mi-detroit": {
    "label": "Detroit, MI",
    "topic": "local-pulse-mi-detroit",
-   "text": "Good morning, Detroit, MI. It's 50°F, Mostly Cloudy, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Detroit, MI. It's 54°F, Partly Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
@@ -518,7 +518,7 @@
   "pa-pittsburgh": {
    "label": "Pittsburgh, PA",
    "topic": "local-pulse-pa-pittsburgh",
-   "text": "Good morning, Pittsburgh, PA. It's 51°F, Sunny, up to 62°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "text": "Good morning, Pittsburgh, PA. It's 53°F, Sunny, up to 62°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
    "flags": [
     "quiet day"
    ]
