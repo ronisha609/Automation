@@ -1,12 +1,12 @@
 # Python IT Automation | Learning Reference Collection
 
-A course-based reference collection covering Python scripting, operating-system tasks, troubleshooting, reporting, and automation. The original README credits **Kyungrae Kim**, and that attribution is retained below. This collection should be presented as a learning reference rather than code independently authored by Ronisha Showers.
+A course-based reference collection covering Python scripting, operating-system tasks, troubleshooting, reporting, and automation. The original README credits **Kyungrae Kim**, and that attribution is retained below. This collection is maintained as attributed reference material rather than independently authored code.
 
-## Skills & Learning Outcomes
+## Capabilities Demonstrated
 
-This reference material supports learning how to break administration tasks into functions, read and summarize records, inspect system conditions, and troubleshoot scripts. It helps connect Python fundamentals to repeatable IT tasks. These are study opportunities provided by the examples, not claims of independently authored solutions.
+This reference material demonstrates how administration tasks can be decomposed into functions, records can be parsed and summarized, system conditions can be inspected, and scripts can be debugged. The examples connect Python fundamentals to repeatable IT operations without claiming independent authorship.
 
-## Useful Examples to Explore
+## Reference Examples
 
 | Example | What the code does | Skill area |
 | --- | --- | --- |
