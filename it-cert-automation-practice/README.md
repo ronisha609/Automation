@@ -1,17 +1,17 @@
-# IT Automation | Course Practice Collection
+# IT Automation | Certificate Reference Collection
 
 Course-provided practice material from the Google IT Automation with Python certificate, organized by course. The included files provide examples of input validation, employee data, and cloud service setup.
 
 ## Capabilities Demonstrated
 
 - Trace validation logic and verify how functions evaluate input.
-- Navigate scripts and data grouped by learning task.
+- Navigate scripts and data grouped by technical objective.
 - Map a Python program to its supporting service definition.
-- Learn repository contribution conventions from the included course guidance.
+- Apply repository contribution conventions from the included course guidance.
 
 ## Where to Start
 
-| File | Learning focus |
+| File | Technical focus |
 | --- | --- |
 | [Validation practice](Course3/Lab4/validations.py) | Tracing and validating input-control functions |
 | [Employee data](Course4/Lab4/employees-with-date.csv) | Understanding structured CSV records |
