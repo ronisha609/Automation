@@ -1,0 +1,49 @@
+{
+  "summary": {
+    "start": "2026-11-01",
+    "plannedDays": 90,
+    "dayNumber": 0,
+    "briefsSent": 1,
+    "writtenByAI": 0,
+    "daysWith": {
+      "crash or closure": 0,
+      "weather alert": 1,
+      "flooding": 0,
+      "rain": 0,
+      "cold or frost": 0,
+      "construction": 1,
+      "quiet day": 0
+    },
+    "screenshots": 1,
+    "townRequests": 0,
+    "areasCovered": 68,
+    "areaMessagesLastRun": 68
+  },
+  "entries": [
+    {
+      "date": "2026-10-31",
+      "sentAt": "2026-10-31T15:08:50.740128+00:00",
+      "message": "Good morning, Central New Jersey. The weather service has a Frost Advisory for parts of the area, so check it before you head out. No crashes nearby right now, but 2 construction zones could slow you down. It's 53°F, Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "weather alert",
+        "construction"
+      ],
+      "nearbyIncidents": 0,
+      "nearbyConstruction": 2,
+      "weatherAlerts": [
+        "Frost Advisory"
+      ],
+      "weather": {
+        "now": "53°F, Sunny",
+        "low": 44,
+        "high": 60,
+        "maxRainChance": 0,
+        "wettestHour": "11 AM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-10-31.jpg",
+      "hasScreenshot": true
+    }
+  ]
+}

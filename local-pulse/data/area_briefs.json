@@ -1,0 +1,567 @@
+{
+ "generatedAt": "2026-10-31T15:17:01.455582+00:00",
+ "areaCount": 68,
+ "sent": 68,
+ "failed": 0,
+ "briefs": {
+  "nj-atlantic": {
+   "label": "Atlantic County, NJ",
+   "topic": "local-pulse-nj-atlantic",
+   "text": "Good morning, Atlantic County, NJ. Roads nearby look clear right now. It's 54°F, Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nj-bergen": {
+   "label": "Bergen County, NJ",
+   "topic": "local-pulse-nj-bergen",
+   "text": "Good morning, Bergen County, NJ. Watch for a crash or incident at US 1&9 both directions : Overturned tractor trailer (3.8 mi away) and 5 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "crash or closure",
+    "construction"
+   ]
+  },
+  "nj-burlington": {
+   "label": "Burlington County, NJ",
+   "topic": "local-pulse-nj-burlington",
+   "text": "Good morning, Burlington County, NJ. No crashes nearby right now, but 1 construction zone could slow you down. It's 54°F, Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "construction"
+   ]
+  },
+  "nj-camden": {
+   "label": "Camden County, NJ",
+   "topic": "local-pulse-nj-camden",
+   "text": "Good morning, Camden County, NJ. The weather service has a Frost Advisory for parts of the area, so check it before you head out. Watch for a closure at I-295 northbound : Unanticipated Construction Delay (3.8 mi away) and 1 more nearby. It's 54°F, Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert",
+    "crash or closure",
+    "construction"
+   ]
+  },
+  "nj-cape-may": {
+   "label": "Cape May County, NJ",
+   "topic": "local-pulse-nj-cape-may",
+   "text": "Good morning, Cape May County, NJ. The weather service has a Frost Advisory for parts of the area, so check it before you head out. Roads nearby look clear right now. It's 55°F, Sunny, up to 59°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert"
+   ]
+  },
+  "nj-cumberland": {
+   "label": "Cumberland County, NJ",
+   "topic": "local-pulse-nj-cumberland",
+   "text": "Good morning, Cumberland County, NJ. The weather service has a Frost Advisory for parts of the area, so check it before you head out. Roads nearby look clear right now. It's 56°F, Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert"
+   ]
+  },
+  "nj-essex": {
+   "label": "Essex County, NJ",
+   "topic": "local-pulse-nj-essex",
+   "text": "Good morning, Essex County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (9.4 mi away) and 4 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "crash or closure",
+    "construction"
+   ]
+  },
+  "nj-gloucester": {
+   "label": "Gloucester County, NJ",
+   "topic": "local-pulse-nj-gloucester",
+   "text": "Good morning, Gloucester County, NJ. The weather service has a Frost Advisory for parts of the area, so check it before you head out. Watch for a closure at NJ 42 northbound : Unanticipated Construction Delay (3.2 mi away) and 1 more nearby. It's 54°F, Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert",
+    "crash or closure",
+    "construction"
+   ]
+  },
+  "nj-hudson": {
+   "label": "Hudson County, NJ",
+   "topic": "local-pulse-nj-hudson",
+   "text": "Good morning, Hudson County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (7.0 mi away) and 5 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "crash or closure",
+    "construction"
+   ]
+  },
+  "nj-hunterdon": {
+   "label": "Hunterdon County, NJ",
+   "topic": "local-pulse-nj-hunterdon",
+   "text": "Good morning, Hunterdon County, NJ. Roads nearby look clear right now. It's 52°F, Sunny, up to 59°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nj-mercer": {
+   "label": "Mercer County, NJ",
+   "topic": "local-pulse-nj-mercer",
+   "text": "Good morning, Mercer County, NJ. Roads nearby look clear right now. It's 53°F, Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nj-middlesex": {
+   "label": "Middlesex County, NJ",
+   "topic": "local-pulse-nj-middlesex",
+   "text": "Good morning, Middlesex County, NJ. No crashes nearby right now, but 4 construction zones could slow you down. It's 53°F, Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "construction"
+   ]
+  },
+  "nj-monmouth": {
+   "label": "Monmouth County, NJ",
+   "topic": "local-pulse-nj-monmouth",
+   "text": "Good morning, Monmouth County, NJ. No crashes nearby right now, but 3 construction zones could slow you down. It's 53°F, Sunny, up to 59°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "construction"
+   ]
+  },
+  "nj-morris": {
+   "label": "Morris County, NJ",
+   "topic": "local-pulse-nj-morris",
+   "text": "Good morning, Morris County, NJ. No crashes nearby right now, but 5 construction zones could slow you down. It's 51°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "construction"
+   ]
+  },
+  "nj-ocean": {
+   "label": "Ocean County, NJ",
+   "topic": "local-pulse-nj-ocean",
+   "text": "Good morning, Ocean County, NJ. Roads nearby look clear right now. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nj-passaic": {
+   "label": "Passaic County, NJ",
+   "topic": "local-pulse-nj-passaic",
+   "text": "Good morning, Passaic County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (9.7 mi away) and 5 more nearby. It's 53°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "crash or closure",
+    "construction"
+   ]
+  },
+  "nj-salem": {
+   "label": "Salem County, NJ",
+   "topic": "local-pulse-nj-salem",
+   "text": "Good morning, Salem County, NJ. The weather service has a Frost Advisory for parts of the area, so check it before you head out. No crashes nearby right now, but 1 construction zone could slow you down. It's 55°F, Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert",
+    "construction"
+   ]
+  },
+  "nj-somerset": {
+   "label": "Somerset County, NJ",
+   "topic": "local-pulse-nj-somerset",
+   "text": "Good morning, Somerset County, NJ. No crashes nearby right now, but 1 construction zone could slow you down. It's 53°F, Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "construction"
+   ]
+  },
+  "nj-sussex": {
+   "label": "Sussex County, NJ",
+   "topic": "local-pulse-nj-sussex",
+   "text": "Good morning, Sussex County, NJ. Roads nearby look clear right now. It's 47°F, Sunny, up to 58°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nj-union": {
+   "label": "Union County, NJ",
+   "topic": "local-pulse-nj-union",
+   "text": "Good morning, Union County, NJ. Watch for a crash or incident at New Jersey Turnpike - Western Spur southbound : Disabled vehicle (14.4 mi away) and 2 more nearby. It's 54°F, Sunny, up to 59°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "crash or closure",
+    "construction"
+   ]
+  },
+  "nj-warren": {
+   "label": "Warren County, NJ",
+   "topic": "local-pulse-nj-warren",
+   "text": "Good morning, Warren County, NJ. No crashes nearby right now, but 2 construction zones could slow you down. It's 50°F, Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "construction"
+   ]
+  },
+  "ny-new-york": {
+   "label": "New York, NY",
+   "topic": "local-pulse-ny-new-york",
+   "text": "Good morning, New York, NY. It's 53°F, Sunny, up to 59°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "ca-los-angeles": {
+   "label": "Los Angeles, CA",
+   "topic": "local-pulse-ca-los-angeles",
+   "text": "Good morning, Los Angeles, CA. It's 61°F, Chance Light Rain, up to 68°. Rain is likely around 5 PM, so bring an umbrella. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "rain"
+   ]
+  },
+  "il-chicago": {
+   "label": "Chicago, IL",
+   "topic": "local-pulse-il-chicago",
+   "text": "Good morning, Chicago, IL. It's 56°F, Scattered Rain Showers, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "tx-houston": {
+   "label": "Houston, TX",
+   "topic": "local-pulse-tx-houston",
+   "text": "Good morning, Houston, TX. It's 73°F, Chance Rain Showers, up to 79°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "az-phoenix": {
+   "label": "Phoenix, AZ",
+   "topic": "local-pulse-az-phoenix",
+   "text": "Good morning, Phoenix, AZ. The weather service has a Flood Watch for parts of the area, so check it before you head out. It's 64°F, Mostly Cloudy, up to 77°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert",
+    "flooding"
+   ]
+  },
+  "pa-philadelphia": {
+   "label": "Philadelphia, PA",
+   "topic": "local-pulse-pa-philadelphia",
+   "text": "Good morning, Philadelphia, PA. It's 54°F, Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "tx-san-antonio": {
+   "label": "San Antonio, TX",
+   "topic": "local-pulse-tx-san-antonio",
+   "text": "Good morning, San Antonio, TX. The weather service has a Dense Fog Advisory for parts of the area, so check it before you head out. It's 72°F, Mostly Cloudy, up to 79°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert"
+   ]
+  },
+  "ca-san-diego": {
+   "label": "San Diego, CA",
+   "topic": "local-pulse-ca-san-diego",
+   "text": "Good morning, San Diego, CA. It's 61°F, Mostly Cloudy, up to 71°. Rain is likely around 5 PM, so bring an umbrella. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "rain"
+   ]
+  },
+  "tx-dallas": {
+   "label": "Dallas, TX",
+   "topic": "local-pulse-tx-dallas",
+   "text": "Good morning, Dallas, TX. It's 65°F, Mostly Cloudy, up to 76°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "fl-jacksonville": {
+   "label": "Jacksonville, FL",
+   "topic": "local-pulse-fl-jacksonville",
+   "text": "Good morning, Jacksonville, FL. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. It's 76°F, Mostly Cloudy, up to 79°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert",
+    "flooding"
+   ]
+  },
+  "tx-austin": {
+   "label": "Austin, TX",
+   "topic": "local-pulse-tx-austin",
+   "text": "Good morning, Austin, TX. The weather service has a Dense Fog Advisory for parts of the area, so check it before you head out. It's 70°F, Mostly Cloudy, up to 80°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert"
+   ]
+  },
+  "tx-fort-worth": {
+   "label": "Fort Worth, TX",
+   "topic": "local-pulse-tx-fort-worth",
+   "text": "Good morning, Fort Worth, TX. It's 68°F, Mostly Cloudy, up to 75°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "ca-san-jose": {
+   "label": "San Jose, CA",
+   "topic": "local-pulse-ca-san-jose",
+   "text": "Good morning, San Jose, CA. It's 49°F, Patchy Fog, up to 66°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "oh-columbus": {
+   "label": "Columbus, OH",
+   "topic": "local-pulse-oh-columbus",
+   "text": "Good morning, Columbus, OH. It's 56°F, Mostly Cloudy, up to 65°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nc-charlotte": {
+   "label": "Charlotte, NC",
+   "topic": "local-pulse-nc-charlotte",
+   "text": "Good morning, Charlotte, NC. It's 61°F, Partly Sunny, up to 67°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "in-indianapolis": {
+   "label": "Indianapolis, IN",
+   "topic": "local-pulse-in-indianapolis",
+   "text": "Good morning, Indianapolis, IN. It's 58°F, Cloudy, up to 68°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "ca-san-francisco": {
+   "label": "San Francisco, CA",
+   "topic": "local-pulse-ca-san-francisco",
+   "text": "Good morning, San Francisco, CA. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. It's 54°F, Mostly Cloudy, up to 62°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert",
+    "flooding"
+   ]
+  },
+  "wa-seattle": {
+   "label": "Seattle, WA",
+   "topic": "local-pulse-wa-seattle",
+   "text": "Good morning, Seattle, WA. It's 39°F, Sunny, up to 53°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "co-denver": {
+   "label": "Denver, CO",
+   "topic": "local-pulse-co-denver",
+   "text": "Good morning, Denver, CO. The weather service has a Dense Fog Advisory for parts of the area, so check it before you head out. It's 45°F, Areas Of Fog, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert"
+   ]
+  },
+  "ok-oklahoma-city": {
+   "label": "Oklahoma City, OK",
+   "topic": "local-pulse-ok-oklahoma-city",
+   "text": "Good morning, Oklahoma City, OK. It's 63°F, Slight Chance Rain Showers, up to 68°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "tn-nashville": {
+   "label": "Nashville, TN",
+   "topic": "local-pulse-tn-nashville",
+   "text": "Good morning, Nashville, TN. It's 65°F, Mostly Cloudy, up to 80°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "dc-washington": {
+   "label": "Washington, DC",
+   "topic": "local-pulse-dc-washington",
+   "text": "Good morning, Washington, DC. It's 57°F, Mostly Sunny, up to 63°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "tx-el-paso": {
+   "label": "El Paso, TX",
+   "topic": "local-pulse-tx-el-paso",
+   "text": "Good morning, El Paso, TX. It's 63°F, Mostly Cloudy, up to 72°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nv-las-vegas": {
+   "label": "Las Vegas, NV",
+   "topic": "local-pulse-nv-las-vegas",
+   "text": "Good morning, Las Vegas, NV. It's 62°F, Mostly Cloudy, up to 73°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "ma-boston": {
+   "label": "Boston, MA",
+   "topic": "local-pulse-ma-boston",
+   "text": "Good morning, Boston, MA. It's 50°F, Sunny, up to 54°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "mi-detroit": {
+   "label": "Detroit, MI",
+   "topic": "local-pulse-mi-detroit",
+   "text": "Good morning, Detroit, MI. It's 50°F, Mostly Cloudy, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "or-portland": {
+   "label": "Portland, OR",
+   "topic": "local-pulse-or-portland",
+   "text": "Good morning, Portland, OR. The weather service has a Dense Fog Advisory for parts of the area, so check it before you head out. It's 40°F, Mostly Cloudy, up to 55°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert"
+   ]
+  },
+  "ky-louisville": {
+   "label": "Louisville, KY",
+   "topic": "local-pulse-ky-louisville",
+   "text": "Good morning, Louisville, KY. It's 62°F, Mostly Cloudy, up to 73°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "tn-memphis": {
+   "label": "Memphis, TN",
+   "topic": "local-pulse-tn-memphis",
+   "text": "Good morning, Memphis, TN. It's 70°F, Cloudy, up to 77°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "md-baltimore": {
+   "label": "Baltimore, MD",
+   "topic": "local-pulse-md-baltimore",
+   "text": "Good morning, Baltimore, MD. It's 57°F, Mostly Sunny, up to 63°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "wi-milwaukee": {
+   "label": "Milwaukee, WI",
+   "topic": "local-pulse-wi-milwaukee",
+   "text": "Good morning, Milwaukee, WI. It's 58°F, Scattered Rain Showers, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nm-albuquerque": {
+   "label": "Albuquerque, NM",
+   "topic": "local-pulse-nm-albuquerque",
+   "text": "Good morning, Albuquerque, NM. It's 53°F, Patchy Fog, up to 64°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "ga-atlanta": {
+   "label": "Atlanta, GA",
+   "topic": "local-pulse-ga-atlanta",
+   "text": "Good morning, Atlanta, GA. It's 66°F, Mostly Cloudy, up to 72°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "mo-kansas-city": {
+   "label": "Kansas City, MO",
+   "topic": "local-pulse-mo-kansas-city",
+   "text": "Good morning, Kansas City, MO. It's 63°F, Chance Rain Showers, up to 68°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "fl-miami": {
+   "label": "Miami, FL",
+   "topic": "local-pulse-fl-miami",
+   "text": "Good morning, Miami, FL. The weather service has a Rip Current Statement for parts of the area, so check it before you head out. It's 82°F, Chance Showers And Thunderstorms, up to 83°. Rain is likely around 2 PM, so bring an umbrella. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "weather alert",
+    "flooding",
+    "rain"
+   ]
+  },
+  "la-new-orleans": {
+   "label": "New Orleans, LA",
+   "topic": "local-pulse-la-new-orleans",
+   "text": "Good morning, New Orleans, LA. It's 76°F, Mostly Sunny, up to 78°. Rain is likely around 3 PM, so bring an umbrella. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "rain"
+   ]
+  },
+  "mn-minneapolis": {
+   "label": "Minneapolis, MN",
+   "topic": "local-pulse-mn-minneapolis",
+   "text": "Good morning, Minneapolis, MN. It's 55°F, Slight Chance Rain Showers, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "fl-tampa": {
+   "label": "Tampa, FL",
+   "topic": "local-pulse-fl-tampa",
+   "text": "Good morning, Tampa, FL. It's 80°F, Partly Sunny, up to 86°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "nc-raleigh": {
+   "label": "Raleigh, NC",
+   "topic": "local-pulse-nc-raleigh",
+   "text": "Good morning, Raleigh, NC. It's 61°F, Partly Sunny, up to 66°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "va-richmond": {
+   "label": "Richmond, VA",
+   "topic": "local-pulse-va-richmond",
+   "text": "Good morning, Richmond, VA. It's 59°F, Mostly Sunny, up to 66°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "va-virginia-beach": {
+   "label": "Virginia Beach, VA",
+   "topic": "local-pulse-va-virginia-beach",
+   "text": "Good morning, Virginia Beach, VA. It's 61°F, Mostly Sunny, up to 61°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "pa-pittsburgh": {
+   "label": "Pittsburgh, PA",
+   "topic": "local-pulse-pa-pittsburgh",
+   "text": "Good morning, Pittsburgh, PA. It's 51°F, Sunny, up to 62°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "oh-cleveland": {
+   "label": "Cleveland, OH",
+   "topic": "local-pulse-oh-cleveland",
+   "text": "Good morning, Cleveland, OH. It's 54°F, Partly Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "mo-st-louis": {
+   "label": "St. Louis, MO",
+   "topic": "local-pulse-mo-st-louis",
+   "text": "Good morning, St. Louis, MO. It's 65°F, Chance Rain Showers, up to 72°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "ut-salt-lake-city": {
+   "label": "Salt Lake City, UT",
+   "topic": "local-pulse-ut-salt-lake-city",
+   "text": "Good morning, Salt Lake City, UT. It's 50°F, Partly Sunny, up to 62°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "hi-honolulu": {
+   "label": "Honolulu, HI",
+   "topic": "local-pulse-hi-honolulu",
+   "text": "Good morning, Honolulu, HI. It's 75°F, Mostly Cloudy, up to 85°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  },
+  "ak-anchorage": {
+   "label": "Anchorage, AK",
+   "topic": "local-pulse-ak-anchorage",
+   "text": "Good morning, Anchorage, AK. It's 39°F, Scattered Rain Showers, up to 43°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+   "flags": [
+    "quiet day"
+   ]
+  }
+ }
+}
