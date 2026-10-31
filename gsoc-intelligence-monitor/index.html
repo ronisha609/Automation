@@ -3,414 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Interactive GSOC intelligence monitor for official weather, seismic, and cyber alerts.">
-  <title>Automated GSOC Intelligence Monitor</title>
+  <meta name="description" content="Weather, flooding, crashes, construction, and local headlines that may affect your day.">
+  <title>Before You Head Out</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <style>
-    :root {
-      color-scheme: dark;
-      --bg: #1d1110;
-      --panel: #2a1715;
-      --panel-2: #3a211e;
-      --line: #6b3d35;
-      --text: #f0b2a0;
-      --muted: #c48676;
-      --blue: #d8795d;
-      --cyan: #e09a7d;
-      --high: #ff7665;
-      --moderate: #d99a52;
-      --low: #b98b75;
-      --shadow: 0 18px 45px rgba(0, 0, 0, .28);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background:
-        radial-gradient(circle at 85% 0%, rgba(216, 121, 93, .22), transparent 28rem),
-        linear-gradient(180deg, #1d1110, #241411 55%, #1d1110);
-      color: var(--text);
-      font: 15px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      min-height: 100vh;
-    }
-    button, input, select { font: inherit; }
-    button { cursor: pointer; }
-    a { color: #e69a7e; }
-    .shell { width: min(1220px, calc(100% - 32px)); margin: 0 auto; padding: 28px 0 52px; }
-    .hero {
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      padding: 28px;
-      background: linear-gradient(135deg, rgba(58, 33, 30, .98), rgba(35, 19, 17, .96));
-      box-shadow: var(--shadow);
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::after {
-      content: "";
-      position: absolute;
-      width: 260px;
-      height: 260px;
-      border: 1px solid rgba(224, 154, 125, .26);
-      border-radius: 50%;
-      top: -150px;
-      right: -80px;
-      box-shadow: 0 0 0 38px rgba(216, 121, 93, .06), 0 0 0 76px rgba(216, 121, 93, .035);
-    }
-    .eyebrow { color: var(--cyan); font-weight: 800; letter-spacing: .13em; text-transform: uppercase; font-size: 12px; }
-    h1 { font-size: clamp(28px, 5vw, 48px); line-height: 1.06; margin: 10px 0 12px; max-width: 760px; }
-    .hero p { color: var(--muted); max-width: 760px; margin: 0; font-size: 17px; }
-    .status-line { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-    .status-pill { display: inline-flex; gap: 8px; align-items: center; padding: 8px 12px; border-radius: 999px; background: rgba(35, 18, 16, .8); border: 1px solid var(--line); color: var(--muted); }
-    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 12px var(--cyan); }
-    .layout { display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 18px; margin-top: 18px; align-items: start; }
-    .panel { background: rgba(42, 23, 21, .96); border: 1px solid var(--line); border-radius: 18px; padding: 20px; box-shadow: var(--shadow); }
-    .panel h2 { margin: 0 0 16px; font-size: 18px; }
-    .settings { position: sticky; top: 16px; }
-    .field { margin: 0 0 13px; }
-    label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
-    input, select {
-      width: 100%; border: 1px solid var(--line); background: #241411; color: var(--text); border-radius: 10px; padding: 11px 12px; outline: none;
-    }
-    input:focus, select:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(216, 121, 93, .18); }
-    .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .actions { display: grid; gap: 9px; margin-top: 18px; }
-    .button { border: 1px solid var(--line); border-radius: 11px; padding: 11px 14px; font-weight: 850; color: var(--text); background: #4a2924; }
-    .button:hover { transform: translateY(-1px); border-color: #9a5a4a; }
-    .button.primary { background: linear-gradient(135deg, #a84f3d, #7f382d); border-color: #c56a52; }
-    .button.secondary { background: linear-gradient(135deg, #7f4a3f, #61372f); border-color: #a76250; }
-    .button.ghost { background: transparent; }
-    .privacy { color: var(--muted); font-size: 12px; margin: 14px 0 0; }
-    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
-    .metric { padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(180deg, rgba(58,33,30,.94), rgba(35,19,17,.94)); }
-    .metric span { display: block; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; font-weight: 800; }
-    .metric strong { display: block; margin-top: 4px; font-size: 28px; }
-    .metric.high strong { color: var(--high); }
-    .metric.moderate strong { color: var(--moderate); }
-    .metric.low strong { color: var(--low); }
-    .toolbar { display: grid; grid-template-columns: 1fr 170px; gap: 10px; margin-bottom: 12px; }
-    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-    .chip { border: 1px solid var(--line); background: transparent; color: var(--muted); padding: 7px 11px; border-radius: 999px; font-weight: 800; }
-    .chip.active { color: var(--text); background: #5a322b; border-color: #9a5a4a; }
-    .items { display: grid; gap: 12px; }
-    .item { border: 1px solid var(--line); border-left: 4px solid var(--blue); border-radius: 14px; padding: 16px; background: rgba(35, 19, 17, .82); }
-    .item[data-risk="High"] { border-left-color: var(--high); }
-    .item[data-risk="Moderate"] { border-left-color: var(--moderate); }
-    .item[data-risk="Low"] { border-left-color: var(--low); }
-    .item-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
-    .item h3 { margin: 0; font-size: 17px; line-height: 1.35; }
-    .badge { flex: 0 0 auto; padding: 5px 9px; border-radius: 999px; font-weight: 900; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; background: #5a322b; }
-    .badge.High { color: var(--high); background: rgba(255, 107, 115, .11); }
-    .badge.Moderate { color: var(--moderate); background: rgba(255, 191, 91, .11); }
-    .badge.Low { color: var(--low); background: rgba(94, 224, 160, .11); }
-    .meta { color: var(--muted); font-size: 12px; margin: 6px 0 10px; }
-    .assessment { margin: 0 0 10px; }
-    .item ul { margin: 6px 0 12px 20px; padding: 0; color: #d79a87; }
-    .action { background: rgba(216, 121, 93, .11); border: 1px solid rgba(216, 121, 93, .28); border-radius: 10px; padding: 10px 12px; }
-    .empty { text-align: center; color: var(--muted); padding: 44px 12px; border: 1px dashed var(--line); border-radius: 14px; }
-    .source-grid { display: grid; gap: 9px; }
-    .source-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; padding: 10px 12px; border-radius: 10px; background: #241411; border: 1px solid var(--line); }
-    .source-row small { color: var(--muted); display: block; }
-    .source-state { font-size: 12px; font-weight: 900; color: var(--muted); }
-    .source-state.ok { color: var(--low); }
-    .source-state.fail { color: var(--high); }
-    .footer-note { color: var(--muted); margin: 18px 0 0; font-size: 13px; }
-    .loading { opacity: .62; pointer-events: none; }
-    @media (max-width: 880px) {
-      .layout { grid-template-columns: 1fr; }
-      .settings { position: static; }
-      .metrics { grid-template-columns: repeat(2, 1fr); }
-    }
-    @media (max-width: 520px) {
-      .shell { width: min(100% - 20px, 1220px); padding-top: 10px; }
-      .hero, .panel { padding: 16px; border-radius: 14px; }
-      .field-grid, .toolbar { grid-template-columns: 1fr; }
-      .item-top { display: block; }
-      .badge { display: inline-block; margin-top: 8px; }
-    }
+    :root{color-scheme:dark;--espresso:#1d1110;--cocoa:#2a1715;--cocoa2:#3a211e;--clay:#6b3d35;--terracotta:#d8795d;--copper:#e09a7d;--rose:#f0b2a0;--muted:#c48676;--red:#ff7665;--amber:#d99a52;--soft:#b98b75;--shadow:0 18px 45px rgba(0,0,0,.3)}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;color:var(--rose);background:radial-gradient(circle at 88% 0%,rgba(216,121,93,.2),transparent 28rem),linear-gradient(180deg,var(--espresso),#241411 58%,var(--espresso));font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,select{font:inherit}button{cursor:pointer}a{color:#e69a7e}.shell{width:min(1180px,calc(100% - 28px));margin:0 auto;padding:24px 0 50px}
+    .hero{border:1px solid var(--clay);border-radius:22px;padding:28px;background:linear-gradient(135deg,rgba(58,33,30,.98),rgba(35,19,17,.96));box-shadow:var(--shadow);position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:250px;height:250px;border:1px solid rgba(224,154,125,.24);border-radius:50%;top:-150px;right:-70px;box-shadow:0 0 0 38px rgba(216,121,93,.05),0 0 0 76px rgba(216,121,93,.03)}.eyebrow{color:var(--copper);font-weight:900;letter-spacing:.12em;text-transform:uppercase;font-size:12px}h1{font-size:clamp(34px,6vw,58px);line-height:1;margin:10px 0 12px}.hero p{color:var(--muted);max-width:720px;font-size:18px;margin:0}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;align-items:center}.button{border:1px solid var(--clay);border-radius:12px;padding:11px 15px;font-weight:850;color:var(--rose);background:#4a2924}.button:hover{transform:translateY(-1px);border-color:#a76250}.button.primary{background:linear-gradient(135deg,#a84f3d,#7f382d);border-color:#c56a52}.updated{color:var(--muted);font-size:12px}
+    .panel{background:rgba(42,23,21,.96);border:1px solid var(--clay);border-radius:18px;padding:20px;box-shadow:var(--shadow)}.panel h2{margin:0 0 14px;font-size:20px}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}.summary-card{min-height:150px;padding:17px;border:1px solid var(--clay);border-radius:16px;background:linear-gradient(180deg,rgba(58,33,30,.96),rgba(35,19,17,.96))}.summary-card .icon{font-size:25px}.summary-card h2{font-size:14px;margin:9px 0 6px;color:var(--copper);text-transform:uppercase;letter-spacing:.06em}.summary-card strong{display:block;font-size:22px;line-height:1.2;margin-bottom:6px}.summary-card p{color:var(--muted);margin:0;font-size:13px}
+    .map-panel{padding:0;overflow:hidden}.map-head{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:17px 20px;border-bottom:1px solid var(--clay)}.map-head h2{margin:0}.map-controls{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px}select{border:1px solid var(--clay);background:#241411;color:var(--rose);border-radius:9px;padding:8px 10px}#map{height:470px;background:#211513}.legend{display:flex;flex-wrap:wrap;gap:12px;padding:12px 20px;color:var(--muted);font-size:12px;border-top:1px solid var(--clay)}.legend span{display:inline-flex;gap:6px;align-items:center}.legend i{width:10px;height:10px;border-radius:50%;display:inline-block}
+    .content-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;margin-top:18px;align-items:start}.stack{display:grid;gap:18px}.list{display:grid;gap:10px}.event{border:1px solid var(--clay);border-left:4px solid var(--terracotta);border-radius:12px;padding:13px 14px;background:rgba(35,19,17,.8)}.event.incident{border-left-color:var(--red)}.event.construction{border-left-color:var(--amber)}.event.weather{border-left-color:var(--copper)}.event h3{font-size:15px;line-height:1.35;margin:0 0 5px}.event p{margin:0;color:var(--muted);font-size:13px}.event-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px;font-size:11px;color:var(--soft)}.tag{border:1px solid var(--clay);border-radius:999px;padding:4px 8px}.news-item{padding:12px 0;border-bottom:1px solid var(--clay)}.news-item:last-child{border-bottom:0;padding-bottom:0}.news-item:first-child{padding-top:0}.news-item a{font-weight:800;text-decoration:none;line-height:1.35;display:block}.news-item small{color:var(--muted);display:block;margin-top:4px}.empty{border:1px dashed var(--clay);border-radius:12px;color:var(--muted);text-align:center;padding:26px 14px}.plain-note{background:rgba(216,121,93,.1);border:1px solid rgba(216,121,93,.27);border-radius:12px;padding:13px 14px;color:var(--rose)}.sources{margin-top:18px;color:var(--muted);font-size:12px;text-align:center}
+    .leaflet-container{font-family:inherit}.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#2a1715;color:#f0b2a0;border:1px solid #6b3d35}.warm-marker{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;border:2px solid #f0b2a0;box-shadow:0 4px 12px rgba(0,0,0,.45);font-size:14px}.marker-user{background:#d8795d}.marker-incident{background:#a9372f}.marker-construction{background:#a96a2f}.loading{opacity:.64;pointer-events:none}
+    @media(max-width:900px){.summary{grid-template-columns:repeat(2,1fr)}.content-grid{grid-template-columns:1fr}}@media(max-width:560px){.shell{width:min(100% - 18px,1180px);padding-top:9px}.hero,.panel{padding:16px;border-radius:14px}.summary{grid-template-columns:1fr}.summary-card{min-height:auto}.map-head{display:block;padding:15px}.map-controls{margin-top:10px}#map{height:420px}.hero-actions{align-items:stretch}.hero-actions .button{flex:1 1 auto}}
   </style>
 </head>
 <body>
   <main class="shell">
-    <section class="hero">
-      <div class="eyebrow">Automation Intelligence Lab</div>
-      <h1>Automated GSOC Intelligence Monitor</h1>
-      <p>Collect official public alerts, filter the noise, rank risk, and convert the results into a clear intelligence brief.</p>
-      <div class="status-line">
-        <span class="status-pill"><span class="dot"></span><span id="modeLabel">Demo mode ready</span></span>
-        <span class="status-pill" id="generatedLabel">No collection run</span>
-      </div>
+    <header class="hero"><div class="eyebrow">Your area at a glance</div><h1>Before You Head Out</h1><p>See the weather, flooding alerts, crashes, roadwork, and local headlines that could affect errands, school, outdoor plans, or the drive home.</p><div class="hero-actions"><button class="button primary" id="locationBtn">Use my location</button><button class="button" id="refreshBtn">Refresh conditions</button><span class="updated" id="updated">Loading local conditions…</span></div></header>
+    <section class="summary" aria-label="What matters now">
+      <article class="summary-card"><div class="icon">🌤️</div><h2>Weather now</h2><strong id="weatherNow">Loading…</strong><p id="weatherDetail">Checking the latest forecast.</p></article>
+      <article class="summary-card"><div class="icon">🚗</div><h2>Roads nearby</h2><strong id="roadNow">Loading…</strong><p id="roadDetail">Checking crashes and construction.</p></article>
+      <article class="summary-card"><div class="icon">🌧️</div><h2>Flooding & alerts</h2><strong id="alertNow">Loading…</strong><p id="alertDetail">Checking official weather alerts.</p></article>
+      <article class="summary-card"><div class="icon">🛒</div><h2>Plans & errands</h2><strong id="planNow">Loading…</strong><p id="planDetail">Turning the conditions into a quick answer.</p></article>
     </section>
-
-    <section class="layout">
-      <aside class="panel settings" aria-label="Monitor controls">
-        <h2>Monitor Settings</h2>
-        <div class="field">
-          <label for="location">Location label</label>
-          <input id="location" value="Central New Jersey">
-        </div>
-        <div class="field-grid">
-          <div class="field">
-            <label for="lat">Latitude</label>
-            <input id="lat" type="number" step="0.0001" value="40.2171">
-          </div>
-          <div class="field">
-            <label for="lon">Longitude</label>
-            <input id="lon" type="number" step="0.0001" value="-74.7429">
-          </div>
-        </div>
-        <div class="field-grid">
-          <div class="field">
-            <label for="radius">USGS radius (km)</label>
-            <input id="radius" type="number" min="10" max="2000" value="300">
-          </div>
-          <div class="field">
-            <label for="lookback">CISA lookback (days)</label>
-            <input id="lookback" type="number" min="1" max="90" value="14">
-          </div>
-        </div>
-        <div class="actions">
-          <button class="button secondary" id="demoBtn">Load Demonstration</button>
-          <button class="button primary" id="liveBtn">Collect Official Live Data</button>
-          <button class="button" id="exportBtn">Export Markdown Brief</button>
-          <button class="button ghost" id="clearBtn">Clear Results</button>
-        </div>
-        <p class="privacy">Use a city center or approximate coordinates. A residential address is unnecessary.</p>
-      </aside>
-
-      <div>
-        <section class="metrics" aria-label="Risk summary">
-          <div class="metric high"><span>High</span><strong id="highCount">0</strong></div>
-          <div class="metric moderate"><span>Moderate</span><strong id="moderateCount">0</strong></div>
-          <div class="metric low"><span>Low</span><strong id="lowCount">0</strong></div>
-          <div class="metric"><span>Sources online</span><strong id="sourceCount">0/3</strong></div>
-        </section>
-
-        <section class="panel">
-          <h2>Priority Watch Items</h2>
-          <div class="toolbar">
-            <input id="search" type="search" placeholder="Search alerts, sources, or indicators">
-            <select id="category">
-              <option value="All">All categories</option>
-              <option value="Weather">Weather</option>
-              <option value="Seismic">Seismic</option>
-              <option value="Cyber">Cyber</option>
-            </select>
-          </div>
-          <div class="filters" id="riskFilters">
-            <button class="chip active" data-risk="All">All</button>
-            <button class="chip" data-risk="High">High</button>
-            <button class="chip" data-risk="Moderate">Moderate</button>
-            <button class="chip" data-risk="Low">Low</button>
-          </div>
-          <div class="items" id="items">
-            <div class="empty">Load the demonstration or collect official live data.</div>
-          </div>
-        </section>
-
-        <section class="panel" style="margin-top:18px">
-          <h2>Collection Status</h2>
-          <div class="source-grid" id="sources"></div>
-          <p class="footer-note">Automated ranking supports triage. Verify critical information through the linked official record before acting.</p>
-        </section>
-      </div>
-    </section>
+    <section class="panel map-panel"><div class="map-head"><h2 id="mapTitle">What’s happening near Central New Jersey</h2><div class="map-controls"><label for="radius">Show within</label><select id="radius"><option value="16">10 miles</option><option value="40" selected>25 miles</option><option value="80">50 miles</option></select></div></div><div id="map" role="application" aria-label="Map of nearby road and weather conditions"></div><div class="legend"><span><i style="background:#d8795d"></i>Your area</span><span><i style="background:#a9372f"></i>Crash or road incident</span><span><i style="background:#a96a2f"></i>Construction</span><span><i style="background:#e09a7d"></i>Weather or flood alert</span></div></section>
+    <section class="content-grid"><div class="stack"><section class="panel"><h2>What could slow you down</h2><div class="list" id="roadList"><div class="empty">Loading nearby road conditions…</div></div></section><section class="panel"><h2>Weather and flooding</h2><div class="list" id="weatherList"><div class="empty">Loading official alerts…</div></div></section></div><div class="stack"><section class="panel"><h2>What this means for your day</h2><div class="plain-note" id="dailyTake">Checking conditions near you.</div></section><section class="panel"><h2>Local headlines that may affect plans</h2><div id="newsList"><div class="empty">Loading recent local coverage…</div></div></section><section class="panel"><h2>Need the full traffic view?</h2><p style="color:var(--muted);margin-top:0">Open New Jersey’s official traffic map for live cameras, travel speeds, closures, and statewide incidents.</p><a class="button" style="display:inline-block;text-decoration:none" href="https://511nj.org/" target="_blank" rel="noopener">Open 511NJ traffic map ↗</a></section></div></section>
+    <p class="sources">Uses public information from the National Weather Service, NJDOT 511NJ, and recent local news coverage. Always follow official emergency instructions.</p>
   </main>
-
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script>
-    const SOURCE_NAMES = ["National Weather Service", "U.S. Geological Survey", "CISA KEV"];
-    const RISK_WEIGHT = { High: 3, Moderate: 2, Low: 1, Information: 0 };
-    const state = { items: [], sources: {}, risk: "All", demo: false, generated: null };
-
-    const el = id => document.getElementById(id);
-    const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
-    const config = () => ({
-      location: el("location").value.trim() || "Monitored location",
-      lat: Number(el("lat").value),
-      lon: Number(el("lon").value),
-      radius: Number(el("radius").value),
-      lookback: Number(el("lookback").value)
-    });
-
-    function saveSettings() {
-      localStorage.setItem("gsoc-monitor-config", JSON.stringify(config()));
-    }
-
-    function restoreSettings() {
-      try {
-        const saved = JSON.parse(localStorage.getItem("gsoc-monitor-config"));
-        if (!saved) return;
-        el("location").value = saved.location;
-        el("lat").value = saved.lat;
-        el("lon").value = saved.lon;
-        el("radius").value = saved.radius;
-        el("lookback").value = saved.lookback;
-      } catch (_) {}
-    }
-
-    function distanceKm(lat1, lon1, lat2, lon2) {
-      const r = 6371.0088, toRad = value => value * Math.PI / 180;
-      const p1 = toRad(lat1), p2 = toRad(lat2);
-      const dp = toRad(lat2 - lat1), dl = toRad(lon2 - lon1);
-      const a = Math.sin(dp / 2) ** 2 + Math.cos(p1) * Math.cos(p2) * Math.sin(dl / 2) ** 2;
-      return r * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    }
-
-    function nwsRisk(severity = "", urgency = "") {
-      if (["extreme", "severe"].includes(severity.toLowerCase()) || urgency.toLowerCase() === "immediate") return "High";
-      if (severity.toLowerCase() === "moderate" || ["expected", "future"].includes(urgency.toLowerCase())) return "Moderate";
-      return "Low";
-    }
-
-    function parseNws(payload) {
-      return (payload.features || []).map(feature => {
-        const p = feature.properties || {}, severity = p.severity || "Unknown", urgency = p.urgency || "Unknown";
-        const area = p.areaDesc || "Area not specified";
-        return {
-          source: "National Weather Service", category: "Weather", risk: nwsRisk(severity, urgency),
-          title: p.headline || p.event || "Weather alert", published: p.sent || p.effective || "",
-          summary: `${p.event || "Weather alert"} affecting ${area}. Severity: ${severity}; urgency: ${urgency}.`,
-          indicators: [`Severity: ${severity}`, `Urgency: ${urgency}`, `Area: ${area}`],
-          action: "Verify timing and affected areas, then adjust movement or operating plans.",
-          url: p.web || p["@id"] || feature.id || "https://www.weather.gov/"
-        };
-      });
-    }
-
-    function parseUsgs(payload, cfg) {
-      return (payload.features || []).flatMap(feature => {
-        const p = feature.properties || {}, coords = feature.geometry?.coordinates || [];
-        if (coords.length < 2) return [];
-        const distance = distanceKm(cfg.lat, cfg.lon, Number(coords[1]), Number(coords[0]));
-        if (distance > cfg.radius) return [];
-        const mag = Number(p.mag || 0), alert = String(p.alert || "").toLowerCase(), tsunami = Boolean(p.tsunami);
-        const risk = tsunami || ["red", "orange"].includes(alert) || mag >= 5 ? "High" : (mag >= 3.5 || distance <= 100 ? "Moderate" : "Low");
-        return [{
-          source: "U.S. Geological Survey", category: "Seismic", risk,
-          title: p.title || `M ${mag.toFixed(1)} earthquake`,
-          published: p.time ? new Date(p.time).toISOString() : "",
-          summary: `Magnitude ${mag.toFixed(1)} event approximately ${distance.toFixed(0)} km from the monitored location.`,
-          indicators: [`Magnitude: ${mag.toFixed(1)}`, `Distance: ${distance.toFixed(0)} km`, `Tsunami flag: ${tsunami ? "Yes" : "No"}`],
-          action: "Review USGS impact products and monitor local emergency guidance if felt locally.",
-          url: p.url || "https://earthquake.usgs.gov/"
-        }];
-      });
-    }
-
-    function parseCisa(payload, cfg) {
-      const cutoff = new Date(); cutoff.setUTCDate(cutoff.getUTCDate() - cfg.lookback);
-      return (payload.vulnerabilities || []).flatMap(v => {
-        const added = new Date(`${v.dateAdded}T00:00:00Z`);
-        if (Number.isNaN(added.valueOf()) || added < cutoff) return [];
-        const ransomware = String(v.knownRansomwareCampaignUse || "Unknown");
-        const cve = v.cveID || "CVE not listed", vendor = v.vendorProject || "Unknown vendor", product = v.product || "Unknown product";
-        return [{
-          source: "CISA KEV", category: "Cyber", risk: ransomware.toLowerCase() === "known" ? "High" : "Moderate",
-          title: `${cve}: ${v.vulnerabilityName || `${vendor} ${product} vulnerability`}`,
-          published: v.dateAdded || "",
-          summary: `CISA added an actively exploited vulnerability affecting ${vendor} ${product}. Known ransomware use: ${ransomware}.`,
-          indicators: [`CVE: ${cve}`, `Vendor/Product: ${vendor} ${product}`, `Federal due date: ${v.dueDate || "Not listed"}`],
-          action: v.requiredAction || "Validate exposure and apply vendor mitigations.",
-          url: `https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=${encodeURIComponent(cve)}`
-        }];
-      });
-    }
-
-    function demoItems() {
-      const now = new Date(), date = now.toISOString(), short = date.slice(0, 10);
-      return [
-        { source:"National Weather Service", category:"Weather", risk:"High", title:"DEMO: Severe Thunderstorm Warning", published:date, summary:"Severe thunderstorm warning affecting Demo County, New Jersey.", indicators:["Severity: Severe","Urgency: Immediate","Area: Demo County"], action:"Verify timing and adjust movement plans.", url:"https://www.weather.gov/" },
-        { source:"CISA KEV", category:"Cyber", risk:"High", title:"DEMO: Actively exploited vulnerability", published:short, summary:"Demonstration KEV entry associated with known ransomware use.", indicators:["CVE: CVE-DEMO-0001","Ransomware use: Known","Exposure: Requires validation"], action:"Validate exposure and apply vendor mitigation guidance.", url:"https://www.cisa.gov/known-exploited-vulnerabilities-catalog" },
-        { source:"U.S. Geological Survey", category:"Seismic", risk:"Moderate", title:"DEMO: M 3.6 earthquake", published:date, summary:"Magnitude 3.6 event approximately 15 km from the monitored location.", indicators:["Magnitude: 3.6","Distance: 15 km","Tsunami flag: No"], action:"Review impact products and monitor local guidance.", url:"https://earthquake.usgs.gov/" },
-        { source:"National Weather Service", category:"Weather", risk:"Low", title:"DEMO: Coastal Flood Advisory", published:date, summary:"Minor coastal flooding may affect low-lying roads during the stated window.", indicators:["Severity: Minor","Urgency: Expected","Area: Coastal Demo Zone"], action:"Monitor road conditions and avoid flood-prone routes.", url:"https://www.weather.gov/" }
-      ];
-    }
-
-    function dedupeAndSort(items) {
-      const seen = new Set();
-      return items.filter(item => {
-        const key = `${item.source}|${item.title}|${item.url}`.toLowerCase();
-        if (seen.has(key)) return false; seen.add(key); return true;
-      }).sort((a, b) => (RISK_WEIGHT[b.risk] - RISK_WEIGHT[a.risk]) || String(b.published).localeCompare(String(a.published)));
-    }
-
-    function setBusy(value) { document.body.classList.toggle("loading", value); }
-
-    async function fetchJson(url) {
-      const response = await fetch(url, { headers: { Accept: "application/geo+json, application/json" } });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return response.json();
-    }
-
-    async function loadLive() {
-      saveSettings(); setBusy(true); state.demo = false; state.items = []; state.sources = {};
-      const cfg = config();
-      const jobs = [
-        ["National Weather Service", `https://api.weather.gov/alerts/active?point=${cfg.lat},${cfg.lon}`, parseNws],
-        ["U.S. Geological Survey", "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson", data => parseUsgs(data, cfg)],
-        ["CISA KEV", "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json", data => parseCisa(data, cfg)]
-      ];
-      await Promise.all(jobs.map(async ([name, url, parser]) => {
-        try {
-          const parsed = parser(await fetchJson(url));
-          state.items.push(...parsed); state.sources[name] = { ok:true, detail:`${parsed.length} matching item(s)` };
-        } catch (error) {
-          state.sources[name] = { ok:false, detail:error.message || "Collection failed" };
-        }
-      }));
-      state.items = dedupeAndSort(state.items); state.generated = new Date(); setBusy(false); render();
-    }
-
-    function loadDemo() {
-      saveSettings(); state.demo = true; state.items = dedupeAndSort(demoItems()); state.generated = new Date();
-      state.sources = Object.fromEntries(SOURCE_NAMES.map(name => [name, {ok:true, detail:"Demonstration record loaded"}])); render();
-    }
-
-    function filteredItems() {
-      const query = el("search").value.trim().toLowerCase(), category = el("category").value;
-      return state.items.filter(item => {
-        const text = [item.title,item.source,item.summary,...item.indicators].join(" ").toLowerCase();
-        return (state.risk === "All" || item.risk === state.risk) && (category === "All" || item.category === category) && (!query || text.includes(query));
-      });
-    }
-
-    function render() {
-      const counts = risk => state.items.filter(item => item.risk === risk).length;
-      el("highCount").textContent = counts("High"); el("moderateCount").textContent = counts("Moderate"); el("lowCount").textContent = counts("Low");
-      const online = Object.values(state.sources).filter(source => source.ok).length; el("sourceCount").textContent = `${online}/3`;
-      el("modeLabel").textContent = state.demo ? "Demonstration mode" : (state.generated ? "Official live collection" : "Monitor ready");
-      el("generatedLabel").textContent = state.generated ? `Generated ${state.generated.toLocaleString()}` : "No collection run";
-
-      const items = filteredItems();
-      el("items").innerHTML = items.length ? items.map(item => `
-        <article class="item" data-risk="${escapeHtml(item.risk)}">
-          <div class="item-top"><h3>${escapeHtml(item.title)}</h3><span class="badge ${escapeHtml(item.risk)}">${escapeHtml(item.risk)}</span></div>
-          <div class="meta">${escapeHtml(item.source)} · ${escapeHtml(item.category)} · ${escapeHtml(item.published || "Time not provided")}</div>
-          <p class="assessment">${escapeHtml(item.summary)}</p>
-          <ul>${item.indicators.map(value => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
-          <div class="action"><strong>Action:</strong> ${escapeHtml(item.action)}</div>
-          <p style="margin:10px 0 0"><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">Open official source ↗</a></p>
-        </article>`).join("") : '<div class="empty">No items match the active filters.</div>';
-
-      el("sources").innerHTML = SOURCE_NAMES.map(name => {
-        const source = state.sources[name] || {ok:false, detail:"Not collected"};
-        return `<div class="source-row"><div><strong>${escapeHtml(name)}</strong><small>${escapeHtml(source.detail)}</small></div><span class="source-state ${source.ok ? "ok" : "fail"}">${source.ok ? "AVAILABLE" : "UNAVAILABLE"}</span></div>`;
-      }).join("");
-    }
-
-    function exportMarkdown() {
-      if (!state.generated) return alert("Load data before exporting a brief.");
-      const high = state.items.filter(i => i.risk === "High").length, moderate = state.items.filter(i => i.risk === "Moderate").length, low = state.items.filter(i => i.risk === "Low").length;
-      const lines = [`# GSOC Intelligence Brief — ${config().location}`, "", `**Generated:** ${state.generated.toISOString()}  `, `**Mode:** ${state.demo ? "Demonstration" : "Official live collection"}  `, `**Summary:** ${high} high, ${moderate} moderate, ${low} low priority item(s).`, "", "## Priority Watch Items", ""];
-      state.items.forEach((item, index) => lines.push(`### ${index + 1}. [${item.risk}] ${item.title}`, "", `- **Source:** ${item.source}`, `- **Category:** ${item.category}`, `- **Assessment:** ${item.summary}`, `- **Indicators:** ${item.indicators.join("; ")}`, `- **Action:** ${item.action}`, `- **Official record:** ${item.url}`, ""));
-      lines.push("## Analytic Note", "", "Automated ranking supports triage. Verify critical information through the linked official source before acting.", "");
-      const blob = new Blob([lines.join("\n")], {type:"text/markdown"}), link = document.createElement("a");
-      link.href = URL.createObjectURL(blob); link.download = `gsoc-brief-${new Date().toISOString().slice(0,10)}.md`; link.click(); URL.revokeObjectURL(link.href);
-    }
-
-    el("demoBtn").addEventListener("click", loadDemo); el("liveBtn").addEventListener("click", loadLive); el("exportBtn").addEventListener("click", exportMarkdown);
-    el("clearBtn").addEventListener("click", () => { state.items=[]; state.sources={}; state.generated=null; state.demo=false; render(); });
-    el("search").addEventListener("input", render); el("category").addEventListener("change", render);
-    el("riskFilters").addEventListener("click", event => { const button=event.target.closest("button[data-risk]"); if(!button)return; state.risk=button.dataset.risk; document.querySelectorAll(".chip").forEach(chip=>chip.classList.toggle("active",chip===button)); render(); });
-    restoreSettings(); render();
+    const DEFAULT={label:"Central New Jersey",lat:40.2171,lon:-74.7429};const state={snapshot:null,location:{...DEFAULT},map:null,layers:[],currentAlerts:[],currentForecast:[],news:[]};const el=id=>document.getElementById(id);const esc=value=>String(value??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+    function km(a,b,c,d){const r=6371.0088,x=v=>v*Math.PI/180,p1=x(a),p2=x(c),dp=x(c-a),dl=x(d-b),q=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;return r*2*Math.atan2(Math.sqrt(q),Math.sqrt(1-q))}const miles=v=>v*.621371;function clean(v,max=250){const t=String(v||"").replace(/\s+/g," ").trim();return t.length>max?`${t.slice(0,max-1)}…`:t}
+    function markerIcon(type){const char=type==="incident"?"!":type==="construction"?"◆":"●";return L.divIcon({className:"",html:`<div class="warm-marker marker-${type}">${char}</div>`,iconSize:[28,28],iconAnchor:[14,14]})}
+    function initMap(){if(!window.L){el("map").innerHTML='<div class="empty" style="margin:20px">The map could not load. Road and weather lists remain available below.</div>';return}state.map=L.map("map").setView([state.location.lat,state.location.lon],10);L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'}).addTo(state.map)}function resetLayers(){state.layers.forEach(l=>l.remove());state.layers=[]}function addLayer(l){l.addTo(state.map);state.layers.push(l)}function pointMarker(lat,lon,type,title,body,url){if(!state.map||lat==null||lon==null)return;const link=url?`<br><a href="${esc(url)}" target="_blank" rel="noopener">Open details ↗</a>`:"";addLayer(L.marker([lat,lon],{icon:markerIcon(type)}).bindPopup(`<strong>${esc(clean(title,120))}</strong><br>${esc(clean(body,180))}${link}`))}
+    async function getJson(url){const r=await fetch(url,{headers:{Accept:"application/geo+json, application/json"}});if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json()}async function loadSnapshot(){const r=await fetch(`data/local_conditions.json?v=${Date.now()}`);if(!r.ok)throw new Error("Local data unavailable");state.snapshot=await r.json();state.news=state.snapshot.news||[];el("updated").textContent=state.snapshot.generatedAt?`Data refreshed ${new Date(state.snapshot.generatedAt).toLocaleString()}`:"Waiting for the first live update"}
+    async function loadWeather(){try{const point=await getJson(`https://api.weather.gov/points/${state.location.lat},${state.location.lon}`),p=point.properties||{},place=p.relativeLocation?.properties||{};if(place.city)state.location.label=`${place.city}, ${place.state||""}`.trim().replace(/,$/,"");const [forecast,alerts]=await Promise.all([getJson(p.forecastHourly),getJson(`https://api.weather.gov/alerts/active?point=${state.location.lat},${state.location.lon}`)]);state.currentForecast=forecast.properties?.periods?.slice(0,12)||[];state.currentAlerts=alerts.features||[]}catch(_){state.currentForecast=state.snapshot?.weather?.periods||[];state.currentAlerts=(state.snapshot?.alerts||[]).map(a=>({properties:a,geometry:a.geometry}))}}
+    async function loadNews(){const place=state.location.label.split(",")[0],query=`\"${place}\" (traffic OR closure OR flooding OR weather OR school OR outage OR event)`,url=`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(query)}&mode=artlist&maxrecords=12&format=json&timespan=24h&sort=datedesc`;try{const data=await getJson(url);state.news=data.articles||data.items||state.news}catch(_){}}
+    function nearbyRoads(){const limit=Number(el("radius").value);return(state.snapshot?.traffic||[]).filter(i=>i.latitude!=null&&i.longitude!=null).map(i=>({...i,distanceMiles:miles(km(state.location.lat,state.location.lon,i.latitude,i.longitude))})).filter(i=>i.distanceMiles<=limit).sort((a,b)=>a.distanceMiles-b.distanceMiles)}const props=f=>f.properties||f;
+    function meaning(period,alerts){const rain=Number(period?.probabilityOfPrecipitation?.value??period?.probabilityOfPrecipitation??0),temp=Number(period?.temperature??0),serious=alerts.some(f=>["extreme","severe"].includes(String(props(f).severity||"").toLowerCase())),flood=alerts.some(f=>/flood/i.test(`${props(f).event||""} ${props(f).headline||props(f).title||""}`));if(flood)return["Flooding may affect plans","Avoid flooded roads and check routes before leaving."];if(serious)return["Check alerts before going out","Severe weather could affect travel and outdoor plans."];if(rain>=50)return["Rain may change plans",`There is about a ${rain}% chance of rain. Bring rain gear and allow extra driving time.`];if(temp&&temp<=45)return["Dress for cooler weather",`Around ${temp}°${period?.temperatureUnit||"F"}. Add a warm layer for kids or longer outdoor plans.`];return["Plans look manageable","No major weather issue is showing right now. Check again before a longer trip."]}
+    function eventLabel(i){const t=`${i.title} ${i.description}`.toLowerCase();if(/crash|accident|overturned|disabled vehicle/.test(t))return"Crash or incident";if(/closed|closure|blocked/.test(t))return"Closure";return i.type==="construction"?"Construction":"Road event"}
+    function renderSummary(){const period=state.currentForecast[0]||{},roads=nearbyRoads(),alerts=state.currentAlerts,[title,text]=meaning(period,alerts),temp=period.temperature!=null?`${period.temperature}°${period.temperatureUnit||"F"}`:"Forecast unavailable";el("weatherNow").textContent=temp;el("weatherDetail").textContent=period.shortForecast||"No current forecast detail available.";el("roadNow").textContent=roads.length?`${roads.length} nearby event${roads.length===1?"":"s"}`:"No nearby events";el("roadDetail").textContent=roads.length?`${roads.filter(r=>r.type==="incident").length} incident(s) and ${roads.filter(r=>r.type==="construction").length} construction item(s) within the selected area.`:"No 511NJ crash or construction item is mapped nearby.";const flood=alerts.filter(f=>/flood/i.test(`${props(f).event||""} ${props(f).headline||props(f).title||""}`));el("alertNow").textContent=alerts.length?`${alerts.length} active alert${alerts.length===1?"":"s"}`:"No active alerts";el("alertDetail").textContent=flood.length?`${flood.length} flooding-related alert(s) require attention.`:"No flooding alert is showing for this point.";el("planNow").textContent=title;el("planDetail").textContent=text;const halloween=new Date().getMonth()===9&&new Date().getDate()===31;el("dailyTake").textContent=`${halloween?"For trick-or-treating and errands":"For errands and outdoor plans"}: ${text} ${roads.length?`${roads.length} road event(s) are mapped within ${el("radius").selectedOptions[0].text.toLowerCase()}.`:"No nearby road event is currently mapped."}`;el("mapTitle").textContent=`What’s happening near ${state.location.label}`}
+    function renderRoads(){const roads=nearbyRoads().slice(0,10);el("roadList").innerHTML=roads.length?roads.map(i=>`<article class="event ${esc(i.type)}"><h3>${esc(clean(i.title,170))}</h3><p>${esc(clean(i.description,260))}</p><div class="event-meta"><span class="tag">${esc(eventLabel(i))}</span><span class="tag">${i.distanceMiles.toFixed(1)} miles away</span><a href="https://www.google.com/maps/search/?api=1&query=${i.latitude},${i.longitude}" target="_blank" rel="noopener">Open map ↗</a></div></article>`).join(""):'<div class="empty">No NJ511 road event is mapped within the selected area.</div>'}
+    function renderWeather(){const alerts=state.currentAlerts;el("weatherList").innerHTML=alerts.length?alerts.map(f=>{const p=props(f);return`<article class="event weather"><h3>${esc(p.headline||p.title||p.event||"Weather alert")}</h3><p>${esc(clean(p.description||p.areaDesc||p.area||"",300))}</p><div class="event-meta"><span class="tag">${esc(p.severity||"Alert")}</span>${p.expires?`<span class="tag">Ends ${new Date(p.expires).toLocaleString()}</span>`:""}${p.web||p.url||p["@id"]?`<a href="${esc(p.web||p.url||p["@id"])}" target="_blank" rel="noopener">Official alert ↗</a>`:""}</div></article>`}).join(""):'<div class="empty">No active National Weather Service alert is showing for this location.</div>'}
+    function renderNews(){const news=(state.news||[]).slice(0,8);el("newsList").innerHTML=news.length?news.map(i=>`<article class="news-item"><a href="${esc(i.url||i.external_url)}" target="_blank" rel="noopener">${esc(clean(i.title,180))}</a><small>${esc(i.domain||i.source?.name||"Local coverage")} ${i.seendate||i.seenDate?`· ${esc(i.seendate||i.seenDate)}`:""}</small></article>`).join(""):'<div class="empty">No recent local headline was returned. Open 511NJ and the official weather alerts for current conditions.</div>'}
+    function renderMap(){if(!state.map)return;resetLayers();state.map.setView([state.location.lat,state.location.lon],Number(el("radius").value)<=16?11:10);pointMarker(state.location.lat,state.location.lon,"user",state.location.label,"Your selected area","");nearbyRoads().forEach(i=>pointMarker(i.latitude,i.longitude,i.type,i.title,`${eventLabel(i)} · ${i.distanceMiles.toFixed(1)} miles away`,i.link));state.currentAlerts.forEach(f=>{if(!f.geometry)return;try{addLayer(L.geoJSON(f.geometry,{style:{color:"#e09a7d",weight:2,fillColor:"#d8795d",fillOpacity:.2}}).bindPopup(`<strong>${esc(props(f).headline||props(f).title||props(f).event||"Weather alert")}</strong>`))}catch(_){}})}function render(){renderSummary();renderRoads();renderWeather();renderNews();renderMap()}
+    async function refresh(){document.body.classList.add("loading");el("updated").textContent="Refreshing local conditions…";try{await loadSnapshot();await Promise.all([loadWeather(),loadNews()]);render();el("updated").textContent=`Updated ${new Date().toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}`}catch(_){el("updated").textContent="Some local information could not load";render()}document.body.classList.remove("loading")}
+    function useLocation(){if(!navigator.geolocation){el("updated").textContent="Location is not supported in this browser";return}el("updated").textContent="Finding conditions near you…";navigator.geolocation.getCurrentPosition(async p=>{state.location={label:"Your location",lat:p.coords.latitude,lon:p.coords.longitude};await refresh()},()=>{el("updated").textContent="Location was not shared. Showing Central New Jersey."},{enableHighAccuracy:false,timeout:10000,maximumAge:300000})}
+    el("locationBtn").addEventListener("click",useLocation);el("refreshBtn").addEventListener("click",refresh);el("radius").addEventListener("change",render);initMap();refresh();
   </script>
 </body>
 </html>
