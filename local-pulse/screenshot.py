@@ -32,7 +32,9 @@ def main() -> int:
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch()
-            page = browser.new_page(viewport={"width": 430, "height": 932}, device_scale_factor=2)
+            context = browser.new_context(viewport={"width": 430, "height": 932}, device_scale_factor=2,
+                                          timezone_id="America/New_York", locale="en-US")
+            page = context.new_page()
             page.goto(f"http://127.0.0.1:{args.port}/local-pulse/", wait_until="networkidle", timeout=60000)
             page.wait_for_timeout(2500)  # let the map tiles and live weather settle
             page.screenshot(path=str(args.output), type="jpeg", quality=70, full_page=False)
