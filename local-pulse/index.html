@@ -78,7 +78,9 @@
     .plain-note{background:rgba(27,54,68,.6);border-radius:10px;padding:12px 14px}
     .sources{color:var(--muted);font-size:.82rem;text-align:center;margin:0}
 
-    .leaflet-container{font-family:inherit}
+    .leaflet-container{font-family:inherit;background:#14303c}
+    /* Free OpenStreetMap tiles, recolored dark to match the palette (no API key needed) */
+    .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) saturate(.45) brightness(.82) contrast(.92)}
     .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--deep);color:var(--sand);border:1px solid var(--line)}
     .pin{width:26px;height:26px;display:grid;place-items:center;border-radius:50%;border:2px solid var(--sand);box-shadow:0 4px 12px rgba(0,0,0,.45);font-size:13px;font-weight:700;color:#fff}
     .pin-user{background:var(--sage);color:var(--night)}.pin-incident{background:var(--flame)}.pin-construction{background:var(--copper);color:var(--night)}
@@ -162,7 +164,7 @@
     const miles=v=>v*.621371;
     function clean(v,max=250){const t=String(v||"").replace(/\s+/g," ").trim();return t.length>max?`${t.slice(0,max-1)}…`:t}
     function markerIcon(type){const ch=type==="incident"?"!":type==="construction"?"◆":"●";return L.divIcon({className:"",html:`<div class="pin pin-${type}">${ch}</div>`,iconSize:[26,26],iconAnchor:[13,13]})}
-    function initMap(){if(!window.L){el("map").innerHTML='<div class="empty" style="margin:20px">The map could not load. Road and weather lists are below.</div>';return}state.map=L.map("map").setView([state.location.lat,state.location.lon],10);L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'}).addTo(state.map)}
+    function initMap(){if(!window.L){el("map").innerHTML='<div class="empty" style="margin:20px">The map could not load. Road and weather lists are below.</div>';return}state.map=L.map("map").setView([state.location.lat,state.location.lon],10);L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(state.map)}
     function resetLayers(){state.layers.forEach(l=>l.remove());state.layers=[]}
     function addLayer(l){l.addTo(state.map);state.layers.push(l)}
     function pointMarker(lat,lon,type,title,body,url){if(!state.map||lat==null||lon==null)return;const link=url?`<br><a href="${esc(url)}" target="_blank" rel="noopener">Open details ↗</a>`:"";addLayer(L.marker([lat,lon],{icon:markerIcon(type)}).bindPopup(`<strong>${esc(clean(title,120))}</strong><br>${esc(clean(body,180))}${link}`))}
