@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="One short message a day about the weather, flooding, crashes, roadwork and local news that could affect your day.">
+  <title>Local Pulse</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <style>
+    /* Prometheus palette: deep blue night, flame red, terracotta, sage. Sand is used for text only. */
+    :root{
+      color-scheme:dark;
+      --night:#1b3644;--deep:#244855;--deep2:#2c5564;--flame:#E64833;--clay:#874F41;--sage:#90AEAD;--sand:#FBE9D0;--copper:#E0915A;
+      --line:rgba(144,174,173,.22);--muted:rgba(251,233,208,.68);
+      --display:"Barlow Condensed","Arial Narrow",sans-serif;--body:"Barlow","Segoe UI",system-ui,sans-serif;
+    }
+    *{box-sizing:border-box}[hidden]{display:none!important}
+    body{margin:0;background:var(--night);color:var(--sand);font:16px/1.5 var(--body)}
+    button,select{font:inherit;color:inherit}button{cursor:pointer}a{color:var(--sage)}
+    :focus-visible{outline:2px solid var(--flame);outline-offset:2px}
+    h1,h2,h3{font-family:var(--display);font-weight:600;letter-spacing:.02em;margin:0;text-wrap:balance}
+    .shell{width:min(1180px,calc(100% - 32px));margin:0 auto;padding:20px 0 50px;display:grid;gap:18px}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .logo{font-family:var(--display);font-size:1.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;text-decoration:none;color:var(--sand)}
+    .logo span{color:var(--flame)}
+    .nav{display:flex;gap:8px;flex-wrap:wrap}
+    .chip{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.85rem;color:var(--muted);text-decoration:none}
+    a.chip:hover{border-color:var(--sage);color:var(--sand)}
+
+    .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:stretch}
+    .brief{background:linear-gradient(120deg,var(--deep) 0%,var(--deep) 55%,rgba(135,79,65,.55) 100%);border:1px solid var(--line);border-left:5px solid var(--flame);border-radius:14px;padding:22px;display:grid;gap:12px;align-content:start}
+    .label{font-family:var(--display);text-transform:uppercase;letter-spacing:.14em;font-size:.85rem;color:var(--sage)}
+    .bubble{background:var(--deep2);border-radius:18px 18px 18px 6px;padding:14px 16px;font-size:clamp(1.05rem,2.3vw,1.3rem);line-height:1.45;max-width:62ch}
+    .byline{font-size:.82rem;color:var(--muted)}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .button{border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-weight:600;background:transparent;text-decoration:none;color:var(--sand);display:inline-block}
+    .button:hover{border-color:var(--sage)}
+    .button.primary{background:var(--flame);border-color:var(--flame);color:#fff}
+    .button.primary:hover{background:#f05a45}
+    .updated{color:var(--muted);font-size:.82rem}
+    .phone-card{background:var(--deep);border:1px solid var(--line);border-radius:14px;padding:22px;display:grid;gap:12px;align-content:start}
+    .phone-card h2{font-size:1.6rem;text-transform:uppercase;line-height:1.05}
+    .phone-card h2 em{font-style:normal;color:var(--flame)}
+    .phone-card p{margin:0;color:var(--muted)}
+
+    .summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .summary-card{padding:16px;border:1px solid var(--line);border-radius:14px;background:var(--deep);border-top:4px solid var(--sev,var(--sage))}
+    .summary-card h2{font-size:.9rem;color:var(--sage);text-transform:uppercase;letter-spacing:.12em;margin-bottom:6px}
+    .summary-card strong{display:block;font-family:var(--display);font-size:1.6rem;font-weight:600;line-height:1.1;margin-bottom:4px}
+    .summary-card p{color:var(--muted);margin:0;font-size:.88rem}
+
+    .panel{background:var(--deep);border:1px solid var(--line);border-radius:14px;padding:18px}
+    .panel>h2{margin:0 0 12px;font-size:1.05rem;text-transform:uppercase;letter-spacing:.12em;color:var(--sage)}
+    .map-panel{padding:0;overflow:hidden}
+    .map-head{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+    .map-head h2{font-size:1.2rem}
+    .map-controls{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:.85rem}
+    select{border:1px solid var(--line);background:var(--night);border-radius:8px;padding:6px 10px}
+    #map{height:460px;background:#14303c}
+    .legend{display:flex;flex-wrap:wrap;gap:14px;padding:10px 18px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line)}
+    .legend span{display:inline-flex;gap:6px;align-items:center}.legend i{width:10px;height:10px;border-radius:50%;display:inline-block}
+
+    .content-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:start}
+    .stack{display:grid;gap:18px}.list{display:grid;gap:10px}
+    .event{border-radius:10px;padding:12px 14px;background:rgba(27,54,68,.55);border-left:5px solid var(--sage)}
+    .event.incident{border-left-color:var(--flame)}.event.construction{border-left-color:var(--copper)}.event.weather{border-left-color:var(--clay)}
+    .event h3{font-family:var(--body);font-size:1rem;font-weight:600;letter-spacing:0;line-height:1.35;margin:0 0 4px}
+    .event p{margin:0;color:var(--muted);font-size:.9rem}
+    .event-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;font-size:.78rem;color:var(--muted);align-items:center}
+    .tag{border:1px solid var(--line);border-radius:999px;padding:2px 8px}
+    .news-item{padding:11px 0;border-bottom:1px solid var(--line)}.news-item:last-child{border-bottom:0;padding-bottom:0}.news-item:first-child{padding-top:0}
+    .news-item a{font-weight:600;text-decoration:none;line-height:1.35;display:block;color:var(--sand)}.news-item a:hover{color:var(--sage)}
+    .news-item small{color:var(--muted);display:block;margin-top:3px}
+    .empty{border:1px dashed var(--line);border-radius:10px;color:var(--muted);text-align:center;padding:22px 14px}
+    .plain-note{background:rgba(27,54,68,.6);border-radius:10px;padding:12px 14px}
+    .sources{color:var(--muted);font-size:.82rem;text-align:center;margin:0}
+
+    .leaflet-container{font-family:inherit}
+    .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--deep);color:var(--sand);border:1px solid var(--line)}
+    .pin{width:26px;height:26px;display:grid;place-items:center;border-radius:50%;border:2px solid var(--sand);box-shadow:0 4px 12px rgba(0,0,0,.45);font-size:13px;font-weight:700;color:#fff}
+    .pin-user{background:var(--sage);color:var(--night)}.pin-incident{background:var(--flame)}.pin-construction{background:var(--copper);color:var(--night)}
+    .loading{opacity:.7}
+
+    @media(max-width:900px){.hero,.content-grid{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:520px){.shell{width:calc(100% - 32px);padding-top:14px}.summary{grid-template-columns:1fr}.map-head{display:block}.map-controls{margin-top:8px}#map{height:400px}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <a class="logo" href="./">Local <span>Pulse</span></a>
+      <nav class="nav"><a class="chip" href="journal.html">90-day log</a><a class="chip" href="https://github.com/ronisha609/Automation/tree/main/local-pulse">How it works</a></nav>
+    </header>
+
+    <section class="hero">
+      <div class="brief" aria-live="polite">
+        <div class="label" id="briefLabel">Today's message</div>
+        <div class="bubble" id="briefText">Loading today's message…</div>
+        <div class="byline" id="briefBy"></div>
+        <div class="actions">
+          <button class="button primary" id="locationBtn">Use my location</button>
+          <button class="button" id="refreshBtn">Refresh</button>
+          <span class="updated" id="updated">Loading local conditions…</span>
+        </div>
+      </div>
+      <aside class="phone-card">
+        <h2>Get it on your phone. <em>One message a morning.</em></h2>
+        <p>Local Pulse checks the weather service, NJ traffic and local news for you, then sends one short message with only what matters. No app to learn and nothing to connect.</p>
+        <div id="joinBox"></div>
+      </aside>
+    </section>
+
+    <section class="summary" aria-label="What matters now">
+      <article class="summary-card"><h2>Weather now</h2><strong id="weatherNow">Loading…</strong><p id="weatherDetail">Checking the latest forecast.</p></article>
+      <article class="summary-card" id="roadCard"><h2>Roads nearby</h2><strong id="roadNow">Loading…</strong><p id="roadDetail">Checking crashes and construction.</p></article>
+      <article class="summary-card" id="alertCard"><h2>Flooding &amp; alerts</h2><strong id="alertNow">Loading…</strong><p id="alertDetail">Checking official weather alerts.</p></article>
+      <article class="summary-card"><h2>Plans &amp; errands</h2><strong id="planNow">Loading…</strong><p id="planDetail">Turning the conditions into a quick answer.</p></article>
+    </section>
+
+    <section class="panel map-panel">
+      <div class="map-head"><h2 id="mapTitle">What's happening near Central New Jersey</h2><div class="map-controls"><label for="radius">Show within</label><select id="radius"><option value="10">10 miles</option><option value="25" selected>25 miles</option><option value="50">50 miles</option></select></div></div>
+      <div id="map" role="application" aria-label="Map of nearby road and weather conditions"></div>
+      <div class="legend"><span><i style="background:var(--sage)"></i>Your area</span><span><i style="background:var(--flame)"></i>Crash or road incident</span><span><i style="background:var(--copper)"></i>Construction</span><span><i style="background:var(--clay)"></i>Weather or flood alert</span></div>
+    </section>
+
+    <section class="content-grid">
+      <div class="stack">
+        <section class="panel"><h2>What could slow you down</h2><div class="list" id="roadList"><div class="empty">Loading nearby road conditions…</div></div></section>
+        <section class="panel"><h2>Weather and flooding</h2><div class="list" id="weatherList"><div class="empty">Loading official alerts…</div></div></section>
+      </div>
+      <div class="stack">
+        <section class="panel"><h2>What this means for your day</h2><div class="plain-note" id="dailyTake">Checking conditions near you.</div></section>
+        <section class="panel"><h2>Local headlines</h2><div id="newsList"><div class="empty">Loading recent local coverage…</div></div></section>
+        <section class="panel"><h2>Need the full traffic view?</h2><p style="color:var(--muted);margin-top:0">New Jersey's official traffic map has live cameras, travel speeds and statewide incidents.</p><a class="button" href="https://511nj.org/" target="_blank" rel="noopener">Open 511NJ traffic map ↗</a></section>
+      </div>
+    </section>
+    <p class="sources">Public information from the National Weather Service, NJDOT 511NJ and recent local news. Always follow official emergency instructions.</p>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    const DEFAULT={label:"Central New Jersey",lat:40.2171,lon:-74.7429};
+    const state={snapshot:null,brief:null,location:{...DEFAULT},map:null,layers:[],currentAlerts:[],currentForecast:[],news:[]};
+    const el=id=>document.getElementById(id);
+    const esc=v=>String(v??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+    function km(a,b,c,d){const r=6371.0088,x=v=>v*Math.PI/180,p1=x(a),p2=x(c),dp=x(c-a),dl=x(d-b),q=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;return r*2*Math.atan2(Math.sqrt(q),Math.sqrt(1-q))}
+    const miles=v=>v*.621371;
+    function clean(v,max=250){const t=String(v||"").replace(/\s+/g," ").trim();return t.length>max?`${t.slice(0,max-1)}…`:t}
+    function markerIcon(type){const ch=type==="incident"?"!":type==="construction"?"◆":"●";return L.divIcon({className:"",html:`<div class="pin pin-${type}">${ch}</div>`,iconSize:[26,26],iconAnchor:[13,13]})}
+    function initMap(){if(!window.L){el("map").innerHTML='<div class="empty" style="margin:20px">The map could not load. Road and weather lists are below.</div>';return}state.map=L.map("map").setView([state.location.lat,state.location.lon],10);L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'}).addTo(state.map)}
+    function resetLayers(){state.layers.forEach(l=>l.remove());state.layers=[]}
+    function addLayer(l){l.addTo(state.map);state.layers.push(l)}
+    function pointMarker(lat,lon,type,title,body,url){if(!state.map||lat==null||lon==null)return;const link=url?`<br><a href="${esc(url)}" target="_blank" rel="noopener">Open details ↗</a>`:"";addLayer(L.marker([lat,lon],{icon:markerIcon(type)}).bindPopup(`<strong>${esc(clean(title,120))}</strong><br>${esc(clean(body,180))}${link}`))}
+    async function getJson(url){const r=await fetch(url,{headers:{Accept:"application/geo+json, application/json"}});if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json()}
+    async function loadSnapshot(){const r=await fetch(`data/local_conditions.json?v=${Date.now()}`);if(!r.ok)throw new Error("Local data unavailable");state.snapshot=await r.json();state.news=state.snapshot.news||[]}
+    async function loadBrief(){try{const r=await fetch(`data/brief.json?v=${Date.now()}`);if(r.ok)state.brief=await r.json()}catch(_){}}
+    async function loadWeather(){try{const point=await getJson(`https://api.weather.gov/points/${state.location.lat},${state.location.lon}`),p=point.properties||{},place=p.relativeLocation?.properties||{};if(place.city)state.location.label=`${place.city}, ${place.state||""}`.trim().replace(/,$/,"");const [forecast,alerts]=await Promise.all([getJson(p.forecastHourly),getJson(`https://api.weather.gov/alerts/active?point=${state.location.lat},${state.location.lon}`)]);state.currentForecast=forecast.properties?.periods?.slice(0,12)||[];state.currentAlerts=alerts.features||[]}catch(_){state.currentForecast=state.snapshot?.weather?.periods||[];state.currentAlerts=(state.snapshot?.alerts||[]).map(a=>({properties:a,geometry:a.geometry}))}}
+    async function loadNews(){const place=state.location.label.split(",")[0],query=`"${place}" (traffic OR closure OR flooding OR weather OR school OR outage OR event)`,url=`https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(query)}&mode=artlist&maxrecords=12&format=json&timespan=24h&sort=datedesc`;try{const data=await getJson(url);state.news=data.articles||data.items||state.news}catch(_){}}
+    function nearbyRoads(){const limit=Number(el("radius").value),seen=new Set;return(state.snapshot?.traffic||[]).filter(i=>i.latitude!=null&&i.longitude!=null).map(i=>({...i,distanceMiles:miles(km(state.location.lat,state.location.lon,i.latitude,i.longitude))})).filter(i=>i.distanceMiles<=limit).sort((a,b)=>a.distanceMiles-b.distanceMiles).filter(i=>{const key=`${i.type}|${i.title}|${i.description}`;if(seen.has(key))return false;seen.add(key);return true})}
+    const props=f=>f.properties||f;
+    function meaning(period,alerts){const rain=Number(period?.probabilityOfPrecipitation?.value??period?.probabilityOfPrecipitation??0),temp=Number(period?.temperature??0),serious=alerts.some(f=>["extreme","severe"].includes(String(props(f).severity||"").toLowerCase())),flood=alerts.some(f=>/flood/i.test(`${props(f).event||""} ${props(f).headline||props(f).title||""}`));if(flood)return["Flooding may affect plans","Avoid flooded roads and check routes before leaving."];if(serious)return["Check alerts first","Severe weather could affect travel and outdoor plans."];if(rain>=50)return["Rain may change plans",`About a ${rain}% chance of rain. Bring rain gear and allow extra driving time.`];if(temp&&temp<=45)return["Dress warm",`Around ${temp}°${period?.temperatureUnit||"F"}. Add a warm layer for kids or longer outdoor plans.`];return["Plans look manageable","No major weather issue right now. Check again before a longer trip."]}
+    function eventLabel(i){const t=`${i.title} ${i.description}`.toLowerCase();if(/crash|accident|overturned|disabled vehicle/.test(t))return"Crash or incident";if(/closed|closure|blocked/.test(t))return"Closure";return i.type==="construction"?"Construction":"Road event"}
+    function renderBrief(fallback){
+      const b=state.brief, usingDefault=state.location.label===DEFAULT.label||/Trenton/.test(state.location.label);
+      if(b&&b.text&&usingDefault){
+        el("briefText").textContent=b.text;
+        const when=b.generatedAt?new Date(b.generatedAt).toLocaleString([], {weekday:"short",hour:"numeric",minute:"2-digit"}):"";
+        el("briefBy").textContent=`${b.source==="ai"?"Written by AI":"Automatic summary"} from live public data · ${when}`;
+        el("briefLabel").textContent=`Today's message · ${b.area||DEFAULT.label}`;
+      } else {
+        el("briefText").textContent=fallback;
+        el("briefBy").textContent="Automatic summary for your location from live public data";
+        el("briefLabel").textContent=`Right now · ${state.location.label}`;
+      }
+      el("joinBox").innerHTML=b&&b.channelUrl
+        ?`<a class="button primary" href="${esc(b.channelUrl)}" target="_blank" rel="noopener">Get it free on Telegram ↗</a>`
+        :`<p class="byline">Phone messages are being tested for 90 days. <a href="journal.html">See every message so far</a>.</p>`;
+    }
+    function renderSummary(){
+      const period=state.currentForecast[0]||{},roads=nearbyRoads(),alerts=state.currentAlerts,[title,text]=meaning(period,alerts),temp=period.temperature!=null?`${period.temperature}°${period.temperatureUnit||"F"}`:"Unavailable";
+      el("weatherNow").textContent=temp;el("weatherDetail").textContent=period.shortForecast||"No forecast detail available.";
+      const inc=roads.filter(r=>r.type==="incident").length,con=roads.filter(r=>r.type==="construction").length;
+      el("roadNow").textContent=roads.length?`${roads.length} nearby event${roads.length===1?"":"s"}`:"All clear";
+      el("roadDetail").textContent=roads.length?`${inc} incident${inc===1?"":"s"} and ${con} construction zone${con===1?"":"s"} within ${el("radius").value} miles.`:"No crash or construction mapped nearby.";
+      el("roadCard").style.setProperty("--sev",inc?"var(--flame)":con?"var(--copper)":"var(--sage)");
+      const flood=alerts.filter(f=>/flood/i.test(`${props(f).event||""} ${props(f).headline||props(f).title||""}`));
+      el("alertNow").textContent=alerts.length?`${alerts.length} active alert${alerts.length===1?"":"s"}`:"No alerts";
+      el("alertDetail").textContent=flood.length?`${flood.length} flooding alert${flood.length===1?"":"s"}. Avoid flooded roads.`:"No flooding alert for this area.";
+      el("alertCard").style.setProperty("--sev",flood.length?"var(--flame)":alerts.length?"var(--copper)":"var(--sage)");
+      el("planNow").textContent=title;el("planDetail").textContent=text;
+      const d=new Date(),halloween=d.getMonth()===9&&d.getDate()===31;
+      const take=`${halloween?"For trick-or-treating and errands":"For errands and outdoor plans"}: ${text} ${roads.length?`${roads.length} road event${roads.length===1?" is":"s are"} mapped within ${el("radius").value} miles.`:"No nearby road event is mapped right now."}`;
+      el("dailyTake").textContent=take;
+      el("mapTitle").textContent=`What's happening near ${state.location.label}`;
+      renderBrief(`${title}. ${take}`);
+    }
+    function renderRoads(){const roads=nearbyRoads().slice(0,10);el("roadList").innerHTML=roads.length?roads.map(i=>`<article class="event ${esc(i.type)}"><h3>${esc(clean(i.title,170))}</h3><p>${esc(clean(i.description,260))}</p><div class="event-meta"><span class="tag">${esc(eventLabel(i))}</span><span class="tag">${i.distanceMiles.toFixed(1)} miles away</span><a href="https://www.google.com/maps/search/?api=1&query=${i.latitude},${i.longitude}" target="_blank" rel="noopener">Open map ↗</a></div></article>`).join(""):'<div class="empty">No 511NJ road event is mapped within this distance.</div>'}
+    function renderWeather(){const alerts=state.currentAlerts;el("weatherList").innerHTML=alerts.length?alerts.map(f=>{const p=props(f);return`<article class="event weather"><h3>${esc(p.headline||p.title||p.event||"Weather alert")}</h3><p>${esc(clean(p.description||p.areaDesc||p.area||"",300))}</p><div class="event-meta"><span class="tag">${esc(p.severity||"Alert")}</span>${p.expires?`<span class="tag">Ends ${new Date(p.expires).toLocaleString()}</span>`:""}${p.web||p.url||p["@id"]?`<a href="${esc(p.web||p.url||p["@id"])}" target="_blank" rel="noopener">Official alert ↗</a>`:""}</div></article>`}).join(""):'<div class="empty">No active National Weather Service alert for this location.</div>'}
+    function renderNews(){const news=(state.news||[]).slice(0,8);el("newsList").innerHTML=news.length?news.map(i=>`<article class="news-item"><a href="${esc(i.url||i.external_url)}" target="_blank" rel="noopener">${esc(clean(i.title,180))}</a><small>${esc(i.domain||i.source?.name||"Local coverage")}${i.seendate||i.seenDate?` · ${esc(i.seendate||i.seenDate)}`:""}</small></article>`).join(""):'<div class="empty">No recent local headline came back. Check 511NJ and the weather alerts above.</div>'}
+    function renderMap(){if(!state.map)return;resetLayers();state.map.setView([state.location.lat,state.location.lon],Number(el("radius").value)<=16?11:10);pointMarker(state.location.lat,state.location.lon,"user",state.location.label,"Your area","");nearbyRoads().forEach(i=>pointMarker(i.latitude,i.longitude,i.type,i.title,`${eventLabel(i)} · ${i.distanceMiles.toFixed(1)} miles away`,i.link));state.currentAlerts.forEach(f=>{if(!f.geometry)return;try{addLayer(L.geoJSON(f.geometry,{style:{color:"#874F41",weight:2,fillColor:"#874F41",fillOpacity:.25}}).bindPopup(`<strong>${esc(props(f).headline||props(f).title||props(f).event||"Weather alert")}</strong>`))}catch(_){}})}
+    function render(){renderSummary();renderRoads();renderWeather();renderNews();renderMap()}
+    async function refresh(){document.body.classList.add("loading");el("updated").textContent="Refreshing…";try{await Promise.all([loadSnapshot(),loadBrief()]);await Promise.all([loadWeather(),loadNews()]);render();el("updated").textContent=`Updated ${new Date().toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}`}catch(_){el("updated").textContent="Some information could not load";render()}document.body.classList.remove("loading")}
+    function useLocation(){if(!navigator.geolocation){el("updated").textContent="Location isn't supported in this browser";return}el("updated").textContent="Finding conditions near you…";navigator.geolocation.getCurrentPosition(async p=>{state.location={label:"Your location",lat:p.coords.latitude,lon:p.coords.longitude};await refresh()},()=>{el("updated").textContent="Location wasn't shared. Showing Central New Jersey."},{enableHighAccuracy:false,timeout:10000,maximumAge:300000})}
+    el("locationBtn").addEventListener("click",useLocation);el("refreshBtn").addEventListener("click",refresh);el("radius").addEventListener("change",render);initMap();refresh();
+  </script>
+</body>
+</html>

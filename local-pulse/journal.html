@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Every Local Pulse morning message from a 90-day public test, with screenshots and what each one warned about.">
+  <title>Local Pulse 90-Day Log</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* Same Prometheus palette as the dashboard. Layout: progress + tallies first, then one row per day, newest first. */
+    :root{color-scheme:dark;--night:#1b3644;--deep:#244855;--deep2:#2c5564;--flame:#E64833;--clay:#874F41;--sage:#90AEAD;--sand:#FBE9D0;--copper:#E0915A;--line:rgba(144,174,173,.22);--muted:rgba(251,233,208,.68);--display:"Barlow Condensed","Arial Narrow",sans-serif;--body:"Barlow","Segoe UI",system-ui,sans-serif}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--night);color:var(--sand);font:16px/1.5 var(--body)}
+    a{color:var(--sage)}:focus-visible{outline:2px solid var(--flame);outline-offset:2px}
+    h1,h2,h3{font-family:var(--display);font-weight:600;letter-spacing:.02em;margin:0;text-wrap:balance}
+    .shell{width:min(1000px,calc(100% - 32px));margin:0 auto;padding:20px 0 50px;display:grid;gap:20px}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .logo{font-family:var(--display);font-size:1.6rem;font-weight:700;text-transform:uppercase;text-decoration:none;color:var(--sand)}.logo span{color:var(--flame)}
+    .chip{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.85rem;color:var(--muted);text-decoration:none}
+    .intro h1{font-size:clamp(2rem,5vw,3rem);text-transform:uppercase;line-height:1}
+    .intro p{color:var(--muted);max-width:64ch;margin:8px 0 0}
+    .progress{background:var(--deep);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:10px}
+    .progress .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+    .progress b{font-family:var(--display);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums}
+    .track{height:10px;border-radius:5px;background:rgba(144,174,173,.18);overflow:hidden}.track i{display:block;height:100%;background:var(--flame);border-radius:5px}
+    .tallies{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+    .tally{background:var(--deep);border:1px solid var(--line);border-top:4px solid var(--sev,var(--sage));border-radius:12px;padding:12px 14px}
+    .tally b{display:block;font-family:var(--display);font-size:1.9rem;font-weight:600;line-height:1;font-variant-numeric:tabular-nums}
+    .tally span{font-size:.85rem;color:var(--muted)}
+    .days{display:grid;gap:12px;list-style:none;margin:0;padding:0}
+    .day{background:var(--deep);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;grid-template-columns:1fr 150px;gap:16px;align-items:start}
+    .day.noshot{grid-template-columns:1fr}
+    .day h3{font-size:1.15rem}
+    .bubble{background:var(--deep2);border-radius:16px 16px 16px 6px;padding:11px 14px;margin:8px 0;max-width:62ch}
+    .flags{display:flex;gap:6px;flex-wrap:wrap}
+    .flag{font-size:.78rem;border-radius:999px;padding:2px 9px;background:rgba(144,174,173,.15);color:var(--sage)}
+    .flag.hot{background:rgba(230,72,51,.18);color:#ff9b8c}.flag.warm{background:rgba(224,145,90,.18);color:var(--copper)}
+    .by{font-size:.8rem;color:var(--muted);margin-top:6px}
+    .day img{width:100%;border-radius:10px;border:1px solid var(--line);display:block}
+    .empty{border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:center;padding:30px 16px}
+    @media(max-width:560px){.day{grid-template-columns:1fr}.day img{max-width:220px}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top"><a class="logo" href="./">Local <span>Pulse</span></a><a class="chip" href="./">Today's dashboard</a></header>
+    <section class="intro">
+      <h1>90-Day Log</h1>
+      <p>Every morning, Local Pulse collects public weather, traffic and news data, writes one short message and sends it out. This page keeps each message, a screenshot of the dashboard that day and what it warned people about.</p>
+    </section>
+    <section class="progress" id="progress" aria-live="polite"><div class="row"><span>Loading the log…</span></div></section>
+    <section class="tallies" id="tallies"></section>
+    <ul class="days" id="days"></ul>
+  </main>
+  <script>
+    const el=id=>document.getElementById(id);
+    const esc=v=>String(v??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+    const hot=["crash or closure","flooding","weather alert"],warm=["rain","cold or frost","construction"];
+    const flagClass=f=>hot.includes(f)?"hot":warm.includes(f)?"warm":"";
+    const nice=d=>new Date(d+"T12:00:00").toLocaleDateString([], {weekday:"short",month:"short",day:"numeric",year:"numeric"});
+    async function load(){
+      let data;
+      try{const r=await fetch(`journal/index.json?v=${Date.now()}`);if(!r.ok)throw 0;data=await r.json()}
+      catch(_){el("progress").innerHTML='<div class="row"><span>The first morning message hasn’t been logged yet. Check back tomorrow.</span></div>';return}
+      const s=data.summary,e=data.entries||[];
+      const pct=Math.round(100*s.dayNumber/s.plannedDays);
+      el("progress").innerHTML=`<div class="row"><span>Day <b>${s.dayNumber}</b> of ${s.plannedDays}</span><span style="color:var(--muted)">Started ${esc(nice(s.start))}</span></div><div class="track" role="progressbar" aria-valuenow="${s.dayNumber}" aria-valuemin="0" aria-valuemax="${s.plannedDays}"><i style="width:${pct}%"></i></div>`;
+      const t=[["Messages sent",s.briefsSent,"var(--sage)"],["Days with a crash or closure nearby",s.daysWith["crash or closure"],"var(--flame)"],["Days with a weather alert",s.daysWith["weather alert"],"var(--flame)"],["Rain warnings",s.daysWith["rain"],"var(--copper)"],["Cold or frost warnings",s.daysWith["cold or frost"],"var(--copper)"],["Quiet days",s.daysWith["quiet day"],"var(--sage)"]];
+      el("tallies").innerHTML=t.map(([l,n,c])=>`<div class="tally" style="--sev:${c}"><b>${n}</b><span>${l}</span></div>`).join("");
+      el("days").innerHTML=e.length?e.map(d=>`<li class="day${d.hasScreenshot?"":" noshot"}"><div><h3>${esc(nice(d.date))}</h3><div class="bubble">${esc(d.message)}</div><div class="flags">${(d.flags||[]).map(f=>`<span class="flag ${flagClass(f)}">${esc(f)}</span>`).join("")}</div><div class="by">Written by ${esc(d.writtenBy)} · ${d.nearbyIncidents} incident${d.nearbyIncidents===1?"":"s"} and ${d.nearbyConstruction} construction zone${d.nearbyConstruction===1?"":"s"} within 25 miles</div></div>${d.hasScreenshot?`<a href="journal/${esc(d.screenshot)}" target="_blank" rel="noopener"><img src="journal/${esc(d.screenshot)}" alt="Dashboard on ${esc(nice(d.date))}" loading="lazy"></a>`:""}</li>`).join(""):'<li class="empty">No messages logged yet.</li>';
+    }
+    load();
+  </script>
+</body>
+</html>

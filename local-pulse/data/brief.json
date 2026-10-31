@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-31T11:24:55.996398+00:00",
+  "area": "Central New Jersey",
+  "text": "Good morning, Central New Jersey. The weather service has a Frost Advisory for parts of the area, so check it before you head out. No crashes nearby right now, but 7 construction zones could slow you down. It's 41°F, Sunny, up to 60°. Trick-or-treating tonight? Bring a flashlight and watch for kids crossing.",
+  "source": "rules",
+  "fingerprint": "298a235e77b5cabe",
+  "channelUrl": "",
+  "facts": {
+    "area": "Central New Jersey",
+    "date": "Saturday, October 31",
+    "special": "Halloween",
+    "weather": {
+      "now": "41°F, Sunny",
+      "low": 39,
+      "high": 60,
+      "maxRainChance": 0,
+      "wettestHour": "6 AM",
+      "hoursCovered": 12
+    },
+    "weatherAlerts": [
+      {
+        "event": "Frost Advisory",
+        "headline": "Frost Advisory issued October 31 at 1:26AM EDT until November 1 at 8:00AM EST by NWS Mount Holly NJ",
+        "severity": "Minor",
+        "instruction": "Take steps now to protect tender plants from the cold."
+      }
+    ],
+    "roads": [
+      {
+        "what": "construction",
+        "where": "Betsy Ross Bridge westbound",
+        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
+        "milesAway": 23.3
+      },
+      {
+        "what": "construction",
+        "where": "NJ 18 northbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound between CR 606/Milltown Rd (East Brunswick Twp) and New Jersey Turnpike (East Brunswick Twp), Friday October 30, 2026 08:30 PM thru Saturday October 31, 2026",
+        "milesAway": 24.0
+      },
+      {
+        "what": "construction",
+        "where": "NJ 18 northbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound between CR 606/Milltown Rd (East Brunswick Twp) and New Jersey Turnpike (East Brunswick Twp), Friday October 30, 2026 08:30 PM thru Saturday October 31, 2026",
+        "milesAway": 24.0
+      },
+      {
+        "what": "construction",
+        "where": "NJ 18 northbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
+        "milesAway": 24.0
+      },
+      {
+        "what": "construction",
+        "where": "NJ 18 northbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 527/Old Bridge Tpke/Edgeboro Rd (East Brunswick Twp) Friday October 30, 2026 09:00 PM thru Saturday October 31, 2026 07:30 AM, intersection",
+        "milesAway": 24.6
+      },
+      {
+        "what": "construction",
+        "where": "NJ 18 southbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Southbound between New Jersey Turnpike (East Brunswick Twp) and CR 606/Milltown Rd (East Brunswick Twp), Friday October 30, 2026 09:00 PM thru Saturday October 31, 2026",
+        "milesAway": 24.9
+      }
+    ],
+    "roadCounts": {
+      "incidents": 0,
+      "construction": 7
+    },
+    "headlines": []
+  }
+}
