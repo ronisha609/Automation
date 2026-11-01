@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:08:56.189618+00:00",
+  "generatedAt": "2026-11-01T18:30:18.860552+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -9,31 +9,21 @@
     "location": "Trenton, NJ",
     "periods": [
       {
-        "startTime": "2026-11-01T12:00:00-05:00",
-        "temperature": 59,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
-      },
-      {
         "startTime": "2026-11-01T13:00:00-05:00",
-        "temperature": 61,
+        "temperature": 62,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Sunny",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Partly Sunny",
         "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
       },
       {
         "startTime": "2026-11-01T14:00:00-05:00",
-        "temperature": 62,
+        "temperature": 63,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Mostly Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
@@ -42,38 +32,38 @@
         "startTime": "2026-11-01T15:00:00-05:00",
         "temperature": 63,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Sunny",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Sunny",
         "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
       },
       {
         "startTime": "2026-11-01T16:00:00-05:00",
-        "temperature": 61,
+        "temperature": 62,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Mostly Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
       },
       {
         "startTime": "2026-11-01T17:00:00-05:00",
-        "temperature": 58,
+        "temperature": 59,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Mostly Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
       },
       {
         "startTime": "2026-11-01T18:00:00-05:00",
-        "temperature": 54,
+        "temperature": 55,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Partly Cloudy",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
@@ -82,127 +72,124 @@
         "startTime": "2026-11-01T19:00:00-05:00",
         "temperature": 49,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 1,
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Cloudy",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
       },
       {
         "startTime": "2026-11-01T20:00:00-05:00",
-        "temperature": 47,
+        "temperature": 48,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 1,
+        "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       },
       {
         "startTime": "2026-11-01T21:00:00-05:00",
         "temperature": 46,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 1,
+        "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       },
       {
         "startTime": "2026-11-01T22:00:00-05:00",
-        "temperature": 44,
+        "temperature": 45,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 1,
+        "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       },
       {
         "startTime": "2026-11-01T23:00:00-05:00",
         "temperature": 43,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
         "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 1,
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-02T00:00:00-05:00",
+        "temperature": 42,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Cloudy",
+        "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       }
     ]
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "title": "Frost Advisory issued November 1 at 12:40PM EST until November 2 at 8:00AM EST by NWS Mount Holly NJ",
+      "event": "Frost Advisory",
+      "severity": "Minor",
+      "urgency": "Expected",
+      "area": "Salem; Gloucester; Camden; Cumberland; Cape May; Eastern Chester; Eastern Montgomery; Lower Bucks",
+      "description": "* WHAT...Temperatures as low as 32 will result in frost formation. * WHERE...In New Jersey, Camden, Cape May, Cumberland, Gloucester, and Salem Counties. In Pennsylvania, Eastern Chester, Eastern Montgomery, and Lower Bucks Counties. * WHEN...From midnight tonight to 8 AM EST Monday. * IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive outdoor plants may be killed if left uncovered.",
+      "instruction": "Take steps now to protect tender plants from the cold.",
+      "sent": "2026-11-01T12:40:00-05:00",
+      "expires": "2026-11-02T08:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    }
+  ],
   "traffic": [
     {
       "type": "incident",
-      "title": "Garden State Parkway southbound : Police department activity",
-      "description": "NJ Turnpike Auth.: Police department activity on Garden State Parkway southbound South of Exit 135 - Central Ave (Clark Twp) 1 Right lane of 5 lanes blocked",
-      "published": "Sun, 01 Nov 2026 12:03:01 -0500",
+      "title": "NJ 17 southbound : Crash",
+      "description": "NJ DOT - STMC: Crash on NJ 17 Southbound South of CR 130/Orient Way (Rutherford), 1 right lane of 2 lanes closed",
+      "published": "Sun, 01 Nov 2026 13:26:02 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.6097043701113,
-      "longitude": -74.3128554151127
+      "latitude": 40.8145294189453,
+      "longitude": -74.1104431152344
     },
     {
       "type": "incident",
-      "title": "New Jersey Turnpike - Western Spur northbound : Crash",
-      "description": "NJ Turnpike Auth.: Crash on New Jersey Turnpike - Western Spur northbound North of Interchange 15E - US 1&9 (Newark) 1 Left lane of 3 lanes blocked",
-      "published": "Sun, 01 Nov 2026 12:02:58 -0500",
+      "title": "NY 31 westbound : Crash",
+      "description": "NYSDOT - Region 4: Crash on NY 31 westbound Dartmouth (Rochester) to Rutgers (Rochester) 1 Right lane of 3 lanes closed",
+      "published": "Sun, 01 Nov 2026 13:23:17 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7373034067599,
-      "longitude": -74.1238855494367
+      "latitude": 43.1428739193072,
+      "longitude": -77.5872966457817
     },
     {
       "type": "incident",
-      "title": "New Jersey Turnpike - Western Spur northbound : Disabled tractor trailer",
-      "description": "NJ Turnpike Auth.: Disabled tractor trailer on New Jersey Turnpike - Western Spur northbound North of Southern Mixing Bowl (Newark) 1 Center lane of 3 lanes blocked",
-      "published": "Sun, 01 Nov 2026 11:56:54 -0500",
+      "title": "NY 96 both directions : Crash Road Closed",
+      "description": "NYSDOT - Region 4: Crash Road Closed on NY 96 both directions from Ambassador Rd (Brighton) to Elmwood Avenue; CR 87; Linden Avenue; NY 441 (Brighton) All lanes closed",
+      "published": "Sun, 01 Nov 2026 13:07:29 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7193924339588,
-      "longitude": -74.1345625557835
+      "latitude": 43.1338888574716,
+      "longitude": -77.5347084766289
     },
     {
       "type": "incident",
-      "title": "Garden State Parkway southbound : Crash",
-      "description": "NJ Turnpike Auth.: Crash on Garden State Parkway southbound South of Exit 137 - NJ 28 (Cranford Twp) right shoulder blocked",
-      "published": "Sun, 01 Nov 2026 11:53:08 -0500",
+      "title": "Taconic State Parkway northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on Taconic State Parkway northbound at Ferris Lane (Milan) right shoulder of 2 lanes blocked MM 70.7 CAD#96804080",
+      "published": "Sun, 01 Nov 2026 12:43:24 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.654485807096,
-      "longitude": -74.2873663785717
+      "latitude": 41.9936,
+      "longitude": -73.7341
     },
     {
       "type": "incident",
-      "title": "George Washington Bridge eastbound : Crash",
-      "description": "Port Authority NY/NJ: Crash on George Washington Bridge Lower Level eastbound New Jersey Side (Fort Lee) 1 Center lane of 3 lanes closed",
-      "published": "Sun, 01 Nov 2026 11:33:24 -0500",
+      "title": "New Jersey Turnpike - Pennsylvania Ext. eastbound : Disabled vehicle",
+      "description": "NJ Turnpike Auth.: Disabled vehicle on New Jersey Turnpike - Pennsylvania Ext. eastbound East of Delaware River Bridge (Burlington Twp) 1 Left lane of 3 lanes blocked",
+      "published": "Sun, 01 Nov 2026 12:43:08 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.8536454956601,
-      "longitude": -73.9646885797672
-    },
-    {
-      "type": "incident",
-      "title": "Taconic State Parkway northbound : Crash with Injuries",
-      "description": "NYSDOT - Region 8: Crash with injuries and Ramp Closure on Taconic State Parkway northbound ramp to Exit 5 - NY 9A (Mount Pleasant) all lanes of 2 lanes closed MM 5.1 CAD#96800080",
-      "published": "Sun, 01 Nov 2026 11:54:55 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1312,
-      "longitude": -73.815
-    },
-    {
-      "type": "incident",
-      "title": "NJ 70 eastbound : Power failure",
-      "description": "NJ DOT - STMC: Power Failure on NJ 70 Eastbound At CR 528/Cedar Bridge Rd (Brick Twp), 1 left lane of 4 lanes closed",
-      "published": "Sun, 01 Nov 2026 09:15:21 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.0579643249512,
-      "longitude": -74.1459732055664
-    },
-    {
-      "type": "incident",
-      "title": "NY 22A both directions : Crash",
-      "description": "NYSDOT TMC - Albany: Crash on NY 22A both directions CR 24 (Granville) to CR-21 (Granville) All lanes closed",
-      "published": "Sun, 01 Nov 2026 10:01:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.433494624872,
-      "longitude": -73.283470385406
+      "latitude": 40.1134720120345,
+      "longitude": -74.8179870421206
     },
     {
       "type": "incident",
@@ -2440,7 +2427,7 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 11 records",
+    "incidents": "available: 8 records",
     "construction": "available: 245 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
