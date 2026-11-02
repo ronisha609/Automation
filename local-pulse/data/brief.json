@@ -1,25 +1,37 @@
 {
-  "generatedAt": "2026-11-01T17:09:08.147116+00:00",
+  "generatedAt": "2026-11-02T20:48:12.331922+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 2 construction zones could slow you down. It's 59°F, Mostly Sunny, up to 63°.",
+  "text": "Good morning, Central New Jersey. Watch for a closure at US 1 northbound : Disabled tractor trailer (3.7 mi away). It's 66°F, Mostly Sunny, up to 66°.",
   "source": "rules",
-  "fingerprint": "02ad9ec0c2745a20",
+  "fingerprint": "1e44d28250b7b416",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Sunday, November 1",
+    "date": "Monday, November 2",
     "special": "",
     "weather": {
-      "now": "59°F, Mostly Sunny",
-      "low": 43,
-      "high": 63,
-      "maxRainChance": 1,
-      "wettestHour": "7 PM",
+      "now": "66°F, Mostly Sunny",
+      "low": 44,
+      "high": 66,
+      "maxRainChance": 2,
+      "wettestHour": "3 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
+      {
+        "what": "closure",
+        "where": "US 1 northbound : Disabled tractor trailer",
+        "detail": "NJ DOT - TOC South: Disabled Tractor Trailer on US 1 Northbound At US 1 Business (Lawrence Twp), 1 right lane of 2 lanes closed",
+        "milesAway": 3.7
+      },
+      {
+        "what": "construction",
+        "where": "US 130 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Monday November 2, 2026 07:00 AM thru 04:00 PM, right shoulder",
+        "milesAway": 5.7
+      },
       {
         "what": "construction",
         "where": "Betsy Ross Bridge westbound",
@@ -31,11 +43,17 @@
         "where": "NJ 18 northbound",
         "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
         "milesAway": 24.0
+      },
+      {
+        "what": "construction",
+        "where": "US 9 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 9 Southbound between South of NJ 79/Schank Rd (Freehold Twp) and Alexander Av (Howell Twp), Monday November 2, 2026 07:00 AM thru 05:00 PM, right shoulder",
+        "milesAway": 24.8
       }
     ],
     "roadCounts": {
-      "incidents": 0,
-      "construction": 2
+      "incidents": 1,
+      "construction": 4
     },
     "headlines": []
   },

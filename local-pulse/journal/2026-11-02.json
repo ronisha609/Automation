@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "sentAt": "2026-11-02T20:48:12.331922+00:00",
+  "message": "Good morning, Central New Jersey. Watch for a closure at US 1 northbound : Disabled tractor trailer (3.7 mi away). It's 66°F, Mostly Sunny, up to 66°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "crash or closure",
+    "construction"
+  ],
+  "nearbyIncidents": 1,
+  "nearbyConstruction": 4,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "66°F, Mostly Sunny",
+    "low": 44,
+    "high": 66,
+    "maxRainChance": 2,
+    "wettestHour": "3 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-02.jpg"
+}

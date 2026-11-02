@@ -2,24 +2,47 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 1,
-    "briefsSent": 1,
+    "dayNumber": 2,
+    "briefsSent": 2,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 0,
+      "crash or closure": 1,
       "weather alert": 0,
       "flooding": 0,
       "rain": 0,
       "cold or frost": 0,
-      "construction": 1,
+      "construction": 2,
       "quiet day": 0
     },
-    "screenshots": 1,
+    "screenshots": 2,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-02",
+      "sentAt": "2026-11-02T20:48:12.331922+00:00",
+      "message": "Good morning, Central New Jersey. Watch for a closure at US 1 northbound : Disabled tractor trailer (3.7 mi away). It's 66°F, Mostly Sunny, up to 66°.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "crash or closure",
+        "construction"
+      ],
+      "nearbyIncidents": 1,
+      "nearbyConstruction": 4,
+      "weatherAlerts": [],
+      "weather": {
+        "now": "66°F, Mostly Sunny",
+        "low": 44,
+        "high": 66,
+        "maxRainChance": 2,
+        "wettestHour": "3 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-02.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-01",
       "sentAt": "2026-11-01T17:09:08.147116+00:00",
