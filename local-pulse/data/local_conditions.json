@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T18:21:03.709196+00:00",
+  "generatedAt": "2026-11-03T18:27:52.270515+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -134,9 +134,18 @@
   "traffic": [
     {
       "type": "incident",
+      "title": "Southern State Parkway westbound : Crash",
+      "description": "NYSDOT - Region 10: Crash on Southern State Parkway westbound at Exit 28S - Wantagh Avenue (Hempstead) 1 Right lane of 4 lanes closed",
+      "published": "Tue, 03 Nov 2026 13:23:16 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6991425229554,
+      "longitude": -73.5101463039562
+    },
+    {
+      "type": "incident",
       "title": "I-676 northbound : Malfunctioning traffic light",
       "description": "NJ DOT - TOC South: Malfunctioning Traffic Light on I-676 Northbound Ramp To Exit 4 - Atlantic Ave (Camden), ramp lane closed",
-      "published": "Tue, 03 Nov 2026 13:20:17 -0500",
+      "published": "Tue, 03 Nov 2026 13:26:19 -0500",
       "link": "https://511nj.org/",
       "latitude": 39.9288902282715,
       "longitude": -75.1151885986328
@@ -5644,7 +5653,7 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 12 records",
+    "incidents": "available: 13 records",
     "construction": "available: 600 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-03",
+  "sentAt": "2026-11-03T18:28:03.439267+00:00",
+  "message": "Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound : Overturned tractor trailer (17.9 mi away) and 1 more nearby. It's 69°F, Mostly Sunny, up to 70°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "crash or closure",
+    "construction"
+  ],
+  "nearbyIncidents": 2,
+  "nearbyConstruction": 5,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "69°F, Mostly Sunny",
+    "low": 51,
+    "high": 70,
+    "maxRainChance": 3,
+    "wettestHour": "7 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-03.jpg"
+}

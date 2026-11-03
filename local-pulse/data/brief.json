@@ -1,59 +1,65 @@
 {
-  "generatedAt": "2026-11-02T20:48:12.331922+00:00",
+  "generatedAt": "2026-11-03T18:28:03.439267+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a closure at US 1 northbound : Disabled tractor trailer (3.7 mi away). It's 66°F, Mostly Sunny, up to 66°.",
+  "text": "Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound : Overturned tractor trailer (17.9 mi away) and 1 more nearby. It's 69°F, Mostly Sunny, up to 70°.",
   "source": "rules",
-  "fingerprint": "1e44d28250b7b416",
+  "fingerprint": "d30d706ddcce2f96",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Monday, November 2",
+    "date": "Tuesday, November 3",
     "special": "",
     "weather": {
-      "now": "66°F, Mostly Sunny",
-      "low": 44,
-      "high": 66,
-      "maxRainChance": 2,
-      "wettestHour": "3 PM",
+      "now": "69°F, Mostly Sunny",
+      "low": 51,
+      "high": 70,
+      "maxRainChance": 3,
+      "wettestHour": "7 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
-        "what": "closure",
-        "where": "US 1 northbound : Disabled tractor trailer",
-        "detail": "NJ DOT - TOC South: Disabled Tractor Trailer on US 1 Northbound At US 1 Business (Lawrence Twp), 1 right lane of 2 lanes closed",
-        "milesAway": 3.7
+        "what": "crash or incident",
+        "where": "New Jersey Turnpike southbound : Overturned tractor trailer",
+        "detail": "NJ Turnpike Auth.: Overturned tractor trailer on New Jersey Turnpike Outer Roadway southbound North of Interchange 8A - NJ 32 (South Brunswick Twp) 1 Right lane of 3 lanes blocked",
+        "milesAway": 17.9
+      },
+      {
+        "what": "crash or incident",
+        "where": "US 9 both directions : Overturned vehicle",
+        "detail": "NJ DOT - TOC South: Crash on US 9 Both Directions North of Taylors Mills Rd (Manalapan Twp), 1 left lane of 2 lanes closed southbound; 1 left lane of 2 lanes closed northbound",
+        "milesAway": 23.9
+      },
+      {
+        "what": "construction",
+        "where": "US 1 southbound",
+        "detail": "NJ DOT - STMC: Roadwork on US 1 Southbound North of College Rd (South Brunswick Twp) Tuesday November 3, 2026 10:00 AM thru 03:00 PM, right shoulder closed",
+        "milesAway": 12.4
       },
       {
         "what": "construction",
         "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Monday November 2, 2026 07:00 AM thru 04:00 PM, right shoulder",
-        "milesAway": 5.7
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near South of CR 630/Cooper St (Willingboro Twp), Tuesday November 3, 2026 09:00 AM thru 03:00 PM, right shoulder closed",
+        "milesAway": 14.7
+      },
+      {
+        "what": "construction",
+        "where": "US 130 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Southbound near North of Haines Mill Rd (Delran Twp), Tuesday November 3, 2026 09:00 AM thru 03:00 PM, right lane closed",
+        "milesAway": 17.4
       },
       {
         "what": "construction",
         "where": "Betsy Ross Bridge westbound",
         "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
         "milesAway": 23.3
-      },
-      {
-        "what": "construction",
-        "where": "NJ 18 northbound",
-        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
-        "milesAway": 24.0
-      },
-      {
-        "what": "construction",
-        "where": "US 9 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 9 Southbound between South of NJ 79/Schank Rd (Freehold Twp) and Alexander Av (Howell Twp), Monday November 2, 2026 07:00 AM thru 05:00 PM, right shoulder",
-        "milesAway": 24.8
       }
     ],
     "roadCounts": {
-      "incidents": 1,
-      "construction": 4
+      "incidents": 2,
+      "construction": 5
     },
     "headlines": []
   },
