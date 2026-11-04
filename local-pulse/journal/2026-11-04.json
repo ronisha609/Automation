@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "sentAt": "2026-11-04T18:40:57.267077+00:00",
+  "message": "Good morning, Central New Jersey. Watch for a closure at I-295 northbound : Disabled tractor trailer (12.8 mi away). It's 73°F, Sunny, up to 75°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "crash or closure",
+    "construction"
+  ],
+  "nearbyIncidents": 1,
+  "nearbyConstruction": 31,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "73°F, Sunny",
+    "low": 59,
+    "high": 75,
+    "maxRainChance": 2,
+    "wettestHour": "1 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-04.jpg"
+}

@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-11-03T18:28:03.439267+00:00",
+  "generatedAt": "2026-11-04T18:40:57.267077+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound : Overturned tractor trailer (17.9 mi away) and 1 more nearby. It's 69°F, Mostly Sunny, up to 70°.",
+  "text": "Good morning, Central New Jersey. Watch for a closure at I-295 northbound : Disabled tractor trailer (12.8 mi away). It's 73°F, Sunny, up to 75°.",
   "source": "rules",
-  "fingerprint": "d30d706ddcce2f96",
+  "fingerprint": "9784808b44d84345",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Tuesday, November 3",
+    "date": "Wednesday, November 4",
     "special": "",
     "weather": {
-      "now": "69°F, Mostly Sunny",
-      "low": 51,
-      "high": 70,
-      "maxRainChance": 3,
-      "wettestHour": "7 PM",
+      "now": "73°F, Sunny",
+      "low": 59,
+      "high": 75,
+      "maxRainChance": 2,
+      "wettestHour": "1 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
-        "what": "crash or incident",
-        "where": "New Jersey Turnpike southbound : Overturned tractor trailer",
-        "detail": "NJ Turnpike Auth.: Overturned tractor trailer on New Jersey Turnpike Outer Roadway southbound North of Interchange 8A - NJ 32 (South Brunswick Twp) 1 Right lane of 3 lanes blocked",
-        "milesAway": 17.9
-      },
-      {
-        "what": "crash or incident",
-        "where": "US 9 both directions : Overturned vehicle",
-        "detail": "NJ DOT - TOC South: Crash on US 9 Both Directions North of Taylors Mills Rd (Manalapan Twp), 1 left lane of 2 lanes closed southbound; 1 left lane of 2 lanes closed northbound",
-        "milesAway": 23.9
+        "what": "closure",
+        "where": "I-295 northbound : Disabled tractor trailer",
+        "detail": "NJ DOT - TOC South: Disabled Tractor Trailer on I-295 Northbound At Exit 47 - CR 541/Burlington-Mount Holly Rd (Burlington Twp), right shoulder closed",
+        "milesAway": 12.8
       },
       {
         "what": "construction",
-        "where": "US 1 southbound",
-        "detail": "NJ DOT - STMC: Roadwork on US 1 Southbound North of College Rd (South Brunswick Twp) Tuesday November 3, 2026 10:00 AM thru 03:00 PM, right shoulder closed",
-        "milesAway": 12.4
+        "where": "US 1 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound near North of South Broad St (Trenton), Wednesday November 4, 2026 09:00 AM thru 02:00 PM, right shoulder",
+        "milesAway": 0.8
+      },
+      {
+        "what": "construction",
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound near north of Exit 69 - US 206 (Lawrence Twp), Wednesday November 4, 2026 10:00 AM thru 02:00 PM, right lane closed",
+        "milesAway": 4.8
+      },
+      {
+        "what": "construction",
+        "where": "I-295 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near south of Exit 69 - US 206 (Lawrence Twp), Wednesday November 4, 2026 10:00 AM thru 03:00 PM, left lane closed",
+        "milesAway": 4.8
+      },
+      {
+        "what": "construction",
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Hamilton Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Wednesday November 4, 2026 09:00 AM thru 03:00 PM, lef",
+        "milesAway": 4.8
       },
       {
         "what": "construction",
         "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near South of CR 630/Cooper St (Willingboro Twp), Tuesday November 3, 2026 09:00 AM thru 03:00 PM, right shoulder closed",
-        "milesAway": 14.7
-      },
-      {
-        "what": "construction",
-        "where": "US 130 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Southbound near North of Haines Mill Rd (Delran Twp), Tuesday November 3, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 17.4
-      },
-      {
-        "what": "construction",
-        "where": "Betsy Ross Bridge westbound",
-        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
-        "milesAway": 23.3
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Wednesday November 4, 2026 09:00 AM thru 03:00 PM, right lane closed",
+        "milesAway": 5.7
       }
     ],
     "roadCounts": {
-      "incidents": 2,
-      "construction": 5
+      "incidents": 1,
+      "construction": 31
     },
     "headlines": []
   },
