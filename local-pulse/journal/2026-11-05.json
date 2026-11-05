@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "sentAt": "2026-11-05T18:46:53.244566+00:00",
+  "message": "Good morning, Central New Jersey. No crashes nearby right now, but 46 construction zones could slow you down. It's 72°F, Slight Chance Light Rain, up to 74°. Rain is likely around 12 AM, so bring an umbrella.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "construction",
+    "rain"
+  ],
+  "nearbyIncidents": 0,
+  "nearbyConstruction": 46,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "72°F, Slight Chance Light Rain",
+    "low": 66,
+    "high": 74,
+    "maxRainChance": 71,
+    "wettestHour": "12 AM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-05.jpg"
+}

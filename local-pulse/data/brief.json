@@ -1,67 +1,69 @@
 {
-  "generatedAt": "2026-11-04T18:40:57.267077+00:00",
+  "generatedAt": "2026-11-05T18:46:53.244566+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a closure at I-295 northbound : Disabled tractor trailer (12.8 mi away). It's 73°F, Sunny, up to 75°.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 46 construction zones could slow you down. It's 72°F, Slight Chance Light Rain, up to 74°. Rain is likely around 12 AM, so bring an umbrella.",
   "source": "rules",
-  "fingerprint": "9784808b44d84345",
+  "fingerprint": "9ec6cb672bf7fc88",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Wednesday, November 4",
+    "date": "Thursday, November 5",
     "special": "",
     "weather": {
-      "now": "73°F, Sunny",
-      "low": 59,
-      "high": 75,
-      "maxRainChance": 2,
-      "wettestHour": "1 PM",
+      "now": "72°F, Slight Chance Light Rain",
+      "low": 66,
+      "high": 74,
+      "maxRainChance": 71,
+      "wettestHour": "12 AM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
-        "what": "closure",
-        "where": "I-295 northbound : Disabled tractor trailer",
-        "detail": "NJ DOT - TOC South: Disabled Tractor Trailer on I-295 Northbound At Exit 47 - CR 541/Burlington-Mount Holly Rd (Burlington Twp), right shoulder closed",
-        "milesAway": 12.8
-      },
-      {
         "what": "construction",
-        "where": "US 1 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound near North of South Broad St (Trenton), Wednesday November 4, 2026 09:00 AM thru 02:00 PM, right shoulder",
-        "milesAway": 0.8
-      },
-      {
-        "what": "construction",
-        "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound near north of Exit 69 - US 206 (Lawrence Twp), Wednesday November 4, 2026 10:00 AM thru 02:00 PM, right lane closed",
-        "milesAway": 4.8
+        "where": "NJ 29 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on NJ 29 Northbound near NJ 129 (Hamilton Twp), Thursday November 5, 2026 07:00 AM thru 04:00 PM, right shoulder",
+        "milesAway": 1.8
       },
       {
         "what": "construction",
         "where": "I-295 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near south of Exit 69 - US 206 (Lawrence Twp), Wednesday November 4, 2026 10:00 AM thru 03:00 PM, left lane closed",
-        "milesAway": 4.8
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near North of Exit 62 - Olden Ave (Hamilton Twp), Thursday November 5, 2026 10:00 AM thru 03:00 PM, right shoulder",
+        "milesAway": 2.0
       },
       {
         "what": "construction",
         "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Hamilton Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Wednesday November 4, 2026 09:00 AM thru 03:00 PM, lef",
-        "milesAway": 4.8
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 62 - Olden Ave (Hamilton Twp) and South of Exit 61 - Arena Dr (Hamilton Twp), Thursday November 5, 2026 10:00 AM thru 03:00 PM, ri",
+        "milesAway": 2.0
       },
       {
         "what": "construction",
-        "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Wednesday November 4, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 5.7
+        "where": "I-295 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound between South of Exit 61 - Arena Dr (Hamilton Twp) and North of Exit 62 - Olden Ave (Hamilton Twp), Thursday November 5, 2026 10:00 AM thru 03:00 PM, ri",
+        "milesAway": 2.1
+      },
+      {
+        "what": "construction",
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between South of Exit 61 - Arena Dr (Hamilton Twp) and South of Exit 60 - I-195/NJ 129 (Hamilton Twp), Thursday November 5, 2026 10:00 AM thru 03:00 PM,",
+        "milesAway": 2.1
+      },
+      {
+        "what": "construction",
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound near North of Exit 62 - Olden Ave (Hamilton Twp), Thursday November 5, 2026 10:00 AM thru 03:00 PM, right shoulder",
+        "milesAway": 2.4
       }
     ],
     "roadCounts": {
-      "incidents": 1,
-      "construction": 31
+      "incidents": 0,
+      "construction": 46
     },
-    "headlines": []
+    "headlines": [
+      "2028 election season begins as parties navigate midterm fallout"
+    ]
   },
   "ntfyTopic": "local-pulse-nj"
 }
