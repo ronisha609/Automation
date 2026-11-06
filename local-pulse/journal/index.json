@@ -2,24 +2,48 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 5,
-    "briefsSent": 5,
+    "dayNumber": 6,
+    "briefsSent": 6,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 3,
+      "crash or closure": 4,
       "weather alert": 0,
       "flooding": 0,
-      "rain": 1,
+      "rain": 2,
       "cold or frost": 0,
-      "construction": 5,
+      "construction": 6,
       "quiet day": 0
     },
-    "screenshots": 5,
+    "screenshots": 6,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-06",
+      "sentAt": "2026-11-06T18:01:04.953506+00:00",
+      "message": "Good morning, Central New Jersey. Watch for a crash or incident at I-295 southbound (2.9 mi away) and 2 more nearby. It's 66°F, Chance Rain, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "crash or closure",
+        "construction",
+        "rain"
+      ],
+      "nearbyIncidents": 3,
+      "nearbyConstruction": 19,
+      "weatherAlerts": [],
+      "weather": {
+        "now": "66°F, Chance Rain",
+        "low": 55,
+        "high": 68,
+        "maxRainChance": 69,
+        "wettestHour": "1 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-06.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-05",
       "sentAt": "2026-11-05T18:46:53.244566+00:00",
