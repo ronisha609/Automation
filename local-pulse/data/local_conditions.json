@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T18:00:47.273995+00:00",
+  "generatedAt": "2026-11-06T18:19:05.264353+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -9,129 +9,174 @@
     "location": "Trenton, NJ",
     "periods": [
       {
-        "startTime": "2026-11-06T12:00:00-05:00",
-        "temperature": 66,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "NW",
-        "shortForecast": "Chance Rain",
-        "probabilityOfPrecipitation": 50,
-        "icon": "https://api.weather.gov/icons/land/day/rain,50?size=small"
-      },
-      {
         "startTime": "2026-11-06T13:00:00-05:00",
         "temperature": 67,
         "temperatureUnit": "F",
         "windSpeed": "5 mph",
-        "windDirection": "NW",
-        "shortForecast": "Light Rain Likely",
-        "probabilityOfPrecipitation": 69,
-        "icon": "https://api.weather.gov/icons/land/day/rain,70?size=small"
+        "windDirection": "W",
+        "shortForecast": "Chance Light Rain",
+        "probabilityOfPrecipitation": 30,
+        "icon": "https://api.weather.gov/icons/land/day/rain,30?size=small"
       },
       {
         "startTime": "2026-11-06T14:00:00-05:00",
-        "temperature": 67,
+        "temperature": 69,
         "temperatureUnit": "F",
         "windSpeed": "5 mph",
-        "windDirection": "NW",
-        "shortForecast": "Light Rain Likely",
-        "probabilityOfPrecipitation": 56,
-        "icon": "https://api.weather.gov/icons/land/day/rain,60?size=small"
+        "windDirection": "W",
+        "shortForecast": "Chance Light Rain",
+        "probabilityOfPrecipitation": 30,
+        "icon": "https://api.weather.gov/icons/land/day/rain,30?size=small"
       },
       {
         "startTime": "2026-11-06T15:00:00-05:00",
+        "temperature": 68,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Chance Light Rain",
+        "probabilityOfPrecipitation": 30,
+        "icon": "https://api.weather.gov/icons/land/day/rain,30?size=small"
+      },
+      {
+        "startTime": "2026-11-06T16:00:00-05:00",
         "temperature": 67,
         "temperatureUnit": "F",
         "windSpeed": "0 mph",
         "windDirection": "",
         "shortForecast": "Chance Light Rain",
-        "probabilityOfPrecipitation": 46,
-        "icon": "https://api.weather.gov/icons/land/day/rain,50?size=small"
-      },
-      {
-        "startTime": "2026-11-06T16:00:00-05:00",
-        "temperature": 68,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Chance Light Rain",
-        "probabilityOfPrecipitation": 54,
-        "icon": "https://api.weather.gov/icons/land/day/rain,50?size=small"
+        "probabilityOfPrecipitation": 30,
+        "icon": "https://api.weather.gov/icons/land/day/rain,30?size=small"
       },
       {
         "startTime": "2026-11-06T17:00:00-05:00",
-        "temperature": 65,
+        "temperature": 66,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
         "shortForecast": "Chance Light Rain",
-        "probabilityOfPrecipitation": 43,
-        "icon": "https://api.weather.gov/icons/land/day/rain,40?size=small"
+        "probabilityOfPrecipitation": 26,
+        "icon": "https://api.weather.gov/icons/land/day/rain,30?size=small"
       },
       {
         "startTime": "2026-11-06T18:00:00-05:00",
-        "temperature": 63,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Chance Light Rain",
-        "probabilityOfPrecipitation": 52,
-        "icon": "https://api.weather.gov/icons/land/night/rain,50?size=small"
-      },
-      {
-        "startTime": "2026-11-06T19:00:00-05:00",
-        "temperature": 61,
+        "temperature": 62,
         "temperatureUnit": "F",
         "windSpeed": "0 mph",
         "windDirection": "",
         "shortForecast": "Slight Chance Light Rain",
-        "probabilityOfPrecipitation": 16,
+        "probabilityOfPrecipitation": 18,
         "icon": "https://api.weather.gov/icons/land/night/rain,20?size=small"
       },
       {
-        "startTime": "2026-11-06T20:00:00-05:00",
+        "startTime": "2026-11-06T19:00:00-05:00",
         "temperature": 59,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
+        "shortForecast": "Cloudy",
+        "probabilityOfPrecipitation": 10,
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-06T20:00:00-05:00",
+        "temperature": 58,
         "temperatureUnit": "F",
         "windSpeed": "0 mph",
         "windDirection": "",
         "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 4,
+        "probabilityOfPrecipitation": 3,
         "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
       },
       {
         "startTime": "2026-11-06T21:00:00-05:00",
         "temperature": 57,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
         "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 3,
+        "probabilityOfPrecipitation": 2,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       },
       {
         "startTime": "2026-11-06T22:00:00-05:00",
         "temperature": 56,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
         "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 2,
+        "probabilityOfPrecipitation": 1,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       },
       {
         "startTime": "2026-11-06T23:00:00-05:00",
         "temperature": 55,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
         "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 2,
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-07T00:00:00-05:00",
+        "temperature": 54,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy",
+        "probabilityOfPrecipitation": 1,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       }
     ]
   },
   "alerts": [],
   "traffic": [
+    {
+      "type": "incident",
+      "title": "I-495 westbound : Crash",
+      "description": "NYSDOT - Region 11: Crash on I-495 westbound at NY 25 (New York) 1 Right lane of 3 lanes blocked",
+      "published": "Fri, 06 Nov 2026 13:15:48 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7328998064419,
+      "longitude": -73.8681005806743
+    },
+    {
+      "type": "incident",
+      "title": "I-287 northbound : Crash",
+      "description": "NJ DOT - STMC: Crash on I-287 Northbound North of Exit 14 - US 22 (Bridgewater Twp), 1 left lane of 3 lanes closed",
+      "published": "Fri, 06 Nov 2026 13:15:17 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.5802383422852,
+      "longitude": -74.5797729492188
+    },
+    {
+      "type": "incident",
+      "title": "CT 66 eastbound : Other",
+      "description": "ConnDOT: Crash (Police Activity) on RT 66 Eastbound at the Arrigoni Bridge. Reported Friday, November 6 at 1:12 pm.",
+      "published": "Fri, 06 Nov 2026 13:13:32 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.569307,
+      "longitude": -72.648327
+    },
+    {
+      "type": "incident",
+      "title": "I-295 southbound : Crash",
+      "description": "NJ DOT - TOC South: Crash on I-295 Southbound At Exit 40 - NJ 38 (Mount Laurel Twp), left shoulder closed",
+      "published": "Fri, 06 Nov 2026 13:07:49 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.9680213928223,
+      "longitude": -74.9102401733398
+    },
+    {
+      "type": "incident",
+      "title": "I-91 southbound : Disabled vehicle",
+      "description": "ConnDOT: Crash (Tractor Trailer) on I-91 Southbound between Exits 33 and 32. The right and center lanes are closed. Reported Friday, November 6 at 12:57 pm.",
+      "published": "Fri, 06 Nov 2026 13:00:54 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.782324,
+      "longitude": -72.662017
+    },
     {
       "type": "incident",
       "title": "CT 8 northbound : Crash",
@@ -153,20 +198,11 @@
     {
       "type": "incident",
       "title": "I-684 northbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on I-684 northbound north of Exit 8 - Hardscrabble Road - CR 138 - Croton Falls (North Salem) right shoulder of 3 lanes blocked MM 27.0 CAD 97259080",
-      "published": "Fri, 06 Nov 2026 12:52:19 -0500",
+      "description": "NYSDOT - Region 8: Crash with property damage on I-684 northbound north of Exit 8 - Hardscrabble Road - CR 138 - Croton Falls (North Salem) right lane of 3 lanes blocked MM 27.0 CAD 97259080",
+      "published": "Fri, 06 Nov 2026 13:05:40 -0500",
       "link": "https://511nj.org/",
       "latitude": 41.3745,
       "longitude": -73.6089
-    },
-    {
-      "type": "incident",
-      "title": "NJ 42 southbound : Crash",
-      "description": "NJ DOT - TOC South: Crash on NJ 42 Southbound North of Exit 13 - NJ 55 (Deptford Twp), right shoulder closed",
-      "published": "Fri, 06 Nov 2026 12:53:01 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.8490791320801,
-      "longitude": -75.0957794189453
     },
     {
       "type": "incident",
@@ -180,20 +216,11 @@
     {
       "type": "incident",
       "title": "I-95 southbound : Disabled vehicle",
-      "description": "ConnDOT: I-95 Southbound is congested between Exits 40 and 34 (3.9 miles) because of Crash (Truck) between Exits 35 and 34. The right and center lanes are closed. Reported Friday, November 6 at 12:46 pm.",
-      "published": "Fri, 06 Nov 2026 12:57:21 -0500",
+      "description": "ConnDOT: I-95 Southbound is congested between Exits 40 and 34 (3.9 miles) because of Crash (Truck) between Exits 35 and 34. 1 lane is open. Reported Friday, November 6 at 12:46 pm.",
+      "published": "Fri, 06 Nov 2026 13:05:17 -0500",
       "link": "https://511nj.org/",
       "latitude": 41.214549,
       "longitude": -73.086767
-    },
-    {
-      "type": "incident",
-      "title": "I-91 southbound : Crash",
-      "description": "ConnDOT: Crash (2 Vehicle) on I-91 Southbound between Exits 21 and 20. The right shoulder is closed. Reported Friday, November 6 at 12:40 pm.",
-      "published": "Fri, 06 Nov 2026 12:56:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.585729,
-      "longitude": -72.712554
     },
     {
       "type": "incident",
@@ -206,39 +233,12 @@
     },
     {
       "type": "incident",
-      "title": "I-76 eastbound : Crash",
-      "description": "NJ DOT - TOC South: Crash on I-76 Eastbound East of Exit 2 - I-676 (Gloucester City), left shoulder closed",
-      "published": "Fri, 06 Nov 2026 12:40:00 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.8969383239746,
-      "longitude": -75.1085510253906
-    },
-    {
-      "type": "incident",
       "title": "Taconic State Parkway northbound : Disabled vehicle",
       "description": "NYSDOT - Region 8: Disabled Vehicle on Taconic State Parkway northbound at Exit 11 - Kitchawan Road; NY 134 (Yorktown) right shoulder of 3 lanes blocked MM 11.2 CAD 97257080",
       "published": "Fri, 06 Nov 2026 12:33:24 -0500",
       "link": "https://511nj.org/",
       "latitude": 41.2168,
       "longitude": -73.8107
-    },
-    {
-      "type": "incident",
-      "title": "New Jersey Turnpike southbound : Crash",
-      "description": "NJ Turnpike Auth.: Crash on New Jersey Turnpike Inner Roadway southbound North of Interchange 8 - NJ 33 (East Windsor Twp) left shoulder blocked",
-      "published": "Fri, 06 Nov 2026 12:31:34 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.2653397549136,
-      "longitude": -74.510918721278
-    },
-    {
-      "type": "incident",
-      "title": "I-295 southbound : Crash",
-      "description": "NJ DOT - TOC South: Crash on I-295 Southbound At Exit 64 - CR 535/East State Street Extension (Hamilton Twp), left shoulder closed",
-      "published": "Fri, 06 Nov 2026 12:25:14 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.2445449829102,
-      "longitude": -74.7005386352539
     },
     {
       "type": "incident",
@@ -293,15 +293,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.620558,
       "longitude": -72.684232
-    },
-    {
-      "type": "incident",
-      "title": "Taconic State Parkway northbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on Taconic State Parkway northbound north of Exit 5 - NY 9A (Mount Pleasant) right shoulder of 3 lanes blocked MM 5.1 CAD #97253080",
-      "published": "Fri, 06 Nov 2026 12:25:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1312,
-      "longitude": -73.815
     },
     {
       "type": "incident",
@@ -581,15 +572,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.755752,
       "longitude": -72.700552
-    },
-    {
-      "type": "construction",
-      "title": "NY 106 northbound : Roadwork",
-      "description": "NYSDOT - Region 10: Roadwork, roadwork on NY 106 northbound at Lexington Avenue; Berry Hill Road (Oyster Bay) All lanes open Left turning lane blocked until 3 PM",
-      "published": "Fri, 06 Nov 2026 10:28:51 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8654963427155,
-      "longitude": -73.5324210503538
     },
     {
       "type": "construction",
@@ -2930,15 +2912,6 @@
       "link": "https://511nj.org/",
       "latitude": 42.8997015015081,
       "longitude": -75.6241654518524
-    },
-    {
-      "type": "construction",
-      "title": "Verrazano-Narrows Bridge westbound : Roadwork",
-      "description": "MTA Bridges & Tunnels: Roadwork, roadwork on Verrazano-Narrows Bridge Upper Level westbound Brooklyn Side (New York) to Staten Island Approach (New York) 1 Right lane of 3 lanes closed",
-      "published": "Fri, 06 Nov 2026 07:47:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.609408731654,
-      "longitude": -74.036043805038
     },
     {
       "type": "construction",
@@ -6289,11 +6262,152 @@
       "longitude": -79.382971
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Missing Philadelphia Girl , 10 , Found Dead In Lindenwold",
+      "url": "https://wobm.com/ixp/396/p/philadelphia-girl-found-dead-lindenwold-nj/",
+      "domain": "wobm.com",
+      "seenDate": "20261106T123000Z",
+      "image": "https://townsquare.media/site/564/files/2022/10/attachment-Untitled-design-28.jpg?&q=75&format=natural"
+    },
+    {
+      "title": "Lady London Demands Answers After Range Rover Fire",
+      "url": "https://wiznation.com/4173167/lady-london-range-rover-fire/",
+      "domain": "wiznation.com",
+      "seenDate": "20261106T113000Z",
+      "image": "https://hiphopwired.com/wp-content/uploads/sites/43/2026/01/17684131125205.jpg"
+    },
+    {
+      "title": "Trump vows to fight for year - round daylight saving time",
+      "url": "https://www.latimes.com/california/story/2026-11-06/trump-vows-to-fight-for-year-round-daylight-saving-time",
+      "domain": "latimes.com",
+      "seenDate": "20261106T113000Z",
+      "image": "https://california-times-brightspot.s3.amazonaws.com/ca/2f/31e852f2433cb47cf55e9d54b739/ap-poll-daylight-savings-time-34577.jpg"
+    },
+    {
+      "title": "Exclusive | Girl , 4 , couldnt walk or speak after getting rhabdomyolysis",
+      "url": "https://nypost.com/2026/11/06/us-news/girl-4-couldnt-walk-or-speak-after-getting-rhabdomyolysis/",
+      "domain": "nypost.com",
+      "seenDate": "20261106T113000Z",
+      "image": "https://nypost.com/wp-content/uploads/sites/2/2026/11/147661265.jpg?quality=75&strip=all"
+    },
+    {
+      "title": "  Meh  to marriage affects you and me | The Catholic Register",
+      "url": "https://www.catholicregister.org/item/4651-meh-to-marriage-affects-you-and-me",
+      "domain": "catholicregister.org",
+      "seenDate": "20261106T110000Z",
+      "image": "https://ems.catholicregister.ca/assets/436fefdf-8654-495c-aa6b-9428d87597e8/?fit=cover&quality=75&format=jpg"
+    },
+    {
+      "title": "وجوه عربية في الكونغرس الأمريكي",
+      "url": "https://www.aljazeera.net/encyclopedia/2026/11/6/%D9%88%D8%AC%D9%88%D9%87-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D8%B1%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A",
+      "domain": "aljazeera.net",
+      "seenDate": "20261106T110000Z",
+      "image": "https://www.aljazeera.net/wp-content/uploads/2026/11/55454656-1793884990.jpg"
+    },
+    {
+      "title": "2014 Mercedes - Benz S - Class Sedan :: Mercedes Fan Site",
+      "url": "http://usofarn.com/2014MercedesBenz/2014-mercedes-benz-s-class-sedan",
+      "domain": "usofarn.com",
+      "seenDate": "20261106T110000Z",
+      "image": null
+    },
+    {
+      "title": "Плачет не только Буланова , расплакался и Дэйв Гролл",
+      "url": "https://www.mk.ru/culture/2026/11/06/plachet-ne-tolko-bulanova-rasplakalsya-i-deyv-groll.html",
+      "domain": "mk.ru",
+      "seenDate": "20261106T110000Z",
+      "image": "https://static.mk.ru/upload/entities/2026/11/06/13/articles/facebookPicture/76/b9/09/31/80d5f4e39b3b4115d591bbe12d6b49c1.jpg"
+    },
+    {
+      "title": "South Orange to Celebrate New Neighborhood Rain Gardens with Ribbon Cutting Nov . 7",
+      "url": "https://villagegreennj.com/community/south-orange-to-celebrate-new-neighborhood-rain-gardens-with-ribbon-cutting-nov-7/",
+      "domain": "villagegreennj.com",
+      "seenDate": "20261106T093000Z",
+      "image": "https://villagegreennj.com/wp-content/uploads/2026/11/ridgewood-rd.-r.g.-digging-11-1-26-jpeg-scaled.jpg"
+    },
+    {
+      "title": "Japanese lawmakers participate in Diwali celebrations hosted by Indian Embassy",
+      "url": "https://ianslive.in/japanese-lawmakers-participate-in-diwali-celebrations-hosted-by-indian-embassy--20261106123723",
+      "domain": "ianslive.in",
+      "seenDate": "20261106T093000Z",
+      "image": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/202611064004308.jpg"
+    },
+    {
+      "title": "Torrance father turns lessons from his son into a children book that gives back – Daily Breeze",
+      "url": "https://www.dailybreeze.com/2026/11/05/for-a-good-cause-torrance-father-turns-lessons-from-his-son-into-a-childrens-book-that-gives-back/",
+      "domain": "dailybreeze.com",
+      "seenDate": "20261106T093000Z",
+      "image": "https://www.dailybreeze.com/wp-content/uploads/2026/11/TBR-L-FAGC-COL-1105-01-1.jpeg"
+    },
+    {
+      "title": "LIV and let die : Rival league tells bankruptcy court it will wind down operations",
+      "url": "https://www.texarkanagazette.com/news/2026/nov/05/liv-and-let-die-rival-league-tells-bankruptcy/",
+      "domain": "texarkanagazette.com",
+      "seenDate": "20261106T090000Z",
+      "image": "https://wehco.media.clients.ellingtoncms.com/imports/adg/img/2026/11/06/214016653_214016653-458163f8475b4e3b980885ba669a28d4_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4"
+    },
+    {
+      "title": " « Σεισμός » στους Ρεπουμπλικανούς : Σε τροχιά σύγκρουσης με τον Τραμπ ο Βανς - Τρίζει το όνειρο της προεδρίας του 2028",
+      "url": "https://www.newsit.gr/kosmos/seismos-stous-repoumplikanous-se-troxia-sygkrousis-me-ton-tramp-o-vans-trizei-to-oneiro-tis-proedrias-tou-2028/4816323/",
+      "domain": "newsit.gr",
+      "seenDate": "20261106T090000Z",
+      "image": "https://www.newsit.gr/wp-content/uploads/2026/11/jd-vance-1200x630.jpg"
+    },
+    {
+      "title": "Foster mother charged after missing 10 - year - old Philadelphia girl body found in trunk of car in New Jersey",
+      "url": "https://www.fox26houston.com/news/philadelphia-girl-missing-since-oct-26-found-dead-trunk-vehicle-new-jersey-1-custody-sources",
+      "domain": "fox26houston.com",
+      "seenDate": "20261106T063000Z",
+      "image": "https://images.foxtv.com/static.livenowfox.com/www.livenowfox.com/content/uploads/2026/11/1280/720/1105_alford.jpg?ve=1&tl=1"
+    },
+    {
+      "title": "Dougie Hamilton and Jesper Bratt Save the Day in Overtime as Devils Take 5 - 4 Game Over Blues",
+      "url": "https://www.allaboutthejersey.com/devils-game-recaps/74906/dougie-hamilton-and-jesper-bratt-save-the-day-in-overtime-as-devils-take-5-4-game-over-blues",
+      "domain": "allaboutthejersey.com",
+      "seenDate": "20261106T063000Z",
+      "image": "https://platform.allaboutthejersey.com/wp-content/uploads/sites/6/2026/11/gettyimages-2303280333.jpg?quality=90&strip=all&crop=0%2C10.728533764382%2C100%2C78.542932471236"
+    },
+    {
+      "title": "Jersey City Doubles Traffic Enforcement Staff , Writes 81 % More Tickets in First Week",
+      "url": "https://wdhafm.com/2026/11/05/jersey-city-doubles-traffic-enforcement-staff-writes-81-more-tickets-in-first-week/",
+      "domain": "wdhafm.com",
+      "seenDate": "20261106T050000Z",
+      "image": "https://wdhafm.com/uploads/2026/06/GettyImages-1480307716.jpg?auto=webp"
+    },
+    {
+      "title": "Missing 10 - year - old from Pennsylvania found dead in New Jersey ; Foster mother charged",
+      "url": "https://ktul.com/news/nation-world/brutal-murder-missing-10-year-old-from-pennsylvania-found-dead-in-new-jersey-reports-homicide-death-investigation-dead-body-suspect-charged-philadelphia-police-department-true-crime",
+      "domain": "ktul.com",
+      "seenDate": "20261106T050000Z",
+      "image": "https://ktul.com/resources/media2/16x9/780/1320/0x1/90/a836699a-27e0-4b5d-b7ae-9b3cae8ce2a8-JalayshiaAlford.jpg"
+    },
+    {
+      "title": "Foster mother charged after missing 10 - year - old Philadelphia girl body found in trunk of car in New Jersey",
+      "url": "https://www.foxla.com/news/philadelphia-girl-missing-since-oct-26-found-dead-trunk-vehicle-new-jersey-1-custody-sources",
+      "domain": "foxla.com",
+      "seenDate": "20261106T050000Z",
+      "image": "https://images.foxtv.com/static.livenowfox.com/www.livenowfox.com/content/uploads/2026/11/1280/720/1105_alford.jpg?ve=1&tl=1"
+    },
+    {
+      "title": "Lady London Demands Answers After Range Rover Fire",
+      "url": "https://hiphopwired.com/3068921/lady-london-range-rover-fire/",
+      "domain": "hiphopwired.com",
+      "seenDate": "20261106T043000Z",
+      "image": "https://hiphopwired.com/wp-content/uploads/sites/43/2026/01/17684131125205.jpg?quality=85&strip=all&crop=0,0,100,683px"
+    },
+    {
+      "title": "Cape Tech Students Get First - Hand Experience at Monmouth Clam Cove",
+      "url": "https://wjrz.com/2026/11/05/cape-tech-students-get-first-hand-experience-at-monmouths-clam-cove/",
+      "domain": "wjrz.com",
+      "seenDate": "20261106T043000Z",
+      "image": "https://wjrz.com/uploads/2026/11/uci-coastal-restoration.jpg?auto=webp"
+    }
+  ],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 44 records",
-    "construction": "available: 640 records",
-    "news": "unavailable: HTTP Error 429: Too Many Requests"
+    "incidents": "available: 43 records",
+    "construction": "available: 638 records",
+    "news": "available: 20 records"
   }
 }
