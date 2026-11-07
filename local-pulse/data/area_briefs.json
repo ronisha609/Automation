@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T18:09:07.251105+00:00",
+ "generatedAt": "2026-11-07T17:00:16.761057+00:00",
  "areaCount": 68,
  "sent": 68,
  "failed": 0,
@@ -7,88 +7,83 @@
   "nj-atlantic": {
    "label": "Atlantic County, NJ",
    "topic": "local-pulse-nj-atlantic",
-   "text": "Good morning, Atlantic County, NJ. No crashes nearby right now, but 3 construction zones could slow you down. It's 66°F, Light Rain, up to 67°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Atlantic County, NJ. Roads nearby look clear right now. It's 56°F, Mostly Sunny, up to 57°.",
    "flags": [
-    "construction",
-    "rain"
+    "quiet day"
    ]
   },
   "nj-bergen": {
    "label": "Bergen County, NJ",
    "topic": "local-pulse-nj-bergen",
-   "text": "Good morning, Bergen County, NJ. Watch for a closure at NY 9A northbound : Roving repairs (6.5 mi away) and 5 more nearby. It's 66°F, Light Rain Likely, up to 67°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Bergen County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (13.7 mi away). It's 61°F, Mostly Sunny, up to 63°.",
    "flags": [
     "crash or closure",
-    "construction",
-    "rain"
+    "construction"
    ]
   },
   "nj-burlington": {
    "label": "Burlington County, NJ",
    "topic": "local-pulse-nj-burlington",
-   "text": "Good morning, Burlington County, NJ. No crashes nearby right now, but 10 construction zones could slow you down. It's 66°F, Chance Light Rain, up to 68°.",
+   "text": "Good morning, Burlington County, NJ. Watch for a crash or incident at I-295 southbound : Overturned Truck (14.5 mi away). It's 56°F, Mostly Sunny, up to 57°.",
    "flags": [
+    "crash or closure",
     "construction"
    ]
   },
   "nj-camden": {
    "label": "Camden County, NJ",
    "topic": "local-pulse-nj-camden",
-   "text": "Good morning, Camden County, NJ. Watch for a crash or incident at I-76 eastbound (2.1 mi away) and 1 more nearby. It's 67°F, Chance Light Rain, up to 69°.",
+   "text": "Good morning, Camden County, NJ. No crashes nearby right now, but 10 construction zones could slow you down. It's 55°F, Sunny, up to 56°.",
    "flags": [
-    "crash or closure",
     "construction"
    ]
   },
   "nj-cape-may": {
    "label": "Cape May County, NJ",
    "topic": "local-pulse-nj-cape-may",
-   "text": "Good morning, Cape May County, NJ. Roads nearby look clear right now. It's 67°F, Rain, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Cape May County, NJ. Roads nearby look clear right now. It's 55°F, Mostly Sunny, up to 56°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "nj-cumberland": {
    "label": "Cumberland County, NJ",
    "topic": "local-pulse-nj-cumberland",
-   "text": "Good morning, Cumberland County, NJ. Roads nearby look clear right now. It's 66°F, Light Rain Likely, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Cumberland County, NJ. Roads nearby look clear right now. It's 55°F, Sunny, up to 57°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "nj-essex": {
    "label": "Essex County, NJ",
    "topic": "local-pulse-nj-essex",
-   "text": "Good morning, Essex County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (2.1 mi away) and 5 more nearby. It's 66°F, Rain, up to 66°. Rain is likely around 12 PM, so bring an umbrella.",
+   "text": "Good morning, Essex County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (2.1 mi away). It's 61°F, Mostly Sunny, up to 64°.",
    "flags": [
     "crash or closure",
-    "construction",
-    "rain"
+    "construction"
    ]
   },
   "nj-gloucester": {
    "label": "Gloucester County, NJ",
    "topic": "local-pulse-nj-gloucester",
-   "text": "Good morning, Gloucester County, NJ. Watch for a crash or incident at NJ 42 southbound (3.1 mi away) and 1 more nearby. It's 66°F, Chance Light Rain, up to 68°.",
+   "text": "Good morning, Gloucester County, NJ. No crashes nearby right now, but 10 construction zones could slow you down. It's 55°F, Sunny, up to 56°.",
    "flags": [
-    "crash or closure",
     "construction"
    ]
   },
   "nj-hudson": {
    "label": "Hudson County, NJ",
    "topic": "local-pulse-nj-hudson",
-   "text": "Good morning, Hudson County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (4.4 mi away) and 5 more nearby. It's 66°F, Light Rain, up to 66°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Hudson County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (4.4 mi away). It's 59°F, Mostly Sunny, up to 63°.",
    "flags": [
     "crash or closure",
-    "construction",
-    "rain"
+    "construction"
    ]
   },
   "nj-hunterdon": {
    "label": "Hunterdon County, NJ",
    "topic": "local-pulse-nj-hunterdon",
-   "text": "Good morning, Hunterdon County, NJ. No crashes nearby right now, but 2 construction zones could slow you down. It's 67°F, Chance Light Rain, up to 69°.",
+   "text": "Good morning, Hunterdon County, NJ. No crashes nearby right now, but 2 construction zones could slow you down. It's 56°F, Mostly Sunny, up to 57°.",
    "flags": [
     "construction"
    ]
@@ -96,36 +91,31 @@
   "nj-mercer": {
    "label": "Mercer County, NJ",
    "topic": "local-pulse-nj-mercer",
-   "text": "Good morning, Mercer County, NJ. Watch for a crash or incident at I-295 southbound (2.9 mi away) and 2 more nearby. It's 66°F, Chance Rain, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Mercer County, NJ. Watch for a crash or incident at I-295 southbound : Overturned Truck (2.1 mi away). It's 56°F, Mostly Sunny, up to 58°.",
    "flags": [
-    "crash or closure",
-    "construction",
-    "rain"
+    "crash or closure"
    ]
   },
   "nj-middlesex": {
    "label": "Middlesex County, NJ",
    "topic": "local-pulse-nj-middlesex",
-   "text": "Good morning, Middlesex County, NJ. Watch for a closure at NY 440 northbound : Roving repairs (12.4 mi away). It's 67°F, Chance Light Rain, up to 69°.",
+   "text": "Good morning, Middlesex County, NJ. No crashes nearby right now, but 6 construction zones could slow you down. It's 58°F, Partly Sunny, up to 59°.",
    "flags": [
-    "crash or closure",
     "construction"
    ]
   },
   "nj-monmouth": {
    "label": "Monmouth County, NJ",
    "topic": "local-pulse-nj-monmouth",
-   "text": "Good morning, Monmouth County, NJ. Watch for a crash or incident at New Jersey Turnpike southbound (12.5 mi away). It's 66°F, Light Rain Likely, up to 67°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Monmouth County, NJ. No crashes nearby right now, but 4 construction zones could slow you down. It's 58°F, Partly Sunny, up to 58°.",
    "flags": [
-    "crash or closure",
-    "construction",
-    "rain"
+    "construction"
    ]
   },
   "nj-morris": {
    "label": "Morris County, NJ",
    "topic": "local-pulse-nj-morris",
-   "text": "Good morning, Morris County, NJ. No crashes nearby right now, but 13 construction zones could slow you down. It's 66°F, Chance Light Rain, up to 68°.",
+   "text": "Good morning, Morris County, NJ. No crashes nearby right now, but 3 construction zones could slow you down. It's 58°F, Partly Sunny, up to 58°.",
    "flags": [
     "construction"
    ]
@@ -133,26 +123,24 @@
   "nj-ocean": {
    "label": "Ocean County, NJ",
    "topic": "local-pulse-nj-ocean",
-   "text": "Good morning, Ocean County, NJ. No crashes nearby right now, but 4 construction zones could slow you down. It's 67°F, Light Rain, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Ocean County, NJ. Roads nearby look clear right now. It's 58°F, Mostly Sunny, up to 59°.",
    "flags": [
-    "construction",
-    "rain"
+    "quiet day"
    ]
   },
   "nj-passaic": {
    "label": "Passaic County, NJ",
    "topic": "local-pulse-nj-passaic",
-   "text": "Good morning, Passaic County, NJ. Watch for a closure at NY 9A northbound : Roving repairs (13.5 mi away) and 5 more nearby. It's 66°F, Light Rain Likely, up to 67°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Passaic County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (14.5 mi away). It's 62°F, Mostly Sunny, up to 63°.",
    "flags": [
     "crash or closure",
-    "construction",
-    "rain"
+    "construction"
    ]
   },
   "nj-salem": {
    "label": "Salem County, NJ",
    "topic": "local-pulse-nj-salem",
-   "text": "Good morning, Salem County, NJ. No crashes nearby right now, but 1 construction zone could slow you down. It's 67°F, Chance Light Rain, up to 68°.",
+   "text": "Good morning, Salem County, NJ. No crashes nearby right now, but 1 construction zone could slow you down. It's 55°F, Sunny, up to 57°.",
    "flags": [
     "construction"
    ]
@@ -160,7 +148,7 @@
   "nj-somerset": {
    "label": "Somerset County, NJ",
    "topic": "local-pulse-nj-somerset",
-   "text": "Good morning, Somerset County, NJ. No crashes nearby right now, but 7 construction zones could slow you down. It's 67°F, Chance Light Rain, up to 69°.",
+   "text": "Good morning, Somerset County, NJ. No crashes nearby right now, but 3 construction zones could slow you down. It's 57°F, Partly Sunny, up to 59°.",
    "flags": [
     "construction"
    ]
@@ -168,7 +156,7 @@
   "nj-sussex": {
    "label": "Sussex County, NJ",
    "topic": "local-pulse-nj-sussex",
-   "text": "Good morning, Sussex County, NJ. No crashes nearby right now, but 6 construction zones could slow you down. It's 66°F, Slight Chance Light Rain, up to 68°.",
+   "text": "Good morning, Sussex County, NJ. No crashes nearby right now, but 2 construction zones could slow you down. It's 55°F, Partly Sunny, up to 55°.",
    "flags": [
     "construction"
    ]
@@ -176,17 +164,16 @@
   "nj-union": {
    "label": "Union County, NJ",
    "topic": "local-pulse-nj-union",
-   "text": "Good morning, Union County, NJ. Watch for a closure at NY 440 southbound : Roving repairs (3.6 mi away) and 5 more nearby. It's 67°F, Light Rain Likely, up to 67°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Union County, NJ. Watch for a closure at Port Street both directions : Truck restrictions (4.1 mi away). It's 60°F, Mostly Sunny, up to 64°.",
    "flags": [
     "crash or closure",
-    "construction",
-    "rain"
+    "construction"
    ]
   },
   "nj-warren": {
    "label": "Warren County, NJ",
    "topic": "local-pulse-nj-warren",
-   "text": "Good morning, Warren County, NJ. No crashes nearby right now, but 4 construction zones could slow you down. It's 68°F, Mostly Cloudy, up to 70°.",
+   "text": "Good morning, Warren County, NJ. No crashes nearby right now, but 1 construction zone could slow you down. It's 55°F, Partly Sunny, up to 56°.",
    "flags": [
     "construction"
    ]
@@ -194,15 +181,15 @@
   "ny-new-york": {
    "label": "New York, NY",
    "topic": "local-pulse-ny-new-york",
-   "text": "Good morning, New York, NY. It's 64°F, Heavy Rain, up to 65°. Rain is likely around 12 PM, so bring an umbrella.",
+   "text": "Good morning, New York, NY. It's 60°F, Mostly Sunny, up to 63°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "ca-los-angeles": {
    "label": "Los Angeles, CA",
    "topic": "local-pulse-ca-los-angeles",
-   "text": "Good morning, Los Angeles, CA. It's 71°F, Sunny, up to 83°.",
+   "text": "Good morning, Los Angeles, CA. It's 67°F, Sunny, up to 88°.",
    "flags": [
     "quiet day"
    ]
@@ -210,7 +197,7 @@
   "il-chicago": {
    "label": "Chicago, IL",
    "topic": "local-pulse-il-chicago",
-   "text": "Good morning, Chicago, IL. It's 47°F, Partly Sunny, up to 48°.",
+   "text": "Good morning, Chicago, IL. It's 46°F, Mostly Sunny, up to 51°.",
    "flags": [
     "quiet day"
    ]
@@ -218,7 +205,7 @@
   "tx-houston": {
    "label": "Houston, TX",
    "topic": "local-pulse-tx-houston",
-   "text": "Good morning, Houston, TX. It's 76°F, Mostly Sunny, up to 80°.",
+   "text": "Good morning, Houston, TX. It's 71°F, Mostly Cloudy, up to 78°.",
    "flags": [
     "quiet day"
    ]
@@ -226,7 +213,7 @@
   "az-phoenix": {
    "label": "Phoenix, AZ",
    "topic": "local-pulse-az-phoenix",
-   "text": "Good morning, Phoenix, AZ. It's 72°F, Sunny, up to 78°.",
+   "text": "Good morning, Phoenix, AZ. It's 68°F, Sunny, up to 82°.",
    "flags": [
     "quiet day"
    ]
@@ -234,23 +221,23 @@
   "pa-philadelphia": {
    "label": "Philadelphia, PA",
    "topic": "local-pulse-pa-philadelphia",
-   "text": "Good morning, Philadelphia, PA. It's 66°F, Chance Light Rain, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Philadelphia, PA. It's 55°F, Sunny, up to 56°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "tx-san-antonio": {
    "label": "San Antonio, TX",
    "topic": "local-pulse-tx-san-antonio",
-   "text": "Good morning, San Antonio, TX. It's 70°F, Sunny, up to 77°.",
+   "text": "Good morning, San Antonio, TX. It's 66°F, Mostly Cloudy, up to 73°. Rain is likely around 6 PM, so bring an umbrella.",
    "flags": [
-    "quiet day"
+    "rain"
    ]
   },
   "ca-san-diego": {
    "label": "San Diego, CA",
    "topic": "local-pulse-ca-san-diego",
-   "text": "Good morning, San Diego, CA. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. It's 76°F, Sunny, up to 80°.",
+   "text": "Good morning, San Diego, CA. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. It's 69°F, Sunny, up to 84°.",
    "flags": [
     "weather alert",
     "flooding"
@@ -259,7 +246,7 @@
   "tx-dallas": {
    "label": "Dallas, TX",
    "topic": "local-pulse-tx-dallas",
-   "text": "Good morning, Dallas, TX. It's 67°F, Partly Sunny, up to 72°.",
+   "text": "Good morning, Dallas, TX. It's 61°F, Partly Sunny, up to 69°.",
    "flags": [
     "quiet day"
    ]
@@ -267,23 +254,23 @@
   "fl-jacksonville": {
    "label": "Jacksonville, FL",
    "topic": "local-pulse-fl-jacksonville",
-   "text": "Good morning, Jacksonville, FL. It's 84°F, Mostly Sunny, up to 85°.",
+   "text": "Good morning, Jacksonville, FL. The weather service has a Rip Current Statement for parts of the area, so check it before you head out. It's 73°F, Partly Sunny, up to 78°.",
    "flags": [
-    "quiet day"
+    "weather alert"
    ]
   },
   "tx-austin": {
    "label": "Austin, TX",
    "topic": "local-pulse-tx-austin",
-   "text": "Good morning, Austin, TX. It's 70°F, Sunny, up to 77°.",
+   "text": "Good morning, Austin, TX. It's 68°F, Cloudy, up to 73°. Rain is likely around 6 PM, so bring an umbrella.",
    "flags": [
-    "quiet day"
+    "rain"
    ]
   },
   "tx-fort-worth": {
    "label": "Fort Worth, TX",
    "topic": "local-pulse-tx-fort-worth",
-   "text": "Good morning, Fort Worth, TX. It's 68°F, Partly Sunny, up to 71°.",
+   "text": "Good morning, Fort Worth, TX. It's 57°F, Chance Rain Showers, up to 67°.",
    "flags": [
     "quiet day"
    ]
@@ -291,7 +278,7 @@
   "ca-san-jose": {
    "label": "San Jose, CA",
    "topic": "local-pulse-ca-san-jose",
-   "text": "Good morning, San Jose, CA. It's 65°F, Sunny, up to 74°.",
+   "text": "Good morning, San Jose, CA. It's 55°F, Sunny, up to 77°.",
    "flags": [
     "quiet day"
    ]
@@ -299,15 +286,15 @@
   "oh-columbus": {
    "label": "Columbus, OH",
    "topic": "local-pulse-oh-columbus",
-   "text": "Good morning, Columbus, OH. It's 52°F, Cloudy, up to 54°.",
+   "text": "Good morning, Columbus, OH. The weather service has a Freeze Warning for parts of the area, so check it before you head out. It's 48°F, Cloudy, up to 53°.",
    "flags": [
-    "quiet day"
+    "weather alert"
    ]
   },
   "nc-charlotte": {
    "label": "Charlotte, NC",
    "topic": "local-pulse-nc-charlotte",
-   "text": "Good morning, Charlotte, NC. It's 70°F, Mostly Cloudy, up to 72°.",
+   "text": "Good morning, Charlotte, NC. It's 58°F, Sunny, up to 64°.",
    "flags": [
     "quiet day"
    ]
@@ -315,7 +302,7 @@
   "in-indianapolis": {
    "label": "Indianapolis, IN",
    "topic": "local-pulse-in-indianapolis",
-   "text": "Good morning, Indianapolis, IN. It's 46°F, Cloudy, up to 51°.",
+   "text": "Good morning, Indianapolis, IN. It's 46°F, Sunny, up to 53°.",
    "flags": [
     "quiet day"
    ]
@@ -323,7 +310,7 @@
   "ca-san-francisco": {
    "label": "San Francisco, CA",
    "topic": "local-pulse-ca-san-francisco",
-   "text": "Good morning, San Francisco, CA. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. It's 58°F, Mostly Sunny, up to 69°.",
+   "text": "Good morning, San Francisco, CA. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. It's 56°F, Mostly Sunny, up to 70°.",
    "flags": [
     "weather alert",
     "flooding"
@@ -332,15 +319,15 @@
   "wa-seattle": {
    "label": "Seattle, WA",
    "topic": "local-pulse-wa-seattle",
-   "text": "Good morning, Seattle, WA. It's 51°F, Chance Light Rain, up to 56°. Rain is likely around 3 PM, so bring an umbrella.",
+   "text": "Good morning, Seattle, WA. The weather service has a Wind Advisory for parts of the area, so check it before you head out. It's 50°F, Cloudy, up to 61°.",
    "flags": [
-    "rain"
+    "weather alert"
    ]
   },
   "co-denver": {
    "label": "Denver, CO",
    "topic": "local-pulse-co-denver",
-   "text": "Good morning, Denver, CO. It's 49°F, Mostly Cloudy, up to 59°.",
+   "text": "Good morning, Denver, CO. It's 46°F, Sunny, up to 65°.",
    "flags": [
     "quiet day"
    ]
@@ -348,7 +335,7 @@
   "ok-oklahoma-city": {
    "label": "Oklahoma City, OK",
    "topic": "local-pulse-ok-oklahoma-city",
-   "text": "Good morning, Oklahoma City, OK. It's 52°F, Mostly Cloudy, up to 54°.",
+   "text": "Good morning, Oklahoma City, OK. It's 48°F, Mostly Sunny, up to 58°.",
    "flags": [
     "quiet day"
    ]
@@ -356,7 +343,7 @@
   "tn-nashville": {
    "label": "Nashville, TN",
    "topic": "local-pulse-tn-nashville",
-   "text": "Good morning, Nashville, TN. It's 60°F, Partly Sunny, up to 62°.",
+   "text": "Good morning, Nashville, TN. It's 51°F, Sunny, up to 59°.",
    "flags": [
     "quiet day"
    ]
@@ -364,23 +351,23 @@
   "dc-washington": {
    "label": "Washington, DC",
    "topic": "local-pulse-dc-washington",
-   "text": "Good morning, Washington, DC. It's 68°F, Rain Showers, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Washington, DC. It's 55°F, Sunny, up to 59°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "tx-el-paso": {
    "label": "El Paso, TX",
    "topic": "local-pulse-tx-el-paso",
-   "text": "Good morning, El Paso, TX. It's 64°F, Partly Sunny, up to 67°.",
+   "text": "Good morning, El Paso, TX. It's 56°F, Chance Rain Showers, up to 57°. Rain is likely around 11 AM, so bring an umbrella.",
    "flags": [
-    "quiet day"
+    "rain"
    ]
   },
   "nv-las-vegas": {
    "label": "Las Vegas, NV",
    "topic": "local-pulse-nv-las-vegas",
-   "text": "Good morning, Las Vegas, NV. It's 65°F, Sunny, up to 74°.",
+   "text": "Good morning, Las Vegas, NV. It's 60°F, Sunny, up to 75°.",
    "flags": [
     "quiet day"
    ]
@@ -388,15 +375,15 @@
   "ma-boston": {
    "label": "Boston, MA",
    "topic": "local-pulse-ma-boston",
-   "text": "Good morning, Boston, MA. It's 68°F, Rain, up to 68°. Rain is likely around 3 PM, so bring an umbrella.",
+   "text": "Good morning, Boston, MA. It's 60°F, Chance Rain Showers, up to 62°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "mi-detroit": {
    "label": "Detroit, MI",
    "topic": "local-pulse-mi-detroit",
-   "text": "Good morning, Detroit, MI. It's 47°F, Mostly Cloudy, up to 48°.",
+   "text": "Good morning, Detroit, MI. It's 48°F, Mostly Cloudy, up to 52°.",
    "flags": [
     "quiet day"
    ]
@@ -404,15 +391,15 @@
   "or-portland": {
    "label": "Portland, OR",
    "topic": "local-pulse-or-portland",
-   "text": "Good morning, Portland, OR. It's 54°F, Mostly Sunny, up to 60°. Rain is likely around 7 PM, so bring an umbrella.",
+   "text": "Good morning, Portland, OR. It's 51°F, Patchy Fog, up to 62°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "ky-louisville": {
    "label": "Louisville, KY",
    "topic": "local-pulse-ky-louisville",
-   "text": "Good morning, Louisville, KY. The weather service has a Frost Advisory for parts of the area, so check it before you head out. It's 55°F, Cloudy, up to 57°.",
+   "text": "Good morning, Louisville, KY. The weather service has a Freeze Warning for parts of the area, so check it before you head out. It's 50°F, Sunny, up to 55°.",
    "flags": [
     "weather alert"
    ]
@@ -420,7 +407,7 @@
   "tn-memphis": {
    "label": "Memphis, TN",
    "topic": "local-pulse-tn-memphis",
-   "text": "Good morning, Memphis, TN. It's 63°F, Sunny, up to 64°.",
+   "text": "Good morning, Memphis, TN. It's 52°F, Partly Sunny, up to 57°.",
    "flags": [
     "quiet day"
    ]
@@ -428,15 +415,15 @@
   "md-baltimore": {
    "label": "Baltimore, MD",
    "topic": "local-pulse-md-baltimore",
-   "text": "Good morning, Baltimore, MD. It's 67°F, Scattered Rain Showers, up to 70°. Rain is likely around 2 PM, so bring an umbrella.",
+   "text": "Good morning, Baltimore, MD. It's 55°F, Sunny, up to 60°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "wi-milwaukee": {
    "label": "Milwaukee, WI",
    "topic": "local-pulse-wi-milwaukee",
-   "text": "Good morning, Milwaukee, WI. It's 43°F, Partly Sunny, up to 46°.",
+   "text": "Good morning, Milwaukee, WI. It's 42°F, Mostly Sunny, up to 51°.",
    "flags": [
     "quiet day"
    ]
@@ -444,7 +431,7 @@
   "nm-albuquerque": {
    "label": "Albuquerque, NM",
    "topic": "local-pulse-nm-albuquerque",
-   "text": "Good morning, Albuquerque, NM. It's 53°F, Mostly Cloudy, up to 63°.",
+   "text": "Good morning, Albuquerque, NM. It's 50°F, Sunny, up to 66°.",
    "flags": [
     "quiet day"
    ]
@@ -452,7 +439,7 @@
   "ga-atlanta": {
    "label": "Atlanta, GA",
    "topic": "local-pulse-ga-atlanta",
-   "text": "Good morning, Atlanta, GA. It's 70°F, Mostly Sunny, up to 72°.",
+   "text": "Good morning, Atlanta, GA. It's 60°F, Mostly Sunny, up to 66°.",
    "flags": [
     "quiet day"
    ]
@@ -460,9 +447,9 @@
   "mo-kansas-city": {
    "label": "Kansas City, MO",
    "topic": "local-pulse-mo-kansas-city",
-   "text": "Good morning, Kansas City, MO. The weather service has a Frost Advisory for parts of the area, so check it before you head out. It's 50°F, Patchy Drizzle, up to 53°.",
+   "text": "Good morning, Kansas City, MO. It's 45°F, Mostly Cloudy, up to 55°.",
    "flags": [
-    "weather alert"
+    "quiet day"
    ]
   },
   "fl-miami": {
@@ -477,7 +464,7 @@
   "la-new-orleans": {
    "label": "New Orleans, LA",
    "topic": "local-pulse-la-new-orleans",
-   "text": "Good morning, New Orleans, LA. It's 73°F, Mostly Cloudy, up to 76°.",
+   "text": "Good morning, New Orleans, LA. It's 67°F, Mostly Sunny, up to 72°.",
    "flags": [
     "quiet day"
    ]
@@ -485,15 +472,15 @@
   "mn-minneapolis": {
    "label": "Minneapolis, MN",
    "topic": "local-pulse-mn-minneapolis",
-   "text": "Good morning, Minneapolis, MN. It's 39°F, Sunny, up to 43°. Watch for frost or slick spots early.",
+   "text": "Good morning, Minneapolis, MN. It's 42°F, Sunny, up to 52°.",
    "flags": [
-    "cold or frost"
+    "quiet day"
    ]
   },
   "fl-tampa": {
    "label": "Tampa, FL",
    "topic": "local-pulse-fl-tampa",
-   "text": "Good morning, Tampa, FL. It's 83°F, Sunny, up to 84°.",
+   "text": "Good morning, Tampa, FL. It's 79°F, Sunny, up to 82°.",
    "flags": [
     "quiet day"
    ]
@@ -501,33 +488,31 @@
   "nc-raleigh": {
    "label": "Raleigh, NC",
    "topic": "local-pulse-nc-raleigh",
-   "text": "Good morning, Raleigh, NC. It's 65°F, Showers And Thunderstorms, up to 65°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Raleigh, NC. It's 60°F, Sunny, up to 63°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "va-richmond": {
    "label": "Richmond, VA",
    "topic": "local-pulse-va-richmond",
-   "text": "Good morning, Richmond, VA. It's 67°F, Rain Showers, up to 67°. Rain is likely around 1 PM, so bring an umbrella.",
+   "text": "Good morning, Richmond, VA. It's 58°F, Sunny, up to 61°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "va-virginia-beach": {
    "label": "Virginia Beach, VA",
    "topic": "local-pulse-va-virginia-beach",
-   "text": "Good morning, Virginia Beach, VA. The weather service has a Flood Watch for parts of the area, so check it before you head out. It's 73°F, Showers And Thunderstorms, up to 73°. Rain is likely around 4 PM, so bring an umbrella.",
+   "text": "Good morning, Virginia Beach, VA. It's 59°F, Sunny, up to 60°.",
    "flags": [
-    "weather alert",
-    "flooding",
-    "rain"
+    "quiet day"
    ]
   },
   "pa-pittsburgh": {
    "label": "Pittsburgh, PA",
    "topic": "local-pulse-pa-pittsburgh",
-   "text": "Good morning, Pittsburgh, PA. It's 56°F, Mostly Cloudy, up to 56°.",
+   "text": "Good morning, Pittsburgh, PA. It's 51°F, Cloudy, up to 54°.",
    "flags": [
     "quiet day"
    ]
@@ -535,23 +520,23 @@
   "oh-cleveland": {
    "label": "Cleveland, OH",
    "topic": "local-pulse-oh-cleveland",
-   "text": "Good morning, Cleveland, OH. It's 53°F, Mostly Cloudy, up to 53°. Rain is likely around 12 AM, so bring an umbrella.",
+   "text": "Good morning, Cleveland, OH. It's 50°F, Chance Rain Showers, up to 52°.",
    "flags": [
-    "rain"
+    "quiet day"
    ]
   },
   "mo-st-louis": {
    "label": "St. Louis, MO",
    "topic": "local-pulse-mo-st-louis",
-   "text": "Good morning, St. Louis, MO. The weather service has a Freeze Warning for parts of the area, so check it before you head out. It's 50°F, Slight Chance Drizzle, up to 52°.",
+   "text": "Good morning, St. Louis, MO. It's 46°F, Sunny, up to 53°.",
    "flags": [
-    "weather alert"
+    "quiet day"
    ]
   },
   "ut-salt-lake-city": {
    "label": "Salt Lake City, UT",
    "topic": "local-pulse-ut-salt-lake-city",
-   "text": "Good morning, Salt Lake City, UT. It's 51°F, Sunny, up to 54°.",
+   "text": "Good morning, Salt Lake City, UT. It's 45°F, Mostly Sunny, up to 56°.",
    "flags": [
     "quiet day"
    ]
@@ -559,7 +544,7 @@
   "hi-honolulu": {
    "label": "Honolulu, HI",
    "topic": "local-pulse-hi-honolulu",
-   "text": "Good morning, Honolulu, HI. It's 76°F, Isolated Rain Showers, up to 84°.",
+   "text": "Good morning, Honolulu, HI. It's 75°F, Mostly Sunny, up to 84°.",
    "flags": [
     "quiet day"
    ]
@@ -567,7 +552,7 @@
   "ak-anchorage": {
    "label": "Anchorage, AK",
    "topic": "local-pulse-ak-anchorage",
-   "text": "Good morning, Anchorage, AK. It's 27°F, Mostly Sunny, up to 36°. Watch for frost or slick spots early.",
+   "text": "Good morning, Anchorage, AK. It's 26°F, Mostly Cloudy, up to 30°. Watch for frost or slick spots early.",
    "flags": [
     "cold or frost"
    ]

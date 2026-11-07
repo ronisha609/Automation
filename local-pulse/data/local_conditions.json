@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:47:20.605129+00:00",
+  "generatedAt": "2026-11-07T16:52:19.395121+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -639,8 +639,8 @@
     {
       "type": "construction",
       "title": "I-95 southbound : Roadwork",
-      "description": "ConnDOT: I-95 Southbound is congested between Exits 27A and 24 (2.2 miles) because of Road Work between Exits 25 and 24 (0.5 miles). Road Work in effect today until 4:00 pm. The left lane is closed. Reported Saturday, November 7 at 8:42 am.",
-      "published": "Sat, 07 Nov 2026 08:45:06 -0500",
+      "description": "ConnDOT: I-95 Southbound is congested between Exits 29 and 24 (3.6 miles) because of Road Work between Exits 25 and 24 (0.5 miles). Road Work in effect today until 4:00 pm. The left lane is closed. Reported Saturday, November 7 at 8:42 am.",
+      "published": "Sat, 07 Nov 2026 11:47:03 -0500",
       "link": "https://511nj.org/",
       "latitude": 41.167656,
       "longitude": -73.220511
@@ -3058,11 +3058,68 @@
       "longitude": -79.382971
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Texas Just Made It Easier to Remove Squatters and That One More Reason Investors Are Pouring Into the State » Live Insurance News",
+      "url": "https://www.liveinsurancenews.com/texas-easier-to-remove-squatters/8577631/",
+      "domain": "liveinsurancenews.com",
+      "seenDate": "20261107T160000Z",
+      "image": "https://www.liveinsurancenews.com/wp-content/uploads/2026/11/Texas-Rental-Market-1.jpg"
+    },
+    {
+      "title": "East Coast soaker threatens millions in Northeast with flash flooding , while Mid - Atlantic faces severe storms",
+      "url": "https://www.aol.com/articles/rounds-heavy-rain-return-northeast-020022000.html",
+      "domain": "aol.com",
+      "seenDate": "20261107T113000Z",
+      "image": "https://hermes.media.static.aol.com/media/2026/11/07/2f835412-4cd4-32ed-917a-6c2697e5f041/f893ca91-efe4-4cc5-bc13-30a937a30a38.png"
+    },
+    {
+      "title": "K - LOVE Verse of the Day | Positive Encouraging K - LOVE",
+      "url": "https://www.klove.com/faith/votd?d=2026-11-07",
+      "domain": "klove.com",
+      "seenDate": "20261107T063000Z",
+      "image": "https://cdn.klove.inc/bible/126455/126455.webp"
+    },
+    {
+      "title": "News 12 | Westchester | Rubber Modified Asphalt Could Make Roads Last Longer But Its Rarely Used Locally",
+      "url": "https://westchester.news12.com/rubber-modified-asphalt-could-make-roads-last-longer-but-its-rarely-used-locally",
+      "domain": "westchester.news12.com",
+      "seenDate": "20261107T063000Z",
+      "image": "https://images-cf.news12static.com/3kqcuzntcg31/1vgzNvLhJY7u2pf0WeYnna/77ed5aed8b3c58a7d50b60f5a37c4658/Screenshot_2026-11-06_215837.png"
+    },
+    {
+      "title": "Coast Guard Commander to share untold story of JFK Jr . search mission",
+      "url": "https://www.capecod.com/cape-wide-news/coast-guard-commander-to-share-untold-story-of-jfk-jr-search-mission/",
+      "domain": "capecod.com",
+      "seenDate": "20261107T000000Z",
+      "image": "https://www.capecod.com/wp-content/uploads/Book-4.jpg"
+    },
+    {
+      "title": "灰熊队球员名单 （ 灰熊队球员名单虎扑 ） ",
+      "url": "https://www.mastv.cc/shbk/392.html",
+      "domain": "mastv.cc",
+      "seenDate": "20261107T000000Z",
+      "image": null
+    },
+    {
+      "title": "CDC : Ξεπέρασαν τα 5 . 000 τα κρούσματα ιλαράς στις ΗΠΑ - Καταγράφηκαν σε 45 πολιτείες - PatrisNews",
+      "url": "https://www.patrisnews.com/cdc-xeperasan-ta-5-000-ta-kroysmata-ilaras-stis-ipa-katagrafikan-se-45-politeies/",
+      "domain": "patrisnews.com",
+      "seenDate": "20261107T000000Z",
+      "image": "https://www.patrisnews.com/wp-content/uploads/2026/11/ilara.webp"
+    },
+    {
+      "title": "Flash Flooding Closes New Jersey Roads as Raleigh and Durham Face Warnings",
+      "url": "https://www.rustourismnews.com/2026/11/06/flash-flooding-closes-new-jersey-roads-as-raleigh-and-durham-face-warnings/",
+      "domain": "rustourismnews.com",
+      "seenDate": "20261107T000000Z",
+      "image": "https://www.rustourismnews.com/wp-content/uploads/2026/03/flood.webp"
+    }
+  ],
   "statuses": {
     "weather": "available",
     "incidents": "available: 9 records",
     "construction": "available: 316 records",
-    "news": "unavailable: HTTP Error 429: Too Many Requests"
+    "news": "available: 8 records"
   }
 }

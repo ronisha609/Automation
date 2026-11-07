@@ -1,67 +1,66 @@
 {
-  "generatedAt": "2026-11-06T18:01:04.953506+00:00",
+  "generatedAt": "2026-11-07T16:52:33.641585+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a crash or incident at I-295 southbound (2.9 mi away) and 2 more nearby. It's 66°F, Chance Rain, up to 68°. Rain is likely around 1 PM, so bring an umbrella.",
+  "text": "Good morning, Central New Jersey. Watch for a crash or incident at I-295 southbound : Overturned Truck (2.1 mi away). It's 56°F, Mostly Sunny, up to 58°.",
   "source": "rules",
-  "fingerprint": "94d767aaf9393ed9",
+  "fingerprint": "94ab2f0a49441653",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Friday, November 6",
+    "date": "Saturday, November 7",
     "special": "",
     "weather": {
-      "now": "66°F, Chance Rain",
-      "low": 55,
-      "high": 68,
-      "maxRainChance": 69,
-      "wettestHour": "1 PM",
+      "now": "56°F, Mostly Sunny",
+      "low": 47,
+      "high": 58,
+      "maxRainChance": 4,
+      "wettestHour": "7 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
         "what": "crash or incident",
-        "where": "I-295 southbound",
-        "detail": "NJ DOT - TOC South: Crash on I-295 Southbound At Exit 64 - CR 535/East State Street Extension (Hamilton Twp), left shoulder closed",
-        "milesAway": 2.9
-      },
-      {
-        "what": "crash or incident",
-        "where": "I-295 southbound",
-        "detail": "NJ DOT - TOC South: Crash on I-295 Southbound South of Exit 67 - US 1 (Lawrence Twp), left shoulder closed",
-        "milesAway": 5.0
-      },
-      {
-        "what": "crash or incident",
-        "where": "New Jersey Turnpike southbound",
-        "detail": "NJ Turnpike Auth.: Crash on New Jersey Turnpike Inner Roadway southbound North of Interchange 8 - NJ 33 (East Windsor Twp) left shoulder blocked",
-        "milesAway": 12.7
+        "where": "I-295 southbound : Overturned Truck",
+        "detail": "NJ DOT - STMC: Crash on I-295 Southbound South of Exit 61 - Arena Dr (Hamilton Twp), 2 right lanes of 3 lanes, right shoulder closed",
+        "milesAway": 2.1
       },
       {
         "what": "construction",
-        "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound near north of Exit 69 - US 206 (Lawrence Twp), Friday November 6, 2026 10:00 AM thru 02:00 PM, right lane closed",
-        "milesAway": 4.8
+        "where": "US 202 northbound",
+        "detail": "NJDOT - STMC: Roadwork on US 202 Northbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 5, 2026 12:00 AM thru Wednesday November 11, 2026 12:00 AM, left shoulder",
+        "milesAway": 22.9
       },
       {
         "what": "construction",
-        "where": "I-295 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near south of Exit 69 - US 206 (Lawrence Twp), Friday November 6, 2026 10:00 AM thru 03:00 PM, left lane closed",
-        "milesAway": 4.8
+        "where": "US 202 southbound",
+        "detail": "NJDOT - STMC: Roadwork on US 202 Southbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 5, 2026 12:00 AM thru Wednesday November 11, 2026 12:00 AM, left shoulder",
+        "milesAway": 23.2
       },
       {
         "what": "construction",
-        "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Friday November 6, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 5.7
+        "where": "Betsy Ross Bridge westbound",
+        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
+        "milesAway": 23.3
+      },
+      {
+        "what": "construction",
+        "where": "NJ 18 northbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
+        "milesAway": 24.0
       }
     ],
     "roadCounts": {
-      "incidents": 3,
-      "construction": 19
+      "incidents": 1,
+      "construction": 4
     },
-    "headlines": []
+    "headlines": [
+      "Texas Just Made It Easier to Remove Squatters and That One More Reason Investors Are Pouring Into the State » Live Insurance News",
+      "East Coast soaker threatens millions in Northeast with flash flooding , while Mid - Atlantic faces severe storms",
+      "K - LOVE Verse of the Day | Positive Encouraging K - LOVE",
+      "News 12 | Westchester | Rubber Modified Asphalt Could Make Roads Last Longer But Its Rarely Used Locally"
+    ]
   },
   "ntfyTopic": "local-pulse-nj"
 }

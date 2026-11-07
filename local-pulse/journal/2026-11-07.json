@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-07",
+  "sentAt": "2026-11-07T16:52:33.641585+00:00",
+  "message": "Good morning, Central New Jersey. Watch for a crash or incident at I-295 southbound : Overturned Truck (2.1 mi away). It's 56°F, Mostly Sunny, up to 58°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "crash or closure",
+    "construction"
+  ],
+  "nearbyIncidents": 1,
+  "nearbyConstruction": 4,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "56°F, Mostly Sunny",
+    "low": 47,
+    "high": 58,
+    "maxRainChance": 4,
+    "wettestHour": "7 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-07.jpg"
+}
