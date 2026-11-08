@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T00:21:35.899104+00:00",
+  "generatedAt": "2026-11-08T06:35:09.378225+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -8,76 +8,6 @@
   "weather": {
     "location": "Trenton, NJ",
     "periods": [
-      {
-        "startTime": "2026-11-07T18:00:00-05:00",
-        "temperature": 51,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
-      {
-        "startTime": "2026-11-07T19:00:00-05:00",
-        "temperature": 49,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
-      {
-        "startTime": "2026-11-07T20:00:00-05:00",
-        "temperature": 48,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
-      {
-        "startTime": "2026-11-07T21:00:00-05:00",
-        "temperature": 47,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
-      {
-        "startTime": "2026-11-07T22:00:00-05:00",
-        "temperature": 46,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 1,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
-      {
-        "startTime": "2026-11-07T23:00:00-05:00",
-        "temperature": 45,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 2,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
-      {
-        "startTime": "2026-11-08T00:00:00-05:00",
-        "temperature": 44,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 2,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
       {
         "startTime": "2026-11-08T01:00:00-05:00",
         "temperature": 44,
@@ -127,6 +57,76 @@
         "shortForecast": "Mostly Cloudy",
         "probabilityOfPrecipitation": 1,
         "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-08T06:00:00-05:00",
+        "temperature": 46,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Partly Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-08T07:00:00-05:00",
+        "temperature": 46,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Partly Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-08T08:00:00-05:00",
+        "temperature": 49,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "W",
+        "shortForecast": "Partly Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-08T09:00:00-05:00",
+        "temperature": 53,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-08T10:00:00-05:00",
+        "temperature": 56,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-08T11:00:00-05:00",
+        "temperature": 58,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Sunny",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-08T12:00:00-05:00",
+        "temperature": 60,
+        "temperatureUnit": "F",
+        "windSpeed": "15 mph",
+        "windDirection": "W",
+        "shortForecast": "Sunny",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
       }
     ]
   },
@@ -134,102 +134,57 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "I-291E_X_I84 unknown : Crash",
-      "description": "ConnDOT: Crash on I-291 Eastbound Exit 5B OFFRAMP to I-84 EAST. Expect lane closures. Reported Saturday, November 7 at 7:14 pm.",
-      "published": "Sat, 07 Nov 2026 19:14:13 -0500",
+      "title": "Taconic State Parkway northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on Taconic State Parkway northbound north of Exit 23 - Bryant Pond Rd. - CR 30 (Putnam Valley) right shoulder of 2 lanes blocked MM 24.1 CAD 97402080",
+      "published": "Sun, 08 Nov 2026 01:03:55 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.790253,
-      "longitude": -72.56189
+      "latitude": 41.3885,
+      "longitude": -73.7988
     },
     {
       "type": "incident",
-      "title": "I-95 northbound : Crash",
-      "description": "ConnDOT: Crash (3 Vehicle) on I-95 Northbound between Exits 3 and 4. The right and center lanes are closed. Reported Saturday, November 7 at 7:13 pm.",
-      "published": "Sat, 07 Nov 2026 19:15:07 -0500",
+      "title": "I-90 eastbound : Crash",
+      "description": "NYSDOT TMC - Albany: Crash on I-90 eastbound Exit 6A; I-787 (Albany) left shoulder closed",
+      "published": "Sun, 08 Nov 2026 01:04:03 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.021902,
-      "longitude": -73.618795
+      "latitude": 42.6681418782611,
+      "longitude": -73.7352818782611
     },
     {
       "type": "incident",
-      "title": "NY 135 southbound : Crash",
-      "description": "NYSDOT - Region 10: Crash on NY 135 southbound at Exit 5 - Hicksville Road (Oyster Bay) 2 Right lanes of 3 lanes closed",
-      "published": "Sat, 07 Nov 2026 19:15:41 -0500",
+      "title": "I-87 Northway southbound : Crash",
+      "description": "NYSDOT TMC - Albany: Crash and Fire department activity on I-87 Northway southbound area of Twin Bridges; Town of Halfmoon; Town of Colonie Line (Colonie) 2 Left lanes and shoulder of 3 lanes closed",
+      "published": "Sun, 08 Nov 2026 00:44:19 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7087892567628,
-      "longitude": -73.4852965358279
+      "latitude": 42.7940507466019,
+      "longitude": -73.7639652539563
     },
     {
       "type": "incident",
-      "title": "I-90 - NYS Thruway westbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway westbound at After Exit 46 (I-90) - Rochester - Corning (I-390) starting 6:59 PM, 11/07/2026 [CARS CAD-263110220]",
-      "published": "Sat, 07 Nov 2026 18:59:21 -0500",
+      "title": "CT 72 eastbound : Crash",
+      "description": "ConnDOT: RT 72 Eastbound CLOSED between Exits 4 and 2 because of Crash (2 Vehicle). Reported Saturday, November 7 at 11:19 pm.",
+      "published": "Sat, 07 Nov 2026 23:19:44 -0500",
       "link": "https://511nj.org/",
-      "latitude": 43.042367,
-      "longitude": -77.701167
+      "latitude": 41.672647,
+      "longitude": -72.845595
     },
     {
       "type": "incident",
-      "title": "I-90 - NYS Thruway westbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway westbound at After Exit 46 (I-90) - Rochester - Corning (I-390) starting 6:59 PM, 11/07/2026 [CARS CAD-263110219]",
-      "published": "Sat, 07 Nov 2026 18:59:29 -0500",
+      "title": "I-84 eastbound : Crash",
+      "description": "ConnDOT: I-84 Eastbound CLOSED between Exits 34 and 35 because of Crash (2 Vehicle). Reported Saturday, November 7 at 10:46 pm.",
+      "published": "Sat, 07 Nov 2026 23:14:50 -0500",
       "link": "https://511nj.org/",
-      "latitude": 43.047632,
-      "longitude": -77.662511
+      "latitude": 41.669812,
+      "longitude": -72.837138
     },
     {
       "type": "incident",
-      "title": "I-87 - NYS Thruway southbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-87 - NYS Thruway southbound at After Exit 17 (I-87) - Newburgh (I-84 - Rte 17K) starting 6:59 PM, 11/07/2026 [CARS CAD-263110218]",
-      "published": "Sat, 07 Nov 2026 18:59:16 -0500",
+      "title": "Garden State Parkway both directions : Operational Activity",
+      "description": "NJ Turnpike Auth.: Operational Activity and Slow moving operation on Garden State Parkway both directions South of Exit 137 - NJ 28 (Cranford Twp) to North of Bergen Toll Plaza (Saddle Brook Twp) Various lanes may be closed intermittently due to mobile line striping operations until 5:00 A.M.",
+      "published": "Sat, 07 Nov 2026 19:55:41 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.591199,
-      "longitude": -74.087734
-    },
-    {
-      "type": "incident",
-      "title": "I-91 northbound : Crash",
-      "description": "ConnDOT: Crash (Multi Vehicle) on I-91 Northbound between Exits 37 and 38. The 2 right lanes are closed. Reported Saturday, November 7 at 6:43 pm.",
-      "published": "Sat, 07 Nov 2026 18:50:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.867005,
-      "longitude": -72.662195
-    },
-    {
-      "type": "incident",
-      "title": "New Jersey Turnpike/I-95 northbound : Disabled vehicle",
-      "description": "NJ Turnpike Auth.: Disabled vehicle on New Jersey Turnpike/I-95 Express Lanes northbound North of Exit 72A (SB) - NJ 4 (Fort Lee) 1 Center lane of 4 lanes closed",
-      "published": "Sat, 07 Nov 2026 18:25:50 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8583154176403,
-      "longitude": -73.9749324746277
-    },
-    {
-      "type": "incident",
-      "title": "I-87 - NYS Thruway northbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-87 - NYS Thruway northbound at After Exit 17 (I-87) - Newburgh (I-84 - Rte 17K) starting 6:23 PM, 11/07/2026 [CARS CAD-263110215]",
-      "published": "Sat, 07 Nov 2026 18:23:29 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.577089,
-      "longitude": -74.085721
-    },
-    {
-      "type": "incident",
-      "title": "NY 199 eastbound : Crash with Injuries",
-      "description": "NYSDOT - Region 8: Crash with injuries on NY 199 eastbound at NY 82 Junction (Pine Plains) right shoulder of 1 lane blocked CAD 97384080",
-      "published": "Sat, 07 Nov 2026 18:19:25 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.9723,
-      "longitude": -73.6326
-    },
-    {
-      "type": "incident",
-      "title": "I-90 - NYS Thruway westbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway westbound at Before Exit 60 (I-90) - Westfield (Rte 394) starting 6:06 PM, 11/07/2026 [CARS CAD-263110207]",
-      "published": "Sat, 07 Nov 2026 18:06:48 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.384946,
-      "longitude": -79.485966
+      "latitude": 40.6573849047,
+      "longitude": -74.287245345
     },
     {
       "type": "incident",
@@ -260,6 +215,240 @@
     },
     {
       "type": "construction",
+      "title": "I-495 eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on I-495 eastbound ramp from Woodhaven Boulevard (New York) All lanes closed until 7:30 A.M.",
+      "published": "Sun, 08 Nov 2026 00:41:19 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7316555311633,
+      "longitude": -73.8707116855933
+    },
+    {
+      "type": "construction",
+      "title": "I-495 eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on I-495 eastbound ramp from 71st Street (New York) All lanes closed until 7:30 A.M.",
+      "published": "Sun, 08 Nov 2026 00:39:16 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7263543442957,
+      "longitude": -73.889257284455
+    },
+    {
+      "type": "construction",
+      "title": "I-495 eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on I-495 eastbound ramp to Woodhaven Boulevard (New York) All lanes closed until 7:30 A.M.",
+      "published": "Sun, 08 Nov 2026 00:37:55 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7309315860077,
+      "longitude": -73.8733394071815
+    },
+    {
+      "type": "construction",
+      "title": "Franklin D. Roosevelt Drive southbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on Franklin D. Roosevelt Drive southbound between East 81st Street (New York) and East 73rd Street (New York) 2 Right lanes of 3 lanes closed from 2:00 A.M. until 7:00 A.M.",
+      "published": "Sun, 08 Nov 2026 00:09:12 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7714142293259,
+      "longitude": -73.9466200493398
+    },
+    {
+      "type": "construction",
+      "title": "I-95 - New England Thruway southbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left and center lanes closed on I-95 - New England Thruway southbound from Before Connecticut State Line (I-95) to Before Exit 19 (I-95) - Rye - Playland Parkway until 8:30 AM, 11/08/2026 [CARS CAD-263120002]",
+      "published": "Sun, 08 Nov 2026 00:07:39 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.991092,
+      "longitude": -73.663226
+    },
+    {
+      "type": "construction",
+      "title": "Belt System - Shore Parkway westbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on Belt System - Shore Parkway westbound between Bay Parkway (New York) and Bay 8th Street (New York) 2 Left lanes of 3 lanes closed until 7:00 A.M.",
+      "published": "Sun, 08 Nov 2026 00:06:39 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.5960394623977,
+      "longitude": -74.0000232527926
+    },
+    {
+      "type": "construction",
+      "title": "Belt System - Shore Parkway eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on Belt System - Shore Parkway eastbound between Bay 8th Street (New York) and Bay Parkway (New York) 2 Left lanes of 3 lanes closed until 7:00 A.M.",
+      "published": "Sun, 08 Nov 2026 00:05:24 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6036854073752,
+      "longitude": -74.0190856093075
+    },
+    {
+      "type": "construction",
+      "title": "Garden State Parkway southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork, roadwork on Garden State Parkway southbound Exit ramp Exit 135 - Central Ave (Clark Twp) ramp closed to traffic until 6:00 A.M.",
+      "published": "Sat, 07 Nov 2026 23:09:03 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6258446843,
+      "longitude": -74.3056221937
+    },
+    {
+      "type": "construction",
+      "title": "Belt System - Shore Parkway eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on Belt System - Shore Parkway eastbound at 17th Avenue (New York) 2 Right lanes of 3 lanes closed until 6:00 A.M.",
+      "published": "Sat, 07 Nov 2026 23:07:30 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6015695759604,
+      "longitude": -74.0118968974969
+    },
+    {
+      "type": "construction",
+      "title": "Belt System - Shore Parkway westbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on Belt System - Shore Parkway westbound at 17th Avenue (New York) 2 Right lanes of 3 lanes closed until 6:00 A.M.",
+      "published": "Sat, 07 Nov 2026 23:06:24 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6016937910956,
+      "longitude": -74.0119172102206
+    },
+    {
+      "type": "construction",
+      "title": "Garden State Parkway northbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork, roadwork on Garden State Parkway northbound Exit 129 - New Jersey Turnpike (Woodbridge Twp) to South of Exit 136 - Stiles St (Clark Twp) 3 right lanes closed to traffic until 9:00 A.M.",
+      "published": "Sat, 07 Nov 2026 22:14:57 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.5369831941678,
+      "longitude": -74.3047322144009
+    },
+    {
+      "type": "construction",
+      "title": "I-684 northbound : Construction",
+      "description": "NYSDOT - Region 8: Construction, culvert repairs on I-684 northbound between Exit 6A - NY 22 / NY 138 (Lewisboro) and Exit 7 - NY 116 (North Salem) various lane closures until 9:00 A.M. D265186/B1077550/NIGHT/32650809 - This work is weather permitting, Plan travel accordingly; delays may exist",
+      "published": "Sat, 07 Nov 2026 22:00:49 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.3032156533813,
+      "longitude": -73.6745794155338
+    },
+    {
+      "type": "construction",
+      "title": "I-280 eastbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on I-280 Eastbound between I-80 (Parsippany-Troy Hills Twp) and West of Exit 1W - New Rd (Parsippany-Troy Hills Twp), Saturday November 7, 2026 10:00 PM thru Sunday November 8, 2026 08:00 AM, left lane closed",
+      "published": "Sat, 07 Nov 2026 22:00:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8593215942383,
+      "longitude": -74.3777618408203
+    },
+    {
+      "type": "construction",
+      "title": "I-280 westbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on I-280 Westbound between West of Exit 1W - New Rd (Parsippany-Troy Hills Twp) and I-80 (Parsippany-Troy Hills Twp), Saturday November 7, 2026 10:00 PM thru Sunday November 8, 2026 08:00 AM, left lane closed",
+      "published": "Sat, 07 Nov 2026 22:00:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8557586669922,
+      "longitude": -74.3595123291016
+    },
+    {
+      "type": "construction",
+      "title": "Garden State Parkway southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork, roadwork on Garden State Parkway southbound Exit 144 - CR 510 (Irvington Twp) to South of Exit 143C - NJ 124 (Irvington Twp) 2 Left Lanes closed to traffic until 6:00 A.M.",
+      "published": "Sat, 07 Nov 2026 21:36:10 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7384772331,
+      "longitude": -74.2171645568
+    },
+    {
+      "type": "construction",
+      "title": "NJ 18 southbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on NJ 18 Southbound near West Prospect St (East Brunswick Twp), Saturday November 7, 2026 09:00 PM thru Sunday November 8, 2026 05:00 AM, right lane closed, moving operation",
+      "published": "Sat, 07 Nov 2026 21:00:10 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.4553985595703,
+      "longitude": -74.4003143310547
+    },
+    {
+      "type": "construction",
+      "title": "Garden State Parkway southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork, roadwork on Garden State Parkway southbound Exit ramp Exit 120 - Laurence Harbor (Old Bridge Twp) ramp closed to traffic until 9:00 A.M.",
+      "published": "Sat, 07 Nov 2026 20:57:38 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.4354157971758,
+      "longitude": -74.2521141895769
+    },
+    {
+      "type": "construction",
+      "title": "Garden State Parkway northbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork, roadwork on Garden State Parkway northbound Entrance ramp Exit 129 - New Jersey Turnpike (Woodbridge Twp) partial ramp closed to traffic until 6:00 A.M.",
+      "published": "Sat, 07 Nov 2026 20:10:19 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.5369831941678,
+      "longitude": -74.3047322144009
+    },
+    {
+      "type": "construction",
+      "title": "US 40 westbound : Construction",
+      "description": "NJDOT - TOC South: Roadwork on US 40 Westbound between Sunset Av (Atlantic City) and US 322 (Hamilton Twp), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 06:00 AM, right lane closed, moving operation",
+      "published": "Sat, 07 Nov 2026 20:00:11 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.3535575866699,
+      "longitude": -74.4565048217773
+    },
+    {
+      "type": "construction",
+      "title": "US 40 eastbound : Construction",
+      "description": "NJDOT - TOC South: Roadwork on US 40 Eastbound between US 322 (Hamilton Twp) and West of CR 563/Tilton Rd (Egg Harbor Twp), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 06:00 AM, left lane closed",
+      "published": "Sat, 07 Nov 2026 20:00:09 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.4505004882812,
+      "longitude": -74.6424865722656
+    },
+    {
+      "type": "construction",
+      "title": "NJ 23 southbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on NJ 23 Southbound near CR 680/Jackson Av (Pequannock Twp), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 09:00 AM, left lane closed",
+      "published": "Sat, 07 Nov 2026 20:00:09 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.9713706970215,
+      "longitude": -74.2868347167969
+    },
+    {
+      "type": "construction",
+      "title": "NJ 23 northbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on NJ 23 Northbound near South of CR 680/Jackson Av (Pequannock Twp), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 09:00 AM, left lane closed",
+      "published": "Sat, 07 Nov 2026 20:00:10 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.9648056030273,
+      "longitude": -74.2844924926758
+    },
+    {
+      "type": "construction",
+      "title": "US 40 westbound : Construction",
+      "description": "NJDOT - TOC South: Roadwork on US 40 Westbound between West of CR 563/Tilton Rd (Egg Harbor Twp) and US 322 (Hamilton Twp), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 06:00 AM, right lane closed",
+      "published": "Sat, 07 Nov 2026 20:00:10 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.4053192138672,
+      "longitude": -74.5632553100586
+    },
+    {
+      "type": "construction",
+      "title": "US 22 westbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on US 22 Westbound between East of Main St (Clinton Twp) and West of CR 639 (Lebanon Twp), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 08:00 AM, right lane closed",
+      "published": "Sat, 07 Nov 2026 20:00:10 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6439361572266,
+      "longitude": -74.809944152832
+    },
+    {
+      "type": "construction",
+      "title": "US 40 eastbound : Construction",
+      "description": "NJDOT - TOC South: Roadwork on US 40 Eastbound between US 322 (Hamilton Twp) and West of CR 563/Tilton Rd (Egg Harbor Twp), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 06:00 AM, right lane closed",
+      "published": "Sat, 07 Nov 2026 20:00:10 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.4505004882812,
+      "longitude": -74.6424865722656
+    },
+    {
+      "type": "construction",
+      "title": "US 40 eastbound : Construction",
+      "description": "NJDOT - TOC South: Roadwork on US 40 Eastbound between US 322 (Hamilton Twp) and Sunset Av (Atlantic City), Saturday November 7, 2026 08:00 PM thru Sunday November 8, 2026 06:00 AM, right lane closed, moving operation",
+      "published": "Sat, 07 Nov 2026 20:00:10 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.4505004882812,
+      "longitude": -74.6424865722656
+    },
+    {
+      "type": "construction",
       "title": "I-684 southbound : Construction",
       "description": "NYSDOT - Region 8: Construction, culvert repairs on I-684 southbound between Exit 8 - Hardscrabble Road (North Salem) and Exit 6 - NY 35 (Bedford) various lane closures until 5:00 A.M. D265186/NIGHT/B1077550/32842909 - This work is weather permitting, Plan travel accordingly; delays may exist",
       "published": "Sat, 07 Nov 2026 19:01:05 -0500",
@@ -269,48 +458,12 @@
     },
     {
       "type": "construction",
-      "title": "US 9 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on US 9 both directions between Albany City Line (Halfmoon) and Saratoga County Line (Albany) All lanes of 2 lanes open until 11:30 PM Various lane closures for pavement markings",
-      "published": "Sat, 07 Nov 2026 18:00:13 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8207111408825,
-      "longitude": -73.7314305704412
-    },
-    {
-      "type": "construction",
       "title": "I-90 - NYS Thruway westbound : Construction",
-      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left lane closed on I-90 - NYS Thruway westbound from Before Exit 25A (I-90) - Schenectady (I-88) to After Exit 25A (I-90) - Schenectady (I-88) until 11:30 AM, 11/08/2026 [CARS CAD-263110202]",
-      "published": "Sat, 07 Nov 2026 17:30:58 -0500",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations on I-90 - NYS Thruway westbound from Before Exit 25A (I-90) - Schenectady (I-88) to After Exit 25A (I-90) - Schenectady (I-88) until 11:30 AM, 11/08/2026 [CARS CAD-263110202]",
+      "published": "Sat, 07 Nov 2026 19:52:05 -0500",
       "link": "https://511nj.org/",
-      "latitude": 42.781458,
-      "longitude": -74.006062
-    },
-    {
-      "type": "construction",
-      "title": "QUAKER BRIDGE RD both directions : Construction",
-      "description": "Westchester Co. DPW: Construction , bridge replacement on QUAKER BRIDGE RD both directions between RT-129 (Croton-On-Hudson) and RT-129 (Croton-On-Hudson) All lanes closed until 11:59 PM",
-      "published": "Sat, 07 Nov 2026 09:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.2150159254114,
-      "longitude": -73.8710122237658
-    },
-    {
-      "type": "construction",
-      "title": "Garden State Parkway northbound : Construction",
-      "description": "NJ Turnpike Auth.: Construction , construction on Garden State Parkway Express Lanes northbound Entrance ramp Exit 117 - NJ 36 (Hazlet Twp) to Exit 117 - NJ 36 (Hazlet Twp) All lanes closed until 11:59 PM",
-      "published": "Sat, 07 Nov 2026 06:56:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.420939,
-      "longitude": -74.206246
-    },
-    {
-      "type": "construction",
-      "title": "TOWN LINE RD both directions : Construction",
-      "description": "CT DOT-Newington-HWY-Oper Ctr: Construction , construction on TOWN LINE RD both directions between BROOKSIDE DR (Southington) and RED STONE HL at CHIMNEY CREST LN (Bristol) All lanes of 1 lane open until 9:00 PM There may be lane and shoulder closures on Town Line Road and Red Stone Hill Road",
-      "published": "Sat, 07 Nov 2026 06:00:36 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.6497127490642,
-      "longitude": -72.8818944527624
+      "latitude": 42.778277,
+      "longitude": -73.999549
     },
     {
       "type": "construction",
@@ -365,15 +518,6 @@
       "link": "https://511nj.org/",
       "latitude": 40.7950867623564,
       "longitude": -73.5117100378138
-    },
-    {
-      "type": "construction",
-      "title": "I-495 westbound : Roadwork",
-      "description": "NYSDOT - Region 10: Roadwork, roadwork on I-495 westbound between Exit 43A - Robbins Lane (Oyster Bay) and Exit 41N - NY 106/107; North Broadway/Jerusalem Avenue (Jericho) All lanes closed until 5:00 A.M. Monday 9th",
-      "published": "Fri, 06 Nov 2026 22:19:13 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7987756809714,
-      "longitude": -73.4975666099566
     },
     {
       "type": "construction",
@@ -2233,8 +2377,8 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 14 records",
-    "construction": "available: 219 records",
+    "incidents": "available: 9 records",
+    "construction": "available: 240 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }
