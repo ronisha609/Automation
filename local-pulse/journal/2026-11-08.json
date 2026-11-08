@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-08",
+  "sentAt": "2026-11-08T17:05:49.514049+00:00",
+  "message": "Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 60°F, Sunny, up to 62°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "construction"
+  ],
+  "nearbyIncidents": 0,
+  "nearbyConstruction": 5,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "60°F, Sunny",
+    "low": 48,
+    "high": 62,
+    "maxRainChance": 1,
+    "wettestHour": "8 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-08.jpg"
+}

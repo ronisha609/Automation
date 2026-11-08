@@ -1,13 +1,14 @@
 # Local Pulse: 90-Day Log
 
-Started 2026-11-01. Day 7 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
+Started 2026-11-01. Day 8 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
 
 | Briefs sent | Days with a crash or closure nearby | Weather alerts | Rain | Cold or frost | Quiet days |
 | --- | --- | --- | --- | --- | --- |
-| 7 | 5 | 0 | 2 | 0 | 0 |
+| 8 | 5 | 0 | 2 | 0 | 0 |
 
 | Date | Message | Flagged | Screenshot |
 | --- | --- | --- | --- |
+| 2026-11-08 | Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 60°F, Sunny, up to 62°. | construction | [view](screens/2026-11-08.jpg) |
 | 2026-11-07 | Good morning, Central New Jersey. Watch for a crash or incident at I-295 southbound : Overturned Truck (2.1 mi away). It's 56°F, Mostly Sunny, up to 58°. | crash or closure, construction | [view](screens/2026-11-07.jpg) |
 | 2026-11-06 | Good morning, Central New Jersey. Watch for a crash or incident at I-295 southbound (2.9 mi away) and 2 more nearby. It's 66°F, Chance Rain, up to 68°. Rain is likely around 1 PM, so bring an umbrella. | crash or closure, construction, rain | [view](screens/2026-11-06.jpg) |
 | 2026-11-05 | Good morning, Central New Jersey. No crashes nearby right now, but 46 construction zones could slow you down. It's 72°F, Slight Chance Light Rain, up to 74°. Rain is likely around 12 AM, so bring an umbrella. | construction, rain | [view](screens/2026-11-05.jpg) |

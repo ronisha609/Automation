@@ -1,31 +1,25 @@
 {
-  "generatedAt": "2026-11-07T16:52:33.641585+00:00",
+  "generatedAt": "2026-11-08T17:05:49.514049+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a crash or incident at I-295 southbound : Overturned Truck (2.1 mi away). It's 56°F, Mostly Sunny, up to 58°.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 60°F, Sunny, up to 62°.",
   "source": "rules",
-  "fingerprint": "94ab2f0a49441653",
+  "fingerprint": "e61c39a009c57abb",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Saturday, November 7",
+    "date": "Sunday, November 8",
     "special": "",
     "weather": {
-      "now": "56°F, Mostly Sunny",
-      "low": 47,
-      "high": 58,
-      "maxRainChance": 4,
-      "wettestHour": "7 PM",
+      "now": "60°F, Sunny",
+      "low": 48,
+      "high": 62,
+      "maxRainChance": 1,
+      "wettestHour": "8 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
-      {
-        "what": "crash or incident",
-        "where": "I-295 southbound : Overturned Truck",
-        "detail": "NJ DOT - STMC: Crash on I-295 Southbound South of Exit 61 - Arena Dr (Hamilton Twp), 2 right lanes of 3 lanes, right shoulder closed",
-        "milesAway": 2.1
-      },
       {
         "what": "construction",
         "where": "US 202 northbound",
@@ -46,21 +40,22 @@
       },
       {
         "what": "construction",
+        "where": "NJ 38 both directions",
+        "detail": "NJ DOT - STMC: Roadwork on NJ 38 Both Directions West of CR 616/CR 627/Coles Av (Cherry Hill Twp) Sunday November 8, 2026 07:06 AM thru 03:00 PM, 1 left lane of 3 lanes closed eastbound; 1 left lane o",
+        "milesAway": 23.8
+      },
+      {
+        "what": "construction",
         "where": "NJ 18 northbound",
         "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
         "milesAway": 24.0
       }
     ],
     "roadCounts": {
-      "incidents": 1,
-      "construction": 4
+      "incidents": 0,
+      "construction": 5
     },
-    "headlines": [
-      "Texas Just Made It Easier to Remove Squatters and That One More Reason Investors Are Pouring Into the State » Live Insurance News",
-      "East Coast soaker threatens millions in Northeast with flash flooding , while Mid - Atlantic faces severe storms",
-      "K - LOVE Verse of the Day | Positive Encouraging K - LOVE",
-      "News 12 | Westchester | Rubber Modified Asphalt Could Make Roads Last Longer But Its Rarely Used Locally"
-    ]
+    "headlines": []
   },
   "ntfyTopic": "local-pulse-nj"
 }

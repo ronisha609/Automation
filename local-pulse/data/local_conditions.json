@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T14:13:07.244945+00:00",
+  "generatedAt": "2026-11-08T17:05:37.196814+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -8,36 +8,6 @@
   "weather": {
     "location": "Trenton, NJ",
     "periods": [
-      {
-        "startTime": "2026-11-08T09:00:00-05:00",
-        "temperature": 53,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
-      },
-      {
-        "startTime": "2026-11-08T10:00:00-05:00",
-        "temperature": 56,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
-      },
-      {
-        "startTime": "2026-11-08T11:00:00-05:00",
-        "temperature": 59,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
-      },
       {
         "startTime": "2026-11-08T12:00:00-05:00",
         "temperature": 60,
@@ -127,6 +97,36 @@
         "shortForecast": "Mostly Clear",
         "probabilityOfPrecipitation": 1,
         "icon": "https://api.weather.gov/icons/land/night/few?size=small"
+      },
+      {
+        "startTime": "2026-11-08T21:00:00-05:00",
+        "temperature": 49,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Clear",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
+      },
+      {
+        "startTime": "2026-11-08T22:00:00-05:00",
+        "temperature": 48,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Clear",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
+      },
+      {
+        "startTime": "2026-11-08T23:00:00-05:00",
+        "temperature": 48,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Clear",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
       }
     ]
   },
@@ -134,57 +134,57 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "I-684 southbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on I-684 southbound at Anderson Hill Road; CR 18 (Harrison) right shoulder of 3 lanes blocked MM 1.5 CAD #97418080",
-      "published": "Sun, 08 Nov 2026 08:59:36 -0500",
+      "title": "Garden State Parkway southbound : Crash",
+      "description": "NJ Turnpike Auth.: Crash on Garden State Parkway southbound exiting at Exit 130B-A - US 1 (Woodbridge Twp) all lanes open",
+      "published": "Sun, 08 Nov 2026 12:01:24 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.0385,
-      "longitude": -73.7238
+      "latitude": 40.5543694813906,
+      "longitude": -74.3181248678684
     },
     {
       "type": "incident",
-      "title": "I-481 northbound : Crash",
-      "description": "NYSDOT - Region 3: Crash on I-481 northbound ramp to Exit 89A - Kirkville Rd (De Witt) All lanes closed",
-      "published": "Sun, 08 Nov 2026 08:36:23 -0500",
+      "title": "Taconic State Parkway northbound : Crash with Injuries",
+      "description": "NYSDOT - Region 8: Crash with injuries on Taconic State Parkway northbound north of Exit 23 - Bryant Pond Rd. - CR 30 (Putnam Valley) right lane of 2 lanes blocked MM 23.7 CAD #97437080",
+      "published": "Sun, 08 Nov 2026 11:53:56 -0500",
       "link": "https://511nj.org/",
-      "latitude": 43.0733610125745,
-      "longitude": -76.0531543799636
+      "latitude": 41.3829,
+      "longitude": -73.8001
     },
     {
       "type": "incident",
-      "title": "US 206 southbound : Crash",
-      "description": "NJ DOT - STMC: Crash on US 206 Southbound North of NJ 24/CR 513/West Main St (Chester Twp), 1 right lane of 2 lanes closed",
-      "published": "Sun, 08 Nov 2026 08:18:02 -0500",
+      "title": "I-278 eastbound : Fire department activity",
+      "description": "NYSDOT - Region 11: Fire department activity on I-278 eastbound at East 149th Street (New York) 1 Left lane of 3 lanes blocked",
+      "published": "Sun, 08 Nov 2026 11:53:41 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.8000297546387,
-      "longitude": -74.7109680175781
+      "latitude": 40.8080470401818,
+      "longitude": -73.9048330047386
     },
     {
       "type": "incident",
-      "title": "I-390 northbound : Crash Road Closed",
-      "description": "NYSDOT - Region 4: Crash Road Closed and Debris spill on I-390 northbound between Exit 7 - NY 408 (Groveland) and Exit 8 - US 20A; Ramp (Geneseo) All lanes closed",
-      "published": "Sun, 08 Nov 2026 08:05:25 -0500",
+      "title": "I-278 westbound : Crash",
+      "description": "NYSDOT - Region 11: Crash on I-278 westbound at East 149th Street (New York) All lanes blocked",
+      "published": "Sun, 08 Nov 2026 11:55:43 -0500",
       "link": "https://511nj.org/",
-      "latitude": 42.7332900200367,
-      "longitude": -77.8355341501315
+      "latitude": 40.8081975718751,
+      "longitude": -73.9049043305397
     },
     {
       "type": "incident",
-      "title": "Sprain Brook State Pkwy northbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on Sprain Brook State Pkwy northbound north of Tuckahoe Road; CR 59 (Yonkers) right shoulder of 3 lanes blocked MM 2.5 CAD# 97412080",
-      "published": "Sun, 08 Nov 2026 06:45:26 -0500",
+      "title": "I-684 northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on I-684 northbound at Exit 7 - State Highway 116 - Purdys - Somers (Northbound Exit Ramp / Southbound Entrance Ramp) (North Salem) right shoulder of 3 lanes blocked MM 22.0 CAD #97430080",
+      "published": "Sun, 08 Nov 2026 11:36:54 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.9688,
-      "longitude": -73.8495
+      "latitude": 41.3192,
+      "longitude": -73.6618
     },
     {
       "type": "incident",
-      "title": "US 40 both directions : Crash investigation",
-      "description": "NJ DOT - STMC: Crash on US 40 Both Directions East of Jefferson Av (Hamilton Twp), All lanes closed eastbound; All lanes closed westbound",
-      "published": "Sun, 08 Nov 2026 08:35:56 -0500",
+      "title": "I-90 - NYS Thruway westbound : Crash",
+      "description": "NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway westbound at After Exit 29 (I-90) - Canajoharie (Rte 10) starting 9:55 AM, 11/08/2026 [CARS CAD-263120079]",
+      "published": "Sun, 08 Nov 2026 09:55:28 -0500",
       "link": "https://511nj.org/",
-      "latitude": 39.4762191772461,
-      "longitude": -74.8310852050781
+      "latitude": 42.959708,
+      "longitude": -74.63656
     },
     {
       "type": "incident",
@@ -584,24 +584,6 @@
     },
     {
       "type": "construction",
-      "title": "NY 7 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , overnight roadwork on NY 7 both directions area of Collar City Bridge; Albany-Rensselaer County Line (Hoosick Street) (Troy) All lanes of 4 lanes open until 11:00 AM",
-      "published": "Sun, 08 Nov 2026 06:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.740152,
-      "longitude": -73.688592
-    },
-    {
-      "type": "construction",
-      "title": "I-787 southbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , overhead sign repair on I-787 southbound at Exit 4 northbound; Quay Street; US 9; US 20; NY 32 (Albany) All lanes of 4 lanes open until 11:00 AM",
-      "published": "Sun, 08 Nov 2026 06:30:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.639131,
-      "longitude": -73.753813
-    },
-    {
-      "type": "construction",
       "title": "New Jersey Turnpike southbound : Construction",
       "description": "NJ Turnpike Auth.: Construction , construction on New Jersey Turnpike Outer Roadway southbound Entrance ramp Interchange 12 - Carteret-Rahway (Carteret) to Interchange 12 - Carteret-Rahway (Carteret) All lanes closed until 12:00 AM",
       "published": "Sun, 08 Nov 2026 06:01:08 -0500",
@@ -666,8 +648,8 @@
     {
       "type": "construction",
       "title": "I-90 - NYS Thruway westbound : Construction",
-      "description": "NYSTA - Statewide Ops.: road maintenance operations on I-90 - NYS Thruway westbound from Before Exit 25A (I-90) - Schenectady (I-88) to After Exit 25A (I-90) - Schenectady (I-88) until 11:30 AM, 11/08/2026 [CARS CAD-263110202]",
-      "published": "Sat, 07 Nov 2026 19:52:05 -0500",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left lane closed on I-90 - NYS Thruway westbound from Before Exit 25A (I-90) - Schenectady (I-88) to After Exit 25A (I-90) - Schenectady (I-88) until 10:30 AM, 11/09/2026 [CARS CAD-263110202]",
+      "published": "Sun, 08 Nov 2026 10:14:02 -0500",
       "link": "https://511nj.org/",
       "latitude": 42.778277,
       "longitude": -73.999549
@@ -797,24 +779,6 @@
       "link": "https://511nj.org/",
       "latitude": 42.7725558194592,
       "longitude": -76.7103743032432
-    },
-    {
-      "type": "construction",
-      "title": "I-80 eastbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on I-80 Eastbound between West of Exit 30 - Howard Blvd (Mount Arlington) and East of Exit 30 - Howard Blvd (Roxbury Twp), Continuous Wednesday November 4, 2026 08:00 AM thru Sunday November 8, 2026 10:00 AM, left lane closed",
-      "published": "Wed, 04 Nov 2026 17:55:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8928604125977,
-      "longitude": -74.6503143310547
-    },
-    {
-      "type": "construction",
-      "title": "I-80 westbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on I-80 Westbound between East of Exit 30 - Howard Blvd (Roxbury Twp) and West of Exit 30 - Howard Blvd (Mount Arlington), Continuous Wednesday November 4, 2026 08:00 AM thru Sunday November 8, 2026 10:00 AM, left lane closed",
-      "published": "Wed, 04 Nov 2026 17:55:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.9018096923828,
-      "longitude": -74.6201248168945
     },
     {
       "type": "construction",
@@ -2576,7 +2540,7 @@
   "statuses": {
     "weather": "available",
     "incidents": "available: 9 records",
-    "construction": "available: 262 records",
+    "construction": "available: 258 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }
