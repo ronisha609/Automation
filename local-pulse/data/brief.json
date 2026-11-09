@@ -1,25 +1,31 @@
 {
-  "generatedAt": "2026-11-08T17:05:49.514049+00:00",
+  "generatedAt": "2026-11-09T21:28:05.301924+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 60°F, Sunny, up to 62°.",
+  "text": "Good morning, Central New Jersey. Watch for a crash or incident at NJ 70 westbound : Disabled vehicle (22.4 mi away). It's 57°F, Partly Sunny, up to 57°.",
   "source": "rules",
-  "fingerprint": "e61c39a009c57abb",
+  "fingerprint": "12dd29155bd8da98",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Sunday, November 8",
+    "date": "Monday, November 9",
     "special": "",
     "weather": {
-      "now": "60°F, Sunny",
-      "low": 48,
-      "high": 62,
+      "now": "57°F, Partly Sunny",
+      "low": 39,
+      "high": 57,
       "maxRainChance": 1,
-      "wettestHour": "8 PM",
+      "wettestHour": "12 AM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
+      {
+        "what": "crash or incident",
+        "where": "NJ 70 westbound : Disabled vehicle",
+        "detail": "NJ DOT - TOC South: Disabled Vehicle on NJ 70 Westbound East of Hartford Rd (Medford Twp), 1 right lane of 2 lanes closed",
+        "milesAway": 22.4
+      },
       {
         "what": "construction",
         "where": "US 202 northbound",
@@ -40,20 +46,14 @@
       },
       {
         "what": "construction",
-        "where": "NJ 38 both directions",
-        "detail": "NJ DOT - STMC: Roadwork on NJ 38 Both Directions West of CR 616/CR 627/Coles Av (Cherry Hill Twp) Sunday November 8, 2026 07:06 AM thru 03:00 PM, 1 left lane of 3 lanes closed eastbound; 1 left lane o",
-        "milesAway": 23.8
-      },
-      {
-        "what": "construction",
         "where": "NJ 18 northbound",
         "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
         "milesAway": 24.0
       }
     ],
     "roadCounts": {
-      "incidents": 0,
-      "construction": 5
+      "incidents": 1,
+      "construction": 4
     },
     "headlines": []
   },

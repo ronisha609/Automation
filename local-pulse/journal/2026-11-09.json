@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-09",
+  "sentAt": "2026-11-09T21:28:05.301924+00:00",
+  "message": "Good morning, Central New Jersey. Watch for a crash or incident at NJ 70 westbound : Disabled vehicle (22.4 mi away). It's 57°F, Partly Sunny, up to 57°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "crash or closure",
+    "construction"
+  ],
+  "nearbyIncidents": 1,
+  "nearbyConstruction": 4,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "57°F, Partly Sunny",
+    "low": 39,
+    "high": 57,
+    "maxRainChance": 1,
+    "wettestHour": "12 AM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-09.jpg"
+}
