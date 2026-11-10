@@ -1,59 +1,65 @@
 {
-  "generatedAt": "2026-11-09T21:28:05.301924+00:00",
+  "generatedAt": "2026-11-10T18:41:36.778996+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a crash or incident at NJ 70 westbound : Disabled vehicle (22.4 mi away). It's 57°F, Partly Sunny, up to 57°.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 28 construction zones could slow you down. It's 63°F, Sunny, up to 65°.",
   "source": "rules",
-  "fingerprint": "12dd29155bd8da98",
+  "fingerprint": "38f1cf2b515efb85",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Monday, November 9",
+    "date": "Tuesday, November 10",
     "special": "",
     "weather": {
-      "now": "57°F, Partly Sunny",
-      "low": 39,
-      "high": 57,
+      "now": "63°F, Sunny",
+      "low": 48,
+      "high": 65,
       "maxRainChance": 1,
-      "wettestHour": "12 AM",
+      "wettestHour": "1 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
-        "what": "crash or incident",
-        "where": "NJ 70 westbound : Disabled vehicle",
-        "detail": "NJ DOT - TOC South: Disabled Vehicle on NJ 70 Westbound East of Hartford Rd (Medford Twp), 1 right lane of 2 lanes closed",
-        "milesAway": 22.4
+        "what": "construction",
+        "where": "I-295 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound between south of Exit 69 - US 206 (Lawrence Twp) and north of Exit 71 - Federal City Rd (Hopewell Twp), Tuesday November 10, 2026 10:00 AM thru 03:00 PM",
+        "milesAway": 4.8
       },
       {
         "what": "construction",
-        "where": "US 202 northbound",
-        "detail": "NJDOT - STMC: Roadwork on US 202 Northbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 5, 2026 12:00 AM thru Wednesday November 11, 2026 12:00 AM, left shoulder",
-        "milesAway": 22.9
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between north of Exit 69 - US 206 (Lawrence Twp) and south of Exit 69 - US 206 (Lawrence Twp), Tuesday November 10, 2026 10:00 AM thru 02:00 PM, right l",
+        "milesAway": 4.8
       },
       {
         "what": "construction",
-        "where": "US 202 southbound",
-        "detail": "NJDOT - STMC: Roadwork on US 202 Southbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 5, 2026 12:00 AM thru Wednesday November 11, 2026 12:00 AM, left shoulder",
-        "milesAway": 23.2
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Hamilton Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Tuesday November 10, 2026 09:00 AM thru 03:00 PM, left",
+        "milesAway": 4.8
       },
       {
         "what": "construction",
-        "where": "Betsy Ross Bridge westbound",
-        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
-        "milesAway": 23.3
+        "where": "US 130 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Tuesday November 10, 2026 09:00 AM thru 03:00 PM, right lane closed",
+        "milesAway": 5.7
       },
       {
         "what": "construction",
-        "where": "NJ 18 northbound",
-        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
-        "milesAway": 24.0
+        "where": "US 130 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
+        "milesAway": 5.7
+      },
+      {
+        "what": "construction",
+        "where": "US 1 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between South of Washington Rd (West Windsor Twp) and South of Sandhill Rd/Major Rd (South Brunswick Twp), Tuesday November 10, 2026 10:00 AM thru 03:00 ",
+        "milesAway": 9.6
       }
     ],
     "roadCounts": {
-      "incidents": 1,
-      "construction": 4
+      "incidents": 0,
+      "construction": 28
     },
     "headlines": []
   },
