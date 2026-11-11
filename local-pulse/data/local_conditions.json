@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:24:46.344116+00:00",
+  "generatedAt": "2026-11-11T00:49:56.238198+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -9,48 +9,8 @@
     "location": "Trenton, NJ",
     "periods": [
       {
-        "startTime": "2026-11-10T15:00:00-05:00",
-        "temperature": 65,
-        "temperatureUnit": "F",
-        "windSpeed": "15 mph",
-        "windDirection": "W",
-        "shortForecast": "Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
-      },
-      {
-        "startTime": "2026-11-10T16:00:00-05:00",
-        "temperature": 64,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "W",
-        "shortForecast": "Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=small"
-      },
-      {
-        "startTime": "2026-11-10T17:00:00-05:00",
-        "temperature": 61,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "W",
-        "shortForecast": "Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=small"
-      },
-      {
-        "startTime": "2026-11-10T18:00:00-05:00",
-        "temperature": 57,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "W",
-        "shortForecast": "Clear",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=small"
-      },
-      {
         "startTime": "2026-11-10T19:00:00-05:00",
-        "temperature": 56,
+        "temperature": 55,
         "temperatureUnit": "F",
         "windSpeed": "5 mph",
         "windDirection": "W",
@@ -100,7 +60,7 @@
       },
       {
         "startTime": "2026-11-11T00:00:00-05:00",
-        "temperature": 48,
+        "temperature": 47,
         "temperatureUnit": "F",
         "windSpeed": "5 mph",
         "windDirection": "W",
@@ -110,7 +70,7 @@
       },
       {
         "startTime": "2026-11-11T01:00:00-05:00",
-        "temperature": 47,
+        "temperature": 46,
         "temperatureUnit": "F",
         "windSpeed": "5 mph",
         "windDirection": "W",
@@ -127,6 +87,46 @@
         "shortForecast": "Clear",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/skc?size=small"
+      },
+      {
+        "startTime": "2026-11-11T03:00:00-05:00",
+        "temperature": 43,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Clear",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/skc?size=small"
+      },
+      {
+        "startTime": "2026-11-11T04:00:00-05:00",
+        "temperature": 42,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Clear",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/skc?size=small"
+      },
+      {
+        "startTime": "2026-11-11T05:00:00-05:00",
+        "temperature": 40,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Clear",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
+      },
+      {
+        "startTime": "2026-11-11T06:00:00-05:00",
+        "temperature": 40,
+        "temperatureUnit": "F",
+        "windSpeed": "0 mph",
+        "windDirection": "",
+        "shortForecast": "Sunny",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=small"
       }
     ]
   },
@@ -148,111 +148,39 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "Lincoln Tunnel westbound : Disabled vehicle",
-      "description": "Port Authority NY/NJ: Disabled vehicle on Lincoln Tunnel North Tube westbound mid tunnel (Weehawken Twp) 1 Right lane of 2 lanes blocked",
-      "published": "Tue, 10 Nov 2026 15:22:18 -0500",
+      "title": "I-495 westbound : Disabled vehicle",
+      "description": "NYSDOT - Region 11: Disabled vehicle on I-495 westbound approaching Exit 25 - Utopia Parkway / 188th Street (New York) 1 Left lane of 4 lanes blocked",
+      "published": "Tue, 10 Nov 2026 19:42:22 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7636092003311,
-      "longitude": -74.0108322355672
+      "latitude": 40.7404157729146,
+      "longitude": -73.7886060629243
     },
     {
       "type": "incident",
-      "title": "I-91 northbound : Crash",
-      "description": "ConnDOT: Crash (Multi Vehicle) on I-91 Northbound between Exits 6 and 8. The 3 right lanes are closed. Reported Tuesday, November 10 at 3:17 pm.",
-      "published": "Tue, 10 Nov 2026 15:18:53 -0500",
+      "title": "Taconic State Parkway southbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on Taconic State Parkway southbound north of Exit 37B I-84 Westbound-Newburgh (East Fishkill) right shoulder of 2 lanes blocked MM 37.7 CAD#97636080",
+      "published": "Tue, 10 Nov 2026 19:36:40 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.32084,
-      "longitude": -72.888575
+      "latitude": 41.5495,
+      "longitude": -73.775
     },
     {
       "type": "incident",
-      "title": "NY 104 westbound : Crash",
-      "description": "NYSDOT - Region 4: Crash on NY 104 westbound Manitou Road; NY 261 (Parma) to Elmgrove Road; NY 386 (Greece) All lanes closed",
-      "published": "Tue, 10 Nov 2026 15:18:54 -0500",
+      "title": "Franklin D. Roosevelt Drive southbound : Disabled vehicle",
+      "description": "NYSDOT - Region 11: Disabled vehicle on Franklin D. Roosevelt Drive southbound at E. 112th Street (New York) 1 Left lane of 3 lanes blocked",
+      "published": "Tue, 10 Nov 2026 19:34:11 -0500",
       "link": "https://511nj.org/",
-      "latitude": 43.2174159114669,
-      "longitude": -77.752661751953
+      "latitude": 40.7923245628984,
+      "longitude": -73.934649043634
     },
     {
       "type": "incident",
-      "title": "NY 7 westbound : Disabled vehicle",
-      "description": "NYSDOT TMC - Albany: Disabled vehicle on NY 7 westbound Miller Road Overpass (Colonie) right shoulder closed",
-      "published": "Tue, 10 Nov 2026 15:03:23 -0500",
+      "title": "Garden State Parkway northbound : Crash",
+      "description": "NJ Turnpike Auth.: Crash on Garden State Parkway northbound South of Exit 140 - US 22/NJ 82 (Union Twp) right shoulder blocked",
+      "published": "Tue, 10 Nov 2026 19:24:14 -0500",
       "link": "https://511nj.org/",
-      "latitude": 42.7572097911667,
-      "longitude": -73.7363302217575
-    },
-    {
-      "type": "incident",
-      "title": "Hutchinson River Parkway [Westchester] northbound : Disabled vehicle",
-      "description": "NYSDOT - Region 8: Disabled Vehicle on Hutchinson River Parkway [Westchester] northbound north of Exit 16/16B - NY 120 (Harrison) right shoulder of 2 lanes blocked MM 18.1 CAD 97610080",
-      "published": "Tue, 10 Nov 2026 15:01:32 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.0233,
-      "longitude": -73.7071
-    },
-    {
-      "type": "incident",
-      "title": "US 202 eastbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on US 202 eastbound at Buttonwood Ave (Cortlandt) right shoulder of 1 lane blocked CAD#97609080",
-      "published": "Tue, 10 Nov 2026 14:52:01 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.2915,
-      "longitude": -73.8936
-    },
-    {
-      "type": "incident",
-      "title": "NY 252 westbound : Disabled truck",
-      "description": "NYSDOT - Region 4: Disabled truck on NY 252 westbound West Henrietta Road; NY 15 (Henrietta) 1 Left lane of 2 lanes closed",
-      "published": "Tue, 10 Nov 2026 14:52:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.088235562871,
-      "longitude": -77.6366670445224
-    },
-    {
-      "type": "incident",
-      "title": "New Jersey Turnpike southbound : Crash",
-      "description": "NJ Turnpike Auth.: Crash and Vehicle off the roadway on New Jersey Turnpike Outer Roadway southbound South of Interchange 9 - NJ 18 (East Brunswick Twp) All lanes open",
-      "published": "Tue, 10 Nov 2026 14:50:20 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.4512908502657,
-      "longitude": -74.4224892566427
-    },
-    {
-      "type": "incident",
-      "title": "Franklin D. Roosevelt Drive northbound : Disabled vehicle",
-      "description": "NYSDOT - Region 11: Disabled vehicle on Franklin D. Roosevelt Drive northbound at 85th Street (New York) 1 Right lane of 3 lanes blocked",
-      "published": "Tue, 10 Nov 2026 14:30:54 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.773832306646,
-      "longitude": -73.94377881214
-    },
-    {
-      "type": "incident",
-      "title": "I-287 southbound : Crash",
-      "description": "NJ DOT - STMC: Crash on I-287 Southbound At Exit 35 - NJ 124 (Morristown), 2 right lanes of 4 lanes closed",
-      "published": "Tue, 10 Nov 2026 14:46:41 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7870903015137,
-      "longitude": -74.4693069458008
-    },
-    {
-      "type": "incident",
-      "title": "I-684 northbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on I-684 northbound at Exit 9 E/W - I-84 - Danbury - Newburgh (Southeast) right shoulder of 3 lanes blocked MM 28.1 CAD # 97607080",
-      "published": "Tue, 10 Nov 2026 14:23:31 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3878,
-      "longitude": -73.5992
-    },
-    {
-      "type": "incident",
-      "title": "CHATHAM SQ eastbound : Crash investigation",
-      "description": "NYSDOT - Region 11: Crash investigation on CHATHAM SQ eastbound between MOTT ST (New York) and E BROADWAY (New York) All lanes closed",
-      "published": "Tue, 10 Nov 2026 11:31:48 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7134901217812,
-      "longitude": -73.9985124394264
+      "latitude": 40.6901000212,
+      "longitude": -74.2696906343
     },
     {
       "type": "incident",
@@ -283,894 +211,516 @@
     },
     {
       "type": "construction",
-      "title": "Bronx River Parkway northbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on Bronx River Parkway northbound just past Cross Bronx Expressway; East 177th Street (New York) 2 Right lanes of 3 lanes closed until further notice",
-      "published": "Tue, 10 Nov 2026 14:48:51 -0500",
+      "title": "Manhattan Bridge eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on Manhattan Bridge Upper Level eastbound Center Span (Manhattan/Brooklyn) All lanes open alternating lane closures until 3:00 A.M.",
+      "published": "Tue, 10 Nov 2026 19:47:53 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.8375504209805,
-      "longitude": -73.8732863489506
+      "latitude": 40.7070171332614,
+      "longitude": -73.9906468738063
     },
     {
       "type": "construction",
-      "title": "CT 72 westbound : Roadwork",
-      "description": "ConnDOT: Road Work on RT 72 Westbound between Exits 3 and 5 (3.1 miles) in effect today until 3:30 pm. The left lane is closed. Reported Tuesday, November 10 at 1:52 pm.",
-      "published": "Tue, 10 Nov 2026 13:53:28 -0500",
+      "title": "New Jersey Turnpike - Hudson County Extension eastbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike - Hudson County Extension Eastbound West of Interchange 14B - Liberty State Park (Jersey City) 1 right lane closed until 6:00 A.M.",
+      "published": "Tue, 10 Nov 2026 19:47:00 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.666707,
-      "longitude": -72.818329
+      "latitude": 40.69832077,
+      "longitude": -74.07519089
     },
     {
       "type": "construction",
-      "title": "I-84W_X35_S72 unknown : Roadwork",
-      "description": "ConnDOT: Road Work on I-84 Westbound Exit 35 To RT 72 East Ramp in effect today until 3:30 pm. The left shoulder is closed. Reported Tuesday, November 10 at 1:50 pm.",
-      "published": "Tue, 10 Nov 2026 13:51:09 -0500",
+      "title": "I-90 - NYS Thruway westbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left lane closed on I-90 - NYS Thruway westbound from After Exit 50 (I-90) - Williamsville (I-290) to After Exit 52 (I-90) - Buffalo- Walden Ave until 7:00 AM, 11/11/2026 [CARS CAD-263140435]",
+      "published": "Tue, 10 Nov 2026 19:37:34 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.66674,
-      "longitude": -72.819294
+      "latitude": 42.949152,
+      "longitude": -78.76391
     },
     {
       "type": "construction",
-      "title": "I-84W_X35_S72 unknown : Roadwork",
-      "description": "ConnDOT: Road Work on I-84 Westbound Exit 35 To RT 72 East Ramp in effect today until 3:30 pm. The left shoulder is closed. Reported Tuesday, November 10 at 1:50 pm.",
-      "published": "Tue, 10 Nov 2026 13:51:09 -0500",
+      "title": "CT 15N_X40A_O unknown : Roadwork",
+      "description": "ConnDOT: RT 15 Northbound Exit 17B ONRAMP CLOSED because of Road Work. Reported Tuesday, November 10 at 7:34 pm.",
+      "published": "Tue, 10 Nov 2026 19:35:49 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.66674,
-      "longitude": -72.819294
+      "latitude": 41.142314,
+      "longitude": -73.426252
     },
     {
       "type": "construction",
-      "title": "I-287 southbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on I-287 Southbound near North of Exit 41 - I-80 (Parsippany-Troy Hills Twp), Continuous Tuesday November 10, 2026 09:00 AM thru Tuesday November 10, 2026 04:00 PM, left lane closed",
-      "published": "Tue, 10 Nov 2026 13:34:23 -0500",
+      "title": "I-84E_X60_0 unknown : Roadwork",
+      "description": "ConnDOT: I-84 Eastbound Exit 60 ONRAMP Ramp CLOSED because of Road Work. Reported Tuesday, November 10 at 7:31 pm.",
+      "published": "Tue, 10 Nov 2026 19:33:50 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.8697700500488,
-      "longitude": -74.4186553955078
+      "latitude": 41.780524,
+      "longitude": -72.568243
     },
     {
       "type": "construction",
-      "title": "I-84 westbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-84 Westbound between Exits 58 and 46 (4.2 miles) in effect today until 4:00 pm. The right lane is closed. Reported Tuesday, November 10 at 1:24 pm.",
-      "published": "Tue, 10 Nov 2026 13:25:19 -0500",
+      "title": "I-291W_CEMETERY_O unknown : Roadwork",
+      "description": "ConnDOT: I-291 Westbound CEMETERY RD ONRAMP CLOSED because of Road Work. Reported Tuesday, November 10 at 7:32 pm.",
+      "published": "Tue, 10 Nov 2026 19:34:05 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.767273,
-      "longitude": -72.620347
+      "latitude": 41.768734,
+      "longitude": -72.57596
     },
     {
       "type": "construction",
-      "title": "NY 101 southbound : Roadwork",
-      "description": "NYSDOT - Region 10: Roadwork, roadwork on NY 101 southbound between Oak Tree Lane (Flower Hill) and Crabapple Road (Flower Hill) 1 Right lane of 2 lanes closed until 3:00 P.M.",
-      "published": "Tue, 10 Nov 2026 12:18:56 -0500",
+      "title": "CT 15N_X40A_OFF unknown : Roadwork",
+      "description": "ConnDOT: RT 15 Northbound Exit 17B OFFRAMP CLOSED because of Road Work. Reported Tuesday, November 10 at 7:34 pm.",
+      "published": "Tue, 10 Nov 2026 19:34:56 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.8062672296704,
-      "longitude": -73.6692229222528
+      "latitude": 41.142297,
+      "longitude": -73.426639
     },
     {
       "type": "construction",
-      "title": "CT 15 northbound : Roadwork",
-      "description": "ConnDOT: Road Work on RT 15 Northbound between Exits 89 and 91 (1.5 miles) in effect today until 3:30 pm. The right lane is closed. Reported Tuesday, November 10 at 10:36 am.",
-      "published": "Tue, 10 Nov 2026 10:37:00 -0500",
+      "title": "I-384W_X_I84 unknown : Roadwork",
+      "description": "ConnDOT: I-384 Westbound Exit 1A to I-84 Eastbound Ramp CLOSED because of Road Work. Reported Tuesday, November 10 at 7:33 pm.",
+      "published": "Tue, 10 Nov 2026 19:33:58 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.745082,
-      "longitude": -72.660682
+      "latitude": 41.768154,
+      "longitude": -72.576399
     },
     {
       "type": "construction",
-      "title": "Robert Moses Causeway northbound : Roadwork",
-      "description": "NYSDOT - Region 10: Roadwork, roadwork on Robert Moses Causeway northbound between Exit RM1E - Sunrise Highway (Islip) and Southern State Parkway (Islip) 1 Left lane of 3 lanes closed until 3:00 P.M.",
-      "published": "Tue, 10 Nov 2026 10:20:08 -0500",
+      "title": "New Jersey Turnpike southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike Southbound North of Interchange 3 - NJ 168 (Lawnside) 1 right lane closed until 6:00 A.M.",
+      "published": "Tue, 10 Nov 2026 19:35:00 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7242012838724,
-      "longitude": -73.2870031571155
+      "latitude": 39.86939195,
+      "longitude": -75.0272497
     },
     {
       "type": "construction",
-      "title": "NY 983C - Yonkers Ave both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 983C - Yonkers Ave both directions between Prescott Street (Yonkers) and Ashburton Avenue (Yonkers) right lane closure until 4:00 P.M. 2026086098145/32790409 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 10:14:17 -0500",
+      "title": "I-95 southbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 51 and 48. In effect today until Wednesday, November 11 at 6:08 am. The right lane is closed. Reported Tuesday, November 10 at 7:31 pm.",
+      "published": "Tue, 10 Nov 2026 19:32:23 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.935143003202,
-      "longitude": -73.8815889816666
+      "latitude": 41.299423,
+      "longitude": -72.904913
     },
     {
       "type": "construction",
-      "title": "I-684 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, sign work on I-684 southbound between Exit 8 - Hardscrabble Road - CR 138 - Croton Falls (North Salem) and Exit 6 - NY 35 - Katonah - Cross River (Bedford) right lane closure until 7:00 P.M. D265342/DAY/32765609 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 10:01:42 -0500",
+      "title": "I-84 eastbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-84 Eastbound between Exits 17 and 22 (2.8 miles) in effect today until Wednesday, November 11 at 6:00 am. The left lane is closed. Reported Tuesday, November 10 at 7:32 pm.",
+      "published": "Tue, 10 Nov 2026 19:32:54 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.3456993103027,
-      "longitude": -73.6518020629883
+      "latitude": 41.533066,
+      "longitude": -73.087783
     },
     {
       "type": "construction",
-      "title": "Taconic State Parkway southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, tree trimming on Taconic State Parkway southbound between Exit 37 - I-84 (East Fishkill) and Exit 23 - Bryant Pond Rd. - CR 30 (Putnam Valley) various lane closures until 5:00 P.M. D265550/32706209 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 10:02:00 -0500",
+      "title": "New Jersey Turnpike : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork, roadwork on New Jersey Turnpike Exit ramp To I-278, Rt 1 and 9 from Interchange 13 (Elizabeth) 1 Left lane of 2 lanes closed to traffic until 4:00 A.M.",
+      "published": "Tue, 10 Nov 2026 19:31:04 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.5331490791423,
-      "longitude": -73.7726035840721
+      "latitude": 40.6434900705418,
+      "longitude": -74.2085900705418
     },
     {
       "type": "construction",
-      "title": "I-684 northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, sign work on I-684 northbound between Hutchinson River Pkwy (Harrison) and Exit 2 - NY 120 - Westchester County Airport (North Castle) right lane closure until 4:00 P.M. D265342/DAY/32765509 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 10:01:41 -0500",
+      "title": "I-84 eastbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-84 Eastbound between Exits 14 and 16 (5.0 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 7:28 pm.",
+      "published": "Tue, 10 Nov 2026 19:28:33 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.0209195314487,
-      "longitude": -73.7156776661376
+      "latitude": 41.454892,
+      "longitude": -73.238476
     },
     {
       "type": "construction",
-      "title": "I-684 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, guard rail repairs on I-684 southbound between Exit 4 - NY 172 (Bedford) and Hutchinson River Parkway (Harrison) mobile lane closure until 6:00 P.M. D265824/32851609 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 10:01:58 -0500",
+      "title": "I-95S_X43_OFF unknown : Roadwork",
+      "description": "ConnDOT: I-95 Southbound Exit 43 OFFRAMP CLOSED because of Road Work. Reported Tuesday, November 10 at 5:47 pm.",
+      "published": "Tue, 10 Nov 2026 19:22:08 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.1901666734509,
-      "longitude": -73.6877027167861
+      "latitude": 41.284381,
+      "longitude": -72.95005
     },
     {
       "type": "construction",
-      "title": "I-684 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, sign work on I-684 southbound between Exit 2 - NY 120 - Westchester County Airport (North Castle) and Hutchinson River Pkwy (Harrison) right lane closure until 4:00 P.M. D265342/DAY/32765409 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 10:01:39 -0500",
+      "title": "I-95 southbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 70 and 69 (1.7 miles) in effect today until Wednesday, November 11 at 6:18 am. The right lane is closed. Reported Tuesday, November 10 at 7:18 pm.",
+      "published": "Tue, 10 Nov 2026 19:21:59 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.0794482476441,
-      "longitude": -73.7183239627323
+      "latitude": 41.323219,
+      "longitude": -72.324824
     },
     {
       "type": "construction",
       "title": "I-91 southbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-91 Southbound between Exits 45 and 38A (2.9 miles) in effect today until 3:30 pm. The right lane is closed. Reported Tuesday, November 10 at 9:51 am.",
-      "published": "Tue, 10 Nov 2026 12:47:21 -0500",
+      "description": "ConnDOT: Road Work on I-91 Southbound between Exits 46 and 45 (1.8 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 7:20 pm.",
+      "published": "Tue, 10 Nov 2026 19:21:08 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.932012,
-      "longitude": -72.608479
+      "latitude": 41.954984,
+      "longitude": -72.597599
     },
     {
       "type": "construction",
-      "title": "I-95 northbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-95 Northbound between Exits 18 and 19 (1.8 miles) in effect today until 4:00 pm. The right lane is closed. Reported Tuesday, November 10 at 9:50 am.",
-      "published": "Tue, 10 Nov 2026 14:27:01 -0500",
+      "title": "I-91N_X9_OFF unknown : Roadwork",
+      "description": "ConnDOT: I-91 Northbound Exit 9 OFFRAMP CLOSED because of Road Work. Reported Tuesday, November 10 at 7:19 pm.",
+      "published": "Tue, 10 Nov 2026 19:21:50 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.120718,
-      "longitude": -73.321457
+      "latitude": 41.34964,
+      "longitude": -72.866901
     },
     {
       "type": "construction",
       "title": "I-95 southbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 18 and 17 (2.4 miles) in effect today until 4:00 pm. The left lane is closed. Reported Tuesday, November 10 at 9:36 am.",
-      "published": "Tue, 10 Nov 2026 09:36:42 -0500",
+      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 46 and 42 (3.2 miles) in effect today until Wednesday, November 11 at 6:21 am. The right lane is closed. Reported Tuesday, November 10 at 7:21 pm.",
+      "published": "Tue, 10 Nov 2026 19:21:42 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.121478,
-      "longitude": -73.329106
+      "latitude": 41.292078,
+      "longitude": -72.920791
     },
     {
       "type": "construction",
-      "title": "US 202 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, crack sealing on US 202 both directions between Lafayette Avenue - NY 59 (Suffern) and Ladentown Road (Ramapo) alternating traffic until 3:30 P.M. D265790/32870409 - This is a moving operation. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:59 -0500",
+      "title": "I-91 northbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-91 Northbound between Exits 24 and 25 (1.8 miles) in effect today until Wednesday, November 11 at 6:00 am. The 2 left lanes are closed. Reported Tuesday, November 10 at 7:21 pm.",
+      "published": "Tue, 10 Nov 2026 19:21:34 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.1165695418097,
-      "longitude": -74.1546903940604
+      "latitude": 41.680918,
+      "longitude": -72.653226
     },
     {
       "type": "construction",
-      "title": "US 202 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on US 202 both directions between Crestview Avenue (Cortlandt) and Bear Mountain State Parkway (Yorktown) alternating traffic until 3:30 P.M. 2026086224890/32864009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:46 -0500",
+      "title": "I-87 - NYS Thruway southbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-87 - NYS Thruway southbound from After Exit 15 (I-87) - I-287S - Rte 17S to Before Exit 15 (I-87) - I-287S - Rte 17S until 7:00 AM, 11/11/2026 [CARS CAD-263140429]",
+      "published": "Tue, 10 Nov 2026 19:11:13 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.2923150992603,
-      "longitude": -73.8776744268228
+      "latitude": 41.124894,
+      "longitude": -74.165303
     },
     {
       "type": "construction",
-      "title": "NY 22 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, drainage improvements on NY 22 both directions between (Bronxville) and Paddington Road (Bronxville) alternating traffic until 3:30 P.M. 2026083272745/32865409 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:49 -0500",
+      "title": "I-190 - Niagara Thruway northbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left lane closed on I-190 - Niagara Thruway northbound from Before I-90 Exit 53 - Start of Niagara Thruway to Before Exit N7 (I-190) - Church St - Skyway (Rte 5) until 7:00 AM, 11/11/2026 [CARS CAD-263140426]",
+      "published": "Tue, 10 Nov 2026 19:09:07 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.9367140309867,
-      "longitude": -73.8190861209015
+      "latitude": 42.874902,
+      "longitude": -78.788244
     },
     {
       "type": "construction",
-      "title": "NY 9A both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, crack sealing on NY 9A both directions between Reynolds Lane (Cortlandt) and Belock Avenue (Cortlandt) various lane closures until 3:30 P.M. D265790/32870109 - This is a moving operation. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:55 -0500",
+      "title": "CT 3 southbound : Roadwork",
+      "description": "ConnDOT: Road Work (Construction) on RT 3 Southbound on the Putnam Bridge. Reported Tuesday, November 10 at 7:09 pm.",
+      "published": "Tue, 10 Nov 2026 19:09:14 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.2682657448003,
-      "longitude": -73.9357792113479
+      "latitude": 41.724488,
+      "longitude": -72.618936
     },
     {
       "type": "construction",
-      "title": "NY 9A both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, crack sealing on NY 9A both directions between Jackson Avenue (Greenburgh) and Dobbs Ferry Road; NY 100B (Greenburgh) alternating traffic until 3:30 P.M. D265790/32870309 - This is a moving operation. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:58 -0500",
+      "title": "CT 3 northbound : Roadwork",
+      "description": "ConnDOT: Road Work on RT 3 Northbound on the Putnam Bridge in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 7:07 pm.",
+      "published": "Tue, 10 Nov 2026 19:07:54 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.9886781304652,
-      "longitude": -73.8627936161817
+      "latitude": 41.707916,
+      "longitude": -72.644934
     },
     {
       "type": "construction",
-      "title": "NY 9A both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, crack sealing on NY 9A both directions between Maiden Lane (Cortlandt) and Lower South Street (Peekskill) alternating traffic until 3:30 P.M. D265790/32870209 - This is a moving operation. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:56 -0500",
+      "title": "New Jersey Turnpike - Western Spur southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike - Western Spur Southbound between North of Interchange 15W - I-280 (Kearny) and South of Interchange 16W - NJ 3 (Lyndhurst Twp) 1 left lane closed until 6:00 A.M.",
+      "published": "Tue, 10 Nov 2026 19:00:00 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.2334145547526,
-      "longitude": -73.9137433699753
-    },
-    {
-      "type": "construction",
-      "title": "US 9 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on US 9 both directions between Cedar Lane (Ossining) and Westview Avenue (Ossining) alternating traffic until 3:30 P.M. 2026085793991/32791709 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:26 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1704108116411,
-      "longitude": -73.864505139976
-    },
-    {
-      "type": "construction",
-      "title": "NY 9A both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 9A both directions between Jackson Avenue (Greenburgh) and Lawrence Street (Ardsley) alternating traffic until 3:30 P.M. 202508438563/32621709 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:18 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.9974725201095,
-      "longitude": -73.8574945019798
-    },
-    {
-      "type": "construction",
-      "title": "NY 9A northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, survey work on NY 9A northbound between Parkway Road (Ossining) and US 9 (Cortlandt) right lane closure until 3:30 P.M. D042072/DAY/32838809 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:35 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1550043852117,
-      "longitude": -73.8335386049245
-    },
-    {
-      "type": "construction",
-      "title": "NY 9A northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 9A northbound between Lake Street (Cortlandt) and Lindsey Avenue (Cortlandt) alternating traffic until 3:30 P.M. 2026086990696/32850109 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:38 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.2562265500259,
-      "longitude": -73.9338890275104
-    },
-    {
-      "type": "construction",
-      "title": "US 1 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on US 1 both directions between E William Street (Port Chester) and Adee Street (Port Chester) various lane closures until 3:30 P.M. 2026085791631/32821809 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.9985164235618,
-      "longitude": -73.6649617257147
-    },
-    {
-      "type": "construction",
-      "title": "US 6 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, crack sealing on US 6 both directions between Wishe Circle (Wawayanda) and Dolson Avenue; NY 17M; US 6 (Wawayanda) alternating traffic until 3:30 P.M. D265790/32855009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3584055353106,
-      "longitude": -74.6731258216469
-    },
-    {
-      "type": "construction",
-      "title": "US 202 eastbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, road widening on US 202 eastbound at Ladentown Road (Ramapo) alternating traffic until 3:30 P.M. 202408109769/32835209 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:34 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1827507430261,
-      "longitude": -74.0677353064536
+      "latitude": 40.75423974,
+      "longitude": -74.11829322
     },
     {
       "type": "construction",
       "title": "US 9 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on US 9 both directions between Tower Hill Road (Briarcliff Manor) and River Road (Briarcliff Manor) alternating traffic until 3:30 P.M. 2026085491930/32854009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:30:40 -0500",
+      "description": "NYSDOT - Region 8: Construction, drainage improvements on US 9 both directions between Spackenkill Road (Poughkeepsie) and West Dorsey Lane (Hyde Park) various lane closures until 6:00 A.M. D265713/NIGHT/32866709 - This work is weather permitting, Plan travel accordingly; delays may exist",
+      "published": "Tue, 10 Nov 2026 19:00:30 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.1300216053621,
-      "longitude": -73.8612047685998
-    },
-    {
-      "type": "construction",
-      "title": "NY 984E E/W - Yonkers Avenue both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, construction on NY 984E E/W - Yonkers Avenue both directions between Raybrook Road (Yonkers) and Kimball Avenue (Yonkers) shoulder closure until 4:00 P.M. 2026084524278/32857509 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:28:19 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.913480431132,
-      "longitude": -73.8566319424344
-    },
-    {
-      "type": "construction",
-      "title": "CT 72 eastbound : Roadwork",
-      "description": "ConnDOT: Road Work on RT 72 Eastbound between Exits 4 and 2 (2.1 miles) in effect today until 3:31 pm. The right lane is closed. Reported Tuesday, November 10 at 9:16 am.",
-      "published": "Tue, 10 Nov 2026 12:39:19 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.673233,
-      "longitude": -72.846803
-    },
-    {
-      "type": "construction",
-      "title": "CT 9 northbound : Roadwork",
-      "description": "ConnDOT: Road Work on RT 9 Northbound between Exits 13 and 15 (2.0 miles) in effect today until 4:00 pm. The right lane is closed. Reported Tuesday, November 10 at 9:15 am.",
-      "published": "Tue, 10 Nov 2026 09:15:35 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.454709,
-      "longitude": -72.525426
-    },
-    {
-      "type": "construction",
-      "title": "Garden State Parkway northbound : Roadwork",
-      "description": "NJ Turnpike Auth.: Roadwork on Garden State Parkway inner roadway Northbound between South of Exit 120 - Laurence Harbor (Matawan) and North of Garden State Parkway - Jon Bon Jovi Service Area (Sayreville) 1 right lane closed until 9:00 P.M.",
-      "published": "Tue, 10 Nov 2026 09:09:00 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.42884886,
-      "longitude": -74.23597708
-    },
-    {
-      "type": "construction",
-      "title": "Throgs Neck Bridge northbound : Roadwork",
-      "description": "MTA Bridges & Tunnels: Roadwork, roadwork on Throgs Neck Bridge northbound Queens Side (New York) to Bronx Side (New York) 1 Right lane of 3 lanes closed",
-      "published": "Tue, 10 Nov 2026 09:04:33 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7914117800316,
-      "longitude": -73.7930049838595
-    },
-    {
-      "type": "construction",
-      "title": "US 9W both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, water main work on US 9W both directions between Smith Street (Valley Cottage) and Atchison Street (Valley Cottage) alternating traffic until 3:30 P.M. 2026082933522/32866209 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:48 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1271389132861,
-      "longitude": -73.9244068865082
-    },
-    {
-      "type": "construction",
-      "title": "NY 303 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, water main work on NY 303 both directions between Spruce Street (Orangetown) and Orangeburgh Road (Orangetown) various lane closures until 4:00 P.M. 399878/32858209 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:43 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.0582953657631,
-      "longitude": -73.9481736882981
-    },
-    {
-      "type": "construction",
-      "title": "NY 52 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on NY 52 both directions between Stone Castle Road (Montgomery) and Berea Road (Montgomery) alternating traffic until 4:00 P.M. 2025083480598/32861609 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:45 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5536344994105,
-      "longitude": -74.1365855672983
-    },
-    {
-      "type": "construction",
-      "title": "NY 137 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, crack sealing on NY 137 both directions between Old Snake Hill Road (Pound Ridge) and Old Post Road; NY 121; END ROUTE (Bedford) alternating traffic until 4:00 P.M. D265790/32870009 - This is a moving operation. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:53 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1831879763366,
-      "longitude": -73.5679901289055
-    },
-    {
-      "type": "construction",
-      "title": "NY 32 northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, culvert replacement on NY 32 northbound at Trout Brook Road (Woodbury) shoulder closure until 4:00 P.M. D265611/32858009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:41 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3732668173176,
-      "longitude": -74.1010109739306
-    },
-    {
-      "type": "construction",
-      "title": "NY 300 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on NY 300 both directions between Mountain View Avenue (Newburgh) and Robles Lane (Newburgh) alternating traffic until 4:00 P.M. 2025083480598/32861709 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:46 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5619444134734,
-      "longitude": -74.0809526210065
-    },
-    {
-      "type": "construction",
-      "title": "NY 208 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 208 both directions between Main Entrance Drive (Blooming Grove) and Round Hill Road (Blooming Grove) alternating traffic until 3:30 P.M. 2025082270794/32867509 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:49 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3910271906594,
-      "longitude": -74.1801134103986
-    },
-    {
-      "type": "construction",
-      "title": "NY 208 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on NY 208 both directions between Coleman Road (Montgomery) and Coldenham Road (Montgomery) alternating traffic until 3:30 P.M. 2026086094157/32868809 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:52 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5375691629188,
-      "longitude": -74.1973553656067
-    },
-    {
-      "type": "construction",
-      "title": "NY 211 eastbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, crack sealing on NY 211 eastbound between Stratton Avenue (Middletown) and Goshen Turnpike (CR 83) (Wallkill) alternating traffic until 4:00 P.M. D265790/32870509 - This is a moving operation. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:54 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.4541891660248,
-      "longitude": -74.4010203408615
+      "latitude": 41.6589061653969,
+      "longitude": -73.9304533941724
     },
     {
       "type": "construction",
       "title": "I-684 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, construction on I-684 southbound between Exit 9 E/W - I-84 (Southeast) and Exit 8 - Hardscrabble Road (North Salem) various lane closures until 3:30 P.M. D265693/32776909 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:36 -0500",
+      "description": "NYSDOT - Region 8: Construction, culvert repairs on I-684 southbound between Exit 8 - Hardscrabble Road (North Salem) and Exit 6 - NY 35 (Bedford) various lane closures until 5:00 A.M. D265186/NIGHT/B1077550/32842909 - This work is weather permitting, Plan travel accordingly; delays may exist",
+      "published": "Tue, 10 Nov 2026 19:00:22 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.3724333876745,
-      "longitude": -73.6144576551676
+      "latitude": 41.3429294678028,
+      "longitude": -73.6551067795619
     },
     {
       "type": "construction",
-      "title": "NY 17K both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, bridge rehabilitation on NY 17K both directions between Bloomingburg Road (Wallkill) and Goshen Tpke (Wallkill) alternating traffic until 4:00 P.M. D265594/B1013909/32718309 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:10 -0500",
+      "title": "Taconic State Parkway northbound : Construction",
+      "description": "NYSDOT - Region 8: Construction, bridge rehabilitation on Taconic State Parkway northbound between Exit 11 - NY 134 (Yorktown) and Exit 13 - Underhill Avenue - CR 131 (Yorktown) various lane closures until 5:00 A.M. D265160/B5502170/NIGHT/32645709 - This work is weather permitting. Plan travel accordingly; delays may exist",
+      "published": "Tue, 10 Nov 2026 19:00:21 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.5525435832701,
-      "longitude": -74.4252326734407
+      "latitude": 41.2276486379407,
+      "longitude": -73.807240737208
     },
     {
       "type": "construction",
-      "title": "NY 32 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, construction on NY 32 both directions between Broadhead Avenue (New Paltz) and Millrock Road (New Paltz) alternating traffic until 4:00 P.M. D265433/32541209 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:04 -0500",
+      "title": "NJ 57 eastbound : Construction",
+      "description": "NJ DOT - STMC: Roadwork on NJ 57 Eastbound from East of US 22 (Lopatcong Twp) to East of CR 637/Liberty Rd (Greenwich Twp) Tuesday November 10, 2026 07:00 PM thru Wednesday November 11, 2026 06:00 AM, All lanes open",
+      "published": "Tue, 10 Nov 2026 19:00:07 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.7513744342675,
-      "longitude": -74.0854947565516
+      "latitude": 40.6993408203125,
+      "longitude": -75.1632919311523
     },
     {
       "type": "construction",
-      "title": "NY 304 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, bridge rehabilitation on NY 304 both directions between Demarest Mill Road (Nanuet) and Village Green (Nanuet) various lane closures until 4:00 P.M. D265160/DAY/B1045400/32658109 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:07 -0500",
+      "title": "NY 13 northbound : Construction",
+      "description": "NYSDOT - Region 3: Construction , overnight roadwork on NY 13 northbound between Elmira Road (Ithaca) and 3rd Street (Ithaca) All lanes of 2 lanes open until 6:00 AM ; Alternating left and right lane closures",
+      "published": "Tue, 10 Nov 2026 19:00:07 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.1021622299782,
-      "longitude": -73.9974105087279
+      "latitude": 42.4284843477525,
+      "longitude": -76.5081356811987
     },
     {
       "type": "construction",
-      "title": "NY 208 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, drainage improvements on NY 208 southbound between Houston Place (Montgomery) and Aristotle Drive (Montgomery) alternating traffic until 3:30 P.M. 2026002249/32721609 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:11 -0500",
+      "title": "NY 104 : Construction",
+      "description": "NYSDOT - Region 4: Construction , bridge rehabilitation on NY 104 Saint Paul Street (Rochester) to Over ST Paul St Bridge (Rochester) 2 Left lanes of 4 lanes closed until 6:00 AM alternating lane closures",
+      "published": "Tue, 10 Nov 2026 19:00:07 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.4986947914805,
-      "longitude": -74.2077608546558
+      "latitude": 43.1915121922234,
+      "longitude": -77.6181800526423
     },
     {
       "type": "construction",
-      "title": "NY 32 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, road widening on NY 32 southbound between Sunset Ridge Road (New Paltz) and Veterans Drive (New Paltz) alternating traffic until 4:00 P.M. 202508111760/32615509 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:06 -0500",
+      "title": "NY 13 southbound : Construction",
+      "description": "NYSDOT - Region 3: Construction , overnight roadwork on NY 13 southbound between 3rd Street (Ithaca) and Elmira Road (Ithaca) All lanes of 2 lanes open until 6:00 AM ; Alternating left and right lane closures",
+      "published": "Tue, 10 Nov 2026 19:00:08 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.7603823014786,
-      "longitude": -74.0815911473024
+      "latitude": 42.4483006678397,
+      "longitude": -76.5068097193706
     },
     {
       "type": "construction",
-      "title": "US 6 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road widening on US 6 both directions at Seward Road (Wawayanda) alternating traffic until 3:30 P.M. 2026085269424/32659909 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:09 -0500",
+      "title": "NY 5 both directions : Construction",
+      "description": "NYSDOT TMC - Albany: Construction , line striping on NY 5 both directions Area of County Route 151 (Albany) All lanes of 3 lanes open until 6:00 AM",
+      "published": "Tue, 10 Nov 2026 19:00:08 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.4042960336274,
-      "longitude": -74.4464026993221
+      "latitude": 42.6781075961028,
+      "longitude": -73.7877610724263
     },
     {
       "type": "construction",
-      "title": "NY 984P / Franklin Avenue westbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, safety improvements on NY 984P / Franklin Avenue westbound between Friendly Lane (Washington) and Front Street (Washington) shoulder closure until 3:30 P.M. 2026086770436/32848709 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:33 -0500",
+      "title": "NY 5 both directions : Construction",
+      "description": "NYSDOT TMC - Albany: Construction , utility work on NY 5 both directions Ballston Road; NY 50 (Scotia) All lanes of 2 lanes open until 6:00 AM Alternating Lanes",
+      "published": "Tue, 10 Nov 2026 19:00:08 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.7853637794376,
-      "longitude": -73.6924236053184
+      "latitude": 42.8251674812796,
+      "longitude": -73.9616225233109
     },
     {
       "type": "construction",
-      "title": "NY 211 westbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 211 westbound between Boyd Street (Montgomery) and Chandler Lane (Montgomery) alternating traffic until 4:00 P.M. 2026084736704/32745509 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:14 -0500",
+      "title": "RT-914V both directions : Construction",
+      "description": "NYSDOT TMC - Albany: Construction , line striping on RT-914V both directions between NY 50 to NY 146 (Glenville) All lanes of 1 lane open until 6:00 AM various short term closures",
+      "published": "Tue, 10 Nov 2026 19:00:08 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.5234459468018,
-      "longitude": -74.2402362476106
+      "latitude": 42.867123046648,
+      "longitude": -73.9043794606169
     },
     {
       "type": "construction",
-      "title": "NY 32 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, construction on NY 32 both directions between E Saint James Street (Kingston) and Flatbush Avenue - US 9W (Kingston) alternating traffic until 4:00 P.M. D265433/32771609 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:17 -0500",
+      "title": "NY 7 eastbound : Construction",
+      "description": "NYSDOT TMC - Albany: Construction , utility work on NY 7 eastbound Burdett Avenue (Troy) to Burdett Avenue (Troy) 1 Right lane of 2 lanes closed until 6:00 AM",
+      "published": "Tue, 10 Nov 2026 19:00:09 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.9327687966922,
-      "longitude": -74.0093095110893
+      "latitude": 42.7382802867666,
+      "longitude": -73.6701219254327
     },
     {
       "type": "construction",
-      "title": "NY 17A both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 17A both directions between Iron Forge Road (Warwick) and Dikeman Drive (Goshen) alternating traffic until 4:00 P.M. D265402/32356509 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:01 -0500",
+      "title": "CT 2 eastbound : Roadwork",
+      "description": "ConnDOT: Road Work on RT 2 Eastbound between Exits 23 and 26 (2.3 miles) in effect today until Wednesday, November 11 at 6:00 am. The left shoulder is closed. Reported Tuesday, November 10 at 6:57 pm.",
+      "published": "Tue, 10 Nov 2026 18:58:11 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.2503774440064,
-      "longitude": -74.3107196662704
+      "latitude": 41.569793,
+      "longitude": -72.337877
     },
     {
       "type": "construction",
-      "title": "NY 980T - Water Street northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 980T - Water Street northbound between Washington Street (Newburgh) and Carpenter Road (Newburgh) shoulder closure until 3:30 P.M. 2026083218100/32857109 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:59 -0500",
+      "title": "I-95 northbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-95 Northbound between Exits 2 and 5 (3.0 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 6:55 pm.",
+      "published": "Tue, 10 Nov 2026 18:57:57 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.4991187829864,
-      "longitude": -74.0070504713755
-    },
-    {
-      "type": "construction",
-      "title": "NY 17M both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road widening on NY 17M both directions at US 6 (Wawayanda) shoulder closure until 3:30 P.M. 2026085498118/32830909 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:30 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.4201606046556,
-      "longitude": -74.4273435674591
-    },
-    {
-      "type": "construction",
-      "title": "NY 300 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, bridge painting on NY 300 both directions between NY 17K (Newburgh) and Stewart Avenue (Newburgh) various lane closures until 4:00 P.M. D215061/DAY/32819909 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:26 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5050667539899,
-      "longitude": -74.0690230125438
-    },
-    {
-      "type": "construction",
-      "title": "NY 17M both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main repairs on NY 17M both directions between Sand Station Road (Wallkill) and Watkins Avenue (Wallkill) alternating traffic until 3:30 P.M. 202608642542/32856709 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:58 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.4623371849371,
-      "longitude": -74.412483705815
-    },
-    {
-      "type": "construction",
-      "title": "US 9W both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on US 9W both directions between Shadyside Avenue (Nyack) and Upper Depew Avenue (Nyack) alternating traffic until 3:30 P.M. 202508991358/32801009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:19 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.0797506437765,
-      "longitude": -73.9231657568184
-    },
-    {
-      "type": "construction",
-      "title": "NY 982B - Midland Avenue both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, safety improvements on NY 982B - Midland Avenue both directions between Pitt Street (Port Chester) and Fawcett Street (Port Chester) shoulder closure until 3:30 P.M. 202308104594/30589409 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:00 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.9902649761939,
-      "longitude": -73.6703381423279
-    },
-    {
-      "type": "construction",
-      "title": "US 9W southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, road widening on US 9W southbound between Old Post Road (Esopus) and Huntinton Lane (Esopus) shoulder closure until 4:00 P.M. 2026084919570/32839709 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:32 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.8251232189713,
-      "longitude": -73.9663180779838
-    },
-    {
-      "type": "construction",
-      "title": "NY 94 westbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 94 westbound between Big Oaks Drive (Goshen) and North Main Street; NY 17A (Warwick) alternating traffic until 3:30 P.M. 2026087284808/32850309 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:35 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3440156874389,
-      "longitude": -74.3459995753192
-    },
-    {
-      "type": "construction",
-      "title": "NY 17K both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 17K both directions between Herman Avenue (Newburgh) and Stony Brook Court (Newburgh) alternating traffic until 4:00 P.M. 2026084766680/32827109 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:29 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5033781207132,
-      "longitude": -74.056673616912
-    },
-    {
-      "type": "construction",
-      "title": "NY 133 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main repairs on NY 133 both directions between Calam Avenue (Ossining) and Iroquois Road (Ossining) alternating traffic until 4:00 P.M. 2025084821918/DAY/32821909 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:27 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1669704137429,
-      "longitude": -73.8472474684088
-    },
-    {
-      "type": "construction",
-      "title": "NY 52 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, culvert replacement on NY 52 both directions between Grand View Terrace (Montgomery) and Berea Road (Montgomery) alternating traffic until 4:00 P.M. D265611/32819609 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:02:25 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.563190931456,
-      "longitude": -74.1749646351738
-    },
-    {
-      "type": "construction",
-      "title": "NY 208 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on NY 208 both directions between Sarah Wells Trail (Hamptonburgh) and Twin Arch Road (Hamptonburgh) alternating traffic until 3:30 P.M. 2026085258564/32824509 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:47 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.4281015489959,
-      "longitude": -74.1671432378453
-    },
-    {
-      "type": "construction",
-      "title": "NY 299 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road maintenance operations on NY 299 both directions between Park Lane (Lloyd) and Kristen Drive (Lloyd) alternating traffic until 4:00 P.M. D265638/32774809 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:44 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.7372368014044,
-      "longitude": -74.03041111788
-    },
-    {
-      "type": "construction",
-      "title": "NY 82 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on NY 82 both directions between Arrowhead Road (East Fishkill) and Foster Road (East Fishkill) alternating traffic until 3:30 P.M. 2025084500874/32725809 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:41 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5774155446575,
-      "longitude": -73.8147091371567
-    },
-    {
-      "type": "construction",
-      "title": "NY 28 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, drainage improvements on NY 28 both directions between Longyear Road (Olive) and Bostock Road (Olive) alternating traffic until 4:00 P.M. 2026083273658/32831009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:55 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.9716772246866,
-      "longitude": -74.2304208739293
-    },
-    {
-      "type": "construction",
-      "title": "NY 376 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on NY 376 both directions between Lake Walton Road (East Fishkill) and Van Wyck Lane (East Fishkill) alternating traffic until 3:30 P.M. 2025084500874/32789509 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:43 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.607590401619,
-      "longitude": -73.8351064247794
-    },
-    {
-      "type": "construction",
-      "title": "NY 284 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road maintenance operations on NY 284 both directions between Wood Road (Minisink) and Langlitz Road (Minisink) alternating traffic until 4:00 P.M. 202508113957/32626309 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:35 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3231000610385,
-      "longitude": -74.5574577220895
-    },
-    {
-      "type": "construction",
-      "title": "NY 120 northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 120 northbound between Elm Street (Chappaqua) and South Bedford Road; NY 117 (Chappaqua) shoulder closure until 3:30 P.M. 202408111179/32627609 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:38 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1583981872836,
-      "longitude": -73.7645058345186
-    },
-    {
-      "type": "construction",
-      "title": "US 9W northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, paving operations on US 9W northbound between Stroomzeit Lane (Saugerties) and Minard Lane (Saugerties) alternating traffic until 4:00 P.M. 2026086775455/32834109 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:52 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.0878857111983,
-      "longitude": -73.9415932539673
-    },
-    {
-      "type": "construction",
-      "title": "NY 94 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, utility work on NY 94 both directions between Patricia Lane (Washingtonville) and Goshen Avenue - NY 208 (Washingtonville) alternating traffic until 3:30 P.M. 2025084500874/32700309 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:46 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.4221472065923,
-      "longitude": -74.173750628166
-    },
-    {
-      "type": "construction",
-      "title": "NY 94 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 94 both directions between North Main Street - NY 17A (Goshen) and Big Oaks Drive (Goshen) alternating traffic until 4:00 P.M. D265402/32742909 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:53 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3381981037491,
-      "longitude": -74.3575639764124
-    },
-    {
-      "type": "construction",
-      "title": "NY 117 northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 117 northbound between King Street; NY 120 (New Castle) and Memorial Drive (Chappaqua) shoulder closure until 3:30 P.M. 202408111179/32627709 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:01:37 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1589861721878,
-      "longitude": -73.7648310276474
-    },
-    {
-      "type": "construction",
-      "title": "US 46 westbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on US 46 Westbound between East of CR 613/Alphano Rd (Independence Twp) and West of CR 611/Hope Rd (Liberty Twp), Tuesday November 10, 2026 09:00 AM thru 03:30 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 09:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.874942779541,
-      "longitude": -74.9037246704102
-    },
-    {
-      "type": "construction",
-      "title": "NY 82 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 82 both directions between Trinka Lane (East Fishkill) and Unity Street (East Fishkill) alternating traffic until 4:00 P.M. 2026084918932/32871809 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:00:01 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.578119453634,
-      "longitude": -73.8130177814758
-    },
-    {
-      "type": "construction",
-      "title": "US 46 eastbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on US 46 Eastbound between East of CR 616/Knowlton Rd (Knowlton Twp) and West of Manunkachunk Rd (White Twp), Tuesday November 10, 2026 09:00 AM thru 03:30 PM, right shoulder, moving operation",
-      "published": "Tue, 10 Nov 2026 09:00:15 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8816871643066,
-      "longitude": -75.0579147338867
-    },
-    {
-      "type": "construction",
-      "title": "NY 133 eastbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, water main work on NY 133 eastbound between Ramapo Road (Ossining) and Mohegan Road (Ossining) alternating traffic until 3:30 P.M. 7511739/32873809 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:00:02 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1676737865496,
-      "longitude": -73.8426922420502
-    },
-    {
-      "type": "construction",
-      "title": "NJ 33 eastbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 33 Eastbound between Halls Mill Rd (Freehold Twp) and East of NJ 34 (Howell Twp), Tuesday November 10, 2026 09:00 AM thru 03:30 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 09:00:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.2362747192383,
-      "longitude": -74.2458343505859
-    },
-    {
-      "type": "construction",
-      "title": "US 9W northbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , utility work on US 9W northbound between Carhart Road (New Baltimore) and New Baltimore Rd (New Baltimore) All lanes of 1 lane open until 4:00 PM one lane / shldr closure",
-      "published": "Tue, 10 Nov 2026 09:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.4394930045046,
-      "longitude": -73.8133971101101
-    },
-    {
-      "type": "construction",
-      "title": "NJ 38 eastbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 38 between CR 674/Mt. Laurel Rd (Hainesport Twp) and East of CR 635/Ark Rd (Mount Laurel Twp), Tuesday November 10, 2026 09:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 09:00:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.9734764099121,
-      "longitude": -74.8456497192383
-    },
-    {
-      "type": "construction",
-      "title": "I-481 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on I-481 southbound Exit 89B - Kirkville Road; CR 53 (De Witt) to Exit 88 - I-690 (De Witt) All lanes of 2 lanes open until 7:00 PM ; Alternating left and right lane closures",
-      "published": "Tue, 10 Nov 2026 09:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.083364,
-      "longitude": -76.053714
-    },
-    {
-      "type": "construction",
-      "title": "I-81 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , line striping on I-81 northbound between Exit 17 - South Salina Street; Brighton Avenue; State Street (Syracuse) and Exit 18 - Adams Street; Harrison Street (Syracuse) All lanes of 2 lanes open until 5:30 PM ; Alternating lane closures",
-      "published": "Tue, 10 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0199887207626,
-      "longitude": -76.1403830073767
-    },
-    {
-      "type": "construction",
-      "title": "I-81 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , guard rail repairs on I-81 northbound between Exit 16A - I-481 NB (Syracuse) and Exit 1A - E. Glen Ave.; Brighton Ave. (Syracuse) 1 Left lane of 2 lanes closed until 7:00 PM",
-      "published": "Tue, 10 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.003483,
-      "longitude": -76.133709
-    },
-    {
-      "type": "construction",
-      "title": "NY 5 eastbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 5 eastbound between Route 174 Camillus (Camillus) and West Genesee Street (Geddes) 1 Right lane of 3 lanes closed until 4:30 PM",
-      "published": "Tue, 10 Nov 2026 09:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.035218,
-      "longitude": -76.322503
-    },
-    {
-      "type": "construction",
-      "title": "NY 32 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, gas main work on NY 32 both directions between Pauline Lane (Saugerties) and Harvest Way (Saugerties) alternating traffic until 4:00 P.M. 2026084961529/32871209 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 09:00:00 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.0330137850045,
-      "longitude": -73.9565176962952
-    },
-    {
-      "type": "construction",
-      "title": "NJ 27 northbound : Construction",
-      "description": "NJ DOT - STMC: Roadwork on NJ 27 Northbound from North of Meeker Av (Newark) to US 22 (Newark) Tuesday November 10, 2026 09:00 AM thru 05:00 PM, right shoulder closed",
-      "published": "Tue, 10 Nov 2026 09:00:14 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.703369140625,
-      "longitude": -74.1948394775391
-    },
-    {
-      "type": "construction",
-      "title": "CT 8 southbound : Roadwork",
-      "description": "ConnDOT: Road Work on RT 8 Southbound between Exits 30C and 29 (1.0 miles) in effect today until 3:32 pm. Expect lane closures. Reported Tuesday, November 10 at 8:56 am.",
-      "published": "Tue, 10 Nov 2026 08:58:36 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.556513,
-      "longitude": -73.055636
-    },
-    {
-      "type": "construction",
-      "title": "I-395 northbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-395 Northbound between Exits 38 and 41 (2.9 miles) in effect today until 3:29 pm. The left lane is closed. Reported Tuesday, November 10 at 8:57 am.",
-      "published": "Tue, 10 Nov 2026 08:58:22 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.799069,
-      "longitude": -71.873847
-    },
-    {
-      "type": "construction",
-      "title": "I-384 westbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-384 Westbound between Exits 4 and 3 (1.1 miles) in effect today until 3:30 pm. The 2 right lanes are closed. Reported Tuesday, November 10 at 8:53 am.",
-      "published": "Tue, 10 Nov 2026 08:53:40 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.762204,
-      "longitude": -72.515619
+      "latitude": 41.013215,
+      "longitude": -73.640416
     },
     {
       "type": "construction",
       "title": "I-95 southbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 36 and 34 (1.3 miles) in effect today until 4:00 pm. The right lane is closed. Reported Tuesday, November 10 at 8:38 am.",
-      "published": "Tue, 10 Nov 2026 08:40:01 -0500",
+      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 6 and 4 (2.0 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 5:45 pm.",
+      "published": "Tue, 10 Nov 2026 18:58:34 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.224492,
-      "longitude": -73.077393
+      "latitude": 41.045054,
+      "longitude": -73.563939
     },
     {
       "type": "construction",
-      "title": "NY 14 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , installation of fiber optics on NY 14 both directions Town of Veteran; Town of Montour Line; Schuyler - Chemung County Line (Veteran) to Clawson Boulevard; NY 224 (Montour) All lanes of 1 lane open until 3:30 PM 1 lane, 2 way, flagger control",
-      "published": "Tue, 10 Nov 2026 08:30:08 -0500",
+      "title": "I-691 westbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-691 Westbound between Exits 3 and 5 (2.2 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 6:54 pm.",
+      "published": "Tue, 10 Nov 2026 18:54:20 -0500",
       "link": "https://511nj.org/",
-      "latitude": 42.2925984622753,
-      "longitude": -76.8443169394748
+      "latitude": 41.547623,
+      "longitude": -72.805369
     },
     {
       "type": "construction",
-      "title": "NY 14 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , installation of fiber optics on NY 14 both directions CR 59 (Veteran) to Town of Veteran; Town of Montour Line; Schuyler - Chemung County Line (Veteran) All lanes of 1 lane open until 3:30 PM 2 lanes reduced to 1",
-      "published": "Tue, 10 Nov 2026 08:30:09 -0500",
+      "title": "I-291 westbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-291 Westbound between Exits 2 and 1D (2.2 miles) in effect today until Wednesday, November 11 at 6:00 am. The left lane is closed. Reported Tuesday, November 10 at 6:51 pm.",
+      "published": "Tue, 10 Nov 2026 18:51:42 -0500",
       "link": "https://511nj.org/",
-      "latitude": 42.2386789852231,
-      "longitude": -76.8394764059107
+      "latitude": 41.804568,
+      "longitude": -72.611236
+    },
+    {
+      "type": "construction",
+      "title": "I-84 eastbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-84 Eastbound between Exits 67 and 68 (3.8 miles) in effect today until Wednesday, November 11 at 6:00 am. The left and center lanes are closed. Reported Tuesday, November 10 at 6:43 pm.",
+      "published": "Tue, 10 Nov 2026 18:43:38 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.853349,
+      "longitude": -72.432144
+    },
+    {
+      "type": "construction",
+      "title": "I-95 northbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-95 Northbound between Exits 42 and 46 (2.9 miles) in effect today until Wednesday, November 11 at 6:05 am. The left lane is closed. Reported Tuesday, November 10 at 6:36 pm.",
+      "published": "Tue, 10 Nov 2026 18:37:52 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.271192,
+      "longitude": -72.971433
+    },
+    {
+      "type": "construction",
+      "title": "I-95 southbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 46 and 42 (3.2 miles) in effect today until Wednesday, November 11 at 6:07 am. The left lane is closed. Reported Tuesday, November 10 at 6:36 pm.",
+      "published": "Tue, 10 Nov 2026 18:37:26 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.292078,
+      "longitude": -72.920791
+    },
+    {
+      "type": "construction",
+      "title": "CT 15 northbound : Roadwork",
+      "description": "ConnDOT: Road Work on RT 15 Northbound between Exits 41 and 42A in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 6:32 pm.",
+      "published": "Tue, 10 Nov 2026 18:32:56 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.296677,
+      "longitude": -73.035854
+    },
+    {
+      "type": "construction",
+      "title": "I-95 northbound : Roadwork",
+      "description": "ConnDOT: Road Work on I-95 Northbound between Exits 69 and 70. In effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 6:08 pm.",
+      "published": "Tue, 10 Nov 2026 18:31:01 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.318661,
+      "longitude": -72.348514
+    },
+    {
+      "type": "construction",
+      "title": "U7S_X1_ON unknown : Roadwork",
+      "description": "ConnDOT: RT 7 Southbound Exit 1 ONRAMP CLOSED because of Road Work. Reported Tuesday, November 10 at 6:25 pm.",
+      "published": "Tue, 10 Nov 2026 18:25:46 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.116601,
+      "longitude": -73.419839
+    },
+    {
+      "type": "construction",
+      "title": "U7S southbound : Roadwork",
+      "description": "ConnDOT: US7 Southbound CLOSED between Exit 2 and END OF US 7 SB because of Road Work. Road Work in effect today until Wednesday, November 11 at 6:04 am. Reported Tuesday, November 10 at 6:24 pm.",
+      "published": "Tue, 10 Nov 2026 18:25:55 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.119357,
+      "longitude": -73.420825
+    },
+    {
+      "type": "construction",
+      "title": "U7N northbound : Roadwork",
+      "description": "ConnDOT: Road Work on US7 Northbound between Exits 1 and 3 (1.0 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 6:08 pm.",
+      "published": "Tue, 10 Nov 2026 18:25:21 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.119802,
+      "longitude": -73.420683
+    },
+    {
+      "type": "construction",
+      "title": "U7N_X2_ON unknown : Roadwork",
+      "description": "ConnDOT: RT 7 Northbound Exit 2 ONRAMP CLOSED because of Road Work. Reported Tuesday, November 10 at 6:07 pm.",
+      "published": "Tue, 10 Nov 2026 18:23:59 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.128265,
+      "longitude": -73.426344
+    },
+    {
+      "type": "construction",
+      "title": "CT 15S_X52_S8 unknown : Roadwork",
+      "description": "ConnDOT: RT 15 Southbound Exit 34 to RT 8 Southbound CLOSED because of Road Work. Reported Tuesday, November 10 at 5:46 pm.",
+      "published": "Tue, 10 Nov 2026 18:17:12 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.237749,
+      "longitude": -73.151428
+    },
+    {
+      "type": "construction",
+      "title": "New Jersey Turnpike northbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike Northbound North of Interchange 1 - Delaware Memorial Bridge (Oldmans Twp) 1 right lane closed until 12:00 A.M.",
+      "published": "Tue, 10 Nov 2026 18:08:00 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.6960988,
+      "longitude": -75.39851418
+    },
+    {
+      "type": "construction",
+      "title": "CT 8 northbound : Roadwork",
+      "description": "ConnDOT: Road Work on RT 8 Northbound between Exits 14 and 18 (4.2 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 5:59 pm.",
+      "published": "Tue, 10 Nov 2026 18:00:04 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.336995,
+      "longitude": -73.092192
+    },
+    {
+      "type": "construction",
+      "title": "NY 5 both directions : Construction",
+      "description": "NYSDOT TMC - Albany: Construction , line striping on NY 5 both directions between Albany City Line (Albany) and Schenectady-Albany County Line (Colonie) All lanes of 2 lanes open until 6:00 AM",
+      "published": "Tue, 10 Nov 2026 18:01:07 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.6688310580498,
+      "longitude": -73.777125327071
+    },
+    {
+      "type": "construction",
+      "title": "CT 8 southbound : Roadwork",
+      "description": "ConnDOT: Road Work on RT 8 Southbound between Exits 15 and 13 (0.8 miles) in effect today until Wednesday, November 11 at 6:00 am. The right lane is closed. Reported Tuesday, November 10 at 5:58 pm.",
+      "published": "Tue, 10 Nov 2026 17:59:55 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.34266,
+      "longitude": -73.092748
+    },
+    {
+      "type": "construction",
+      "title": "NY 12 both directions : Construction",
+      "description": "NYSDOT - Region 2: Construction, paving operations on NY 12 both directions between Noyes Street (Utica) and French Road (Utica) until 2:00 A.M. Motorists will encounter lane closures in both directions. There will be closures of the ramps from Burrstone Road to Route 5/8/12",
+      "published": "Tue, 10 Nov 2026 18:00:11 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 43.0921185791725,
+      "longitude": -75.2638805292998
+    },
+    {
+      "type": "construction",
+      "title": "New Jersey Turnpike southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike Southbound North of Interchange 1 - Delaware Memorial Bridge (Oldmans Twp) 1 right lane closed until 12:00 A.M.",
+      "published": "Tue, 10 Nov 2026 17:57:00 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 39.70576744,
+      "longitude": -75.36918534
     },
     {
       "type": "construction",
       "title": "CT 2 westbound : Roadwork",
-      "description": "ConnDOT: Road Work on RT 2 Westbound between Exits 38 and 35A (2.1 miles) in effect today until 4:00 pm. The right lane is closed. Reported Tuesday, November 10 at 8:27 am.",
-      "published": "Tue, 10 Nov 2026 08:28:23 -0500",
+      "description": "ConnDOT: Road Work on RT 2 Westbound between Exits 25 and 20 (4.8 miles) in effect today until Wednesday, November 11 at 6:00 am. The left lane is closed. Reported Tuesday, November 10 at 5:51 pm.",
+      "published": "Tue, 10 Nov 2026 17:51:16 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.54443,
-      "longitude": -72.093412
+      "latitude": 41.564418,
+      "longitude": -72.313234
     },
     {
       "type": "construction",
@@ -1183,1173 +733,12 @@
     },
     {
       "type": "construction",
-      "title": "I-84 westbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-84 Westbound between Exits 69 and 67 (6.7 miles) in effect today until 3:30 pm. The right shoulder is closed. Reported Tuesday, November 10 at 8:06 am.",
-      "published": "Tue, 10 Nov 2026 11:23:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.887724,
-      "longitude": -72.308995
-    },
-    {
-      "type": "construction",
-      "title": "NY 17 [Orange] westbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 17 [Orange] westbound between Exit 122A - Fletcher Street (Goshen) and Exit 121 - I 84 (Wallkill) left lane closure until 3:30 P.M. D265297/32479709 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 08:01:04 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.4060232983109,
-      "longitude": -74.3434587893557
-    },
-    {
-      "type": "construction",
-      "title": "North Genesee Street both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, utility work on North Genesee Street both directions between Lee Street (Utica) and Auert Avenue (Utica) until 5:30 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 08:01:06 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1058,
-      "longitude": -75.2232
-    },
-    {
-      "type": "construction",
-      "title": "NY 52 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, culvert repairs on NY 52 both directions between Grand View Terrace (Montgomery) and Berea Road (Montgomery) shoulder closed to traffic until 4:00 P.M. D265611/32819809 - 24/7 SHOULDER CLOSURE - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 08:01:05 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5629715488597,
-      "longitude": -74.1742309194351
-    },
-    {
-      "type": "construction",
-      "title": "NY 28 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, construction on NY 28 both directions between Jockey Hill Road (Ulster) and Forest Hill Drive (Ulster) alternating traffic until 4:00 P.M. D265638/32833709 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 08:01:03 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.958973862723,
-      "longitude": -74.0543693605871
-    },
-    {
-      "type": "construction",
-      "title": "NY 19 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 19 both directions between Exit - I-490; Vallance Road (Le Roy) and Townline Road (Bergen) All lanes of 1 lane until 4:30 PM Alternating Right/Left Lane/shoulder closures with flaggers as needed.",
-      "published": "Tue, 10 Nov 2026 08:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0346820031123,
-      "longitude": -77.96580226639
-    },
-    {
-      "type": "construction",
-      "title": "US 40 eastbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on US 40 Eastbound between East of CR 648 (Upper Pittsgrove Twp) and East of CR 672/CR 557 (Buena), Tuesday November 10, 2026 08:00 AM thru 04:00 PM, , moving operation",
-      "published": "Tue, 10 Nov 2026 08:00:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.5974540710449,
-      "longitude": -75.1650848388672
-    },
-    {
-      "type": "construction",
-      "title": "I-490 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , bridge inspection on I-490 both directions under 590 SB ramp to 490 EB (Brighton) 1 Left lane of 3 lanes closed intermittently until 4:00 PM",
-      "published": "Tue, 10 Nov 2026 08:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1421,
-      "longitude": -77.544136
-    },
-    {
-      "type": "construction",
-      "title": "NY 19 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 19 both directions between West Buffalo Street; US 20A; East Buffalo Street (Warsaw) and NY 19A (Gainesville) All lanes of 1 lane until 4:30 PM Alternating Right/Left Lane/shoulder closures with flaggers as needed.",
-      "published": "Tue, 10 Nov 2026 08:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.733426561031,
-      "longitude": -78.1326571337661
-    },
-    {
-      "type": "construction",
-      "title": "NY 444 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 444 both directions south of Rice Rd (East Bloomfield) All lanes of 1 lane until 4:00 PM Alternating one-way traffic with flaggers.",
-      "published": "Tue, 10 Nov 2026 08:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9256284757068,
-      "longitude": -77.4148494951581
-    },
-    {
-      "type": "construction",
-      "title": "NY 385 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , gas main repairs on NY 385 both directions Main Street (Catskill) to Main Street (Catskill) All lanes of 1 lane open until 4:00 PM",
-      "published": "Tue, 10 Nov 2026 08:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.21765,
-      "longitude": -73.8648454631985
-    },
-    {
-      "type": "construction",
-      "title": "NJ 35 southbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 35 Southbound near South of CR 69/Atlantic Ave (Point Pleasant Beach), Tuesday November 10, 2026 08:00 AM thru 04:00 PM, left lane closed",
-      "published": "Tue, 10 Nov 2026 08:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.0872230529785,
-      "longitude": -74.0476303100586
-    },
-    {
-      "type": "construction",
-      "title": "NJ 27 northbound : Construction",
-      "description": "NJ DOT - STMC: Roadwork on NJ 27 Northbound South of CR 518/Georgetown-Franklin Tpke (Franklin Twp) Tuesday November 10, 2026 08:00 AM thru 04:00 PM, All lanes open",
-      "published": "Tue, 10 Nov 2026 08:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.4131202697754,
-      "longitude": -74.5856170654297
-    },
-    {
-      "type": "construction",
-      "title": "NY 14 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , installation of fiber optics on NY 14 both directions West Broad Street (Horseheads) to CR 12; Johnson Hollow (Veteran) All lanes of 3 lanes open until 3:30 PM 1 Lane, 2 Way, Flagger Control",
-      "published": "Tue, 10 Nov 2026 08:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.164027,
-      "longitude": -76.83965
-    },
-    {
-      "type": "construction",
-      "title": "NY 982B - Don Bosco Place both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, drainage improvements on NY 982B - Don Bosco Place both directions between Beech Street (Port Chester) and Purdy Avenue (Port Chester) alternating traffic until 3:30 P.M. 2025082810417/32547209 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 07:30:36 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.9970229090335,
-      "longitude": -73.664340396588
-    },
-    {
-      "type": "construction",
-      "title": "NY 54 southbound : Construction",
-      "description": "NYSDOT - Region 6: Construction , tree trimming on NY 54 southbound BAWDY LN (Barrington) to East Lake Road (Barrington) All lanes of 1 lane open until 3:30 PM 1 Lane, 2 Way, temp signal or STOP sign",
-      "published": "Tue, 10 Nov 2026 07:31:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.5302470195934,
-      "longitude": -77.0999310228368
-    },
-    {
-      "type": "construction",
-      "title": "NJ 52 southbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 52 Southbound near North of 9th St/Palen St (Ocean City), Tuesday November 10, 2026 07:30 AM thru 03:30 PM, left lane closed",
-      "published": "Tue, 10 Nov 2026 07:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.2891273498535,
-      "longitude": -74.5835571289062
-    },
-    {
-      "type": "construction",
-      "title": "NY 417 westbound : Construction",
-      "description": "NYSDOT - Region 6: Construction , drainage improvements on NY 417 westbound NY 248 (Greenwood) to NY 248 (Greenwood) All lanes of 1 lane open until 3:30 PM Right Shldr (Equal/Greater than 8') Closed",
-      "published": "Tue, 10 Nov 2026 07:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.1379401888651,
-      "longitude": -77.652250698753
-    },
-    {
-      "type": "construction",
-      "title": "NY 77 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 77 both directions area of Town of Royalton; Town of Alabama Line (Royalton) All lanes of 1 lane until 4:30 PM Alternating one-way traffic with flaggers.",
-      "published": "Tue, 10 Nov 2026 07:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1260538373206,
-      "longitude": -78.4640349651402
-    },
-    {
-      "type": "construction",
-      "title": "I-87 Northway southbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , bridge work on I-87 Northway southbound Exit 33; US 9; NY 22; Essex Ferry (Chesterfield) 1 Right lane of 3 lanes closed until 4:00 PM",
-      "published": "Tue, 10 Nov 2026 07:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 44.438865,
-      "longitude": -73.492367
-    },
-    {
-      "type": "construction",
-      "title": "NJ 52 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 52 Northbound near 9th St/Palen St (Ocean City), Tuesday November 10, 2026 07:30 AM thru 03:30 PM, right lane closed",
-      "published": "Tue, 10 Nov 2026 07:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.2822456359863,
-      "longitude": -74.5805358886719
-    },
-    {
-      "type": "construction",
-      "title": "NY 305 southbound : Construction",
-      "description": "NYSDOT - Region 6: Construction , drainage improvements on NY 305 southbound Town of New Hudson; Town of Belfast Line (Belfast) to CR-41 (New Hudson) All lanes of 1 lane open until 3:30 PM 1 Lane, 2 Way, Flagger Control",
-      "published": "Tue, 10 Nov 2026 07:27:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.2794302484129,
-      "longitude": -78.2185306116478
-    },
-    {
-      "type": "construction",
-      "title": "New Jersey Turnpike northbound : Roadwork",
-      "description": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike inner roadway Northbound at Interchange 11 - Garden State Parkway (Woodbridge Twp) partial ramp closure until 5:00 P.M.",
-      "published": "Tue, 10 Nov 2026 07:25:00 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.54148603,
-      "longitude": -74.30492605
-    },
-    {
-      "type": "construction",
-      "title": "I-90 - NYS Thruway eastbound : Construction",
-      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-90 - NYS Thruway eastbound from After Exit 33 (I-90) - Verona (Rte 365) to After Exit 33 (I-90) - Verona (Rte 365) until 4:30 PM, 11/10/2026 [CARS CAD-263140072]",
-      "published": "Tue, 10 Nov 2026 14:44:39 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.126074,
-      "longitude": -75.6079
-    },
-    {
-      "type": "construction",
-      "title": "NY 30A both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, utility work on NY 30A both directions between East State Street; NY 67 (Johnstown) and S East Ave (920A) (Johnstown) until 5:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 07:01:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.002498626709,
-      "longitude": -74.3584976196289
-    },
-    {
-      "type": "construction",
-      "title": "US 209 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on US 209 both directions between Hamilton Street (Port Jervis) and NY 211 (Port Jervis) alternating traffic until 7:00 P.M. D265751/32743909 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 07:01:01 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.382809920548,
-      "longitude": -74.6724893978611
-    },
-    {
-      "type": "construction",
-      "title": "US 6 eastbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, construction on US 6 eastbound at Kirbytown Road (Middletown) shoulder closure until 3:30 P.M. 2026084905587/32801709 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 07:01:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.4185459278723,
-      "longitude": -74.4329830615327
-    },
-    {
-      "type": "construction",
-      "title": "NY 8 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 8 both directions at US 20 (Bridgewater) until 4:00 P.M. Motorists will encounter shoulder closures at the intersection",
-      "published": "Tue, 10 Nov 2026 07:01:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8791007995605,
-      "longitude": -75.2511978149414
-    },
-    {
-      "type": "construction",
-      "title": "NY 26 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 26 both directions between Tuffy Road (Ava) and Houser Road (Ava) until 5:00 P.M. Motorists will encounter lane and shoulder closures in both directions. River Road will be closed with an onsite diverson in place for culvert work.",
-      "published": "Tue, 10 Nov 2026 07:01:02 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.3813663578418,
-      "longitude": -75.4869694086789
-    },
-    {
-      "type": "construction",
-      "title": "Railroad Street both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, bridge inspection on Railroad Street both directions between NY 5 (Frankfort) and Marina Drive (Frankfort) until 5:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 07:01:20 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0438498681663,
-      "longitude": -75.0612149630905
-    },
-    {
-      "type": "construction",
-      "title": "NY 22 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 22 both directions between US 20 (New Lebanon) and Columbia-Rensselaer County Line (New Lebanon) alternating traffic until 7:00 P.M. D265717/32739109 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 07:01:06 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.4719001142552,
-      "longitude": -73.3852709555461
-    },
-    {
-      "type": "construction",
-      "title": "Campion Road eastbound : Construction",
-      "description": "NYSDOT - Region 2: Construction, utility work on Campion Road eastbound between (New Hartford) until 5:00 P.M. Motorists may encounter shoulder work",
-      "published": "Tue, 10 Nov 2026 07:01:24 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0752169312353,
-      "longitude": -75.2887525533918
-    },
-    {
-      "type": "construction",
-      "title": "NY 28 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, landscaping on NY 28 both directions between Old Route 28 (Indian Lake) and John Rust Road (Indian Lake) until 4:00 P.M.",
-      "published": "Tue, 10 Nov 2026 07:00:59 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.8216434546024,
-      "longitude": -74.3509791387221
-    },
-    {
-      "type": "construction",
-      "title": "NY 31 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, utility work on NY 31 both directions between END ROUTE; NY 26; Vernon Center (Vernon) and CR 13; Youngs Road (Vernon) until 3:30 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 07:01:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0505,
-      "longitude": -75.5017
-    },
-    {
-      "type": "construction",
-      "title": "North Genesee Street both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on North Genesee Street both directions between Wurz Avenue (Utica) and River Road until 5:30 P.M. Motorists will encounter single lane closures in both directions",
-      "published": "Tue, 10 Nov 2026 07:01:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1107898923647,
-      "longitude": -75.2175444824359
-    },
-    {
-      "type": "construction",
-      "title": "US 20 westbound : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on US 20 westbound between Clark Road (Eaton) and North Street (Eaton) until 5:00 P.M. Motorists will encounter a west bound shoulder closure",
-      "published": "Tue, 10 Nov 2026 07:01:21 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8997015015081,
-      "longitude": -75.6241654518524
-    },
-    {
-      "type": "construction",
-      "title": "NY 22 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 22 both directions between Main Street - NY 23 (Hillsdale) and Nobletown Road - NY 71 (Hillsdale) alternating traffic until 7:00 P.M. D265717/32739009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 07:01:04 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.1802192078237,
-      "longitude": -73.5213159219794
-    },
-    {
-      "type": "construction",
-      "title": "NY 5 westbound : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 5 westbound between Broad Street ( Oneida) and Seneca Street (Oneida) until 5:00 P.M. Motorists will encounter a westbound lane closure utilizing the center turn lane as the westbound lane",
-      "published": "Tue, 10 Nov 2026 07:01:18 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0788497479251,
-      "longitude": -75.6459469681183
-    },
-    {
-      "type": "construction",
-      "title": "NY 36 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , roadwork on NY 36 both directions CR 117 (Troupsburg) to CR 117 (Troupsburg) All lanes of 1 lane open until 3:30 PM 2 lanes reduced to 1",
-      "published": "Tue, 10 Nov 2026 07:00:20 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.0256789203728,
-      "longitude": -77.5338182006213
-    },
-    {
-      "type": "construction",
-      "title": "NY 14A both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , roadwork on NY 14A both directions Highland Drive (Starkey) to Highland Drive (Starkey) All lanes of 1 lane open until 3:30 PM 1 Lane, 2 Way, Flagger Control",
-      "published": "Tue, 10 Nov 2026 07:00:19 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.5166025287313,
-      "longitude": -76.9745329391384
-    },
-    {
-      "type": "construction",
-      "title": "NY 31 eastbound : Construction",
-      "description": "NYSDOT - Region 4: Construction , gas main repairs on NY 31 eastbound from 3001 Monroe Ave (Pittsford) to Wegmans, Monroe Ave (Pittsford) 1 Right lane of 2 lanes closed intermittently until 5:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:19 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1095906676839,
-      "longitude": -77.5457409347574
-    },
-    {
-      "type": "construction",
-      "title": "NY 104 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , construction on NY 104 both directions west of Slocum Rd. (Ontario) both shoulder of 2 lanes closed until 3:30 PM",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.227089,
-      "longitude": -77.327923
-    },
-    {
-      "type": "construction",
-      "title": "NY 13 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 13 southbound between Springhouse Road (Dryden) and Dey Street (Ithaca) All lanes of 2 lanes open until 6:00 PM ; Alternating one-way traffic with flaggers",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.4900377328071,
-      "longitude": -76.3136597564857
-    },
-    {
-      "type": "construction",
-      "title": "NY 378 westbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , overhead sign repair on NY 378 westbound at I-787 Exit 7 (Colonie) 1 Right lane of 3 lanes closed until 6:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.70027,
-      "longitude": -73.709163
-    },
-    {
-      "type": "construction",
-      "title": "NY 392 both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 392 both directions between Snyder Hill Road (Virgil) and US 11 (Virgil) All lanes of 1 lane open until 6:00 PM ; Alternating one-way traffic with flaggers",
-      "published": "Tue, 10 Nov 2026 07:00:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.4866353455712,
-      "longitude": -76.0832185474961
-    },
-    {
-      "type": "construction",
-      "title": "NY 237 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , culvert repairs on NY 237 both directions between Creek Rd (Murray) and Roosevelt Highway; NY 18 (Kendall) All lanes closed until 6:00 PM Long term road closure , posted detour",
-      "published": "Tue, 10 Nov 2026 07:00:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.2925916957712,
-      "longitude": -78.0337911863184
-    },
-    {
-      "type": "construction",
-      "title": "NJ 54 both directions : Construction",
-      "description": "NJ DOT - TOC South: Roadwork on NJ 54 Both Directions At CR 561 (Hammonton) Tuesday November 10, 2026 07:00 AM thru 04:00 PM, All lanes closed and detoured southbound; All lanes closed and detoured northbound",
-      "published": "Tue, 10 Nov 2026 07:00:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.6346130371094,
-      "longitude": -74.8049621582031
-    },
-    {
-      "type": "construction",
-      "title": "NY 17 westbound : Construction",
-      "description": "NYSDOT - Region 6: Construction , roadwork on NY 17 westbound (Horseheads) to I-86 at Steuben-Chemung County Line (Corning) All lanes of 2 lanes open until 6:00 PM 2 lanes reduced to 1",
-      "published": "Tue, 10 Nov 2026 07:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.1329511340565,
-      "longitude": -76.8022876677015
-    },
-    {
-      "type": "construction",
-      "title": "NY 34 both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , traffic signal repairs on NY 34 both directions between Carpenter Street (Auburn) and Dayton Street (Sennett) All lanes of 2 lanes open until 3:30 PM ; Alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9434405493159,
-      "longitude": -76.5669935140858
-    },
-    {
-      "type": "construction",
-      "title": "NY 40 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , guard rail repairs on NY 40 both directions between CR-45 (Argyle) and Russell Lane (Argyle) All lanes of 1 lane open until 5:00 PM Alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.2719751726903,
-      "longitude": -73.4613648723594
-    },
-    {
-      "type": "construction",
-      "title": "US 9 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on US 9 Northbound between CR 630/Ohio Av (Absecon City) and North of NJ 157/Shore Rd (Absecon City), Tuesday November 10, 2026 07:00 AM thru 05:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.4263458251953,
-      "longitude": -74.5063629150391
-    },
-    {
-      "type": "construction",
-      "title": "NJ 47 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 47 Northbound near North of I-295 (Westville), Tuesday November 10, 2026 07:00 AM thru 03:30 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.8589286804199,
-      "longitude": -75.125114440918
-    },
-    {
-      "type": "construction",
-      "title": "NY 19 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 19 both directions from W Bergen Rd (Le Roy) to Mill St (Le Roy) right shoulder of 1 lane closed intermittently until 4:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9882101534995,
-      "longitude": -77.9904388665792
-    },
-    {
-      "type": "construction",
-      "title": "I-81 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , guard rail repairs on I-81 southbound between Oswego - Jefferson County Line (Sandy Creek) and Onondaga - Oswego County Line (West Monroe) All lanes of 2 lanes open until 4:00 PM ; Alternating left and right lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.670047,
-      "longitude": -76.070604
-    },
-    {
-      "type": "construction",
-      "title": "NJ 50 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 50 Northbound between North of NJ 49 (Corbin City) and CR 557/Tuckahoe Rd (Estell Manor), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.2952842712402,
-      "longitude": -74.7522277832031
-    },
-    {
-      "type": "construction",
-      "title": "US 9 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on US 9 Northbound near South of Ryan Rd/Symmes Rd (Manalapan Twp), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.2912750244141,
-      "longitude": -74.2971572875977
-    },
-    {
-      "type": "construction",
-      "title": "NY 5 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , utility work on NY 5 both directions Ballston Road; NY 50 (Scotia) to Ballston Road; NY 50 (Scotia) All lanes closed eastbound; All lanes of 2 lanes open westbound until 4:00 PM Alternating Lanes",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8251600164663,
-      "longitude": -73.9616086352861
-    },
-    {
-      "type": "construction",
-      "title": "NY 66 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on NY 66 both directions between Snyders Cornrs Road (North Greenbush) and Reichards Lake Road; NY 351 (Poestenkill) All lanes of 1 lane open until 5:00 PM Alternating lane closures for pipe line work",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.6772417729145,
-      "longitude": -73.598309373819
-    },
-    {
-      "type": "construction",
-      "title": "NY 146 eastbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on NY 146 eastbound between East Old State Road; West Old State Road (Guilderland) and Okara Drive (Guilderland) All lanes of 1 lane open until 5:00 PM Lane shift",
-      "published": "Tue, 10 Nov 2026 07:00:13 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.7244929514386,
-      "longitude": -73.9362385733705
-    },
-    {
-      "type": "construction",
-      "title": "NY 13 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 13 northbound between West State Street; NY 13 (Ithaca) and West Seneca Street; NY 79 (Ithaca) 1 Left lane of 4 lanes closed until 3:30 PM",
-      "published": "Tue, 10 Nov 2026 07:00:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.439359,
-      "longitude": -76.508354
-    },
-    {
-      "type": "construction",
-      "title": "East Old State Road eastbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on East Old State Road eastbound between Maywood Ave (Guilderland) and NY 146 (Guilderland) All lanes of 1 lane open until 5:00 PM Alternating lane closure",
-      "published": "Tue, 10 Nov 2026 07:00:13 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.7238299853976,
-      "longitude": -73.9246688652364
-    },
-    {
-      "type": "construction",
-      "title": "NY 260 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , drainage improvements on NY 260 both directions area of 751 Walker Lake Ontario Rd (Hamlin) All lanes of 1 lane northbound; All lanes of 1 lane open southbound until 5:00 PM alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:14 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.3222724900825,
-      "longitude": -77.8607374409379
-    },
-    {
-      "type": "construction",
-      "title": "NY 259 northbound : Construction",
-      "description": "NYSDOT - Region 4: Construction , construction on NY 259 northbound between NY 531 (Ogden) and Nichols Street -NY-31 (Ogden) right shoulder of 3 lanes closed until 4:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:13 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1758801968334,
-      "longitude": -77.8045751372333
-    },
-    {
-      "type": "construction",
-      "title": "NY 79 westbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 79 westbound at South Meadow Street; NY 13 (Ithaca) All lanes of 2 lanes open until 3:30 PM ; Alternating one-way traffic with flaggers",
-      "published": "Tue, 10 Nov 2026 07:00:13 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.44008,
-      "longitude": -76.508389
-    },
-    {
-      "type": "construction",
-      "title": "US 202 southbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on US 202 Southbound near South of US 206/NJ 28 (Raritan Boro), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:13 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.5741958618164,
-      "longitude": -74.6357498168945
-    },
-    {
-      "type": "construction",
-      "title": "NJ 23 southbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on NJ 23 Southbound between South of CR 695/Echo Lake Rd (West Milford Twp) and North of Paterson Hamburg Tpke (West Milford Twp), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:14 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.0284690856934,
-      "longitude": -74.4150619506836
-    },
-    {
-      "type": "construction",
-      "title": "US 9 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on US 9 Northbound near CR 665/New York Ave (Somers Point), Tuesday November 10, 2026 07:00 AM thru 05:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.3187828063965,
-      "longitude": -74.6039886474609
-    },
-    {
-      "type": "construction",
-      "title": "NY 13 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 13 southbound between GEORGE RD (Dryden) and East Shore Drive; NY 34; Eastshore Drive (Ithaca) All lanes of 1 lane open until 6:00 PM ; Alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.4896373191237,
-      "longitude": -76.3285331281823
-    },
-    {
-      "type": "construction",
-      "title": "NY 7 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on NY 7 both directions between I-87 and I-787 (Colonie) All lanes of 3 lanes open until 5:00 PM brush cutting",
-      "published": "Tue, 10 Nov 2026 07:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.754585,
-      "longitude": -73.728114
-    },
-    {
-      "type": "construction",
-      "title": "I-86 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , roadwork on I-86 both directions (Elmira) All lanes of 2 lanes open until 5:30 PM 2 lanes reduced to 1",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.1166747968101,
-      "longitude": -76.8001101798849
-    },
-    {
-      "type": "construction",
-      "title": "NY 197 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , culvert repairs on NY 197 both directions at Frederick Dr (Fort Edward) All lanes of 1 lane open until 4:00 PM alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.2634628117345,
-      "longitude": -73.5749009441389
-    },
-    {
-      "type": "construction",
-      "title": "NY 13 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 13 northbound between East Shore Drive; NY 34; Eastshore Drive (Ithaca) and GEORGE RD (Dryden) All lanes of 2 lanes open until 6:00 PM ; Alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.463516,
-      "longitude": -76.498639
-    },
-    {
-      "type": "construction",
-      "title": "NY 63 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 63 both directions west of Kenyon Ave (Alabama) All lanes of 1 lane until 5:00 PM Alternating one-way traffic with flaggers.",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0742595062238,
-      "longitude": -78.3770130597891
-    },
-    {
-      "type": "construction",
-      "title": "i86 eastbound : Construction",
-      "description": "NYSDOT - Region 6: Construction , bridge rehabilitation on i86 eastbound (Chemung) All lanes of 2 lanes open until 5:30 PM 2 lane reduced to 1",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.0008032333726,
-      "longitude": -76.5997984845246
-    },
-    {
-      "type": "construction",
-      "title": "NY 414 southbound : Construction",
-      "description": "NYSDOT - Region 6: Construction , bridge work on NY 414 southbound I-86 (Corning) to I-86 (Corning) All lanes of 1 lane open until 6:00 PM 3 lanes reduced to 1, alternating lane closure.",
-      "published": "Tue, 10 Nov 2026 07:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.1552768827164,
-      "longitude": -77.0530614574759
-    },
-    {
-      "type": "construction",
-      "title": "NY 245 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , drainage improvements on NY 245 both directions W RIVER RD (Italy) to Town of Middlesex; Town of Italy Line (Italy) All lanes of 1 lane open until 3:30 PM 2 lane reduced to 1 with flaggers",
-      "published": "Tue, 10 Nov 2026 07:00:15 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.6546338164214,
-      "longitude": -77.3288525966306
-    },
-    {
-      "type": "construction",
-      "title": "NY 63 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , construction on NY 63 both directions north of Judges Rd (Alabama) All lanes of 1 lane until 4:30 PM Alternating one-way traffic with flaggers.",
-      "published": "Tue, 10 Nov 2026 07:00:15 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0821381848283,
-      "longitude": -78.3914053954278
-    },
-    {
-      "type": "construction",
-      "title": "NY 54 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , utility work on NY 54 both directions Liberty Street; End NY 415 overlap (Bath) to NY 415 at Liberty Street; NY 54 (Bath) All lanes of 1 lane open until 3:30 PM 2 lanes reduced to 1 lane",
-      "published": "Tue, 10 Nov 2026 07:00:15 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.3390437134248,
-      "longitude": -77.3177012656751
-    },
-    {
-      "type": "construction",
-      "title": "US 202 northbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on US 202 Northbound near South of CR 567/First Av (Raritan Boro), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:15 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.574390411377,
-      "longitude": -74.6470718383789
-    },
-    {
-      "type": "construction",
-      "title": "NY 54 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , utility work on NY 54 both directions Liberty Street; End NY 415 overlap (Bath) to Liberty Street; End NY 415 overlap (Bath) All lanes and both shoulder of 1 lane open southbound; All lanes of 1 lane open northbound until 3:30 PM 2 lanes reduced to 1 lane.",
-      "published": "Tue, 10 Nov 2026 07:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.3370539098018,
-      "longitude": -77.317973379498
-    },
-    {
-      "type": "construction",
-      "title": "NY 385 westbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on NY 385 westbound between Broome Street (Catskill) and West Main Street () All lanes of 1 lane open until 5:00 PM alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:15 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.2169010344269,
-      "longitude": -73.8694136950763
-    },
-    {
-      "type": "construction",
-      "title": "NY 33 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 33 both directions between BOYCE RD (Pembroke) and Town of Batavia and Town of Pembroke Line (Pembroke) right shoulder of 1 lane closed until 5:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9663488270585,
-      "longitude": -78.3725952782368
-    },
-    {
-      "type": "construction",
-      "title": "NY-89 both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , installation of traffic management systems on NY-89 both directions at E Bayard St (Seneca Falls) right shoulder of 1 lane closed until 3:30 PM",
-      "published": "Tue, 10 Nov 2026 07:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9158528565248,
-      "longitude": -76.7525513063344
-    },
-    {
-      "type": "construction",
-      "title": "I-90 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on I-90 both directions between I-787 Interchange to I-87 Interchange (Albany) All lanes of 5 lanes open until 5:00 PM brush cutting",
-      "published": "Tue, 10 Nov 2026 07:00:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.669843,
-      "longitude": -73.73756
-    },
-    {
-      "type": "construction",
-      "title": "NJ 33 eastbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 33 Eastbound near East of Fairfield Rd (Howell Twp), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.228385925293,
-      "longitude": -74.2004699707031
-    },
-    {
-      "type": "construction",
-      "title": "NY 14 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , repaving on NY 14 both directions between Forgham Street; NY 31 (Lyons) and 1600' North of Culver St (Lyons) All lanes of 3 lanes until 4:30 PM Alternating Right/Left Lane closures with flaggers as needed.",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0598774438162,
-      "longitude": -76.9923105112368
-    },
-    {
-      "type": "construction",
-      "title": "NY 326 both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , traffic signal repairs on NY 326 both directions between Pinckney Road (Fleming) and Experimental Road (Auburn) All lanes of 1 lane open until 3:30 PM ; Alternating lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9039585306711,
-      "longitude": -76.6232069477799
-    },
-    {
-      "type": "construction",
-      "title": "I-481 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , installation of sign structure on I-481 northbound between START ROUTE I-481; I-81 (Syracuse) and Exit 86B (Old Exit 3W) - NY 5; NY 92 (De Witt) All lanes of 2 lanes open until 7:00 PM ; Alternating left and right lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.007106707602,
-      "longitude": -76.1299400264631
-    },
-    {
-      "type": "construction",
-      "title": "I-81 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , utility work on I-81 northbound before Exit 102 - US 11; Bartell Road; Brewerton (Cicero) 1 Right lane of 3 lanes closed until 5:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.230277,
-      "longitude": -76.128571
-    },
-    {
-      "type": "construction",
-      "title": "NY 14 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , drainage improvements on NY 14 both directions CR 64 (Horseheads) to Westinghouse Road (Horseheads) All lanes of 2 lanes open until 6:00 PM 2 lanes reduced to 1",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.161089,
-      "longitude": -76.838532
-    },
-    {
-      "type": "construction",
-      "title": "I-87 Northway both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on I-87 Northway both directions between Exit 1 E; Exit 1W (Albany) and Twin Bridges; Town of Halfmoon; Town of Colonie Line (Colonie) All lanes of 6 lanes open until 5:00 PM brush cutting",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.697545,
-      "longitude": -73.842867
-    },
-    {
-      "type": "construction",
-      "title": "I-81 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , utility work on I-81 southbound just past Exit 102 - US 11; Bartell Road; Brewerton (Cicero) 1 Right lane of 4 lanes closed until 5:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.229191,
-      "longitude": -76.128901
-    },
-    {
-      "type": "construction",
-      "title": "NJ 47 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 47 Northbound near South of US 322/CR 641/High St (Glassboro), Tuesday November 10, 2026 07:00 AM thru 03:30 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.6979827880859,
-      "longitude": -75.1047210693359
-    },
-    {
-      "type": "construction",
-      "title": "NY 14 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , bridge replacement on NY 14 both directions Chemung Street (Horseheads) to CR 64 (Horseheads) All lanes of 2 lanes open until 5:30 PM Lane Closure(Multilane HWY )",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.1544907272148,
-      "longitude": -76.8360934402304
-    },
-    {
-      "type": "construction",
-      "title": "NY 286 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , drainage improvements on NY 286 both directions between NY 590 (Brighton) and Clark Road (Penfield) All lanes of 2 lanes until 5:00 PM Alternating Right/Left Lane closures as needed.",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1574641061493,
-      "longitude": -77.5386121786259
-    },
-    {
-      "type": "construction",
-      "title": "NY 5 both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , drainage improvements on NY 5 both directions at Wheeler Rd (Elbridge) All lanes of 1 lane open until 5:00 PM ; Alternating one-way traffic with flaggers",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0252321179853,
-      "longitude": -76.4835089667948
-    },
-    {
-      "type": "construction",
-      "title": "NJ 47 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 47 Northbound near North of NJ 55 (Deptford Twp), Tuesday November 10, 2026 07:00 AM thru 03:30 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.7955627441406,
-      "longitude": -75.115592956543
-    },
-    {
-      "type": "construction",
-      "title": "NY 13 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on NY 13 northbound between Dey Street (Ithaca) and Springhouse Road (Dryden) All lanes of 2 lanes open until 6:00 PM ; Alternating one-way traffic with flaggers",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.451629476246,
-      "longitude": -76.5033060818537
-    },
-    {
-      "type": "construction",
-      "title": "US 46 westbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on US 46 Westbound near East of NJ 183/Netcong Circle (Netcong), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.896800994873,
-      "longitude": -74.7002182006836
-    },
-    {
-      "type": "construction",
-      "title": "NY I86 westbound : Construction",
-      "description": "NYSDOT - Region 6: Construction , bridge rehabilitation on NY I86 westbound Exit 61 (Barton) to I-86 (Chemung) 1 Right lane of 2 lanes closed until 5:30 PM 2 lanes reduced to 1",
-      "published": "Tue, 10 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.0003746347831,
-      "longitude": -76.5149372929721
-    },
-    {
-      "type": "construction",
-      "title": "US 130 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.1377334594727,
-      "longitude": -74.7104034423828
-    },
-    {
-      "type": "construction",
-      "title": "NJ 47 southbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 47 Southbound between South of US 130 (Westville) and US 322/CR 536 (Glassboro), Tuesday November 10, 2026 07:00 AM thru 03:30 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.8689231872559,
-      "longitude": -75.1252899169922
-    },
-    {
-      "type": "construction",
-      "title": "I-81 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , guard rail repairs on I-81 northbound Onondaga - Oswego County Line (West Monroe) to Oswego - Jefferson County Line (Sandy Creek) All lanes of 2 lanes open until 4:00 PM ; Alternating left and right lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.236182,
-      "longitude": -76.129814
-    },
-    {
-      "type": "construction",
-      "title": "I-481 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , installation of sign structure on I-481 southbound between Exit 86 (Old Exit 3W) - NY 5; NY 92 (De Witt) and I-481; I-81 (Onondaga) All lanes of 2 lanes open until 7:00 PM ; Alternating left and right lane closures",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0376361561872,
-      "longitude": -76.0561814225072
-    },
-    {
-      "type": "construction",
-      "title": "FREEMANS BRIDGE RD southbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on FREEMANS BRIDGE RD southbound RT-50 (Glenville) to DUTCH MEADOWS LN (Glenville) right shoulder of 2 lanes closed until 5:00 PM",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8494683515193,
-      "longitude": -73.9428075531307
-    },
-    {
-      "type": "construction",
-      "title": "NY 275 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , drainage improvements on NY 275 both directions Town of Wirt; Town of Bolivar Line (Bolivar) to Town of Wirt; Town of Bolivar Line (Bolivar) All lanes of 1 lane open until 5:00 PM 1 Lane, 2 Way, temp signal or STOP sign",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.0801636832683,
-      "longitude": -78.1607521373568
-    },
-    {
-      "type": "construction",
-      "title": "US 11 both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , installation of traffic management systems on US 11 both directions between Parish Woods Road (Mexico) and CR 58 (Mexico) right shoulder of 1 lane closed until 3:30 PM",
-      "published": "Tue, 10 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.4153750995656,
-      "longitude": -76.1582901890593
-    },
-    {
-      "type": "construction",
-      "title": "NY 12D both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 12D both directions between NY 46 (Boonville) and Post Street; NY 12D (Boonville) until 5:30 P.M. Motorists will encounter lane closures in both directions with flaggers in place.",
-      "published": "Tue, 10 Nov 2026 06:30:43 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.4852441091402,
-      "longitude": -75.3361990392414
-    },
-    {
-      "type": "construction",
-      "title": "NY 28N southbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , culvert repairs on NY 28N southbound COBBLE CREEK RD (Chester) All lanes closed until 5:00 PM",
-      "published": "Tue, 10 Nov 2026 06:30:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.7286084646997,
-      "longitude": -73.9676723029504
-    },
-    {
-      "type": "construction",
-      "title": "NY 17 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , bridge rehabilitation on NY 17 both directions (Chemung) All lanes of 2 lanes open until 5:00 PM alternating lane closures",
-      "published": "Tue, 10 Nov 2026 06:30:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.014832,
-      "longitude": -76.640056
-    },
-    {
-      "type": "construction",
-      "title": "I-87 - NYS Thruway southbound : Construction",
-      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-87 - NYS Thruway southbound at Before Exit 10 (I-87) - South Nyack (US 9W) until 7:15 PM, 11/10/2026 [CARS CAD-263140041]",
-      "published": "Tue, 10 Nov 2026 06:15:30 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.07761,
-      "longitude": -73.92088
-    },
-    {
-      "type": "construction",
-      "title": "NY 17 [Orange] eastbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, bridge rehabilitation on NY 17 [Orange] eastbound between Exit 116 - NY 17K (Wallkill) and Exit 118 - Fair Oaks (Wallkill) various lane closures until 4:00 P.M. D265594/B1013909/32703109 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 06:01:27 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.5520264181137,
-      "longitude": -74.4254720459944
-    },
-    {
-      "type": "construction",
-      "title": "NY 30 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 30 both directions between Belldons Road (Amsterdam) and Prospect Street (Amsterdam) until 6:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 06:01:34 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9365934383445,
-      "longitude": -74.1915925677521
-    },
-    {
-      "type": "construction",
-      "title": "NY 13 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, utility work on NY 13 both directions between Delphi Road (Cazenovia) and School Street until 6:00 P.M. Motorists will encounter lane closures in both directions",
-      "published": "Tue, 10 Nov 2026 06:02:00 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8559227255067,
-      "longitude": -75.866956539192
-    },
-    {
-      "type": "construction",
-      "title": "NY 5S eastbound : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 5S eastbound between Target Ave (Amsterdam) and Mead Road until 6:00 P.M. Work will be performed off the roadway with no impact to traffic",
-      "published": "Tue, 10 Nov 2026 06:02:02 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9355746884004,
-      "longitude": -74.2288694601105
-    },
-    {
-      "type": "construction",
-      "title": "NY 825 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 825 both directions at Perimeter Road (Rome) until 5:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 06:01:31 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.2258,
-      "longitude": -75.4253
-    },
-    {
-      "type": "construction",
-      "title": "NY 412 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 412 both directions between Bristol Road; NY 233; Harding Road; START ROUTE NY 412 (Kirkland) and Franklin Avenue; NY 12B; College Street; END ROUTE (Kirkland) until 6:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place.",
-      "published": "Tue, 10 Nov 2026 06:01:33 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0485000610352,
-      "longitude": -75.3960037231445
-    },
-    {
-      "type": "construction",
-      "title": "NY 12B both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 12B both directions between Harding Road; NY 233; Hamlet of Franklin Springs (Kirkland) and CR 15; Brimfield Street (Kirkland) until 6:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place between Furnace Street and Taylor Ave.",
-      "published": "Tue, 10 Nov 2026 06:01:32 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.032398223877,
-      "longitude": -75.4044036865234
-    },
-    {
-      "type": "construction",
-      "title": "NY 80 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, utility work on NY 80 both directions between Dugway Road; CR 60; NY 13 (DeRuyter) and Parker Road until 6:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 06:02:01 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8229688055833,
-      "longitude": -75.8339458348092
-    },
-    {
-      "type": "construction",
-      "title": "NY 46 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 46 both directions between Potter Road (Rome) and North James Street (Rome) until 5:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 06:01:29 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.2422898583393,
-      "longitude": -75.4383946412655
-    },
-    {
-      "type": "construction",
-      "title": "NY 28 both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, paving operations on NY 28 both directions between Waughkonk Road (Ulster) and NY 375 (Hurley) various lane closures until 6:00 P.M. D265750/32804009 - This work is weather permitting, Plan travel accordingly; delays may exist",
-      "published": "Tue, 10 Nov 2026 06:01:51 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.97306609523,
-      "longitude": -74.0797959864345
-    },
-    {
-      "type": "construction",
-      "title": "NY 28 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 28 both directions between Overlook Terrace (Webb) and Grove Trail (Webb) until 6:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 06:01:56 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.7136375680387,
-      "longitude": -74.9683684661621
-    },
-    {
-      "type": "construction",
-      "title": "NY 5 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 5 both directions between McKinley Road ( Palatine) and County House Road until 6:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 06:01:38 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.896333118975,
-      "longitude": -74.5094789697832
-    },
-    {
-      "type": "construction",
-      "title": "US 20 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, utility work on US 20 both directions between Cedar Street ( Morrisville) and Willowvale Road (Madison) until 6:00 P.M. Motorists will encounter lane closures in both directions with flaggers in place",
-      "published": "Tue, 10 Nov 2026 06:01:40 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9027641223643,
-      "longitude": -75.6669203643235
-    },
-    {
-      "type": "construction",
-      "title": "NY 28 both directions : Construction",
-      "description": "NYSDOT - Region 2: Construction, construction on NY 28 both directions between East Avenue (Webb) and Hamilton; Herkimer County Line (Webb) until 6:00 P.M.",
-      "published": "Tue, 10 Nov 2026 06:01:57 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.7687150122695,
-      "longitude": -74.8135968228418
-    },
-    {
-      "type": "construction",
       "title": "TOWN LINE RD both directions : Construction",
       "description": "CT DOT-Newington-HWY-Oper Ctr: Construction , construction on TOWN LINE RD both directions between BROOKSIDE DR (Southington) and RED STONE HL at CHIMNEY CREST LN (Bristol) All lanes of 1 lane open until 9:00 PM There may be lane and shoulder closures on Town Line Road and Red Stone Hill Road",
       "published": "Tue, 10 Nov 2026 06:00:16 -0500",
       "link": "https://511nj.org/",
       "latitude": 41.6497127490642,
       "longitude": -72.8818944527624
-    },
-    {
-      "type": "construction",
-      "title": "US 9 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on US 9 both directions Troy Road; US 4 (East Greenbush) to I-90 Exit 11 (Schodack) All lanes of 2 lanes open until 6:00 PM various lane closures",
-      "published": "Tue, 10 Nov 2026 06:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.5979237383473,
-      "longitude": -73.7090396815114
-    },
-    {
-      "type": "construction",
-      "title": "I-86 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , line striping on I-86 both directions West Lamoka Avenue; NY 226 (Bath) to Exit 39 - NY 960U; Babcock Hollow Road; Ramp (Bath) All lanes of 2 lanes open until 5:00 PM 2 lanes reduced to 1 lane",
-      "published": "Tue, 10 Nov 2026 06:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.2876704607946,
-      "longitude": -77.2235154266185
-    },
-    {
-      "type": "construction",
-      "title": "NY 221 both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , culvert repairs on NY 221 both directions between Babcock Hollow Road (Harford) and Flint Road (Lapeer) All lanes of 1 lane open until 6:00 PM ; Alternating one-way traffic with flaggers",
-      "published": "Tue, 10 Nov 2026 06:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.4384460186443,
-      "longitude": -76.1849165245712
-    },
-    {
-      "type": "construction",
-      "title": "NJ 27 southbound : Construction",
-      "description": "NJ DOT - STMC: Roadwork on NJ 27 Southbound North of McClellan St (Newark) Tuesday November 10, 2026 06:00 AM thru 05:00 PM, right shoulder closed",
-      "published": "Tue, 10 Nov 2026 06:00:16 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.6941719055176,
-      "longitude": -74.2003936767578
     },
     {
       "type": "construction",
@@ -2368,33 +757,6 @@
       "link": "https://511nj.org/",
       "latitude": 43.2778130476687,
       "longitude": -76.4635173326389
-    },
-    {
-      "type": "construction",
-      "title": "NJ 42 northbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 42 Northbound between CR 555/Stagecoach Rd (Washington Twp) and North of CR 639/Ganttown Rd (Washington Twp), Tuesday November 10, 2026 06:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 06:00:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.7294082641602,
-      "longitude": -75.0327987670898
-    },
-    {
-      "type": "construction",
-      "title": "NJ 42 southbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 42 Southbound between North of CR 655/Fries Mill Rd (Washington Twp) and CR 555/Stagecoach Rd (Washington Twp), Tuesday November 10, 2026 06:00 AM thru 04:00 PM, right shoulder",
-      "published": "Tue, 10 Nov 2026 06:00:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.748291015625,
-      "longitude": -75.0454025268555
-    },
-    {
-      "type": "construction",
-      "title": "NY 17 [Delaware] both directions : Roadwork",
-      "description": "NYSDOT - Region 9: Roadwork on NY 17 [Delaware] both directions over County Route 17 (Colchester) right lane blocked for bridge inspection BIN(1054941, 1054952) 11/10 from 9am to 3pm. This work is weather dependent, no flagger present. IR- 11949090",
-      "published": "Tue, 10 Nov 2026 00:07:22 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.9703920035159,
-      "longitude": -75.0221676653778
     },
     {
       "type": "construction",
@@ -4191,8 +2553,8 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 15 records",
-    "construction": "available: 434 records",
+    "incidents": "available: 7 records",
+    "construction": "available: 260 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }
