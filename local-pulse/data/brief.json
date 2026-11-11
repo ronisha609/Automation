@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-11-10T18:41:36.778996+00:00",
+  "generatedAt": "2026-11-11T18:43:30.836647+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 28 construction zones could slow you down. It's 63°F, Sunny, up to 65°.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 19 construction zones could slow you down. It's 62°F, Mostly Sunny, up to 63°.",
   "source": "rules",
-  "fingerprint": "38f1cf2b515efb85",
+  "fingerprint": "b5bd98d634cc4cd1",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Tuesday, November 10",
+    "date": "Wednesday, November 11",
     "special": "",
     "weather": {
-      "now": "63°F, Sunny",
-      "low": 48,
-      "high": 65,
-      "maxRainChance": 1,
-      "wettestHour": "1 PM",
+      "now": "62°F, Mostly Sunny",
+      "low": 49,
+      "high": 63,
+      "maxRainChance": 2,
+      "wettestHour": "8 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
         "what": "construction",
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between north of Exit 69 - US 206 (Lawrence Twp) and south of Exit 69 - US 206 (Lawrence Twp), Wednesday November 11, 2026 10:00 AM thru 02:00 PM, right",
+        "milesAway": 4.8
+      },
+      {
+        "what": "construction",
         "where": "I-295 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound between south of Exit 69 - US 206 (Lawrence Twp) and north of Exit 71 - Federal City Rd (Hopewell Twp), Tuesday November 10, 2026 10:00 AM thru 03:00 PM",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound between south of Exit 69 - US 206 (Lawrence Twp) and north of Exit 71 - Federal City Rd (Hopewell Twp), Wednesday November 11, 2026 10:00 AM thru 03:00 ",
         "milesAway": 4.8
       },
       {
         "what": "construction",
-        "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between north of Exit 69 - US 206 (Lawrence Twp) and south of Exit 69 - US 206 (Lawrence Twp), Tuesday November 10, 2026 10:00 AM thru 02:00 PM, right l",
-        "milesAway": 4.8
-      },
-      {
-        "what": "construction",
-        "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Hamilton Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Tuesday November 10, 2026 09:00 AM thru 03:00 PM, left",
-        "milesAway": 4.8
-      },
-      {
-        "what": "construction",
-        "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Tuesday November 10, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 5.7
-      },
-      {
-        "what": "construction",
-        "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near North of I-295 (Bordentown Twp), Tuesday November 10, 2026 07:00 AM thru 04:00 PM, right shoulder",
-        "milesAway": 5.7
+        "where": "New Jersey Turnpike northbound : Roadwork",
+        "detail": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike inner roadway Northbound at Interchange 7A - I-195 (Robbinsville) ramp closed until 4:00 P.M.",
+        "milesAway": 7.2
       },
       {
         "what": "construction",
         "where": "US 1 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between South of Washington Rd (West Windsor Twp) and South of Sandhill Rd/Major Rd (South Brunswick Twp), Tuesday November 10, 2026 10:00 AM thru 03:00 ",
+        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between South of Washington Rd (West Windsor Twp) and South of Sandhill Rd/Major Rd (South Brunswick Twp), Wednesday November 11, 2026 10:00 AM thru 03:0",
         "milesAway": 9.6
+      },
+      {
+        "what": "construction",
+        "where": "US 130 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of NJ 33 (East Windsor Twp) and South of CR 614/Dey Rd (Cranbury Twp), Wednesday November 11, 2026 09:00 AM thru 03:00 PM, right lane clo",
+        "milesAway": 10.8
+      },
+      {
+        "what": "construction",
+        "where": "US 130 southbound",
+        "detail": "NJDOT - STMC: Roadwork on US 130 Southbound between South of CR 614/Dey Rd (Cranbury Twp) and North of NJ 33 (East Windsor Twp), Wednesday November 11, 2026 09:00 AM thru 03:00 PM, right lane closed",
+        "milesAway": 14.6
       }
     ],
     "roadCounts": {
       "incidents": 0,
-      "construction": 28
+      "construction": 19
     },
     "headlines": []
   },

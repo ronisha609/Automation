@@ -2,8 +2,8 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 10,
-    "briefsSent": 10,
+    "dayNumber": 11,
+    "briefsSent": 11,
     "writtenByAI": 0,
     "daysWith": {
       "crash or closure": 6,
@@ -11,15 +11,37 @@
       "flooding": 0,
       "rain": 2,
       "cold or frost": 0,
-      "construction": 10,
+      "construction": 11,
       "quiet day": 0
     },
-    "screenshots": 10,
+    "screenshots": 11,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-11",
+      "sentAt": "2026-11-11T18:43:30.836647+00:00",
+      "message": "Good morning, Central New Jersey. No crashes nearby right now, but 19 construction zones could slow you down. It's 62°F, Mostly Sunny, up to 63°.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "construction"
+      ],
+      "nearbyIncidents": 0,
+      "nearbyConstruction": 19,
+      "weatherAlerts": [],
+      "weather": {
+        "now": "62°F, Mostly Sunny",
+        "low": 49,
+        "high": 63,
+        "maxRainChance": 2,
+        "wettestHour": "8 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-11.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-10",
       "sentAt": "2026-11-10T18:41:36.778996+00:00",
