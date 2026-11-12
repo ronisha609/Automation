@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "sentAt": "2026-11-12T18:58:14.399305+00:00",
+  "message": "Good morning, Central New Jersey. The weather service has a Tornado Watch for parts of the area, so check it before you head out. Watch for a closure at NJ 73 northbound : Equipment malfunction (21.3 mi away). It's 61°F, Showers And Thunderstorms, up to 61°. Rain is likely around 3 PM, so bring an umbrella.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "weather alert",
+    "flooding",
+    "crash or closure",
+    "construction",
+    "rain"
+  ],
+  "nearbyIncidents": 1,
+  "nearbyConstruction": 19,
+  "weatherAlerts": [
+    "Tornado Watch",
+    "Flash Flood Warning"
+  ],
+  "weather": {
+    "now": "61°F, Showers And Thunderstorms",
+    "low": 48,
+    "high": 61,
+    "maxRainChance": 100,
+    "wettestHour": "3 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-12.jpg"
+}
