@@ -1,85 +1,86 @@
 {
-  "generatedAt": "2026-11-12T18:58:14.399305+00:00",
+  "generatedAt": "2026-11-13T18:33:48.747138+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. The weather service has a Tornado Watch for parts of the area, so check it before you head out. Watch for a closure at NJ 73 northbound : Equipment malfunction (21.3 mi away). It's 61°F, Showers And Thunderstorms, up to 61°. Rain is likely around 3 PM, so bring an umbrella.",
+  "text": "Good morning, Central New Jersey. The weather service has a Freeze Warning for parts of the area, so check it before you head out. Watch for a crash or incident at I-295 northbound (17.1 mi away) and 1 more nearby. It's 41°F, Light Rain, up to 42°. Rain is likely around 1 PM, so bring an umbrella.",
   "source": "rules",
-  "fingerprint": "09198d6fd99fba98",
+  "fingerprint": "17d31d5f31c95605",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Thursday, November 12",
+    "date": "Friday, November 13",
     "special": "",
     "weather": {
-      "now": "61°F, Showers And Thunderstorms",
-      "low": 48,
-      "high": 61,
-      "maxRainChance": 100,
-      "wettestHour": "3 PM",
+      "now": "41°F, Light Rain",
+      "low": 35,
+      "high": 42,
+      "maxRainChance": 92,
+      "wettestHour": "1 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [
       {
-        "event": "Tornado Watch",
-        "headline": "Tornado Watch issued November 12 at 12:50PM EST until November 12 at 7:00PM EST by NWS Mount Holly NJ",
-        "severity": "Extreme",
-        "instruction": ""
+        "event": "Freeze Warning",
+        "headline": "Freeze Warning issued November 13 at 12:43PM EST until November 14 at 9:00AM EST by NWS Mount Holly NJ",
+        "severity": "Severe",
+        "instruction": "Take steps now to protect tender plants from the cold."
       },
       {
-        "event": "Flash Flood Warning",
-        "headline": "Flash Flood Warning issued November 12 at 12:31PM EST until November 12 at 3:45PM EST by NWS Mount Holly NJ",
-        "severity": "Severe",
-        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood deaths occur in vehicles."
+        "event": "Coastal Flood Advisory",
+        "headline": "Coastal Flood Advisory issued November 13 at 3:04AM EST until November 13 at 3:00PM EST by NWS Mount Holly NJ",
+        "severity": "Minor",
+        "instruction": "A Coastal Flood Advisory means that minor tidal flooding is expected. Minor tidal flooding often results in some road closures. Usually, the most vulnerable roadways will flood. Do not leave your vehicle at a location that is prone to tidal flooding. Do not drive your vehicle through flood waters. T"
+      },
+      {
+        "event": "Coastal Flood Advisory",
+        "headline": "Coastal Flood Advisory issued November 13 at 3:04AM EST until November 13 at 3:00PM EST by NWS Mount Holly NJ",
+        "severity": "Minor",
+        "instruction": "A Coastal Flood Advisory means that minor tidal flooding is expected. Minor tidal flooding often results in some road closures. Usually, the most vulnerable roadways will flood. Do not leave your vehicle at a location that is prone to tidal flooding. Do not drive your vehicle through flood waters. T"
       }
     ],
     "roads": [
       {
-        "what": "closure",
-        "where": "NJ 73 northbound : Equipment malfunction",
-        "detail": "NJ DOT - TOC South: Equipment Malfunction on NJ 73 Northbound At Tacony-Palmyra Bridge (Palmyra), All lanes closed",
-        "milesAway": 21.3
+        "what": "crash or incident",
+        "where": "I-295 northbound",
+        "detail": "NJ DOT - TOC South: Crash on I-295 Northbound Ramp From Exit 43 - CR 838/Creek Rd (Mount Laurel Twp), ramp lane, right shoulder closed",
+        "milesAway": 17.1
       },
       {
-        "what": "road event",
-        "where": "New Jersey Turnpike northbound : Debris",
-        "detail": "NJ Turnpike Auth.: Debris on New Jersey Turnpike Inner Roadway northbound South of Interchange 9 - NJ 18 (Milltown) All lanes open -Black bag center lane",
-        "milesAway": 23.0
+        "what": "closure",
+        "where": "I-295 northbound : Vehicle fire",
+        "detail": "NJ DOT - TOC South: Vehicle Fire on I-295 Northbound North of Exit 57 - US 130 (Hamilton Twp), 1 right lane of 3 lanes, right shoulder closed",
+        "milesAway": 4.4
+      },
+      {
+        "what": "construction",
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Hamilton Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Friday November 13, 2026 09:00 AM thru 03:00 PM, left ",
+        "milesAway": 4.8
       },
       {
         "what": "construction",
         "where": "US 1 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between South of Washington Rd (West Windsor Twp) and South of Sandhill Rd/Major Rd (South Brunswick Twp), Thursday November 12, 2026 10:00 AM thru 03:00",
+        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between South of Washington Rd (West Windsor Twp) and South of Sandhill Rd/Major Rd (South Brunswick Twp), Friday November 13, 2026 10:00 AM thru 03:00 P",
         "milesAway": 9.6
       },
       {
         "what": "construction",
         "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of NJ 33 (East Windsor Twp) and South of CR 614/Dey Rd (Cranbury Twp), Thursday November 12, 2026 09:00 AM thru 03:00 PM, right lane clos",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of NJ 33 (East Windsor Twp) and South of CR 614/Dey Rd (Cranbury Twp), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed",
         "milesAway": 10.8
       },
       {
         "what": "construction",
         "where": "US 130 southbound",
-        "detail": "NJDOT - STMC: Roadwork on US 130 Southbound between South of CR 614/Dey Rd (Cranbury Twp) and North of NJ 33 (East Windsor Twp), Thursday November 12, 2026 09:00 AM thru 03:00 PM, right lane closed",
+        "detail": "NJDOT - STMC: Roadwork on US 130 Southbound between South of CR 614/Dey Rd (Cranbury Twp) and North of NJ 33 (East Windsor Twp), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed",
         "milesAway": 14.6
-      },
-      {
-        "what": "construction",
-        "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound near South of CR 630/Cooper St (Willingboro Twp), Thursday November 12, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 14.7
       }
     ],
     "roadCounts": {
-      "incidents": 1,
-      "construction": 19
+      "incidents": 2,
+      "construction": 20
     },
-    "headlines": [
-      "Democrats flock to Denver to set a post - midterms agenda",
-      "Democrats flock to Denver for a post - midterms introspection - turned - celebration",
-      "Sightseeing Helicopter Makes Emergency Landing After Possible Engine Trouble",
-      "Democrats flock to Denver for a post - midterms introspection - turned - celebration"
-    ]
+    "headlines": []
   },
   "ntfyTopic": "local-pulse-nj"
 }

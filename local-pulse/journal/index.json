@@ -2,24 +2,55 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 12,
-    "briefsSent": 12,
+    "dayNumber": 13,
+    "briefsSent": 13,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 7,
-      "weather alert": 1,
-      "flooding": 1,
-      "rain": 3,
-      "cold or frost": 0,
-      "construction": 12,
+      "crash or closure": 8,
+      "weather alert": 2,
+      "flooding": 2,
+      "rain": 4,
+      "cold or frost": 1,
+      "construction": 13,
       "quiet day": 0
     },
-    "screenshots": 12,
+    "screenshots": 13,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-13",
+      "sentAt": "2026-11-13T18:33:48.747138+00:00",
+      "message": "Good morning, Central New Jersey. The weather service has a Freeze Warning for parts of the area, so check it before you head out. Watch for a crash or incident at I-295 northbound (17.1 mi away) and 1 more nearby. It's 41°F, Light Rain, up to 42°. Rain is likely around 1 PM, so bring an umbrella.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "weather alert",
+        "flooding",
+        "crash or closure",
+        "construction",
+        "rain",
+        "cold or frost"
+      ],
+      "nearbyIncidents": 2,
+      "nearbyConstruction": 20,
+      "weatherAlerts": [
+        "Freeze Warning",
+        "Coastal Flood Advisory",
+        "Coastal Flood Advisory"
+      ],
+      "weather": {
+        "now": "41°F, Light Rain",
+        "low": 35,
+        "high": 42,
+        "maxRainChance": 92,
+        "wettestHour": "1 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-13.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-12",
       "sentAt": "2026-11-12T18:58:14.399305+00:00",
