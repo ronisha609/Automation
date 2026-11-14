@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:56:25.047314+00:00",
+  "generatedAt": "2026-11-14T17:10:52.501684+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -8,16 +8,6 @@
   "weather": {
     "location": "Trenton, NJ",
     "periods": [
-      {
-        "startTime": "2026-11-14T11:00:00-05:00",
-        "temperature": 44,
-        "temperatureUnit": "F",
-        "windSpeed": "15 mph",
-        "windDirection": "NW",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 1,
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
-      },
       {
         "startTime": "2026-11-14T12:00:00-05:00",
         "temperature": 45,
@@ -127,6 +117,16 @@
         "shortForecast": "Partly Cloudy",
         "probabilityOfPrecipitation": 2,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-14T23:00:00-05:00",
+        "temperature": 38,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "W",
+        "shortForecast": "Partly Cloudy",
+        "probabilityOfPrecipitation": 2,
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       }
     ]
   },
@@ -148,6 +148,42 @@
   "traffic": [
     {
       "type": "incident",
+      "title": "Harlem River Drive northbound : Crash",
+      "description": "NYSDOT - Region 11: Crash on Harlem River Drive northbound at Madison Avenue Bridge (New York) 2 Left lanes of 3 lanes blocked",
+      "published": "Sat, 14 Nov 2026 11:59:19 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8140074039498,
+      "longitude": -73.9343359941693
+    },
+    {
+      "type": "incident",
+      "title": "I-684 northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on I-684 northbound north of Exit 3 S/N - NY 22 - Bedford - Armonk (North Castle) right shoulder of 3 lanes blocked MM 8.4 CAD#97938080",
+      "published": "Sat, 14 Nov 2026 11:57:22 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.134,
+      "longitude": -73.7027
+    },
+    {
+      "type": "incident",
+      "title": "I-684 northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on I-684 northbound north of Exit 3 S/N - NY 22 - Bedford - Armonk (North Castle) right shoulder of 3 lanes blocked MM 8.4 CAD#97938080",
+      "published": "Sat, 14 Nov 2026 11:57:22 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.134,
+      "longitude": -73.7027
+    },
+    {
+      "type": "incident",
+      "title": "I-684 southbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on I-684 southbound south of Exit 9 E/W - I-84 - Danbury - Newburgh (Southeast) right shoulder of 3 lanes blocked MM 25.3 CAD#97937080",
+      "published": "Sat, 14 Nov 2026 11:56:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.3598,
+      "longitude": -73.6356
+    },
+    {
+      "type": "incident",
       "title": "Taconic State Parkway southbound : Disabled vehicle",
       "description": "NYSDOT - Region 8: Disabled Vehicle on Taconic State Parkway southbound at Exit 28 - Pudding St. (Putnam Valley) right shoulder of 2 lanes blocked MM 28.0 CAD#97935080",
       "published": "Sat, 14 Nov 2026 11:54:44 -0500",
@@ -158,8 +194,8 @@
     {
       "type": "incident",
       "title": "Verrazano-Narrows Bridge westbound : Disabled vehicle",
-      "description": "MTA Bridges & Tunnels: Disabled vehicle on Verrazano-Narrows Bridge Upper Level westbound Center Span (New York) 1 Right lane of 3 lanes closed",
-      "published": "Sat, 14 Nov 2026 11:52:15 -0500",
+      "description": "MTA Bridges & Tunnels: Disabled vehicle on Verrazano-Narrows Bridge Upper Level westbound Center Span (New York) 2 Right lanes of 3 lanes closed",
+      "published": "Sat, 14 Nov 2026 12:00:55 -0500",
       "link": "https://511nj.org/",
       "latitude": 40.6064163331771,
       "longitude": -74.0453474226806
@@ -181,15 +217,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.534191,
       "longitude": -72.767407
-    },
-    {
-      "type": "incident",
-      "title": "I-87 Major Deegan Expressway northbound : Crash",
-      "description": "NYSDOT - Region 11: Crash on I-87 Major Deegan Expressway northbound at Exit 4 - 145th Street Bridge (New York) 2 Right lanes of 3 lanes blocked",
-      "published": "Sat, 14 Nov 2026 11:35:54 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8175449901645,
-      "longitude": -73.9307942136323
     },
     {
       "type": "incident",
@@ -661,24 +688,6 @@
     },
     {
       "type": "construction",
-      "title": "I-684 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, guard rail repairs on I-684 southbound between Exit 4 - NY 172 (Bedford) and Exit 3 N/S - NY 22 (North Castle) left lane closure until 12:00 P.M. Res 8-8 RW/32650109 - This work is weather permitting. Plan travel accordingly; delays may exist",
-      "published": "Sat, 14 Nov 2026 07:00:27 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.1854144819414,
-      "longitude": -73.6872005249564
-    },
-    {
-      "type": "construction",
-      "title": "US 9W both directions : Construction",
-      "description": "NYSDOT - Region 8: Construction, drainage improvements on US 9W both directions between Hickey Street (Orangetown) and Shadyside Avenue (Orangetown) all lanes closed and detoured until 12:00 P.M. Res 8-6 RW/30839109 - ROAD CLOSED - Motorists are advised to follow posted detour. Plan travel accordingly; delays may exist",
-      "published": "Sat, 14 Nov 2026 07:00:32 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.0339087470864,
-      "longitude": -73.9259924762886
-    },
-    {
-      "type": "construction",
       "title": "NY 54A both directions : Construction",
       "description": "NYSDOT - Region 6: Construction , culvert repairs on NY 54A both directions Yates - Steuben County Line (Pulteney) to Yates - Steuben County Line (Pulteney) All lanes of 1 lane open until 5:00 PM 1 Lane, 2 Way, Flagger Control",
       "published": "Sat, 14 Nov 2026 07:00:18 -0500",
@@ -1039,30 +1048,12 @@
     },
     {
       "type": "construction",
-      "title": "I-590 northbound : Construction",
-      "description": "NYSDOT - Region 4: Construction , bridge work on I-590 northbound area of Exit 2e - NY 31 (Brighton) 2 Left lanes of 3 lanes closed intermittently until 12:00 PM",
-      "published": "Sat, 14 Nov 2026 06:00:19 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.112061,
-      "longitude": -77.552517
-    },
-    {
-      "type": "construction",
       "title": "I-90 - NYS Thruway westbound : Construction",
       "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-90 - NYS Thruway westbound from Before Exit 25A (I-90) - Schenectady (I-88) to Before Exit 25A (I-90) - Schenectady (I-88) until 5:00 PM, 11/16/2026 [CARS CAD-263180006]",
       "published": "Sat, 14 Nov 2026 00:37:08 -0500",
       "link": "https://511nj.org/",
       "latitude": 42.781458,
       "longitude": -74.006062
-    },
-    {
-      "type": "construction",
-      "title": "I-95 southbound : Construction",
-      "description": "NYSDOT - Region 11: Construction on I-95 southbound between Westchester Avenue (New York) and Exit 5A - White Plains Road (New York) 2 Right lanes of 3 lanes closed until 12:00 P.M.",
-      "published": "Sat, 14 Nov 2026 05:29:44 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8332471462691,
-      "longitude": -73.8602481534343
     },
     {
       "type": "construction",
@@ -2787,8 +2778,8 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 12 records",
-    "construction": "available: 281 records",
+    "incidents": "available: 15 records",
+    "construction": "available: 277 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }

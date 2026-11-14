@@ -2,24 +2,47 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 13,
-    "briefsSent": 13,
+    "dayNumber": 14,
+    "briefsSent": 14,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 8,
+      "crash or closure": 9,
       "weather alert": 2,
       "flooding": 2,
       "rain": 4,
       "cold or frost": 1,
-      "construction": 13,
+      "construction": 14,
       "quiet day": 0
     },
-    "screenshots": 13,
+    "screenshots": 14,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-14",
+      "sentAt": "2026-11-14T17:11:05.045931+00:00",
+      "message": "Good morning, Central New Jersey. Watch for a closure at New Jersey Turnpike southbound : Debris (7.0 mi away). It's 45°F, Mostly Cloudy, up to 48°.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "crash or closure",
+        "construction"
+      ],
+      "nearbyIncidents": 1,
+      "nearbyConstruction": 4,
+      "weatherAlerts": [],
+      "weather": {
+        "now": "45°F, Mostly Cloudy",
+        "low": 38,
+        "high": 48,
+        "maxRainChance": 3,
+        "wettestHour": "7 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-14.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-13",
       "sentAt": "2026-11-13T18:33:48.747138+00:00",

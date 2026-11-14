@@ -1,13 +1,14 @@
 # Local Pulse: 90-Day Log
 
-Started 2026-11-01. Day 13 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
+Started 2026-11-01. Day 14 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
 
 | Briefs sent | Days with a crash or closure nearby | Weather alerts | Rain | Cold or frost | Quiet days |
 | --- | --- | --- | --- | --- | --- |
-| 13 | 8 | 2 | 4 | 1 | 0 |
+| 14 | 9 | 2 | 4 | 1 | 0 |
 
 | Date | Message | Flagged | Screenshot |
 | --- | --- | --- | --- |
+| 2026-11-14 | Good morning, Central New Jersey. Watch for a closure at New Jersey Turnpike southbound : Debris (7.0 mi away). It's 45°F, Mostly Cloudy, up to 48°. | crash or closure, construction | [view](screens/2026-11-14.jpg) |
 | 2026-11-13 | Good morning, Central New Jersey. The weather service has a Freeze Warning for parts of the area, so check it before you head out. Watch for a crash or incident at I-295 northbound (17.1 mi away) and 1 more nearby. It's 41°F, Light Rain, up to 42°. Rain is likely around 1 PM, so bring an umbrella. | weather alert, flooding, crash or closure, construction, rain, cold or frost | [view](screens/2026-11-13.jpg) |
 | 2026-11-12 | Good morning, Central New Jersey. The weather service has a Tornado Watch for parts of the area, so check it before you head out. Watch for a closure at NJ 73 northbound : Equipment malfunction (21.3 mi away). It's 61°F, Showers And Thunderstorms, up to 61°. Rain is likely around 3 PM, so bring an umbrella. | weather alert, flooding, crash or closure, construction, rain | [view](screens/2026-11-12.jpg) |
 | 2026-11-11 | Good morning, Central New Jersey. No crashes nearby right now, but 19 construction zones could slow you down. It's 62°F, Mostly Sunny, up to 63°. | construction | [view](screens/2026-11-11.jpg) |

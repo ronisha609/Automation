@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-14",
+  "sentAt": "2026-11-14T17:11:05.045931+00:00",
+  "message": "Good morning, Central New Jersey. Watch for a closure at New Jersey Turnpike southbound : Debris (7.0 mi away). It's 45°F, Mostly Cloudy, up to 48°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "crash or closure",
+    "construction"
+  ],
+  "nearbyIncidents": 1,
+  "nearbyConstruction": 4,
+  "weatherAlerts": [],
+  "weather": {
+    "now": "45°F, Mostly Cloudy",
+    "low": 38,
+    "high": 48,
+    "maxRainChance": 3,
+    "wettestHour": "7 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-14.jpg"
+}

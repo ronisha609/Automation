@@ -1,84 +1,59 @@
 {
-  "generatedAt": "2026-11-13T18:33:48.747138+00:00",
+  "generatedAt": "2026-11-14T17:11:05.045931+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. The weather service has a Freeze Warning for parts of the area, so check it before you head out. Watch for a crash or incident at I-295 northbound (17.1 mi away) and 1 more nearby. It's 41°F, Light Rain, up to 42°. Rain is likely around 1 PM, so bring an umbrella.",
+  "text": "Good morning, Central New Jersey. Watch for a closure at New Jersey Turnpike southbound : Debris (7.0 mi away). It's 45°F, Mostly Cloudy, up to 48°.",
   "source": "rules",
-  "fingerprint": "17d31d5f31c95605",
+  "fingerprint": "529f71a187dcf14b",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Friday, November 13",
+    "date": "Saturday, November 14",
     "special": "",
     "weather": {
-      "now": "41°F, Light Rain",
-      "low": 35,
-      "high": 42,
-      "maxRainChance": 92,
-      "wettestHour": "1 PM",
+      "now": "45°F, Mostly Cloudy",
+      "low": 38,
+      "high": 48,
+      "maxRainChance": 3,
+      "wettestHour": "7 PM",
       "hoursCovered": 12
     },
-    "weatherAlerts": [
-      {
-        "event": "Freeze Warning",
-        "headline": "Freeze Warning issued November 13 at 12:43PM EST until November 14 at 9:00AM EST by NWS Mount Holly NJ",
-        "severity": "Severe",
-        "instruction": "Take steps now to protect tender plants from the cold."
-      },
-      {
-        "event": "Coastal Flood Advisory",
-        "headline": "Coastal Flood Advisory issued November 13 at 3:04AM EST until November 13 at 3:00PM EST by NWS Mount Holly NJ",
-        "severity": "Minor",
-        "instruction": "A Coastal Flood Advisory means that minor tidal flooding is expected. Minor tidal flooding often results in some road closures. Usually, the most vulnerable roadways will flood. Do not leave your vehicle at a location that is prone to tidal flooding. Do not drive your vehicle through flood waters. T"
-      },
-      {
-        "event": "Coastal Flood Advisory",
-        "headline": "Coastal Flood Advisory issued November 13 at 3:04AM EST until November 13 at 3:00PM EST by NWS Mount Holly NJ",
-        "severity": "Minor",
-        "instruction": "A Coastal Flood Advisory means that minor tidal flooding is expected. Minor tidal flooding often results in some road closures. Usually, the most vulnerable roadways will flood. Do not leave your vehicle at a location that is prone to tidal flooding. Do not drive your vehicle through flood waters. T"
-      }
-    ],
+    "weatherAlerts": [],
     "roads": [
       {
-        "what": "crash or incident",
-        "where": "I-295 northbound",
-        "detail": "NJ DOT - TOC South: Crash on I-295 Northbound Ramp From Exit 43 - CR 838/Creek Rd (Mount Laurel Twp), ramp lane, right shoulder closed",
-        "milesAway": 17.1
-      },
-      {
         "what": "closure",
-        "where": "I-295 northbound : Vehicle fire",
-        "detail": "NJ DOT - TOC South: Vehicle Fire on I-295 Northbound North of Exit 57 - US 130 (Hamilton Twp), 1 right lane of 3 lanes, right shoulder closed",
-        "milesAway": 4.4
+        "where": "New Jersey Turnpike southbound : Debris",
+        "detail": "NJ Turnpike Auth.: Debris on New Jersey Turnpike inner roadway southbound South of Interchange 7 - US 206 (Bordentown Twp) center lane blocked",
+        "milesAway": 7.0
       },
       {
         "what": "construction",
-        "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Hamilton Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Friday November 13, 2026 09:00 AM thru 03:00 PM, left ",
-        "milesAway": 4.8
+        "where": "US 202 northbound",
+        "detail": "NJDOT - STMC: Roadwork on US 202 Northbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 12, 2026 12:00 AM thru Sunday November 22, 2026 11:59 PM, left shoulder",
+        "milesAway": 22.9
       },
       {
         "what": "construction",
-        "where": "US 1 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between South of Washington Rd (West Windsor Twp) and South of Sandhill Rd/Major Rd (South Brunswick Twp), Friday November 13, 2026 10:00 AM thru 03:00 P",
-        "milesAway": 9.6
+        "where": "US 202 southbound",
+        "detail": "NJDOT - STMC: Roadwork on US 202 Southbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 12, 2026 12:00 AM thru Monday November 30, 2026 11:59 PM, left shoulder",
+        "milesAway": 23.2
       },
       {
         "what": "construction",
-        "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of NJ 33 (East Windsor Twp) and South of CR 614/Dey Rd (Cranbury Twp), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 10.8
+        "where": "Betsy Ross Bridge westbound",
+        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
+        "milesAway": 23.3
       },
       {
         "what": "construction",
-        "where": "US 130 southbound",
-        "detail": "NJDOT - STMC: Roadwork on US 130 Southbound between South of CR 614/Dey Rd (Cranbury Twp) and North of NJ 33 (East Windsor Twp), Friday November 13, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 14.6
+        "where": "NJ 18 northbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
+        "milesAway": 24.0
       }
     ],
     "roadCounts": {
-      "incidents": 2,
-      "construction": 20
+      "incidents": 1,
+      "construction": 4
     },
     "headlines": []
   },
