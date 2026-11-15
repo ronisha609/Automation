@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-11-14T17:11:05.045931+00:00",
+  "generatedAt": "2026-11-15T17:46:25.913062+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a closure at New Jersey Turnpike southbound : Debris (7.0 mi away). It's 45°F, Mostly Cloudy, up to 48°.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 53°F, Mostly Sunny, up to 54°.",
   "source": "rules",
-  "fingerprint": "529f71a187dcf14b",
+  "fingerprint": "e27f6b2c8d37cea4",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Saturday, November 14",
+    "date": "Sunday, November 15",
     "special": "",
     "weather": {
-      "now": "45°F, Mostly Cloudy",
-      "low": 38,
-      "high": 48,
-      "maxRainChance": 3,
-      "wettestHour": "7 PM",
+      "now": "53°F, Mostly Sunny",
+      "low": 37,
+      "high": 54,
+      "maxRainChance": 1,
+      "wettestHour": "12 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
-        "what": "closure",
-        "where": "New Jersey Turnpike southbound : Debris",
-        "detail": "NJ Turnpike Auth.: Debris on New Jersey Turnpike inner roadway southbound South of Interchange 7 - US 206 (Bordentown Twp) center lane blocked",
-        "milesAway": 7.0
+        "what": "construction",
+        "where": "New Jersey Turnpike northbound : Roadwork",
+        "detail": "NJ Turnpike Auth.: Roadwork, roadwork on New Jersey Turnpike Inner Roadway northbound Entrance ramp Interchange 7A - I-195 (Robbinsville Twp) All lanes closed for repairs due to roadwork until 4:00 P.",
+        "milesAway": 8.0
       },
       {
         "what": "construction",
@@ -52,10 +52,15 @@
       }
     ],
     "roadCounts": {
-      "incidents": 1,
-      "construction": 4
+      "incidents": 0,
+      "construction": 5
     },
-    "headlines": []
+    "headlines": [
+      "Could everything be broken ? Grounded jets , Microsoft outage , AI chaos make some wonder",
+      "Richard Sterban , longtime Oak Ridge Boys member known for  Elvira  solo , dies at 83",
+      "Could everything be broken ? Grounded jets , Microsoft outage , AI chaos make some wonder",
+      "Richard Sterban , longtime Oak Ridge Boys member known for  Elvira  solo , dies at 83"
+    ]
   },
   "ntfyTopic": "local-pulse-nj"
 }

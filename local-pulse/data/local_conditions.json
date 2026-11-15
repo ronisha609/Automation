@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T15:49:16.113778+00:00",
+  "generatedAt": "2026-11-15T17:46:11.390198+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -8,26 +8,6 @@
   "weather": {
     "location": "Trenton, NJ",
     "periods": [
-      {
-        "startTime": "2026-11-15T10:00:00-05:00",
-        "temperature": 50,
-        "temperatureUnit": "F",
-        "windSpeed": "15 mph",
-        "windDirection": "NW",
-        "shortForecast": "Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
-      },
-      {
-        "startTime": "2026-11-15T11:00:00-05:00",
-        "temperature": 52,
-        "temperatureUnit": "F",
-        "windSpeed": "15 mph",
-        "windDirection": "NW",
-        "shortForecast": "Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
-      },
       {
         "startTime": "2026-11-15T12:00:00-05:00",
         "temperature": 53,
@@ -127,6 +107,26 @@
         "shortForecast": "Partly Cloudy",
         "probabilityOfPrecipitation": 1,
         "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-15T22:00:00-05:00",
+        "temperature": 39,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-15T23:00:00-05:00",
+        "temperature": 37,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
       }
     ]
   },
@@ -134,12 +134,48 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "I-87 Northway northbound : Crash",
-      "description": "NYSDOT TMC - Albany: Crash on I-87 Northway northbound Off-ramp Exit 28; NY 74; Ticonderoga Ferry (Schroon) All lanes closed",
-      "published": "Sun, 15 Nov 2026 09:55:11 -0500",
+      "title": "Verrazano-Narrows Bridge westbound : Crash",
+      "description": "MTA Bridges & Tunnels: Crash on Verrazano-Narrows Bridge Upper Level westbound Center Span (New York) 1 Left lane of 3 lanes closed",
+      "published": "Sun, 15 Nov 2026 12:43:58 -0500",
       "link": "https://511nj.org/",
-      "latitude": 43.8662068171809,
-      "longitude": -73.7551214373915
+      "latitude": 40.6064163331771,
+      "longitude": -74.0453474226806
+    },
+    {
+      "type": "incident",
+      "title": "Verrazano-Narrows Bridge eastbound : Crash",
+      "description": "MTA Bridges & Tunnels: Crash on Verrazano-Narrows Bridge Upper Level eastbound Center Span (New York) 2 Left lanes of 3 lanes closed",
+      "published": "Sun, 15 Nov 2026 12:41:46 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6063084108359,
+      "longitude": -74.045312979381
+    },
+    {
+      "type": "incident",
+      "title": "I-495 westbound : Crash",
+      "description": "NYSDOT - Region 11: Crash on I-495 westbound just past Exit 19 - Woodhaven Boulevard / Queens Boulevard (New York) 2 Right lanes of 4 lanes blocked",
+      "published": "Sun, 15 Nov 2026 12:36:24 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7259203899306,
+      "longitude": -73.9006238993061
+    },
+    {
+      "type": "incident",
+      "title": "NY 110 northbound : Crash",
+      "description": "NYSDOT - Region 10: Crash on NY 110 northbound at Airport Plaza Boulevard (Babylon) 1 Left lane of 4 lanes closed",
+      "published": "Sun, 15 Nov 2026 12:16:12 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7322990153846,
+      "longitude": -73.4234822769231
+    },
+    {
+      "type": "incident",
+      "title": "Meadowbrook State Parkway southbound : Crash",
+      "description": "NYSDOT - Region 10: Crash on Meadowbrook State Parkway southbound approaching Exit M1 - Old Country Road (Hempstead) 1 Right lane of 4 lanes closed",
+      "published": "Sun, 15 Nov 2026 11:44:21 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7411299661272,
+      "longitude": -73.6109144787354
     },
     {
       "type": "incident",
@@ -194,15 +230,6 @@
       "link": "https://511nj.org/",
       "latitude": 42.5635796890624,
       "longitude": -77.8787085172313
-    },
-    {
-      "type": "construction",
-      "title": "I-87 Northway southbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , bridge inspection on I-87 Northway southbound under Nelson Ave (Saratoga Springs) 1 Left lane of 3 lanes closed until 11:30 AM",
-      "published": "Sun, 15 Nov 2026 09:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.04519,
-      "longitude": -73.77283
     },
     {
       "type": "construction",
@@ -329,15 +356,6 @@
       "link": "https://511nj.org/",
       "latitude": 42.7631881383304,
       "longitude": -73.7988042089433
-    },
-    {
-      "type": "construction",
-      "title": "I-678 southbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on I-678 southbound between Linden Place; I-678 (New York) and Roosevelt Avenue (New York) 1 Left lane of 4 lanes closed from 8:00 A.M. until 3:00 P.M.",
-      "published": "Sun, 15 Nov 2026 07:27:58 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7714747332898,
-      "longitude": -73.8333721111837
     },
     {
       "type": "construction",
@@ -770,15 +788,6 @@
       "link": "https://511nj.org/",
       "latitude": 43.2778130476687,
       "longitude": -76.4635173326389
-    },
-    {
-      "type": "construction",
-      "title": "I-90 - NYS Thruway eastbound : Construction",
-      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-90 - NYS Thruway eastbound from After Exit 25A (I-90) - Schenectady (I-88) to Before Exit 25A (I-90) - Schenectady (I-88) until 11:00 AM, 11/15/2026 [CARS CAD-263130317]",
-      "published": "Mon, 09 Nov 2026 19:15:12 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.793004,
-      "longitude": -74.016399
     },
     {
       "type": "construction",
@@ -2446,8 +2455,8 @@
   ],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 4 records",
-    "construction": "available: 237 records",
+    "incidents": "available: 8 records",
+    "construction": "available: 234 records",
     "news": "available: 20 records"
   }
 }
