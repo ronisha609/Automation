@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T01:14:50.104568+00:00",
+  "generatedAt": "2026-11-15T08:21:56.939329+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -8,76 +8,6 @@
   "weather": {
     "location": "Trenton, NJ",
     "periods": [
-      {
-        "startTime": "2026-11-14T20:00:00-05:00",
-        "temperature": 41,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 1,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-14T21:00:00-05:00",
-        "temperature": 41,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "W",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 1,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-14T22:00:00-05:00",
-        "temperature": 40,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "W",
-        "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 1,
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
-      },
-      {
-        "startTime": "2026-11-14T23:00:00-05:00",
-        "temperature": 39,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "W",
-        "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 2,
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
-      },
-      {
-        "startTime": "2026-11-15T00:00:00-05:00",
-        "temperature": 39,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "W",
-        "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 2,
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
-      },
-      {
-        "startTime": "2026-11-15T01:00:00-05:00",
-        "temperature": 39,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "NW",
-        "shortForecast": "Partly Cloudy",
-        "probabilityOfPrecipitation": 2,
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
-      },
-      {
-        "startTime": "2026-11-15T02:00:00-05:00",
-        "temperature": 38,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "NW",
-        "shortForecast": "Mostly Clear",
-        "probabilityOfPrecipitation": 2,
-        "icon": "https://api.weather.gov/icons/land/night/few?size=small"
-      },
       {
         "startTime": "2026-11-15T03:00:00-05:00",
         "temperature": 38,
@@ -127,6 +57,76 @@
         "shortForecast": "Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/few?size=small"
+      },
+      {
+        "startTime": "2026-11-15T08:00:00-05:00",
+        "temperature": 39,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
+      },
+      {
+        "startTime": "2026-11-15T09:00:00-05:00",
+        "temperature": 44,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
+      },
+      {
+        "startTime": "2026-11-15T10:00:00-05:00",
+        "temperature": 47,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
+      },
+      {
+        "startTime": "2026-11-15T11:00:00-05:00",
+        "temperature": 49,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
+      },
+      {
+        "startTime": "2026-11-15T12:00:00-05:00",
+        "temperature": 50,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/day/few?size=small"
+      },
+      {
+        "startTime": "2026-11-15T13:00:00-05:00",
+        "temperature": 52,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny",
+        "probabilityOfPrecipitation": 2,
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
+      },
+      {
+        "startTime": "2026-11-15T14:00:00-05:00",
+        "temperature": 52,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny",
+        "probabilityOfPrecipitation": 3,
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
       }
     ]
   },
@@ -134,66 +134,48 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "New Jersey Turnpike northbound : Disabled vehicle",
-      "description": "NJ Turnpike Auth.: Disabled vehicle on New Jersey Turnpike northbound entering at Interchange 13 - I-278/Goethals Bridge (Linden) partial ramp blocked , right lane.",
-      "published": "Sat, 14 Nov 2026 20:10:22 -0500",
+      "title": "I-684 southbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on I-684 southbound at Exit 6A - NY 22 to NY 138 - Goldens Bridge (Northbound Exit Ramp) (Lewisboro) right shoulder of 3 lanes blocked MM 19.0 Int #97989080",
+      "published": "Sun, 15 Nov 2026 02:59:24 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.6356693285,
-      "longitude": -74.2093398709
+      "latitude": 41.2794,
+      "longitude": -73.6817
     },
     {
       "type": "incident",
-      "title": "New Jersey Turnpike southbound : Crash",
-      "description": "NJ Turnpike Auth.: Crash and Jack-knifed tractor trailer on New Jersey Turnpike outer roadway southbound North of Interchange 12 - Carteret-Rahway (Linden) right lane blocked",
-      "published": "Sat, 14 Nov 2026 19:24:11 -0500",
+      "title": "Garden State Parkway northbound : Crash",
+      "description": "NJ Turnpike Auth.: Crash on Garden State Parkway northbound Exit 140-A - NJ 82 West - southbound exit only (Union Twp) 2 Left lanes of 4 lanes blocked",
+      "published": "Sun, 15 Nov 2026 02:56:01 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.601547772,
-      "longitude": -74.230208184
+      "latitude": 40.6952386471926,
+      "longitude": -74.2605309452424
     },
     {
       "type": "incident",
-      "title": "US 9 northbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on US 9 northbound at Albany Post Road; CR 306 (Cortlandt) right shoulder of 2 lanes blocked CAD 97968080",
-      "published": "Sat, 14 Nov 2026 19:05:34 -0500",
+      "title": "I-684 southbound : Crash with Property Damage",
+      "description": "NYSDOT - Region 8: Crash with property damage on I-684 southbound south of Exit 5 - Saw Mill River Parkway (NB Entrance Ramp / SB Exit Ramp) (Bedford) right shoulder of 3 lanes blocked MM 15.2 Inc #97985080",
+      "published": "Sun, 15 Nov 2026 02:22:20 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.3094,
-      "longitude": -73.9315
+      "latitude": 41.2288,
+      "longitude": -73.6821
     },
     {
       "type": "incident",
-      "title": "US 1 northbound : Watermain break",
-      "description": "NJ DOT - STMC: Water Main Break on US 1 Northbound At Deans Ln (South Brunswick Twp), 1 right lane of 3 lanes closed",
-      "published": "Sat, 14 Nov 2026 19:29:57 -0500",
+      "title": "NY 121 northbound : Crash with Property Damage",
+      "description": "NYSDOT - Region 8: Crash with property damage on NY 121 northbound south of Bloomer Road (North Salem) right shoulder of 2 lanes blocked (Between Vail Lane and Bloomer Road) CAD #97983080",
+      "published": "Sun, 15 Nov 2026 01:41:37 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.4206199645996,
-      "longitude": -74.5295028686523
+      "latitude": 41.3486,
+      "longitude": -73.5686
     },
     {
       "type": "incident",
-      "title": "I-495 westbound : Crash",
-      "description": "NYSDOT - Region 10: Crash on Long Island Expressway/I-495 HOV Lane westbound between Exit 39 - Glen Cove Road (North Hempstead) and Exit 37 - Willis Avenue (North Hempstead) 2 Left lanes of 4 lanes closed",
-      "published": "Sat, 14 Nov 2026 18:58:56 -0500",
+      "title": "New Jersey Turnpike southbound : Crash with Property Damage",
+      "description": "NJ Turnpike Auth.: Crash with Property Damage on New Jersey Turnpike outer roadway southbound South of Interchange 7 - US 206 (Bordentown Twp) right shoulder blocked",
+      "published": "Sun, 15 Nov 2026 00:38:50 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7833118411484,
-      "longitude": -73.6231889948943
-    },
-    {
-      "type": "incident",
-      "title": "US 322 both directions : Traffic Signal Down",
-      "description": "NJ DOT - STMC: Traffic Signal Down on US 322 Both Directions West of CR 612/Corkery Ln (Monroe Twp), 1 right lane of 2 lanes closed westbound; 1 left lane of 3 lanes closed eastbound",
-      "published": "Sat, 14 Nov 2026 18:59:20 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.6691513061523,
-      "longitude": -74.9737930297852
-    },
-    {
-      "type": "incident",
-      "title": "US 202 southbound : Watermain break",
-      "description": "NJ DOT - STMC: Water Main Break on US 202 Southbound North of Summer Rd (Readington Twp), 1 right lane of 2 lanes, right shoulder closed",
-      "published": "Sat, 14 Nov 2026 17:17:38 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.5361404418945,
-      "longitude": -74.7698669433594
+      "latitude": 40.1195872354,
+      "longitude": -74.7059954308
     },
     {
       "type": "incident",
@@ -221,6 +203,105 @@
       "link": "https://511nj.org/",
       "latitude": 40.8567846997699,
       "longitude": -73.9734259635123
+    },
+    {
+      "type": "construction",
+      "title": "I-87 - NYS Thruway northbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-87 - NYS Thruway northbound from After Exit 21 (I-87) - Catskill (Rte 23) to After Exit 21 (I-87) - Catskill (Rte 23) until 5:30 AM, 11/15/2026 [CARS CAD-263190013]",
+      "published": "Sun, 15 Nov 2026 01:19:18 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.311711,
+      "longitude": -73.869485
+    },
+    {
+      "type": "construction",
+      "title": "NY 59 both directions : Construction",
+      "description": "NYSDOT - Region 8: Construction, road rehabilitation on NY 59 both directions ramps to NY 303 Northbound/Southbound (Clarkstown) ramp closed and detoured until 11:59 P.M. D265648/NIGHT/32740009 - This work is weather permitting. Plan travel accordingly; delays may exist",
+      "published": "Sun, 15 Nov 2026 00:00:50 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.0937307941016,
+      "longitude": -73.9504828426153
+    },
+    {
+      "type": "construction",
+      "title": "I-87 - NYS Thruway northbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left lane closed on I-87 - NYS Thruway northbound from After Exit 8/8A (I-87) - I-287 - Route 119 - Saw Mill River Parkway to After Exit 9 (I-87) - Tarrytown (Rte 9) until 6:30 AM, 11/15/2026 [CARS CAD-263180366]",
+      "published": "Sat, 14 Nov 2026 23:26:58 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.060803,
+      "longitude": -73.844447
+    },
+    {
+      "type": "construction",
+      "title": "George Washington Bridge eastbound : Construction",
+      "description": "Port Authority NY/NJ: Construction , construction on George Washington Bridge Lower Level eastbound ramps from Exit 1A - Henry Hudson Parkway (New York) 1 Left lane of 2 lanes closed until 9:30 AM",
+      "published": "Sat, 14 Nov 2026 22:39:07 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.849122,
+      "longitude": -73.940771
+    },
+    {
+      "type": "construction",
+      "title": "Garden State Parkway southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork, roadwork on Garden State Parkway southbound Exit 120 - Laurence Harbor (Old Bridge Twp) exit ramp closed for repairs until 9:00 A.M.",
+      "published": "Sat, 14 Nov 2026 22:35:54 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.4354157971758,
+      "longitude": -74.2521141895769
+    },
+    {
+      "type": "construction",
+      "title": "George Washington Bridge westbound : Construction",
+      "description": "Port Authority NY/NJ: Construction , construction on George Washington Bridge Lower Level westbound ramp from Exit 1A - Henry Hudson Parkway (New York) All lanes closed until 9:30 AM",
+      "published": "Sat, 14 Nov 2026 22:35:07 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.849749,
+      "longitude": -73.941445
+    },
+    {
+      "type": "construction",
+      "title": "George Washington Bridge eastbound : Construction",
+      "description": "Port Authority NY/NJ: Construction on George Washington Bridge Lower Level eastbound New Jersey Side Toll Plaza (Fort Lee) to Exit 1B - Harlem River Drive/Amsterdam Avenue (Manhattan) All lanes closed until 9:30 A.M.",
+      "published": "Sat, 14 Nov 2026 22:23:15 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8548945523562,
+      "longitude": -73.9705291047124
+    },
+    {
+      "type": "construction",
+      "title": "George Washington Bridge westbound : Construction",
+      "description": "Port Authority NY/NJ: Construction on George Washington Bridge Lower Level westbound New York Side (New York) to New Jersey Side (Fort Lee) All lanes closed and detoured until 9:30 A.M.",
+      "published": "Sat, 14 Nov 2026 22:23:35 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.850287,
+      "longitude": -73.945033
+    },
+    {
+      "type": "construction",
+      "title": "I-280 eastbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on I-280 Eastbound between I-80 (Parsippany-Troy Hills Twp) and West of Exit 1W - New Rd (Parsippany-Troy Hills Twp), Saturday November 14, 2026 10:00 PM thru Sunday November 15, 2026 08:00 AM, left lane closed",
+      "published": "Sat, 14 Nov 2026 22:00:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8593215942383,
+      "longitude": -74.3777618408203
+    },
+    {
+      "type": "construction",
+      "title": "I-280 westbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on I-280 Westbound between West of Exit 1W - New Rd (Parsippany-Troy Hills Twp) and I-80 (Parsippany-Troy Hills Twp), Saturday November 14, 2026 10:00 PM thru Sunday November 15, 2026 08:00 AM, left lane closed",
+      "published": "Sat, 14 Nov 2026 22:00:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8557586669922,
+      "longitude": -74.3595123291016
+    },
+    {
+      "type": "construction",
+      "title": "I-87 - NYS Thruway northbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right and center lanes closed on I-87 - NYS Thruway northbound from Before Exit 10 (I-87) - South Nyack (US 9W) to After Exit 10 (I-87) - South Nyack (US 9W) until 6:00 AM, 11/15/2026 [CARS CAD-263180309]",
+      "published": "Sat, 14 Nov 2026 21:06:12 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.070203,
+      "longitude": -73.899369
     },
     {
       "type": "construction",
@@ -275,33 +356,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.555219,
       "longitude": -72.849255
-    },
-    {
-      "type": "construction",
-      "title": "I-280 eastbound : Construction",
-      "description": "NJ DOT - STMC: Roadwork on I-280 Eastbound West of Exit 13 - Orange St/1st St (Newark) Saturday November 14, 2026 04:56 PM thru Sunday November 15, 2026 12:56 AM, 1 right lane of 2 lanes, right shoulder closed",
-      "published": "Sat, 14 Nov 2026 16:58:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7523727416992,
-      "longitude": -74.1913681030273
-    },
-    {
-      "type": "construction",
-      "title": "NY 31 eastbound : Construction",
-      "description": "NYSDOT - Region 4: Construction , gas main repairs on NY 31 eastbound from 3001 Monroe Ave (Pittsford) to Wegmans, Monroe Ave (Pittsford) 1 Right lane of 2 lanes closed intermittently until 11:59 PM",
-      "published": "Sat, 14 Nov 2026 07:00:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.1095906676839,
-      "longitude": -77.5457409347574
-    },
-    {
-      "type": "construction",
-      "title": "TOWN LINE RD both directions : Construction",
-      "description": "CT DOT-Newington-HWY-Oper Ctr: Construction , construction on TOWN LINE RD both directions between BROOKSIDE DR (Southington) and RED STONE HL at CHIMNEY CREST LN (Bristol) All lanes of 1 lane open until 9:00 PM There may be lane and shoulder closures on Town Line Road and Red Stone Hill Road",
-      "published": "Sat, 14 Nov 2026 06:00:19 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.6497127490642,
-      "longitude": -72.8818944527624
     },
     {
       "type": "construction",
@@ -626,24 +680,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.0940517207172,
       "longitude": -74.0039065867927
-    },
-    {
-      "type": "construction",
-      "title": "I-684 southbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, culvert repairs on I-684 southbound between Exit 6 - NY 35 (Bedford) and Exit 8 - Hardscrabble Road (CR 138) (North Salem) left lane and shoulder closed to traffic until 11:59 P.M. on November 08, 2026 D265186/B1077550/32651809 - 24/7 SHOULDER/LEFT LANE CLOSURE - Plan travel accordingly; delays may exist",
-      "published": "Mon, 02 Nov 2026 12:39:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3032094288421,
-      "longitude": -73.6748290893133
-    },
-    {
-      "type": "construction",
-      "title": "I-684 northbound : Construction",
-      "description": "NYSDOT - Region 8: Construction, culvert repairs on I-684 northbound between Exit 6A - NY 138 (Lewisboro) and Exit 8 - Hardscrabble Road (North Salem) various lanes closed to traffic until 11:59 P.M. on November 08, 2026 D265186/B1077550/32795809 - 24/7 SHOULDER/LANE CLOSURE - Plan travel accordingly; delays may exist",
-      "published": "Mon, 02 Nov 2026 12:30:18 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.2952003479004,
-      "longitude": -73.677001953125
     },
     {
       "type": "construction",
@@ -2026,8 +2062,8 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 10 records",
-    "construction": "available: 200 records",
+    "incidents": "available: 8 records",
+    "construction": "available: 206 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }
