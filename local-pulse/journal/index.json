@@ -2,24 +2,48 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 15,
-    "briefsSent": 15,
+    "dayNumber": 16,
+    "briefsSent": 16,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 9,
+      "crash or closure": 10,
       "weather alert": 2,
       "flooding": 2,
       "rain": 4,
-      "cold or frost": 1,
-      "construction": 15,
+      "cold or frost": 2,
+      "construction": 16,
       "quiet day": 0
     },
-    "screenshots": 15,
+    "screenshots": 16,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-16",
+      "sentAt": "2026-11-16T21:04:17.603061+00:00",
+      "message": "Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound (22.7 mi away) and 1 more nearby. It's 53°F, Mostly Sunny, up to 53°. Watch for frost or slick spots early.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "crash or closure",
+        "construction",
+        "cold or frost"
+      ],
+      "nearbyIncidents": 2,
+      "nearbyConstruction": 6,
+      "weatherAlerts": [],
+      "weather": {
+        "now": "53°F, Mostly Sunny",
+        "low": 34,
+        "high": 53,
+        "maxRainChance": 0,
+        "wettestHour": "4 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-16.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-15",
       "sentAt": "2026-11-15T17:46:25.913062+00:00",

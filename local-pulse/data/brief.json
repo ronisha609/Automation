@@ -1,30 +1,42 @@
 {
-  "generatedAt": "2026-11-15T17:46:25.913062+00:00",
+  "generatedAt": "2026-11-16T21:04:17.603061+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 53°F, Mostly Sunny, up to 54°.",
+  "text": "Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound (22.7 mi away) and 1 more nearby. It's 53°F, Mostly Sunny, up to 53°. Watch for frost or slick spots early.",
   "source": "rules",
-  "fingerprint": "e27f6b2c8d37cea4",
+  "fingerprint": "f2d3687cdaffbea5",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Sunday, November 15",
+    "date": "Monday, November 16",
     "special": "",
     "weather": {
       "now": "53°F, Mostly Sunny",
-      "low": 37,
-      "high": 54,
-      "maxRainChance": 1,
-      "wettestHour": "12 PM",
+      "low": 34,
+      "high": 53,
+      "maxRainChance": 0,
+      "wettestHour": "4 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
+        "what": "crash or incident",
+        "where": "New Jersey Turnpike southbound",
+        "detail": "NJ Turnpike Auth.: Crash and Overturned tractor trailer on New Jersey Turnpike southbound South of Interchange 4 - NJ 73 (Mount Laurel Twp) 2 Left Lanes blocked",
+        "milesAway": 22.7
+      },
+      {
+        "what": "crash or incident",
+        "where": "NJ 73 northbound",
+        "detail": "NJ DOT - TOC South: Crash on NJ 73 Northbound At New Jersey Turnpike (Mount Laurel Twp), 1 right lane of 2 lanes, right shoulder closed",
+        "milesAway": 22.9
+      },
+      {
         "what": "construction",
         "where": "New Jersey Turnpike northbound : Roadwork",
-        "detail": "NJ Turnpike Auth.: Roadwork, roadwork on New Jersey Turnpike Inner Roadway northbound Entrance ramp Interchange 7A - I-195 (Robbinsville Twp) All lanes closed for repairs due to roadwork until 4:00 P.",
-        "milesAway": 8.0
+        "detail": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike inner roadway Northbound at Interchange 7A - I-195 (Robbinsville) ramp closed until 3:00 P.M.",
+        "milesAway": 7.2
       },
       {
         "what": "construction",
@@ -43,24 +55,13 @@
         "where": "Betsy Ross Bridge westbound",
         "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
         "milesAway": 23.3
-      },
-      {
-        "what": "construction",
-        "where": "NJ 18 northbound",
-        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
-        "milesAway": 24.0
       }
     ],
     "roadCounts": {
-      "incidents": 0,
-      "construction": 5
+      "incidents": 2,
+      "construction": 6
     },
-    "headlines": [
-      "Could everything be broken ? Grounded jets , Microsoft outage , AI chaos make some wonder",
-      "Richard Sterban , longtime Oak Ridge Boys member known for  Elvira  solo , dies at 83",
-      "Could everything be broken ? Grounded jets , Microsoft outage , AI chaos make some wonder",
-      "Richard Sterban , longtime Oak Ridge Boys member known for  Elvira  solo , dies at 83"
-    ]
+    "headlines": []
   },
   "ntfyTopic": "local-pulse-nj"
 }
