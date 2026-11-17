@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-11-16T21:04:17.603061+00:00",
+  "generatedAt": "2026-11-17T19:53:09.900919+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound (22.7 mi away) and 1 more nearby. It's 53°F, Mostly Sunny, up to 53°. Watch for frost or slick spots early.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 29 construction zones could slow you down. It's 56°F, Sunny, up to 57°. Watch for frost or slick spots early.",
   "source": "rules",
-  "fingerprint": "f2d3687cdaffbea5",
+  "fingerprint": "d417cdc499e4b9ed",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Monday, November 16",
+    "date": "Tuesday, November 17",
     "special": "",
     "weather": {
-      "now": "53°F, Mostly Sunny",
-      "low": 34,
-      "high": 53,
+      "now": "56°F, Sunny",
+      "low": 36,
+      "high": 57,
       "maxRainChance": 0,
-      "wettestHour": "4 PM",
+      "wettestHour": "2 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
-        "what": "crash or incident",
-        "where": "New Jersey Turnpike southbound",
-        "detail": "NJ Turnpike Auth.: Crash and Overturned tractor trailer on New Jersey Turnpike southbound South of Interchange 4 - NJ 73 (Mount Laurel Twp) 2 Left Lanes blocked",
-        "milesAway": 22.7
-      },
-      {
-        "what": "crash or incident",
-        "where": "NJ 73 northbound",
-        "detail": "NJ DOT - TOC South: Crash on NJ 73 Northbound At New Jersey Turnpike (Mount Laurel Twp), 1 right lane of 2 lanes, right shoulder closed",
-        "milesAway": 22.9
+        "what": "construction",
+        "where": "I-295 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near south of Exit 69 - US 206 (Lawrence Twp), Tuesday November 17, 2026 10:00 AM thru 03:00 PM, left lane closed",
+        "milesAway": 4.8
       },
       {
         "what": "construction",
-        "where": "New Jersey Turnpike northbound : Roadwork",
-        "detail": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike inner roadway Northbound at Interchange 7A - I-195 (Robbinsville) ramp closed until 3:00 P.M.",
-        "milesAway": 7.2
+        "where": "I-295 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Bordentown Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, le",
+        "milesAway": 5.5
       },
       {
         "what": "construction",
-        "where": "US 202 northbound",
-        "detail": "NJDOT - STMC: Roadwork on US 202 Northbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 12, 2026 12:00 AM thru Sunday November 22, 2026 11:59 PM, left shoulder",
-        "milesAway": 22.9
+        "where": "US 1 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between North of Alexander Rd (West Windsor Twp) and Sandhill Rd/Major Rd (South Brunswick Twp), Tuesday November 17, 2026 10:00 AM thru 03:00 PM, right ",
+        "milesAway": 9.5
       },
       {
         "what": "construction",
-        "where": "US 202 southbound",
-        "detail": "NJDOT - STMC: Roadwork on US 202 Southbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 12, 2026 12:00 AM thru Monday November 30, 2026 11:59 PM, left shoulder",
-        "milesAway": 23.2
+        "where": "US 130 southbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Southbound between South of Neck Rd (Burlington Twp) and North of CR 629/Woodlane Rd (Burlington Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, right lan",
+        "milesAway": 10.1
       },
       {
         "what": "construction",
-        "where": "Betsy Ross Bridge westbound",
-        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
-        "milesAway": 23.3
+        "where": "US 130 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of NJ 33 (East Windsor Twp) and South of CR 614/Dey Rd (Cranbury Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, right lane close",
+        "milesAway": 10.8
+      },
+      {
+        "what": "construction",
+        "where": "US 130 northbound",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of CR 629/Woodlane Rd (Burlington Twp) and South of Neck Rd (Burlington Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, right lan",
+        "milesAway": 13.5
       }
     ],
     "roadCounts": {
-      "incidents": 2,
-      "construction": 6
+      "incidents": 0,
+      "construction": 29
     },
     "headlines": []
   },
