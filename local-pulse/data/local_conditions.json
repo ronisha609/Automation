@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T19:20:45.253902+00:00",
+  "generatedAt": "2026-11-18T19:25:32.901812+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -158,24 +158,6 @@
       "link": "https://511nj.org/",
       "latitude": 40.7850331353744,
       "longitude": -73.648982808927
-    },
-    {
-      "type": "incident",
-      "title": "Corbin Street southbound : Disabled tractor trailer",
-      "description": "Port Authority NY/NJ: Disabled tractor trailer on Corbin Street southbound approaching Tyler (Newark) 1 Right lane of 3 lanes blocked",
-      "published": "Wed, 18 Nov 2026 13:55:25 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.6944303511507,
-      "longitude": -74.1566718650022
-    },
-    {
-      "type": "incident",
-      "title": "Garden State Parkway northbound : Crash",
-      "description": "NJ Turnpike Auth.: Crash on Garden State Parkway northbound entering at Exit 82 - NJ 37 East (Toms River Twp) partial ramp blocked",
-      "published": "Wed, 18 Nov 2026 13:53:41 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.96253225,
-      "longitude": -74.2064146212
     },
     {
       "type": "incident",
@@ -581,15 +563,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.704914,
       "longitude": -72.644566
-    },
-    {
-      "type": "construction",
-      "title": "W 158TH ST northbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on W 158TH ST northbound at HENRY HUDSON PKWY (New York) 1 Right lane of 3 lanes closed",
-      "published": "Wed, 18 Nov 2026 10:14:37 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8364996994381,
-      "longitude": -73.9488269943814
     },
     {
       "type": "construction",
@@ -1301,15 +1274,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.975066,
       "longitude": -73.938052
-    },
-    {
-      "type": "construction",
-      "title": "I-384 eastbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-384 Eastbound between Exits 3 and 4 (1.4 miles) in effect today until 3:30 pm. The right lane is closed. Reported Wednesday, November 18 at 9:15 am.",
-      "published": "Wed, 18 Nov 2026 09:15:47 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.764398,
-      "longitude": -72.547498
     },
     {
       "type": "construction",
@@ -2966,15 +2930,6 @@
       "link": "https://511nj.org/",
       "latitude": 41.561774,
       "longitude": -72.163799
-    },
-    {
-      "type": "construction",
-      "title": "I-384 eastbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-384 Eastbound between Exits 3 and 4 (1.4 miles) in effect today until 3:30 pm. The right shoulder is closed. Reported Wednesday, November 18 at 8:07 am.",
-      "published": "Wed, 18 Nov 2026 08:07:42 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.764398,
-      "longitude": -72.547498
     },
     {
       "type": "construction",
@@ -6379,11 +6334,47 @@
       "longitude": -74.1505620476053
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Parents unaware California daycare was giving  sleeping gummie to preschoolers , lawsuit claims – Daily Herald",
+      "url": "https://www.dailyherald.com/2026/11/18/parents-unaware-orange-daycare-was-giving-sleeping-gummies-to-preschoolers-lawsuit-claims/",
+      "domain": "dailyherald.com",
+      "seenDate": "20261118T173000Z",
+      "image": "https://www.dailyherald.com/wp-content/uploads/2026/11/OCR-L-GUMMIES-07-copy.jpg"
+    },
+    {
+      "title": "Reading Glass Books Brings a World of Stories to the Miami Book Fair 2026",
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=364337",
+      "domain": "webwire.com",
+      "seenDate": "20261118T011500Z",
+      "image": null
+    },
+    {
+      "title": "US has lost measles elimination status , global health authorities say",
+      "url": "https://www.wfyi.org/health/2026-11-17/us-has-lost-measles-elimination-status-global-health-authorities-say",
+      "domain": "wfyi.org",
+      "seenDate": "20261118T011500Z",
+      "image": "http://npr-brightspot.s3.amazonaws.com/17/49/1f36704d408faf669fa00f372d61/measles-02.jpg"
+    },
+    {
+      "title": "Luke Hughes is RWJBarnabas newest brand ambassador – The Observer Online",
+      "url": "https://www.theobserver.com/2026/11/17/luke-hughes-is-rwjbarnabass-newest-brand-ambassador/",
+      "domain": "theobserver.com",
+      "seenDate": "20261118T011500Z",
+      "image": "https://www.theobserver.com/wp-content/uploads/2026/11/www-2.jpeg"
+    },
+    {
+      "title": "Mansfield University closing : A Solomon choice between finances , community benefit – The Morning Call",
+      "url": "https://www.mcall.com/2026/11/17/mansfield-university-closing-commonwealth-history/",
+      "domain": "mcall.com",
+      "seenDate": "20261118T011500Z",
+      "image": "https://www.mcall.com/wp-content/uploads/2026/11/TMC-L-Mansfield-108409046_fd7d22.jpg"
+    }
+  ],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 20 records",
-    "construction": "available: 674 records",
-    "news": "unavailable: HTTP Error 429: Too Many Requests"
+    "incidents": "available: 18 records",
+    "construction": "available: 671 records",
+    "news": "available: 5 records"
   }
 }

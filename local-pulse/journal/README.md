@@ -1,13 +1,14 @@
 # Local Pulse: 90-Day Log
 
-Started 2026-11-01. Day 17 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
+Started 2026-11-01. Day 18 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
 
 | Briefs sent | Days with a crash or closure nearby | Weather alerts | Rain | Cold or frost | Quiet days |
 | --- | --- | --- | --- | --- | --- |
-| 17 | 10 | 2 | 4 | 3 | 0 |
+| 18 | 10 | 2 | 4 | 4 | 0 |
 
 | Date | Message | Flagged | Screenshot |
 | --- | --- | --- | --- |
+| 2026-11-18 | Good morning, Central New Jersey. No crashes nearby right now, but 27 construction zones could slow you down. It's 61°F, Sunny, up to 61°. Watch for frost or slick spots early. | construction, cold or frost | [view](screens/2026-11-18.jpg) |
 | 2026-11-17 | Good morning, Central New Jersey. No crashes nearby right now, but 29 construction zones could slow you down. It's 56°F, Sunny, up to 57°. Watch for frost or slick spots early. | construction, cold or frost | [view](screens/2026-11-17.jpg) |
 | 2026-11-16 | Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound (22.7 mi away) and 1 more nearby. It's 53°F, Mostly Sunny, up to 53°. Watch for frost or slick spots early. | crash or closure, construction, cold or frost | [view](screens/2026-11-16.jpg) |
 | 2026-11-15 | Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 53°F, Mostly Sunny, up to 54°. | construction | [view](screens/2026-11-15.jpg) |

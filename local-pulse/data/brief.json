@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-17T19:53:09.900919+00:00",
+  "generatedAt": "2026-11-18T19:25:57.146603+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 29 construction zones could slow you down. It's 56°F, Sunny, up to 57°. Watch for frost or slick spots early.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 27 construction zones could slow you down. It's 61°F, Sunny, up to 61°. Watch for frost or slick spots early.",
   "source": "rules",
-  "fingerprint": "d417cdc499e4b9ed",
+  "fingerprint": "8d3eb1da3bc175b8",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Tuesday, November 17",
+    "date": "Wednesday, November 18",
     "special": "",
     "weather": {
-      "now": "56°F, Sunny",
+      "now": "61°F, Sunny",
       "low": 36,
-      "high": 57,
+      "high": 61,
       "maxRainChance": 0,
       "wettestHour": "2 PM",
       "hoursCovered": 12
@@ -23,45 +23,50 @@
       {
         "what": "construction",
         "where": "I-295 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near south of Exit 69 - US 206 (Lawrence Twp), Tuesday November 17, 2026 10:00 AM thru 03:00 PM, left lane closed",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near south of Exit 69 - US 206 (Lawrence Twp), Wednesday November 18, 2026 10:00 AM thru 03:00 PM, left lane closed",
         "milesAway": 4.8
       },
       {
         "what": "construction",
         "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Bordentown Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, le",
+        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Bordentown Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Wednesday November 18, 2026 09:00 AM thru 03:00 PM, ",
         "milesAway": 5.5
       },
       {
         "what": "construction",
         "where": "US 1 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between North of Alexander Rd (West Windsor Twp) and Sandhill Rd/Major Rd (South Brunswick Twp), Tuesday November 17, 2026 10:00 AM thru 03:00 PM, right ",
+        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between North of Alexander Rd (West Windsor Twp) and Sandhill Rd/Major Rd (South Brunswick Twp), Wednesday November 18, 2026 10:00 AM thru 03:00 PM, righ",
         "milesAway": 9.5
       },
       {
         "what": "construction",
         "where": "US 130 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Southbound between South of Neck Rd (Burlington Twp) and North of CR 629/Woodlane Rd (Burlington Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, right lan",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Southbound between South of Neck Rd (Burlington Twp) and North of CR 629/Woodlane Rd (Burlington Twp), Wednesday November 18, 2026 09:00 AM thru 03:00 PM, right l",
         "milesAway": 10.1
       },
       {
         "what": "construction",
         "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of NJ 33 (East Windsor Twp) and South of CR 614/Dey Rd (Cranbury Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, right lane close",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of NJ 33 (East Windsor Twp) and South of CR 614/Dey Rd (Cranbury Twp), Wednesday November 18, 2026 09:00 AM thru 03:00 PM, right lane clo",
         "milesAway": 10.8
       },
       {
         "what": "construction",
         "where": "US 130 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of CR 629/Woodlane Rd (Burlington Twp) and South of Neck Rd (Burlington Twp), Tuesday November 17, 2026 09:00 AM thru 03:00 PM, right lan",
+        "detail": "NJDOT - TOC South: Roadwork on US 130 Northbound between North of CR 629/Woodlane Rd (Burlington Twp) and South of Neck Rd (Burlington Twp), Wednesday November 18, 2026 09:00 AM thru 03:00 PM, right l",
         "milesAway": 13.5
       }
     ],
     "roadCounts": {
       "incidents": 0,
-      "construction": 29
+      "construction": 27
     },
-    "headlines": []
+    "headlines": [
+      "Parents unaware California daycare was giving  sleeping gummie to preschoolers , lawsuit claims – Daily Herald",
+      "Reading Glass Books Brings a World of Stories to the Miami Book Fair 2026",
+      "US has lost measles elimination status , global health authorities say",
+      "Luke Hughes is RWJBarnabas newest brand ambassador – The Observer Online"
+    ]
   },
   "ntfyTopic": "local-pulse-nj"
 }
