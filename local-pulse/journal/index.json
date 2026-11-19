@@ -2,24 +2,47 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 18,
-    "briefsSent": 18,
+    "dayNumber": 19,
+    "briefsSent": 19,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 10,
+      "crash or closure": 11,
       "weather alert": 2,
       "flooding": 2,
       "rain": 4,
       "cold or frost": 4,
-      "construction": 18,
+      "construction": 19,
       "quiet day": 0
     },
-    "screenshots": 18,
+    "screenshots": 19,
     "townRequests": 0,
     "areasCovered": 68,
-    "areaMessagesLastRun": 67
+    "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-19",
+      "sentAt": "2026-11-19T19:29:58.130349+00:00",
+      "message": "Good morning, Central New Jersey. Watch for a closure at US 206 both directions : Downed pole (15.2 mi away). It's 66°F, Sunny, up to 66°.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "crash or closure",
+        "construction"
+      ],
+      "nearbyIncidents": 1,
+      "nearbyConstruction": 27,
+      "weatherAlerts": [],
+      "weather": {
+        "now": "66°F, Sunny",
+        "low": 39,
+        "high": 66,
+        "maxRainChance": 0,
+        "wettestHour": "2 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-19.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-18",
       "sentAt": "2026-11-18T19:25:57.146603+00:00",
