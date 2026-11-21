@@ -1,13 +1,14 @@
 # Local Pulse: 90-Day Log
 
-Started 2026-11-01. Day 20 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
+Started 2026-11-01. Day 21 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
 
 | Briefs sent | Days with a crash or closure nearby | Weather alerts | Rain | Cold or frost | Quiet days |
 | --- | --- | --- | --- | --- | --- |
-| 20 | 12 | 2 | 4 | 4 | 0 |
+| 21 | 12 | 2 | 4 | 4 | 0 |
 
 | Date | Message | Flagged | Screenshot |
 | --- | --- | --- | --- |
+| 2026-11-21 | Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 64°F, Mostly Sunny, up to 64°. | construction | [view](screens/2026-11-21.jpg) |
 | 2026-11-20 | Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound (23.5 mi away). It's 67°F, Sunny, up to 67°. | crash or closure, construction | [view](screens/2026-11-20.jpg) |
 | 2026-11-19 | Good morning, Central New Jersey. Watch for a closure at US 206 both directions : Downed pole (15.2 mi away). It's 66°F, Sunny, up to 66°. | crash or closure, construction | [view](screens/2026-11-19.jpg) |
 | 2026-11-18 | Good morning, Central New Jersey. No crashes nearby right now, but 27 construction zones could slow you down. It's 61°F, Sunny, up to 61°. Watch for frost or slick spots early. | construction, cold or frost | [view](screens/2026-11-18.jpg) |

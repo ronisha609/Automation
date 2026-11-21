@@ -1,65 +1,59 @@
 {
-  "generatedAt": "2026-11-20T19:08:07.455965+00:00",
+  "generatedAt": "2026-11-21T18:00:35.767401+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. Watch for a crash or incident at New Jersey Turnpike southbound (23.5 mi away). It's 67°F, Sunny, up to 67°.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 64°F, Mostly Sunny, up to 64°.",
   "source": "rules",
-  "fingerprint": "43b930455e35b1f3",
+  "fingerprint": "29208f19ee1fe06e",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Friday, November 20",
+    "date": "Saturday, November 21",
     "special": "",
     "weather": {
-      "now": "67°F, Sunny",
-      "low": 43,
-      "high": 67,
+      "now": "64°F, Mostly Sunny",
+      "low": 50,
+      "high": 64,
       "maxRainChance": 0,
-      "wettestHour": "2 PM",
+      "wettestHour": "1 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
       {
-        "what": "crash or incident",
-        "where": "New Jersey Turnpike southbound",
-        "detail": "NJ Turnpike Auth.: Crash on New Jersey Turnpike outer roadway southbound South of Interchange 9 - NJ 18 (East Brunswick Twp) all lanes open to traffic",
-        "milesAway": 23.5
+        "what": "construction",
+        "where": "I-195 westbound",
+        "detail": "NJDOT - TOC South: Roadwork on I-195 Westbound near East of Exit 5 - US 130 (Robbinsville), Saturday November 21, 2026 07:00 AM thru 05:00 PM, right shoulder",
+        "milesAway": 6.4
       },
       {
         "what": "construction",
-        "where": "I-295 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Northbound near south of Exit 69 - US 206 (Lawrence Twp), Friday November 20, 2026 10:00 AM thru 03:00 PM, left lane closed",
-        "milesAway": 4.8
+        "where": "US 202 northbound",
+        "detail": "NJDOT - STMC: Roadwork on US 202 Northbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 12, 2026 12:00 AM thru Sunday November 22, 2026 11:59 PM, left shoulder",
+        "milesAway": 22.9
       },
       {
         "what": "construction",
-        "where": "US 130 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Southbound near North of NJ 156 (Hamilton Twp), Friday November 20, 2026 09:00 AM thru 03:00 PM, right lane closed",
-        "milesAway": 4.8
+        "where": "US 202 southbound",
+        "detail": "NJDOT - STMC: Roadwork on US 202 Southbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 12, 2026 12:00 AM thru Monday November 30, 2026 11:59 PM, left shoulder",
+        "milesAway": 23.2
       },
       {
         "what": "construction",
-        "where": "I-295 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-295 Southbound between North of Exit 57 - US 130 (Bordentown Twp) and South of Exit 40 - NJ 38 (Mount Laurel Twp), Friday November 20, 2026 09:00 AM thru 03:00 PM, lef",
-        "milesAway": 5.5
+        "where": "Betsy Ross Bridge westbound",
+        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
+        "milesAway": 23.3
       },
       {
         "what": "construction",
-        "where": "US 1 northbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 1 Northbound between South of Washington Rd (West Windsor Twp) and South of Sandhill Rd/Major Rd (South Brunswick Twp), Friday November 20, 2026 10:00 AM thru 03:00 P",
-        "milesAway": 9.6
-      },
-      {
-        "what": "construction",
-        "where": "US 130 southbound",
-        "detail": "NJDOT - TOC South: Roadwork on US 130 Southbound between South of Neck Rd (Burlington Twp) and North of CR 629/Woodlane Rd (Burlington Twp), Friday November 20, 2026 09:00 AM thru 03:00 PM, right lane",
-        "milesAway": 10.1
+        "where": "NJ 18 northbound",
+        "detail": "NJDOT - STMC: Roadwork on NJ 18 Northbound at CR 606/Milltown Rd (East Brunswick Twp) Continuous Friday September 11, 2026 11:00 PM thru Friday May 12, 2028 05:00 AM, ramp",
+        "milesAway": 24.0
       }
     ],
     "roadCounts": {
-      "incidents": 1,
-      "construction": 23
+      "incidents": 0,
+      "construction": 5
     },
     "headlines": []
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T15:14:35.833767+00:00",
+  "generatedAt": "2026-11-21T18:00:07.999945+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -9,107 +9,87 @@
     "location": "Trenton, NJ",
     "periods": [
       {
-        "startTime": "2026-11-21T10:00:00-05:00",
-        "temperature": 54,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Partly Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-21T11:00:00-05:00",
-        "temperature": 59,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
-      },
-      {
-        "startTime": "2026-11-21T12:00:00-05:00",
-        "temperature": 63,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Partly Sunny",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
-      },
-      {
         "startTime": "2026-11-21T13:00:00-05:00",
         "temperature": 64,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SE",
         "shortForecast": "Mostly Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
       },
       {
         "startTime": "2026-11-21T14:00:00-05:00",
-        "temperature": 65,
+        "temperature": 64,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Sunny",
+        "windSpeed": "5 mph",
+        "windDirection": "SE",
+        "shortForecast": "Partly Sunny",
         "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=small"
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
       },
       {
         "startTime": "2026-11-21T15:00:00-05:00",
-        "temperature": 66,
+        "temperature": 64,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SE",
         "shortForecast": "Partly Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
       },
       {
         "startTime": "2026-11-21T16:00:00-05:00",
-        "temperature": 64,
+        "temperature": 62,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "SE",
         "shortForecast": "Partly Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
       },
       {
         "startTime": "2026-11-21T17:00:00-05:00",
-        "temperature": 60,
+        "temperature": 59,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Cloudy",
+        "windSpeed": "5 mph",
+        "windDirection": "E",
+        "shortForecast": "Partly Sunny",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
       },
       {
         "startTime": "2026-11-21T18:00:00-05:00",
-        "temperature": 57,
+        "temperature": 56,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Partly Cloudy",
+        "windSpeed": "5 mph",
+        "windDirection": "E",
+        "shortForecast": "Mostly Cloudy",
         "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=small"
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
       },
       {
         "startTime": "2026-11-21T19:00:00-05:00",
-        "temperature": 52,
+        "temperature": 53,
         "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
+        "windSpeed": "5 mph",
+        "windDirection": "E",
         "shortForecast": "Mostly Cloudy",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
       },
       {
         "startTime": "2026-11-21T20:00:00-05:00",
+        "temperature": 52,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "E",
+        "shortForecast": "Mostly Cloudy",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-21T21:00:00-05:00",
         "temperature": 51,
         "temperatureUnit": "F",
         "windSpeed": "0 mph",
@@ -119,7 +99,27 @@
         "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
       },
       {
-        "startTime": "2026-11-21T21:00:00-05:00",
+        "startTime": "2026-11-21T22:00:00-05:00",
+        "temperature": 50,
+        "temperatureUnit": "F",
+        "windSpeed": "0 mph",
+        "windDirection": "",
+        "shortForecast": "Mostly Cloudy",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-21T23:00:00-05:00",
+        "temperature": 50,
+        "temperatureUnit": "F",
+        "windSpeed": "0 mph",
+        "windDirection": "",
+        "shortForecast": "Mostly Cloudy",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-22T00:00:00-05:00",
         "temperature": 50,
         "temperatureUnit": "F",
         "windSpeed": "0 mph",
@@ -134,39 +134,30 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "Southern State Parkway eastbound : Crash",
-      "description": "NYSDOT - Region 10: Crash on Southern State Parkway eastbound between Exit 36 - Straight Path; CR 2 (Babylon) and Exit 37N - Belmont Avenue (Babylon) 1 Right lane of 4 lanes closed",
-      "published": "Sat, 21 Nov 2026 10:09:03 -0500",
+      "title": "US 9 northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on US 9 northbound at Old Hopewell Road; CR 28 (Wappinger) right shoulder of 3 lanes blocked CAD # 98542080",
+      "published": "Sat, 21 Nov 2026 12:53:20 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7266136127364,
-      "longitude": -73.3756041502245
+      "latitude": 41.5821,
+      "longitude": -73.9087
     },
     {
       "type": "incident",
-      "title": "I-287 - Cross Westchester Expwy westbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-287 - Cross Westchester Expwy westbound at Before Exit 9A (I-287) - Brewster (I-684) starting 9:52 AM, 11/21/2026 [CARS CAD-263250123]",
-      "published": "Sat, 21 Nov 2026 09:52:25 -0500",
+      "title": "NJ 20 northbound : Crash",
+      "description": "NJ DOT - STMC: Crash on NJ 20 Northbound At 18th Av (Paterson), 1 left lane of 3 lanes closed",
+      "published": "Sat, 21 Nov 2026 12:27:44 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.02713,
-      "longitude": -73.73407
+      "latitude": 40.9088401794434,
+      "longitude": -74.1342391967773
     },
     {
       "type": "incident",
-      "title": "I-90 - NYS Thruway eastbound : Vehicle fire",
-      "description": "NYSTA - Statewide Ops.: vehicle on fire ,right lane blocked on I-90 - NYS Thruway eastbound at After Exit 29A (I-90) - Little Falls (Rte 169) starting 10:01 AM, 11/21/2026 [CARS CAD-263250126]",
-      "published": "Sat, 21 Nov 2026 10:01:23 -0500",
+      "title": "I-78 westbound : Truck fire",
+      "description": "NJ DOT - STMC: Truck Fire on I-78 Westbound West of Exit 36 - CR 651 (Warren Twp), All lanes open",
+      "published": "Sat, 21 Nov 2026 12:59:07 -0500",
       "link": "https://511nj.org/",
-      "latitude": 43.007399,
-      "longitude": -74.873354
-    },
-    {
-      "type": "incident",
-      "title": "I-95 - New England Thruway southbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-95 - New England Thruway southbound at Before Exit 19 (I-95) - Rye - Playland Parkway starting 9:23 AM, 11/21/2026 [CARS CAD-263250113]",
-      "published": "Sat, 21 Nov 2026 09:23:49 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.97545,
-      "longitude": -73.716415
+      "latitude": 40.6470794677734,
+      "longitude": -74.533447265625
     },
     {
       "type": "incident",
@@ -181,19 +172,10 @@
       "type": "incident",
       "title": "NJ 20 southbound : Utility Pole Down",
       "description": "NJ DOT - STMC: Utility Pole Down on NJ 20 Southbound At 18th Av (Paterson), 2 right lanes of 3 lanes closed",
-      "published": "Sat, 21 Nov 2026 09:28:02 -0500",
+      "published": "Sat, 21 Nov 2026 10:16:04 -0500",
       "link": "https://511nj.org/",
       "latitude": 40.9088401794434,
       "longitude": -74.1342391967773
-    },
-    {
-      "type": "incident",
-      "title": "NJ 27 southbound : Watermain break",
-      "description": "NJ DOT - STMC: Water Main Break on NJ 27 Southbound North of Garden State Parkway (Woodbridge Twp), 1 right lane of 2 lanes closed",
-      "published": "Sat, 21 Nov 2026 09:21:22 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.5715408325195,
-      "longitude": -74.3246612548828
     },
     {
       "type": "incident",
@@ -221,6 +203,24 @@
       "link": "https://511nj.org/",
       "latitude": 40.8567846997699,
       "longitude": -73.9734259635123
+    },
+    {
+      "type": "construction",
+      "title": "I-90 westbound : Construction",
+      "description": "NYSDOT TMC - Albany: Construction , bridge inspection on I-90 westbound at Exit 5; Everett Road (Albany) 1 Left lane of 4 lanes closed until 3:30 PM",
+      "published": "Sat, 21 Nov 2026 12:30:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.684301,
+      "longitude": -73.788739
+    },
+    {
+      "type": "construction",
+      "title": "I-90 - NYS Thruway westbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-90 - NYS Thruway westbound from Before Exit 25A (I-90) - Schenectady (I-88) to Before Exit 25A (I-90) - Schenectady (I-88) until 5:30 PM, 11/21/2026 [CARS CAD-263250167]",
+      "published": "Sat, 21 Nov 2026 11:35:25 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.786218,
+      "longitude": -74.013184
     },
     {
       "type": "construction",
@@ -440,15 +440,6 @@
     },
     {
       "type": "construction",
-      "title": "I-90 westbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , bridge inspection on I-90 westbound at Exit 5; Everett Road (Albany) 1 Right lane of 4 lanes closed until 11:30 AM",
-      "published": "Sat, 21 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.684301,
-      "longitude": -73.788739
-    },
-    {
-      "type": "construction",
       "title": "I-81 northbound : Construction",
       "description": "NYSDOT - Region 3: Construction , guard rail repairs on I-81 northbound between I-481 (Syracuse) and Exit 1A - E Glen Ave (Syracuse) 1 Left lane of 2 lanes closed until 6:00 PM",
       "published": "Sat, 21 Nov 2026 09:00:09 -0500",
@@ -557,15 +548,6 @@
     },
     {
       "type": "construction",
-      "title": "George Washington Bridge eastbound : Construction",
-      "description": "Port Authority NY/NJ: Construction, construction on George Washington Bridge Upper Level eastbound New Jersey Side (Fort Lee) to New York Side (New York) 1 Right lane of 4 lanes closed",
-      "published": "Sat, 21 Nov 2026 08:06:48 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8532180005534,
-      "longitude": -73.9608446690645
-    },
-    {
-      "type": "construction",
       "title": "NY 120 both directions : Construction",
       "description": "NYSDOT - Region 8: Construction, utility work on NY 120 both directions between Marcourt Drive (New Castle) and Roaring Brook Road (New Castle) alternating traffic until 2:00 P.M. 2026087385521/328 - This work is weather permitting, Plan travel accordingly; delays may exist",
       "published": "Sat, 21 Nov 2026 08:01:10 -0500",
@@ -576,8 +558,8 @@
     {
       "type": "construction",
       "title": "I-95 southbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-95 Southbound between Exits 44 and 42 (1.8 miles) in effect today until 4:00 pm. The right lane is closed. Reported Saturday, November 21 at 7:58 am.",
-      "published": "Sat, 21 Nov 2026 07:59:33 -0500",
+      "description": "ConnDOT: I-95 Southbound is congested between Exits 46 and 43 (1.7 miles) because of Road Work between Exits 44 and 42 (1.8 miles). Road Work in effect today until 4:00 pm. The right lane is closed. Reported Saturday, November 21 at 11:03 am.",
+      "published": "Sat, 21 Nov 2026 11:03:18 -0500",
       "link": "https://511nj.org/",
       "latitude": 41.28357,
       "longitude": -72.942043
@@ -674,18 +656,9 @@
     },
     {
       "type": "construction",
-      "title": "NY 32 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , line striping on NY 32 both directions between Albany/Glenmont Line (Albany) and Watervliet City Line (Watervliet) All lanes of 3 lanes open until 12:00 PM",
-      "published": "Sat, 21 Nov 2026 08:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.6495183742905,
-      "longitude": -73.7506674470701
-    },
-    {
-      "type": "construction",
       "title": "I-95 northbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-95 Northbound between Exits 22 and 26 (2.5 miles) in effect today until 4:00 pm. The left lane is closed. Reported Saturday, November 21 at 6:51 am.",
-      "published": "Sat, 21 Nov 2026 07:54:54 -0500",
+      "description": "ConnDOT: Delays. I-95 Northbound is congested between Exits 19 and 23 (3.0 miles). I-95 Northbound Road Work between Exits 22 and 24 is now clear. Reported Saturday, November 21 at 10:26 am.",
+      "published": "Sat, 21 Nov 2026 12:24:35 -0500",
       "link": "https://511nj.org/",
       "latitude": 41.145883,
       "longitude": -73.259775
@@ -719,18 +692,9 @@
     },
     {
       "type": "construction",
-      "title": "I-190 - Niagara Thruway southbound : Construction",
-      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right lane closed on I-190 - Niagara Thruway southbound from After Exit N13 (I-190) - Austin St -Hertel Ave to After Exit N11 (I-190) - Scajaquada Expressway (Rte 198) until 11:45 AM, 11/21/2026 [CARS CAD-263250072]",
-      "published": "Sat, 21 Nov 2026 07:08:59 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.941211,
-      "longitude": -78.906696
-    },
-    {
-      "type": "construction",
       "title": "George Washington Bridge eastbound : Construction",
       "description": "Port Authority NY/NJ: Construction on George Washington Bridge Lower Level eastbound New Jersey Side (Fort Lee) to New York Side (New York) 1 Right lane of 3 lanes closed",
-      "published": "Sat, 21 Nov 2026 09:43:18 -0500",
+      "published": "Sat, 21 Nov 2026 12:32:41 -0500",
       "link": "https://511nj.org/",
       "latitude": 40.853073368219,
       "longitude": -73.960416205138
@@ -1043,30 +1007,12 @@
     },
     {
       "type": "construction",
-      "title": "I-787 both directions : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , overhead sign repair on I-787 both directions between Exit 5; I-90 (Albany) and Exit 7W; NY 378 westbound (Colonie) 1 Left lane of 2 lanes closed until 11:00 AM inspection",
-      "published": "Sat, 21 Nov 2026 06:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.660613,
-      "longitude": -73.737916
-    },
-    {
-      "type": "construction",
       "title": "NY 17 both directions : Construction",
       "description": "NYSDOT - Region 6: Construction , bridge rehabilitation on NY 17 both directions (Chemung) All lanes of 2 lanes open until 5:00 PM alternating lane closures",
       "published": "Sat, 21 Nov 2026 06:30:07 -0500",
       "link": "https://511nj.org/",
       "latitude": 42.0148315395776,
       "longitude": -76.6400560706289
-    },
-    {
-      "type": "construction",
-      "title": "I-787 southbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , overhead sign repair on I-787 southbound at Exit 4; Quay Street; US 9; US 20; NY 32 (Albany) All lanes of 4 lanes open until 11:00 AM various lane closures",
-      "published": "Sat, 21 Nov 2026 06:30:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.639131,
-      "longitude": -73.753813
     },
     {
       "type": "construction",
@@ -1169,24 +1115,6 @@
     },
     {
       "type": "construction",
-      "title": "I-590 southbound : Construction",
-      "description": "NYSDOT - Region 4: Construction , construction on I-590 southbound between Elmwood Avenue; CR 87 (Brighton) and Exit 2e - NY 31 (Brighton) 2 Left lanes of 3 lanes closed until 12:00 PM",
-      "published": "Sat, 21 Nov 2026 06:00:21 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.126565,
-      "longitude": -77.553522
-    },
-    {
-      "type": "construction",
-      "title": "NJ 23 southbound : Construction",
-      "description": "NJDOT - STMC: Roadwork on NJ 23 Southbound between South of CR 695/Echo Lake Rd (West Milford Twp) and North of Paterson Hamburg Tpke (West Milford Twp), Saturday November 21, 2026 06:00 AM thru 11:00 AM, left lane closed",
-      "published": "Sat, 21 Nov 2026 06:00:21 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.0284690856934,
-      "longitude": -74.4150619506836
-    },
-    {
-      "type": "construction",
       "title": "I-87 Northway northbound : Construction",
       "description": "NYSDOT TMC - Albany: Construction , utility work on I-87 Northway northbound Exit 19; NY 254 (Glens Falls North) to Exit 21: NY 9N (Lake George) All lanes of 4 lanes open until 3:00 PM All Lanes-Rolling Closure",
       "published": "Sat, 21 Nov 2026 06:00:21 -0500",
@@ -1205,30 +1133,12 @@
     },
     {
       "type": "construction",
-      "title": "Lincoln Tunnel westbound : Construction",
-      "description": "Port Authority NY/NJ: Construction, construction on Lincoln Tunnel North Tube westbound New Jersey Side (Weehawken Twp) All lanes closed until 10:00 A.M.",
-      "published": "Fri, 20 Nov 2026 23:58:32 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7659684527246,
-      "longitude": -74.0164132476096
-    },
-    {
-      "type": "construction",
       "title": "I-678 southbound : Construction",
       "description": "NYSDOT - Region 11: Construction, construction on I-678 southbound at Exit -Lafayette Avenue (New York) 1 Right lane of 2 lanes closed until 5:00 A.M. on 11/23/26",
       "published": "Fri, 20 Nov 2026 22:09:25 -0500",
       "link": "https://511nj.org/",
       "latitude": 40.8250903664621,
       "longitude": -73.836388420472
-    },
-    {
-      "type": "construction",
-      "title": "Franklin D. Roosevelt Drive southbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on Franklin D. Roosevelt Drive southbound between GOUVERNEUR STREET (New York) and MONTGOMERY STREET (New York) 1 Right lane of 3 lanes closed alternating lane closures until 10:00 A.M.",
-      "published": "Fri, 20 Nov 2026 21:58:24 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7107113041386,
-      "longitude": -73.9834107542214
     },
     {
       "type": "construction",
@@ -2851,110 +2761,11 @@
       "longitude": -74.1505620476053
     }
   ],
-  "news": [
-    {
-      "title": "Your Brain Implant Shouldnt Come With a Subscription - By Fransiscus Nanga Roka",
-      "url": "https://www.opinionnigeria.com/your-brain-implant-shouldnt-come-with-a-subscription-by-fransiscus-nanga-roka/",
-      "domain": "opinionnigeria.com",
-      "seenDate": "20261121T133000Z",
-      "image": "https://www.opinionnigeria.com/wp-content/uploads/2022/07/Surgery.webp"
-    },
-    {
-      "title": "SS United States : The ship that brought him here",
-      "url": "https://www.wuwf.org/local-news/2026-11-20/ss-united-states-the-ship-that-brought-him-here",
-      "domain": "wuwf.org",
-      "seenDate": "20261121T003000Z",
-      "image": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/92/aa/60c0e2674ef7b169f8743a35a947/otto1.jpg"
-    },
-    {
-      "title": "newsroomamerica . com",
-      "url": "https://newsroomamerica.com/?before=123762",
-      "domain": "newsroomamerica.com",
-      "seenDate": "20261120T214500Z",
-      "image": null
-    },
-    {
-      "title": "MTA chair skeptical of Amtrak big idea to unify Penn Station railroads",
-      "url": "https://gothamist.com/news/mta-chair-skeptical-of-amtraks-big-idea-to-unify-penn-stations-railroads",
-      "domain": "gothamist.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://api-prod.gothamist.com/images/362584/fill-1200x650%7Cformat-webp%7Cwebpquality-85/"
-    },
-    {
-      "title": "Great New Jersey Hiking Trails For Fall Weather",
-      "url": "https://catcountry1073.com/ixp/385/p/new-jersey-hiking-trails-2/",
-      "domain": "catcountry1073.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://townsquare.media/site/385/files/2026/11/attachment-hiking-1.jpg?&q=75&format=natural"
-    },
-    {
-      "title": "The Outer Banks Voice - John Ferrara",
-      "url": "https://www.outerbanksvoice.com/2026/11/20/john-ferrara/",
-      "domain": "outerbanksvoice.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://www.outerbanksvoice.com/wp-content/uploads/2026/11/FerraraJohn-1.jpg"
-    },
-    {
-      "title": "News 12 | Westchester | Grand Theft Auto Vi Sets Record With 379b In First Day Retail Sales Rockstar Games Reports",
-      "url": "https://westchester.news12.com/grand-theft-auto-vi-sets-record-with-379b-in-first-day-retail-sales-rockstar-games-reports",
-      "domain": "westchester.news12.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://images-cf.news12static.com/3kqcuzntcg31/72iW48aJKUNymLdhRdbfuE/edd2b0c49f5af4cf0d3ea95783c024d5/AP26323601924399.jpg"
-    },
-    {
-      "title": "Route 15 sinkhole in Jefferson , NJ closes Weldon Road bridge",
-      "url": "https://nj1015.com/route-15-jefferson-sinkhole-detour/",
-      "domain": "nj1015.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://townsquare.media/site/385/files/2026/11/attachment-the-sinkhole-in-jefferson-on-nov-20-2026-eric-wilsusen-mayor-of-jefferson-twp-nj-via-facebook.jpg?&q=75&format=natural"
-    },
-    {
-      "title": "Double bomb scare in Bayonne ends with a 12 - year - old in handcuffs",
-      "url": "https://nj1015.com/bayonne-juvenile-bomb-threat-notes/",
-      "domain": "nj1015.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://townsquare.media/site/385/files/2026/11/attachment-bayonne-2.jpg?&q=75&format=natural"
-    },
-    {
-      "title": "Route 287 pipe bomb found in Piscataway ; man charged",
-      "url": "https://nj1015.com/piscataway-pipe-bomb-route-287/",
-      "domain": "nj1015.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://townsquare.media/site/385/files/2026/11/attachment-287-1a-1.jpg?&q=75&format=natural"
-    },
-    {
-      "title": "Forget Impeachment , Just Stop Paying For Todd Blanche DOJ",
-      "url": "https://abovethelaw.com/2026/11/forget-impeachment-just-stop-paying-for-todd-blanches-doj/",
-      "domain": "abovethelaw.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://abovethelaw.com/wp-content/uploads/sites/4/2024/04/todd-blanche-donald-trump-GettyImages-2148007199.jpg"
-    },
-    {
-      "title": "Feds indict Natalie Greene and Anamaria Moe for  staged  ambush",
-      "url": "https://nj1015.com/natalie-greene-fake-ambush-indictment/",
-      "domain": "nj1015.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://townsquare.media/site/385/files/2026/11/attachment-trigger-warning-trump-hoax-1.jpg?&q=75&format=natural"
-    },
-    {
-      "title": "How NJ gardens are showing signs of a warming trend",
-      "url": "https://nj1015.com/warmer-new-jersey-garden-finds/",
-      "domain": "nj1015.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://townsquare.media/site/385/files/2026/11/attachment-pepper-1.jpg?&q=75&format=natural"
-    },
-    {
-      "title": "Judge Napolitano : Alastair Crooke on The EU Watershed Moment",
-      "url": "https://www.greanvillepost.com/judge-napolitano-alastair-crooke-on-the-eu-watershed-moment/",
-      "domain": "greanvillepost.com",
-      "seenDate": "20261120T214500Z",
-      "image": "https://www.greanvillepost.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-11.38.22-AM.png"
-    }
-  ],
+  "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 10 records",
-    "construction": "available: 292 records",
-    "news": "available: 14 records"
+    "incidents": "available: 8 records",
+    "construction": "available: 284 records",
+    "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }
