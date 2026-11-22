@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T01:30:28.813355+00:00",
+  "generatedAt": "2026-11-22T09:37:30.326516+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -9,124 +9,124 @@
     "location": "Trenton, NJ",
     "periods": [
       {
-        "startTime": "2026-11-21T20:00:00-05:00",
-        "temperature": 52,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "E",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-21T21:00:00-05:00",
-        "temperature": 51,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-21T22:00:00-05:00",
-        "temperature": 50,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-21T23:00:00-05:00",
-        "temperature": 50,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-22T00:00:00-05:00",
-        "temperature": 50,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-22T01:00:00-05:00",
-        "temperature": 50,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-22T02:00:00-05:00",
-        "temperature": 50,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-22T03:00:00-05:00",
-        "temperature": 49,
-        "temperatureUnit": "F",
-        "windSpeed": "0 mph",
-        "windDirection": "",
-        "shortForecast": "Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
-      },
-      {
         "startTime": "2026-11-22T04:00:00-05:00",
         "temperature": 49,
         "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "NE",
+        "windSpeed": "0 mph",
+        "windDirection": "",
         "shortForecast": "Cloudy",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
       },
       {
         "startTime": "2026-11-22T05:00:00-05:00",
-        "temperature": 50,
+        "temperature": 49,
         "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "NE",
+        "windSpeed": "0 mph",
+        "windDirection": "",
         "shortForecast": "Cloudy",
-        "probabilityOfPrecipitation": 2,
+        "probabilityOfPrecipitation": 1,
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
       },
       {
         "startTime": "2026-11-22T06:00:00-05:00",
         "temperature": 50,
         "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "NE",
+        "windSpeed": "0 mph",
+        "windDirection": "",
         "shortForecast": "Cloudy",
-        "probabilityOfPrecipitation": 3,
+        "probabilityOfPrecipitation": 1,
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=small"
       },
       {
         "startTime": "2026-11-22T07:00:00-05:00",
-        "temperature": 51,
+        "temperature": 50,
         "temperatureUnit": "F",
         "windSpeed": "5 mph",
         "windDirection": "NE",
         "shortForecast": "Cloudy",
-        "probabilityOfPrecipitation": 5,
+        "probabilityOfPrecipitation": 8,
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-22T08:00:00-05:00",
+        "temperature": 52,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Mostly Cloudy",
+        "probabilityOfPrecipitation": 6,
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-22T09:00:00-05:00",
+        "temperature": 55,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Slight Chance Light Rain",
+        "probabilityOfPrecipitation": 15,
+        "icon": "https://api.weather.gov/icons/land/day/rain,20?size=small"
+      },
+      {
+        "startTime": "2026-11-22T10:00:00-05:00",
+        "temperature": 58,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Slight Chance Light Rain",
+        "probabilityOfPrecipitation": 15,
+        "icon": "https://api.weather.gov/icons/land/day/rain,20?size=small"
+      },
+      {
+        "startTime": "2026-11-22T11:00:00-05:00",
+        "temperature": 61,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Mostly Cloudy",
+        "probabilityOfPrecipitation": 13,
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
+      },
+      {
+        "startTime": "2026-11-22T12:00:00-05:00",
+        "temperature": 63,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Chance Light Rain",
+        "probabilityOfPrecipitation": 28,
+        "icon": "https://api.weather.gov/icons/land/day/rain,30?size=small"
+      },
+      {
+        "startTime": "2026-11-22T13:00:00-05:00",
+        "temperature": 63,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Chance Light Rain",
+        "probabilityOfPrecipitation": 35,
+        "icon": "https://api.weather.gov/icons/land/day/rain,40?size=small"
+      },
+      {
+        "startTime": "2026-11-22T14:00:00-05:00",
+        "temperature": 64,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Chance Light Rain",
+        "probabilityOfPrecipitation": 36,
+        "icon": "https://api.weather.gov/icons/land/day/rain,40?size=small"
+      },
+      {
+        "startTime": "2026-11-22T15:00:00-05:00",
+        "temperature": 65,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "NE",
+        "shortForecast": "Light Rain Likely",
+        "probabilityOfPrecipitation": 59,
+        "icon": "https://api.weather.gov/icons/land/day/rain,60?size=small"
       }
     ]
   },
@@ -134,39 +134,93 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "US 9 both directions : Crash investigation",
-      "description": "NJ DOT - STMC: Crash on US 9 Both Directions South of CR 622 (Toms River Twp), All lanes closed southbound; All lanes closed northbound",
-      "published": "Sat, 21 Nov 2026 19:34:43 -0500",
+      "title": "US 130 southbound : Crash investigation",
+      "description": "NJ DOT - STMC: Crash on US 130 Southbound North of CR 626/Mount Holly Rd (Willingboro Twp), All lanes closed",
+      "published": "Sun, 22 Nov 2026 04:30:10 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.0282897949219,
-      "longitude": -74.2233581542969
+      "latitude": 40.0403213500977,
+      "longitude": -74.9131698608398
     },
     {
       "type": "incident",
       "title": "I-90 - NYS Thruway westbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash ,right lane blocked on I-90 - NYS Thruway westbound at After Exit 53 (I-90) - Buffalo (Downtown) - Canada (I-190) starting 7:29 PM, 11/21/2026 [CARS CAD-263250332]",
-      "published": "Sat, 21 Nov 2026 19:29:48 -0500",
+      "description": "NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway westbound at Before Exit 44 (I-90) - Canandaigua (Rte 332) starting 4:23 AM, 11/22/2026 [CARS CAD-263260048]",
+      "published": "Sun, 22 Nov 2026 04:23:40 -0500",
       "link": "https://511nj.org/",
-      "latitude": 42.875023,
-      "longitude": -78.788204
+      "latitude": 42.991119,
+      "longitude": -77.32599
     },
     {
       "type": "incident",
-      "title": "NJ 42 northbound : Disabled vehicle",
-      "description": "NJ DOT - STMC: Disabled Vehicle on NJ 42 Northbound At Exit 14 - CR 753/Creek Rd (Bellmawr), 1 left lane of 4 lanes closed",
-      "published": "Sat, 21 Nov 2026 19:08:36 -0500",
+      "title": "I-90 - NYS Thruway eastbound : Crash",
+      "description": "NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway eastbound at After Exit 57A (I-90) - Eden - Angola starting 4:22 AM, 11/22/2026 [CARS CAD-263260047]",
+      "published": "Sun, 22 Nov 2026 04:22:28 -0500",
       "link": "https://511nj.org/",
-      "latitude": 39.8621368408203,
-      "longitude": -75.1002960205078
+      "latitude": 42.651492,
+      "longitude": -78.969585
     },
     {
       "type": "incident",
-      "title": "I-495 westbound : Crash",
-      "description": "NYSDOT - Region 11: Crash on I-495 westbound just past Exit 22A - Grand Central Parkwy (New York) 2 Left lanes of 3 lanes blocked",
-      "published": "Sat, 21 Nov 2026 19:09:26 -0500",
+      "title": "Taconic State Parkway northbound : Crash with Property Damage",
+      "description": "NYSDOT - Region 8: Crash with property damage on Taconic State Parkway northbound south of Exit 38 - NY 52 (East Fishkill) right shoulder of 2 lanes blocked MM 38.1 CAD #98604080",
+      "published": "Sun, 22 Nov 2026 04:13:55 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7428871336241,
-      "longitude": -73.839394475778
+      "latitude": 41.5542,
+      "longitude": -73.7773
+    },
+    {
+      "type": "incident",
+      "title": "I-90 - NYS Thruway eastbound : Crash",
+      "description": "NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway eastbound at After Exit 34 (I-90) - Canastota (Rte 13) starting 3:49 AM, 11/22/2026 [CARS CAD-263260037]",
+      "published": "Sun, 22 Nov 2026 03:49:40 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 43.095758,
+      "longitude": -75.860706
+    },
+    {
+      "type": "incident",
+      "title": "Grand Central Parkway eastbound : Crash",
+      "description": "NYSDOT - Region 11: Crash on Grand Central Parkway eastbound ramp from I-278/Brooklyn Queens Expressway (New York) All lanes blocked",
+      "published": "Sun, 22 Nov 2026 04:01:14 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.765958972105,
+      "longitude": -73.8931585021107
+    },
+    {
+      "type": "incident",
+      "title": "Sprain Brook State Pkwy southbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on Sprain Brook State Pkwy southbound at Exit - Jackson Avenue (Greenburgh) right shoulder of 3 lanes blocked MM 3.8 CAD 98600080",
+      "published": "Sun, 22 Nov 2026 03:24:53 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.983,
+      "longitude": -73.8458
+    },
+    {
+      "type": "incident",
+      "title": "I-684 southbound : Crash with Property Damage",
+      "description": "NYSDOT - Region 8: Crash with property damage on I-684 southbound north of Exit 6 - NY 35 - Katonah - Cross River (Bedford) right shoulder of 3 lanes blocked MM 19.5 CAD 98597080",
+      "published": "Sun, 22 Nov 2026 03:23:01 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.2862,
+      "longitude": -73.6786
+    },
+    {
+      "type": "incident",
+      "title": "I-90 - NYS Thruway westbound : Roving repairs",
+      "description": "NYSTA - Statewide Ops.: slow moving maintenance vehicle ,in on I-90 - NYS Thruway westbound from Before Exit 53 (I-90) - Buffalo (Downtown) - Canada (I-190) to After Exit 54 (I-90) - West Seneca (Rte 16) starting 4:08 AM, 11/22/2026 until 5:30 AM, 11/22/2026 [CARS CAD-263260027]",
+      "published": "Sun, 22 Nov 2026 04:08:17 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.876481,
+      "longitude": -78.785519
+    },
+    {
+      "type": "incident",
+      "title": "CT 9 southbound : Crash",
+      "description": "ConnDOT: RT 9 Southbound CLOSED between Exits 27 and 24 because of Crash (Overturned Motor Vehicle). Reported Sunday, November 22 at 1:29 am.",
+      "published": "Sun, 22 Nov 2026 02:09:21 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.600714,
+      "longitude": -72.672284
     },
     {
       "type": "incident",
@@ -189,11 +243,155 @@
     {
       "type": "construction",
       "title": "I-91 southbound : Roadwork",
-      "description": "ConnDOT: Road Work on I-91 Southbound between Exits 31 and 27 (1.9 miles) in effect today until Sunday, November 22 at 6:30 am. The left lane is closed. Reported Saturday, November 21 at 7:17 pm.",
-      "published": "Sat, 21 Nov 2026 20:07:07 -0500",
+      "description": "ConnDOT: Road Work on I-91 Southbound between Exits 30 and 28 (1.9 miles) in effect until 6:30 am. The right lane is closed. Reported Sunday, November 22 at 2:29 am.",
+      "published": "Sun, 22 Nov 2026 02:49:00 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.769838,
-      "longitude": -72.668633
+      "latitude": 41.767119,
+      "longitude": -72.668135
+    },
+    {
+      "type": "construction",
+      "title": "I-90 - NYS Thruway eastbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left and center lanes closed on I-90 - NYS Thruway eastbound from Before Exit 25A (I-90) - Schenectady (I-88) to After Exit 25 (I-90) - Schenectady (I-890) until 10:30 AM, 11/22/2026 [CARS CAD-263260030]",
+      "published": "Sun, 22 Nov 2026 02:45:35 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.77237,
+      "longitude": -73.977521
+    },
+    {
+      "type": "construction",
+      "title": "Franklin D. Roosevelt Drive southbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on Franklin D. Roosevelt Drive southbound East 81st Street (New York) to East 73rd Street (New York) 2 Right lanes of 3 lanes closed until 7:00 A.M.",
+      "published": "Sun, 22 Nov 2026 00:00:05 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7708655726272,
+      "longitude": -73.9471312385101
+    },
+    {
+      "type": "construction",
+      "title": "I-495 eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on I-495 eastbound ramp to Exit 19 - Woodhaven Boulevard / Queens Boulevard (New York) All lanes closed until 7:30 A.M.",
+      "published": "Sat, 21 Nov 2026 23:58:33 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7281572458255,
+      "longitude": -73.8855094641717
+    },
+    {
+      "type": "construction",
+      "title": "I-495 eastbound : Construction",
+      "description": "NYSDOT - Region 11: Construction, construction on I-495 eastbound ramp from 69th Street (New York) All lanes closed until 7:30 A.M.",
+      "published": "Sat, 21 Nov 2026 23:56:37 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.7264074880047,
+      "longitude": -73.8891767117347
+    },
+    {
+      "type": "construction",
+      "title": "I-95 - New England Thruway northbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left and center lanes closed on I-95 - New England Thruway northbound from Before Exit 19 (I-95) - Rye - Playland Parkway to Before Exit 20 (I-95) - Rye (Rte 1) until 7:00 AM, 11/22/2026 [CARS CAD-263250439]",
+      "published": "Sat, 21 Nov 2026 23:58:06 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.974899,
+      "longitude": -73.709352
+    },
+    {
+      "type": "construction",
+      "title": "George Washington Bridge westbound : Construction",
+      "description": "Port Authority NY/NJ: Construction on George Washington Bridge Lower Level lower level westbound Entrance ramp Exit 1A - Henry Hudson Parkway (New York) All lanes blocked until 10am",
+      "published": "Sat, 21 Nov 2026 22:59:53 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8497855699016,
+      "longitude": -73.9413475182559
+    },
+    {
+      "type": "construction",
+      "title": "George Washington Bridge westbound : Construction",
+      "description": "Port Authority NY/NJ: Construction , bridge construction on George Washington Bridge Lower Level westbound New York Side (New York) to New Jersey Side (Fort Lee) All lanes closed and detoured until 10:00 AM",
+      "published": "Sat, 21 Nov 2026 22:41:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.850355,
+      "longitude": -73.945382
+    },
+    {
+      "type": "construction",
+      "title": "I-87 - NYS Thruway southbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,left lane closed on I-87 - NYS Thruway southbound from After Exit 11 (I-87) - Nyack (US 9W) to Before Exit 10 (I-87) - South Nyack (US 9W) until 5:30 AM, 11/22/2026 [CARS CAD-263250418]",
+      "published": "Sat, 21 Nov 2026 22:29:05 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.096079,
+      "longitude": -73.937451
+    },
+    {
+      "type": "construction",
+      "title": "I-84 both directions : Construction",
+      "description": "NYSDOT - Region 8: Construction, construction on I-84 both directions between Exit 65 - State Hwy 312 - Carmel (Southeast) and Connecticut State Line (Southeast) all lanes closed and detoured until 5:00 A.M. D265693/32872009 - ROAD CLOSED - Motorists are advised to follow posted detour. Plan travel accordingly; delays may exist",
+      "published": "Sat, 21 Nov 2026 22:00:51 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.4220416263475,
+      "longitude": -73.624232548968
+    },
+    {
+      "type": "construction",
+      "title": "I-84 both directions : Construction",
+      "description": "NYSDOT - Region 8: Construction, construction on I-84 both directions ramps to Exit 68 - I-684 S/B (Southeast) ramp closed and detoured until 5:00 A.M. D265693/32670509 - RAMPS CLOSED - Motorists are advised to follow posted detour. Plan travel accordingly; delays may exist",
+      "published": "Sat, 21 Nov 2026 22:00:50 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.3890451248678,
+      "longitude": -73.5944622044725
+    },
+    {
+      "type": "construction",
+      "title": "I-280 westbound : Construction",
+      "description": "NJDOT - STMC: Roadwork on I-280 Westbound between West of Exit 1W - New Rd (Parsippany-Troy Hills Twp) and I-80 (Parsippany-Troy Hills Twp), Saturday November 21, 2026 10:00 PM thru Sunday November 22, 2026 08:00 AM, left lane closed",
+      "published": "Sat, 21 Nov 2026 22:00:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.8557586669922,
+      "longitude": -74.3595123291016
+    },
+    {
+      "type": "construction",
+      "title": "I-295 northbound : Construction",
+      "description": "NJDOT - TOC South: Roadwork on I-295 Northbound between North of Exit 64 - CR 535/East State Street Extension (Hamilton Twp) and north of Exit 71 - Federal City Rd (Hopewell Twp), Saturday November 21, 2026 08:00 PM thru Sunday November 22, 2026 05:00 AM, at least one lane closed, (2nd lane closed from 10:00 PM to 05:00 AM)",
+      "published": "Sat, 21 Nov 2026 22:00:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.2485313415527,
+      "longitude": -74.6984558105469
+    },
+    {
+      "type": "construction",
+      "title": "I-295 southbound : Construction",
+      "description": "NJDOT - TOC South: Roadwork on I-295 Southbound between north of Exit 71 - Federal City Rd (Hopewell Twp) and North of Exit 64 - CR 535/East State Street Extension (Hamilton Twp), Saturday November 21, 2026 08:00 PM thru Sunday November 22, 2026 05:00 AM, at least one lane closed, (2nd lane closed from 10:00 PM to 05:00 AM)",
+      "published": "Sat, 21 Nov 2026 22:00:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.2881927490234,
+      "longitude": -74.7618103027344
+    },
+    {
+      "type": "construction",
+      "title": "I-87 - NYS Thruway northbound : Construction",
+      "description": "NYSTA - Statewide Ops.: road maintenance operations ,right and center lanes closed on I-87 - NYS Thruway northbound from Before Exit 10 (I-87) - South Nyack (US 9W) to After Exit 10 (I-87) - South Nyack (US 9W) until 5:30 AM, 11/22/2026 [CARS CAD-263250387]",
+      "published": "Sat, 21 Nov 2026 21:38:03 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.070203,
+      "longitude": -73.899369
+    },
+    {
+      "type": "construction",
+      "title": "New Jersey Turnpike southbound : Roadwork",
+      "description": "NJ Turnpike Auth.: Roadwork on New Jersey Turnpike Outer Roadway southbound North of Interchange 13A - Newark Liberty International Airport/US 1&9 (Elizabeth) to North of Interchange 12 - Carteret-Rahway (Linden) 2 Left lanes of 5 lanes closed for repairs UNTIL 10 A.M. SUNDAY 11/22/2026",
+      "published": "Sat, 21 Nov 2026 23:15:07 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.6698155632421,
+      "longitude": -74.1785444367579
+    },
+    {
+      "type": "construction",
+      "title": "I-684 both directions : Construction",
+      "description": "NYSDOT - Region 8: Construction, construction on I-684 both directions between Exit 8 - Hardscrabble Road (North Salem) and Exit 9 E/W - I-84 (Southeast) left lane closure until 10:00 P.M. D265693/32871909 - INTERMITTENT ROAD CLOSURES - Motorists are advised to follow posted detour. Plan travel accordingly; delays may exist",
+      "published": "Sat, 21 Nov 2026 21:01:06 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 41.3524045369577,
+      "longitude": -73.6439478470261
     },
     {
       "type": "construction",
@@ -260,30 +458,12 @@
     },
     {
       "type": "construction",
-      "title": "NJ 73 southbound : Construction",
-      "description": "NJDOT - TOC South: Roadwork on NJ 73 Southbound near South of CR 711/Norcross Rd (Winslow Twp), Saturday November 21, 2026 08:00 AM thru Sunday November 22, 2026 12:00 AM,",
-      "published": "Sat, 21 Nov 2026 08:00:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 39.73974609375,
-      "longitude": -74.9087905883789
-    },
-    {
-      "type": "construction",
       "title": "NY 104 eastbound : Construction",
       "description": "NYSDOT - Region 4: Construction , bridge work on NY 104 eastbound under Saint Paul Street (Rochester) 2 Left lanes of 4 lanes closed until 6:00 AM",
       "published": "Sat, 21 Nov 2026 07:00:12 -0500",
       "link": "https://511nj.org/",
       "latitude": 43.191561,
       "longitude": -77.618319
-    },
-    {
-      "type": "construction",
-      "title": "TOWN LINE RD both directions : Construction",
-      "description": "CT DOT-Newington-HWY-Oper Ctr: Construction , construction on TOWN LINE RD both directions between BROOKSIDE DR (Southington) and RED STONE HL at CHIMNEY CREST LN (Bristol) All lanes of 1 lane open until 9:00 PM There may be lane and shoulder closures on Town Line Road and Red Stone Hill Road",
-      "published": "Sat, 21 Nov 2026 06:00:21 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.6497127490642,
-      "longitude": -72.8818944527624
     },
     {
       "type": "construction",
@@ -1864,8 +2044,8 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 6 records",
-    "construction": "available: 186 records",
+    "incidents": "available: 12 records",
+    "construction": "available: 200 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }
