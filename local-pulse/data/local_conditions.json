@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T17:44:19.191319+00:00",
+  "generatedAt": "2026-11-22T18:32:35.436395+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -8,16 +8,6 @@
   "weather": {
     "location": "Trenton, NJ",
     "periods": [
-      {
-        "startTime": "2026-11-22T12:00:00-05:00",
-        "temperature": 63,
-        "temperatureUnit": "F",
-        "windSpeed": "5 mph",
-        "windDirection": "NE",
-        "shortForecast": "Chance Light Rain",
-        "probabilityOfPrecipitation": 28,
-        "icon": "https://api.weather.gov/icons/land/day/rain,30?size=small"
-      },
       {
         "startTime": "2026-11-22T13:00:00-05:00",
         "temperature": 63,
@@ -127,6 +117,16 @@
         "shortForecast": "Chance Light Rain",
         "probabilityOfPrecipitation": 53,
         "icon": "https://api.weather.gov/icons/land/night/rain,50?size=small"
+      },
+      {
+        "startTime": "2026-11-23T00:00:00-05:00",
+        "temperature": 57,
+        "temperatureUnit": "F",
+        "windSpeed": "5 mph",
+        "windDirection": "N",
+        "shortForecast": "Light Rain Likely",
+        "probabilityOfPrecipitation": 58,
+        "icon": "https://api.weather.gov/icons/land/night/rain,60?size=small"
       }
     ]
   },
@@ -134,21 +134,21 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "Sprain Brook State Pkwy northbound : Crash with Property Damage",
-      "description": "NYSDOT - Region 8: Crash with property damage on Sprain Brook State Pkwy northbound at Town of Greenburgh; Town of Mount Pleasant Line (Mount Pleasant) right shoulder of 3 lanes blocked MM 10.3 CAD #98624080",
-      "published": "Sun, 22 Nov 2026 12:41:53 -0500",
+      "title": "I-84 eastbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on I-84 eastbound east of Exit 61 - State Hwy 311 - Lake Carmel - Patterson (Patterson) right shoulder of 2 lanes blocked MM 63.1 CAD #98626080",
+      "published": "Sun, 22 Nov 2026 13:22:53 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.0726,
-      "longitude": -73.8021
+      "latitude": 41.4555,
+      "longitude": -73.6409
     },
     {
       "type": "incident",
-      "title": "NY 36 : Crash",
-      "description": "NYSDOT - Region 4: Crash on NY 36 Gibson St (North Dansville) to Poags Hole (North Dansville) All lanes closed",
-      "published": "Sun, 22 Nov 2026 11:20:12 -0500",
+      "title": "NY 24 both directions : Crash",
+      "description": "NYSDOT - Region 10: Crash on NY 24 both directions at North Wantagh Avenue (Hempstead) All lanes closed",
+      "published": "Sun, 22 Nov 2026 13:12:07 -0500",
       "link": "https://511nj.org/",
-      "latitude": 42.5479873321202,
-      "longitude": -77.6983108292882
+      "latitude": 40.7255004699413,
+      "longitude": -73.4975967654018
     },
     {
       "type": "incident",
@@ -176,6 +176,15 @@
       "link": "https://511nj.org/",
       "latitude": 40.8567846997699,
       "longitude": -73.9734259635123
+    },
+    {
+      "type": "construction",
+      "title": "I-87 Northway northbound : Construction",
+      "description": "NYSDOT TMC - Albany: Construction , bridge inspection on I-87 Northway northbound under Nelson Ave Ext (Saratoga Springs) 1 Right lane of 3 lanes closed until 3:00 PM",
+      "published": "Sun, 22 Nov 2026 13:30:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 43.044936,
+      "longitude": -73.772995
     },
     {
       "type": "construction",
@@ -2104,11 +2113,19 @@
       "longitude": -74.1505620476053
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "title": "Princeton neuroscientist detained by ICE at D . C . airport – NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/national-international/princeton-neuroscientist-detained-ice-reagan-airport-conference/3973826/",
+      "domain": "nbclosangeles.com",
+      "seenDate": "20261122T003000Z",
+      "image": "https://media.nbclosangeles.com/2026/11/USA-Education-Princeton-University-Campus-590633126-Getty.jpg?quality=85&strip=all"
+    }
+  ],
   "statuses": {
     "weather": "available",
     "incidents": "available: 5 records",
-    "construction": "available: 214 records",
-    "news": "unavailable: HTTP Error 429: Too Many Requests"
+    "construction": "available: 215 records",
+    "news": "available: 1 records"
   }
 }

@@ -1,31 +1,25 @@
 {
-  "generatedAt": "2026-11-21T18:00:35.767401+00:00",
+  "generatedAt": "2026-11-22T18:32:54.619093+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 64°F, Mostly Sunny, up to 64°.",
+  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 4 construction zones could slow you down. It's 63°F, Chance Light Rain, up to 65°. Rain is likely around 3 PM, so bring an umbrella.",
   "source": "rules",
-  "fingerprint": "29208f19ee1fe06e",
+  "fingerprint": "3dc32d786cb00487",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Saturday, November 21",
+    "date": "Sunday, November 22",
     "special": "",
     "weather": {
-      "now": "64°F, Mostly Sunny",
-      "low": 50,
-      "high": 64,
-      "maxRainChance": 0,
-      "wettestHour": "1 PM",
+      "now": "63°F, Chance Light Rain",
+      "low": 57,
+      "high": 65,
+      "maxRainChance": 59,
+      "wettestHour": "3 PM",
       "hoursCovered": 12
     },
     "weatherAlerts": [],
     "roads": [
-      {
-        "what": "construction",
-        "where": "I-195 westbound",
-        "detail": "NJDOT - TOC South: Roadwork on I-195 Westbound near East of Exit 5 - US 130 (Robbinsville), Saturday November 21, 2026 07:00 AM thru 05:00 PM, right shoulder",
-        "milesAway": 6.4
-      },
       {
         "what": "construction",
         "where": "US 202 northbound",
@@ -53,9 +47,11 @@
     ],
     "roadCounts": {
       "incidents": 0,
-      "construction": 5
+      "construction": 4
     },
-    "headlines": []
+    "headlines": [
+      "Princeton neuroscientist detained by ICE at D . C . airport – NBC Los Angeles"
+    ]
   },
   "ntfyTopic": "local-pulse-nj"
 }
