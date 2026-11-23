@@ -2,24 +2,53 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 22,
-    "briefsSent": 22,
+    "dayNumber": 23,
+    "briefsSent": 23,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 12,
-      "weather alert": 2,
-      "flooding": 2,
+      "crash or closure": 13,
+      "weather alert": 3,
+      "flooding": 3,
       "rain": 5,
       "cold or frost": 4,
-      "construction": 22,
+      "construction": 23,
       "quiet day": 0
     },
-    "screenshots": 22,
+    "screenshots": 23,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-23",
+      "sentAt": "2026-11-23T22:41:41.779969+00:00",
+      "message": "Good morning, Central New Jersey. The weather service has a High Wind Watch for parts of the area, so check it before you head out. Watch for a crash or incident at I-295 northbound (4.9 mi away). It's 63°F, Mostly Sunny, up to 63°.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "weather alert",
+        "flooding",
+        "crash or closure",
+        "construction"
+      ],
+      "nearbyIncidents": 1,
+      "nearbyConstruction": 5,
+      "weatherAlerts": [
+        "High Wind Watch",
+        "Coastal Flood Watch",
+        "Coastal Flood Watch"
+      ],
+      "weather": {
+        "now": "63°F, Mostly Sunny",
+        "low": 39,
+        "high": 63,
+        "maxRainChance": 2,
+        "wettestHour": "5 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-23.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-22",
       "sentAt": "2026-11-22T18:32:54.619093+00:00",

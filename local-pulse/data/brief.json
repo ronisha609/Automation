@@ -1,29 +1,60 @@
 {
-  "generatedAt": "2026-11-22T18:32:54.619093+00:00",
+  "generatedAt": "2026-11-23T22:41:41.779969+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. No crashes nearby right now, but 4 construction zones could slow you down. It's 63°F, Chance Light Rain, up to 65°. Rain is likely around 3 PM, so bring an umbrella.",
+  "text": "Good morning, Central New Jersey. The weather service has a High Wind Watch for parts of the area, so check it before you head out. Watch for a crash or incident at I-295 northbound (4.9 mi away). It's 63°F, Mostly Sunny, up to 63°.",
   "source": "rules",
-  "fingerprint": "3dc32d786cb00487",
+  "fingerprint": "d6479febd69c26a3",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Sunday, November 22",
+    "date": "Monday, November 23",
     "special": "",
     "weather": {
-      "now": "63°F, Chance Light Rain",
-      "low": 57,
-      "high": 65,
-      "maxRainChance": 59,
-      "wettestHour": "3 PM",
+      "now": "63°F, Mostly Sunny",
+      "low": 39,
+      "high": 63,
+      "maxRainChance": 2,
+      "wettestHour": "5 PM",
       "hoursCovered": 12
     },
-    "weatherAlerts": [],
+    "weatherAlerts": [
+      {
+        "event": "High Wind Watch",
+        "headline": "High Wind Watch issued November 23 at 2:00PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+        "severity": "Severe",
+        "instruction": "Monitor the latest forecasts and warnings for updates."
+      },
+      {
+        "event": "Coastal Flood Watch",
+        "headline": "Coastal Flood Watch issued November 23 at 1:45PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+        "severity": "Moderate",
+        "instruction": "A Coastal Flood Watch means that conditions favorable for flooding are expected to develop. Be prepared to begin taking appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Be sure to check the latest forecast from time to time in case "
+      },
+      {
+        "event": "Coastal Flood Watch",
+        "headline": "Coastal Flood Watch issued November 23 at 1:45PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+        "severity": "Moderate",
+        "instruction": "A Coastal Flood Watch means that conditions favorable for flooding are expected to develop. Be prepared to begin taking appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Be sure to check the latest forecast from time to time in case "
+      }
+    ],
     "roads": [
+      {
+        "what": "crash or incident",
+        "where": "I-295 northbound",
+        "detail": "NJ DOT - TOC South: Crash on I-295 Northbound South of Exit 67 - US 1 (Lawrence Twp), right shoulder closed",
+        "milesAway": 4.9
+      },
+      {
+        "what": "construction",
+        "where": "US 1 northbound : Emergency maintenance",
+        "detail": "NJ DOT - TOC South: Emergency Maintenance on US 1 Northbound At Franklin Corner Rd/Bakers Basin Rd (Lawrence Twp), 1 right lane of 2 lanes, right shoulder closed",
+        "milesAway": 4.5
+      },
       {
         "what": "construction",
         "where": "US 202 northbound",
-        "detail": "NJDOT - STMC: Roadwork on US 202 Northbound near North of Whiton Rd (Branchburg Twp), Continuous Thursday November 12, 2026 12:00 AM thru Sunday November 22, 2026 11:59 PM, left shoulder",
+        "detail": "NJDOT - STMC: Roadwork on US 202 Northbound near North of Whiton Rd (Branchburg Twp), Continuous Monday November 23, 2026 12:00 AM thru Sunday November 29, 2026 11:59 PM, left shoulder",
         "milesAway": 22.9
       },
       {
@@ -34,9 +65,9 @@
       },
       {
         "what": "construction",
-        "where": "Betsy Ross Bridge westbound",
-        "detail": "DRPA: Construction on Betsy Ross Bridge westbound New Jersey Side (Pennsauken Twp) to Pennsylvania Side (Philadelphia) 1 Left lane of 3 lanes closed",
-        "milesAway": 23.3
+        "where": "NJ 70 eastbound : Electrical Repairs",
+        "detail": "NJ DOT - TOC South: Electrical Repairs on NJ 70 Eastbound East of N. Elmwood Rd (Evesham Twp), right shoulder closed",
+        "milesAway": 23.5
       },
       {
         "what": "construction",
@@ -46,12 +77,10 @@
       }
     ],
     "roadCounts": {
-      "incidents": 0,
-      "construction": 4
+      "incidents": 1,
+      "construction": 5
     },
-    "headlines": [
-      "Princeton neuroscientist detained by ICE at D . C . airport – NBC Los Angeles"
-    ]
+    "headlines": []
   },
   "ntfyTopic": "local-pulse-nj"
 }
