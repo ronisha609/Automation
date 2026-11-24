@@ -2,24 +2,56 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 23,
-    "briefsSent": 23,
+    "dayNumber": 24,
+    "briefsSent": 24,
     "writtenByAI": 0,
     "daysWith": {
-      "crash or closure": 13,
-      "weather alert": 3,
-      "flooding": 3,
+      "crash or closure": 14,
+      "weather alert": 4,
+      "flooding": 4,
       "rain": 5,
-      "cold or frost": 4,
-      "construction": 23,
+      "cold or frost": 5,
+      "construction": 24,
       "quiet day": 0
     },
-    "screenshots": 23,
+    "screenshots": 24,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-24",
+      "sentAt": "2026-11-24T21:16:57.280884+00:00",
+      "message": "Good morning, Central New Jersey. The weather service has a Coastal Flood Warning for parts of the area, so check it before you head out. Watch for a crash or incident at US 206 northbound (2.5 mi away). It's 48°F, Sunny, up to 48°. Watch for frost or slick spots early.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "weather alert",
+        "flooding",
+        "crash or closure",
+        "construction",
+        "cold or frost"
+      ],
+      "nearbyIncidents": 1,
+      "nearbyConstruction": 3,
+      "weatherAlerts": [
+        "Coastal Flood Warning",
+        "Coastal Flood Warning",
+        "High Wind Warning",
+        "High Wind Watch",
+        "Wind Advisory"
+      ],
+      "weather": {
+        "now": "48°F, Sunny",
+        "low": 31,
+        "high": 48,
+        "maxRainChance": 0,
+        "wettestHour": "4 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-24.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-23",
       "sentAt": "2026-11-23T22:41:41.779969+00:00",

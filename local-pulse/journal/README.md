@@ -1,13 +1,14 @@
 # Local Pulse: 90-Day Log
 
-Started 2026-11-01. Day 23 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
+Started 2026-11-01. Day 24 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
 
 | Briefs sent | Days with a crash or closure nearby | Weather alerts | Rain | Cold or frost | Quiet days |
 | --- | --- | --- | --- | --- | --- |
-| 23 | 13 | 3 | 5 | 4 | 0 |
+| 24 | 14 | 4 | 5 | 5 | 0 |
 
 | Date | Message | Flagged | Screenshot |
 | --- | --- | --- | --- |
+| 2026-11-24 | Good morning, Central New Jersey. The weather service has a Coastal Flood Warning for parts of the area, so check it before you head out. Watch for a crash or incident at US 206 northbound (2.5 mi away). It's 48°F, Sunny, up to 48°. Watch for frost or slick spots early. | weather alert, flooding, crash or closure, construction, cold or frost | [view](screens/2026-11-24.jpg) |
 | 2026-11-23 | Good morning, Central New Jersey. The weather service has a High Wind Watch for parts of the area, so check it before you head out. Watch for a crash or incident at I-295 northbound (4.9 mi away). It's 63°F, Mostly Sunny, up to 63°. | weather alert, flooding, crash or closure, construction | [view](screens/2026-11-23.jpg) |
 | 2026-11-22 | Good morning, Central New Jersey. No crashes nearby right now, but 4 construction zones could slow you down. It's 63°F, Chance Light Rain, up to 65°. Rain is likely around 3 PM, so bring an umbrella. | construction, rain | [view](screens/2026-11-22.jpg) |
 | 2026-11-21 | Good morning, Central New Jersey. No crashes nearby right now, but 5 construction zones could slow you down. It's 64°F, Mostly Sunny, up to 64°. | construction | [view](screens/2026-11-21.jpg) |
