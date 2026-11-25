@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:58:27.458757+00:00",
+  "generatedAt": "2026-11-25T20:29:17.841585+00:00",
   "defaultLocation": {
     "label": "Central New Jersey",
     "latitude": 40.2171,
@@ -9,58 +9,8 @@
     "location": "Trenton, NJ",
     "periods": [
       {
-        "startTime": "2026-11-25T10:00:00-05:00",
-        "temperature": 42,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "NE",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-25T11:00:00-05:00",
-        "temperature": 45,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "NE",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-25T12:00:00-05:00",
-        "temperature": 46,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "NE",
-        "shortForecast": "Mostly Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=small"
-      },
-      {
-        "startTime": "2026-11-25T13:00:00-05:00",
-        "temperature": 48,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "NE",
-        "shortForecast": "Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=small"
-      },
-      {
-        "startTime": "2026-11-25T14:00:00-05:00",
-        "temperature": 48,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "NE",
-        "shortForecast": "Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=small"
-      },
-      {
         "startTime": "2026-11-25T15:00:00-05:00",
-        "temperature": 49,
+        "temperature": 44,
         "temperatureUnit": "F",
         "windSpeed": "10 mph",
         "windDirection": "NE",
@@ -70,7 +20,7 @@
       },
       {
         "startTime": "2026-11-25T16:00:00-05:00",
-        "temperature": 49,
+        "temperature": 44,
         "temperatureUnit": "F",
         "windSpeed": "10 mph",
         "windDirection": "NE",
@@ -80,7 +30,7 @@
       },
       {
         "startTime": "2026-11-25T17:00:00-05:00",
-        "temperature": 48,
+        "temperature": 45,
         "temperatureUnit": "F",
         "windSpeed": "10 mph",
         "windDirection": "NE",
@@ -90,16 +40,6 @@
       },
       {
         "startTime": "2026-11-25T18:00:00-05:00",
-        "temperature": 46,
-        "temperatureUnit": "F",
-        "windSpeed": "10 mph",
-        "windDirection": "NE",
-        "shortForecast": "Cloudy",
-        "probabilityOfPrecipitation": 0,
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
-      },
-      {
-        "startTime": "2026-11-25T19:00:00-05:00",
         "temperature": 45,
         "temperatureUnit": "F",
         "windSpeed": "10 mph",
@@ -109,7 +49,7 @@
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
       },
       {
-        "startTime": "2026-11-25T20:00:00-05:00",
+        "startTime": "2026-11-25T19:00:00-05:00",
         "temperature": 44,
         "temperatureUnit": "F",
         "windSpeed": "10 mph",
@@ -119,106 +59,283 @@
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
       },
       {
-        "startTime": "2026-11-25T21:00:00-05:00",
-        "temperature": 44,
+        "startTime": "2026-11-25T20:00:00-05:00",
+        "temperature": 43,
         "temperatureUnit": "F",
         "windSpeed": "10 mph",
         "windDirection": "NE",
         "shortForecast": "Cloudy",
         "probabilityOfPrecipitation": 0,
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-25T21:00:00-05:00",
+        "temperature": 43,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NE",
+        "shortForecast": "Cloudy",
+        "probabilityOfPrecipitation": 0,
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-25T22:00:00-05:00",
+        "temperature": 44,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NE",
+        "shortForecast": "Cloudy",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-25T23:00:00-05:00",
+        "temperature": 44,
+        "temperatureUnit": "F",
+        "windSpeed": "10 mph",
+        "windDirection": "NE",
+        "shortForecast": "Cloudy",
+        "probabilityOfPrecipitation": 1,
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-26T00:00:00-05:00",
+        "temperature": 45,
+        "temperatureUnit": "F",
+        "windSpeed": "15 mph",
+        "windDirection": "NE",
+        "shortForecast": "Cloudy",
+        "probabilityOfPrecipitation": 2,
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-26T01:00:00-05:00",
+        "temperature": 45,
+        "temperatureUnit": "F",
+        "windSpeed": "15 mph",
+        "windDirection": "NE",
+        "shortForecast": "Cloudy",
+        "probabilityOfPrecipitation": 4,
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
+      },
+      {
+        "startTime": "2026-11-26T02:00:00-05:00",
+        "temperature": 44,
+        "temperatureUnit": "F",
+        "windSpeed": "15 mph",
+        "windDirection": "NE",
+        "shortForecast": "Cloudy",
+        "probabilityOfPrecipitation": 5,
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=small"
       }
     ]
   },
   "alerts": [
     {
-      "title": "Coastal Flood Advisory issued November 25 at 5:14AM EST until November 27 at 7:00PM EST by NWS Mount Holly NJ",
+      "title": "High Wind Warning issued November 25 at 1:56PM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ",
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "Kent; Inland Sussex; Cumberland; Atlantic; Cape May",
+      "description": "* WHAT...East winds 35 to 45 mph with gusts up to 70 mph expected. * WHERE...In Delaware, Kent and Inland Sussex Counties. In New Jersey, Atlantic, Cape May, and Cumberland Counties. * WHEN...From 10 PM this evening to 10 PM EST Thursday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
+      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
+      "sent": "2026-11-25T13:56:00-05:00",
+      "expires": "2026-11-26T04:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "High Wind Warning issued November 25 at 1:56PM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ",
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "Delaware Beaches; Atlantic Coastal Cape May; Coastal Atlantic",
+      "description": "* WHAT...East winds 35 to 45 mph with gusts up to 70 mph expected. * WHERE...In Delaware, Delaware Beaches County. In New Jersey, Atlantic Coastal Cape May and Coastal Atlantic Counties. * WHEN...From 10 PM this evening to 10 PM EST Thursday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
+      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
+      "sent": "2026-11-25T13:56:00-05:00",
+      "expires": "2026-11-26T04:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "Wind Advisory issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+      "event": "Wind Advisory",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "area": "Sussex; Morris",
+      "description": "* WHAT...Northeast winds 15 to 25 mph with gusts up to 50 mph expected. Wind gusts may reach 60 mph along ridge lines and mountain peaks. * WHERE...Morris and Sussex Counties. * WHEN...From 7 AM Thursday to 1 AM EST Friday. * IMPACTS...Gusty winds will blow around unsecured objects. Tree limbs could be blown down and a few power outages may result.",
+      "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects.",
+      "sent": "2026-11-25T13:56:00-05:00",
+      "expires": "2026-11-26T04:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "High Wind Warning issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "Warren; Berks; Lehigh; Northampton",
+      "description": "* WHAT...Northeast winds 25 to 35 mph with gusts up to 60 mph expected. * WHERE...In New Jersey, Warren County. In Pennsylvania, Berks, Lehigh, and Northampton Counties. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
+      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
+      "sent": "2026-11-25T13:56:00-05:00",
+      "expires": "2026-11-26T04:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "High Wind Warning issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "New Castle; Hunterdon; Somerset; Middlesex; Mercer; Salem; Gloucester; Camden; Northwestern Burlington; Delaware; Philadelphia; Western Chester; Eastern Chester; Western Montgomery; Eastern Montgomery; Upper Bucks; Lower Bucks",
+      "description": "* WHAT...East winds 25 to 35 mph with gusts up to 60 mph expected. Localized wind gusts may exceed 60 mph. * WHERE...Portions of northern Delaware, central, northern, northwest, and southern New Jersey, and southeast Pennsylvania. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
+      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
+      "sent": "2026-11-25T13:56:00-05:00",
+      "expires": "2026-11-26T04:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "High Wind Warning issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "Western Monmouth; Ocean; Southeastern Burlington",
+      "description": "* WHAT...East winds 30 to 40 mph with gusts up to 70 mph expected. * WHERE...Western Monmouth, Ocean, and Southeastern Burlington Counties. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
+      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
+      "sent": "2026-11-25T13:56:00-05:00",
+      "expires": "2026-11-26T04:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "High Wind Warning issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "Eastern Monmouth; Coastal Ocean",
+      "description": "* WHAT...East winds 35 to 45 mph with gusts up to 70 mph expected. Localized wind gusts may exceed 70 mph. * WHERE...Eastern Monmouth and Coastal Ocean Counties. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
+      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
+      "sent": "2026-11-25T13:56:00-05:00",
+      "expires": "2026-11-26T04:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "Coastal Flood Advisory issued November 25 at 1:54PM EST until November 27 at 7:00PM EST by NWS Mount Holly NJ",
       "event": "Coastal Flood Advisory",
       "severity": "Minor",
       "urgency": "Expected",
       "area": "Gloucester; Camden; Northwestern Burlington; Delaware; Philadelphia; Lower Bucks",
       "description": "* WHAT...Up to one foot of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...In New Jersey, Gloucester, Camden and Northwestern Burlington. In Pennsylvania, Delaware, Philadelphia and Lower Bucks. * WHEN...From 11 AM Thursday to 7 PM EST Friday. * IMPACTS...At this level, flooding begins on the most vulnerable roads along tidal waterways. Some partial or full road closures are possible.",
       "instruction": "A Coastal Flood Advisory means that minor tidal flooding is expected. Minor tidal flooding often results in some road closures. Usually, the most vulnerable roadways will flood. Do not leave your vehicle at a location that is prone to tidal flooding. Do not drive your vehicle through flood waters. The water may be deeper than you think it is. You will be putting yourself in danger and your vehicle may be damaged, leading to costly repairs. Visit the National Water Prediction Service at https://water.noaa.gov/wfo/phi for additional water level and flood impact information for your local tide gauge.",
-      "sent": "2026-11-25T05:14:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
+      "sent": "2026-11-25T13:54:00-05:00",
+      "expires": "2026-11-26T05:00:00-05:00",
       "url": "http://www.weather.gov",
       "geometry": null
     },
     {
-      "title": "Coastal Flood Warning issued November 25 at 5:14AM EST until November 27 at 3:00PM EST by NWS Mount Holly NJ",
+      "title": "Coastal Flood Warning issued November 25 at 1:54PM EST until November 27 at 3:00PM EST by NWS Mount Holly NJ",
       "event": "Coastal Flood Warning",
       "severity": "Severe",
       "urgency": "Expected",
       "area": "Ocean; Coastal Ocean",
-      "description": "* WHAT...One to two feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Ocean and Coastal Ocean. * WHEN...From 6 AM Thursday to 3 PM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. * ADDITIONAL DETAILS...Minor tidal flooding is expected with this morning's high tide. The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is forecast. Additional minor to moderate tidal flooding is forecast with Thursday night's high tide. Significant beach erosion is possible. Breaching of sand dunes may occur.",
+      "description": "* WHAT...One to two feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Ocean and Coastal Ocean. * WHEN...From 6 AM Thursday to 3 PM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. * ADDITIONAL DETAILS...The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is forecast. Additional minor to moderate tidal flooding is forecast with Thursday night's high tide. Significant beach erosion is possible.",
       "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood waters. The water may be deeper than you think it is. You will be putting yourself in danger and your vehicle may be damaged, leading to costly repairs. Visit the National Water Prediction Service at https://water.noaa.gov/wfo/phi for additional water level and flood impact information for your local tide gauge.",
-      "sent": "2026-11-25T05:14:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
+      "sent": "2026-11-25T13:54:00-05:00",
+      "expires": "2026-11-26T05:00:00-05:00",
       "url": "http://www.weather.gov",
       "geometry": null
     },
     {
-      "title": "Coastal Flood Warning issued November 25 at 5:14AM EST until November 27 at 4:00AM EST by NWS Mount Holly NJ",
+      "title": "Coastal Flood Warning issued November 25 at 1:54PM EST until November 27 at 4:00AM EST by NWS Mount Holly NJ",
       "event": "Coastal Flood Warning",
       "severity": "Severe",
       "urgency": "Expected",
       "area": "New Castle; Salem",
-      "description": "* WHAT...Two to three feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...In Delaware, New Castle. In New Jersey, Salem. * WHEN...From 9 AM Thursday to 4 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs along tidal waterways. Some roads become impassable. Minor damage to vulnerable structures may begin to occur. * ADDITIONAL DETAILS...The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is possible. Additional minor to moderate tidal flooding is possible with Thursday night's high tide.",
+      "description": "* WHAT...One to two feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...In Delaware, New Castle. In New Jersey, Salem. * WHEN...From 9 AM Thursday to 4 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs along tidal waterways. Some roads become impassable. Minor damage to vulnerable structures may begin to occur. * ADDITIONAL DETAILS...The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is possible. Additional minor to moderate tidal flooding is possible with Thursday night's high tide.",
       "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood waters. The water may be deeper than you think it is. You will be putting yourself in danger and your vehicle may be damaged, leading to costly repairs. Visit the National Water Prediction Service at https://water.noaa.gov/wfo/phi for additional water level and flood impact information for your local tide gauge.",
-      "sent": "2026-11-25T05:14:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
+      "sent": "2026-11-25T13:54:00-05:00",
+      "expires": "2026-11-26T05:00:00-05:00",
       "url": "http://www.weather.gov",
       "geometry": null
     },
     {
-      "title": "Coastal Flood Warning issued November 25 at 5:14AM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+      "title": "Coastal Flood Warning issued November 25 at 1:54PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
       "event": "Coastal Flood Warning",
       "severity": "Severe",
       "urgency": "Expected",
       "area": "Kent; Cumberland",
-      "description": "* WHAT...Two to three feet of inundation above ground level in low-lying areas near shorelines and tidal waterways. * WHERE...In Delaware, Kent. In New Jersey, Cumberland. * WHEN...Until 3 AM EST Friday. * IMPACTS...At this level, flooding may become severe enough to cause structural damage along with widespread roadway flooding in coastal and bayside communities, and near inland tidal waterways. Some locations may become isolated by the flood waters. * ADDITIONAL DETAILS...Minor tidal flooding is expected with this morning's high tide. The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is possible.",
+      "description": "* WHAT...Two to three feet of inundation above ground level in low-lying areas near shorelines and tidal waterways. * WHERE...In Delaware, Kent. In New Jersey, Cumberland. * WHEN...Until 3 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. At this level, flooding may become severe enough to cause structural damage along with widespread roadway flooding in coastal and bayside communities, and near inland tidal waterways. Some locations may become isolated by the flood waters. * ADDITIONAL DETAILS... The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is possible.",
       "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood waters. The water may be deeper than you think it is. You will be putting yourself in danger and your vehicle may be damaged, leading to costly repairs. Visit the National Water Prediction Service at https://water.noaa.gov/wfo/phi for additional water level and flood impact information for your local tide gauge.",
-      "sent": "2026-11-25T05:14:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
+      "sent": "2026-11-25T13:54:00-05:00",
+      "expires": "2026-11-26T05:00:00-05:00",
       "url": "http://www.weather.gov",
       "geometry": null
     },
     {
-      "title": "Coastal Flood Warning issued November 25 at 5:14AM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
-      "event": "Coastal Flood Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "Atlantic; Cape May; Atlantic Coastal Cape May; Coastal Atlantic; Southeastern Burlington",
-      "description": "* WHAT...Up to 3 feet of inundation above ground level in low- lying areas near shorelines and tidal waterways. * WHERE...Atlantic, Cape May, Atlantic Coastal Cape May, Coastal Atlantic and Southeastern Burlington. * WHEN...Until 3 AM EST Friday. * IMPACTS...At this level, flooding may become severe enough to cause structural damage along with widespread roadway flooding in coastal and bayside communities, and near inland tidal waterways. Some locations may become isolated by the flood waters. * ADDITIONAL DETAILS...Minor tidal flooding is expected with this morning's high tide. The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is forecast. Significant beach erosion is possible. Breaching of sand dunes may occur.",
-      "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood waters. The water may be deeper than you think it is. You will be putting yourself in danger and your vehicle may be damaged, leading to costly repairs. Visit the National Water Prediction Service at https://water.noaa.gov/wfo/phi for additional water level and flood impact information for your local tide gauge.",
-      "sent": "2026-11-25T05:14:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "Coastal Flood Warning issued November 25 at 5:14AM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+      "title": "Coastal Flood Warning issued November 25 at 1:54PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
       "event": "Coastal Flood Warning",
       "severity": "Severe",
       "urgency": "Expected",
       "area": "Middlesex; Western Monmouth; Eastern Monmouth",
-      "description": "* WHAT...One to two feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Middlesex, Western Monmouth and Eastern Monmouth. * WHEN...From 6 AM Thursday to 3 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. * ADDITIONAL DETAILS...The most severe and impactful high tide will be with Thursday morning's high tides, when major tidal flooding is possible. Significant beach erosion is possible. Breaching of sand dunes may occur.",
+      "description": "* WHAT...One to two feet of inundation above ground level expected in low-lying areas near shorelines and tidal waterways. * WHERE...Middlesex, Western Monmouth and Eastern Monmouth. * WHEN...From 6 AM Thursday to 3 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. * ADDITIONAL DETAILS...The most severe and impactful high tide will be with Thursday morning's high tides, when major tidal flooding is possible. Significant beach erosion is possible.",
       "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood waters. The water may be deeper than you think it is. You will be putting yourself in danger and your vehicle may be damaged, leading to costly repairs. Visit the National Water Prediction Service at https://water.noaa.gov/wfo/phi for additional water level and flood impact information for your local tide gauge.",
-      "sent": "2026-11-25T05:14:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
+      "sent": "2026-11-25T13:54:00-05:00",
+      "expires": "2026-11-26T05:00:00-05:00",
       "url": "http://www.weather.gov",
       "geometry": null
     },
     {
-      "title": "Coastal Flood Watch issued November 25 at 4:21AM EST until November 27 at 1:00PM EST by NWS Upton NY",
-      "event": "Coastal Flood Watch",
+      "title": "Coastal Flood Warning issued November 25 at 1:54PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+      "event": "Coastal Flood Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "Atlantic; Cape May; Atlantic Coastal Cape May; Coastal Atlantic; Southeastern Burlington",
+      "description": "* WHAT...Up to 3 feet of inundation above ground level in low- lying areas near shorelines and tidal waterways. * WHERE...Atlantic, Cape May, Atlantic Coastal Cape May, Coastal Atlantic and Southeastern Burlington. * WHEN...Until 3 AM EST Friday. * IMPACTS...At this level, widespread roadway flooding occurs in coastal and bayside communities and along inland tidal waterways. Many roads become impassable. Some damage to vulnerable structures may begin to occur. At this level, flooding may become severe enough to cause structural damage along with widespread roadway flooding in coastal and bayside communities, and near inland tidal waterways. Some locations may become isolated by the flood waters. * ADDITIONAL DETAILS...The most severe and impactful high tide will be with Thursday morning's high tide, when major tidal flooding is forecast. Significant beach erosion is possible.",
+      "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood waters. The water may be deeper than you think it is. You will be putting yourself in danger and your vehicle may be damaged, leading to costly repairs. Visit the National Water Prediction Service at https://water.noaa.gov/wfo/phi for additional water level and flood impact information for your local tide gauge.",
+      "sent": "2026-11-25T13:54:00-05:00",
+      "expires": "2026-11-26T05:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "High Wind Warning issued November 25 at 1:50PM EST until November 27 at 1:00AM EST by NWS Upton NY",
+      "event": "High Wind Warning",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "area": "Hudson; Eastern Essex; Eastern Union; New York (Manhattan); Bronx; Richmond (Staten Is.); Kings (Brooklyn); Northwest Suffolk; Northeast Suffolk; Southwest Suffolk; Southeast Suffolk; Northern Queens; Northern Nassau; Southern Queens; Southern Nassau",
+      "description": "* WHAT...East winds 25 to 35 mph with gusts up to 60 mph expected. * WHERE...Portions of northeast New Jersey and southeast New York. * WHEN...From 10 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
+      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind.",
+      "sent": "2026-11-25T13:50:00-05:00",
+      "expires": "2026-11-25T22:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "Wind Advisory issued November 25 at 1:50PM EST until November 27 at 5:00AM EST by NWS Upton NY",
+      "event": "Wind Advisory",
       "severity": "Moderate",
-      "urgency": "Future",
-      "area": "Hudson; Eastern Bergen; Eastern Essex; Eastern Union",
-      "description": "* WHAT...For the Coastal Flood Warning, 1 1/2 to 2 feet of inundation above ground level expected in vulnerable areas near the waterfront and shoreline. For the Coastal Flood Watch, 1 to 2 feet of inundation above ground level possible in vulnerable areas near the waterfront and shoreline. * WHERE...Hudson, Eastern Bergen, Eastern Essex and Eastern Union Counties. * WHEN...For the Coastal Flood Warning, from 7 AM Thursday to 6 AM EST Friday. For the Coastal Flood Watch, from Friday morning through Friday afternoon. * COASTAL FLOOD IMPACTS...Widespread minor to moderate flooding of vulnerable areas near the waterfront and shoreline, including roads, parking lots, parks, lawns, and homes and businesses with basements near the waterfront. Numerous road closures are likely, and vehicles parked in vulnerable areas near the waterfront will likely become flooded. Flooding will also extend inland from the waterfront along tidal rivers and bays, including the tidal portions of the Hackensack River and Passaic Rivers. * ADDITIONAL DETAILS...The highest water levels are likely with the Thursday morning and evening high tides, potentially extending into the Friday morning high tides. The forecast has been leaned towards a higher end water level scenario to provide a bit of safety margin. If the timing of strongest winds is quicker than currently forecast the peak water level forecast could be increased by a few tenths for Thursday morning. if slower the Thursday morning forecast could be lowered slightly.",
-      "instruction": "Take the necessary actions to protect flood-prone property. If travel is required, do not drive around barricades or through water of unknown depth.",
-      "sent": "2026-11-25T04:21:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
+      "urgency": "Expected",
+      "area": "Northern Fairfield; Northern New Haven; Northern Middlesex; Northern New London; Southern Fairfield; Southern New Haven; Southern Middlesex; Southern New London; Eastern Passaic; Western Bergen; Eastern Bergen; Western Essex; Western Union; Rockland; Northern Westchester; Southern Westchester",
+      "description": "* WHAT...Northeast winds 20 to 30 mph with gusts up to 55 mph expected. * WHERE...Portions of southern Connecticut, northeast New Jersey, and southeast New York. * WHEN...From 10 AM Thursday to 5 AM EST Friday. * IMPACTS...Gusty winds will blow around unsecured objects. Tree limbs could be blown down and a few power outages may result.",
+      "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects.",
+      "sent": "2026-11-25T13:50:00-05:00",
+      "expires": "2026-11-25T22:00:00-05:00",
+      "url": "http://www.weather.gov",
+      "geometry": null
+    },
+    {
+      "title": "Wind Advisory issued November 25 at 1:50PM EST until November 27 at 5:00AM EST by NWS Upton NY",
+      "event": "Wind Advisory",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "area": "Western Passaic",
+      "description": "* WHAT...Northeast winds 20 to 25 mph with gusts up to 50 mph expected. * WHERE...Western Passaic County. * WHEN...From 10 AM Thursday to 5 AM EST Friday. * IMPACTS...Gusty winds will blow around unsecured objects. Tree limbs could be blown down and a few power outages may result.",
+      "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects.",
+      "sent": "2026-11-25T13:50:00-05:00",
+      "expires": "2026-11-25T22:00:00-05:00",
       "url": "http://www.weather.gov",
       "geometry": null
     },
@@ -236,132 +353,15 @@
       "geometry": null
     },
     {
-      "title": "Wind Advisory issued November 25 at 3:38AM EST until November 27 at 5:00AM EST by NWS Upton NY",
-      "event": "Wind Advisory",
+      "title": "Coastal Flood Watch issued November 25 at 4:21AM EST until November 27 at 1:00PM EST by NWS Upton NY",
+      "event": "Coastal Flood Watch",
       "severity": "Moderate",
-      "urgency": "Expected",
-      "area": "Western Passaic",
-      "description": "* WHAT...Northeast winds 15 to 25 mph with gusts up to 50 mph expected. * WHERE...Western Passaic County. * WHEN...From 10 AM Thursday to 5 AM EST Friday. * IMPACTS...Gusty winds will blow around unsecured objects. Tree limbs could be blown down and a few power outages may result.",
-      "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects.",
-      "sent": "2026-11-25T03:38:00-05:00",
+      "urgency": "Future",
+      "area": "Hudson; Eastern Bergen; Eastern Essex; Eastern Union",
+      "description": "* WHAT...For the Coastal Flood Warning, 1 1/2 to 2 feet of inundation above ground level expected in vulnerable areas near the waterfront and shoreline. For the Coastal Flood Watch, 1 to 2 feet of inundation above ground level possible in vulnerable areas near the waterfront and shoreline. * WHERE...Hudson, Eastern Bergen, Eastern Essex and Eastern Union Counties. * WHEN...For the Coastal Flood Warning, from 7 AM Thursday to 6 AM EST Friday. For the Coastal Flood Watch, from Friday morning through Friday afternoon. * COASTAL FLOOD IMPACTS...Widespread minor to moderate flooding of vulnerable areas near the waterfront and shoreline, including roads, parking lots, parks, lawns, and homes and businesses with basements near the waterfront. Numerous road closures are likely, and vehicles parked in vulnerable areas near the waterfront will likely become flooded. Flooding will also extend inland from the waterfront along tidal rivers and bays, including the tidal portions of the Hackensack River and Passaic Rivers. * ADDITIONAL DETAILS...The highest water levels are likely with the Thursday morning and evening high tides, potentially extending into the Friday morning high tides. The forecast has been leaned towards a higher end water level scenario to provide a bit of safety margin. If the timing of strongest winds is quicker than currently forecast the peak water level forecast could be increased by a few tenths for Thursday morning. if slower the Thursday morning forecast could be lowered slightly.",
+      "instruction": "Take the necessary actions to protect flood-prone property. If travel is required, do not drive around barricades or through water of unknown depth.",
+      "sent": "2026-11-25T04:21:00-05:00",
       "expires": "2026-11-25T18:00:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "Wind Advisory issued November 25 at 3:38AM EST until November 27 at 5:00AM EST by NWS Upton NY",
-      "event": "Wind Advisory",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "area": "Northern Fairfield; Northern New Haven; Northern Middlesex; Northern New London; Southern Fairfield; Southern New Haven; Southern Middlesex; Southern New London; Eastern Passaic; Western Bergen; Eastern Bergen; Western Essex; Western Union; Rockland; Northern Westchester; Southern Westchester",
-      "description": "* WHAT...East winds 20 to 30 mph with gusts up to 55 mph expected. * WHERE...Portions of southern Connecticut, northeast New Jersey, and southeast New York. * WHEN...From 10 AM Thursday to 5 AM EST Friday. * IMPACTS...Gusty winds will blow around unsecured objects. Tree limbs could be blown down and a few power outages may result.",
-      "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects.",
-      "sent": "2026-11-25T03:38:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "High Wind Warning issued November 25 at 3:38AM EST until November 27 at 1:00AM EST by NWS Upton NY",
-      "event": "High Wind Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "Hudson; Eastern Essex; Eastern Union; New York (Manhattan); Bronx; Richmond (Staten Is.); Kings (Brooklyn); Northwest Suffolk; Northeast Suffolk; Southwest Suffolk; Southeast Suffolk; Northern Queens; Northern Nassau; Southern Queens; Southern Nassau",
-      "description": "* WHAT...East winds 25 to 35 mph with gusts up to 60 mph expected. * WHERE...Portions of northeast New Jersey and southeast New York. * WHEN...From 10 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
-      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind.",
-      "sent": "2026-11-25T03:38:00-05:00",
-      "expires": "2026-11-25T18:00:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "High Wind Warning issued November 25 at 1:34AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ",
-      "event": "High Wind Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "Delaware Beaches; Atlantic Coastal Cape May; Coastal Atlantic",
-      "description": "* WHAT...East winds 35 to 45 mph with gusts up to 70 mph expected. Localized wind gusts may exceed 70 mph. * WHERE...In Delaware, Delaware Beaches County. In New Jersey, Atlantic Coastal Cape May and Coastal Atlantic Counties. * WHEN...From 10 PM this evening to 10 PM EST Thursday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
-      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
-      "sent": "2026-11-25T01:34:00-05:00",
-      "expires": "2026-11-25T15:15:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "High Wind Warning issued November 25 at 1:34AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
-      "event": "High Wind Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "Eastern Monmouth; Coastal Ocean",
-      "description": "* WHAT...East winds 35 to 45 mph with gusts up to 70 mph expected. Localized wind gusts may exceed 70 mph. * WHERE...Eastern Monmouth and Coastal Ocean Counties. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
-      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
-      "sent": "2026-11-25T01:34:00-05:00",
-      "expires": "2026-11-25T15:15:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "High Wind Warning issued November 25 at 1:34AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
-      "event": "High Wind Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "Western Monmouth; Ocean; Southeastern Burlington",
-      "description": "* WHAT...East winds 30 to 40 mph with gusts up to 70 mph expected. * WHERE...Western Monmouth, Ocean, and Southeastern Burlington Counties. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
-      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
-      "sent": "2026-11-25T01:34:00-05:00",
-      "expires": "2026-11-25T15:15:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "Wind Advisory issued November 25 at 1:34AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
-      "event": "Wind Advisory",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "area": "Sussex; Morris",
-      "description": "* WHAT...Northeast winds 20 to 30 mph with gusts up to 50 mph expected. Wind gusts may reach 60 mph along ridge lines and mountain peaks. * WHERE...Morris and Sussex Counties. * WHEN...From 7 AM Thursday to 1 AM EST Friday. * IMPACTS...Gusty winds will blow around unsecured objects. Tree limbs could be blown down and a few power outages may result.",
-      "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects.",
-      "sent": "2026-11-25T01:34:00-05:00",
-      "expires": "2026-11-25T15:15:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "High Wind Warning issued November 25 at 1:34AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
-      "event": "High Wind Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "New Castle; Hunterdon; Somerset; Middlesex; Mercer; Salem; Gloucester; Camden; Northwestern Burlington; Delaware; Philadelphia; Western Chester; Eastern Chester; Western Montgomery; Eastern Montgomery; Upper Bucks; Lower Bucks",
-      "description": "* WHAT...East winds 25 to 35 mph with gusts up to 60 mph expected. Localized wind gusts may exceed 60 mph. * WHERE...Portions of northern Delaware, central, northern, northwest, and southern New Jersey, and southeast Pennsylvania. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
-      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
-      "sent": "2026-11-25T01:34:00-05:00",
-      "expires": "2026-11-25T15:15:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "High Wind Warning issued November 25 at 1:34AM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
-      "event": "High Wind Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "Warren; Berks; Lehigh; Northampton",
-      "description": "* WHAT...Northeast winds 25 to 35 mph with gusts up to 60 mph expected. * WHERE...In New Jersey, Warren County. In Pennsylvania, Berks, Lehigh, and Northampton Counties. * WHEN...From 4 AM Thursday to 1 AM EST Friday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
-      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
-      "sent": "2026-11-25T01:34:00-05:00",
-      "expires": "2026-11-25T15:15:00-05:00",
-      "url": "http://www.weather.gov",
-      "geometry": null
-    },
-    {
-      "title": "High Wind Warning issued November 25 at 1:34AM EST until November 26 at 10:00PM EST by NWS Mount Holly NJ",
-      "event": "High Wind Warning",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "area": "Kent; Inland Sussex; Cumberland; Atlantic; Cape May",
-      "description": "* WHAT...East winds 30 to 40 mph with gusts up to 70 mph expected. * WHERE...In Delaware, Kent and Inland Sussex Counties. In New Jersey, Atlantic, Cape May, and Cumberland Counties. * WHEN...From 10 PM this evening to 10 PM EST Thursday. * IMPACTS...Damaging winds will blow down trees and power lines. Widespread power outages are expected. Travel will be difficult, especially for high profile vehicles.",
-      "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive.",
-      "sent": "2026-11-25T01:34:00-05:00",
-      "expires": "2026-11-25T15:15:00-05:00",
       "url": "http://www.weather.gov",
       "geometry": null
     }
@@ -369,246 +369,66 @@
   "traffic": [
     {
       "type": "incident",
-      "title": "I-87 - NYS Thruway southbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-87 - NYS Thruway southbound at After Exit 14 (I-87) - Spring Valley (Rte 59) starting 10:55 AM, 11/25/2026 [CARS CAD-263290135]",
-      "published": "Wed, 25 Nov 2026 10:55:45 -0500",
+      "title": "New Jersey Turnpike - Western Spur northbound : Crash",
+      "description": "NJ Turnpike Auth.: Crash on New Jersey Turnpike - Western Spur northbound North of Interchange 15E - US 1&9 (Newark) right shoulder blocked",
+      "published": "Wed, 25 Nov 2026 15:17:40 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.101291,
-      "longitude": -74.031531
+      "latitude": 40.7329931607862,
+      "longitude": -74.1248674626253
+    },
+    {
+      "type": "incident",
+      "title": "I-87 - NYS Thruway southbound : Crash",
+      "description": "NYSTA - Statewide Ops.: crash on I-87 - NYS Thruway southbound at Before Exit 21A (I-87) - To I-90 - Massachusetts Turnpike starting 3:14 PM, 11/25/2026 [CARS CAD-263290247]",
+      "published": "Wed, 25 Nov 2026 15:14:42 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.427215,
+      "longitude": -73.804814
+    },
+    {
+      "type": "incident",
+      "title": "Sprain Brook State Pkwy northbound : Disabled vehicle",
+      "description": "NYSDOT - Region 8: Disabled Vehicle on Sprain Brook State Pkwy northbound north of Tuckahoe Road; CR 59 (Yonkers) right shoulder of 3 lanes blocked MM 2.0 CAD # 98884080",
+      "published": "Wed, 25 Nov 2026 15:11:09 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 40.9618,
+      "longitude": -73.8498
+    },
+    {
+      "type": "incident",
+      "title": "I-87 Northway southbound : Disabled vehicle",
+      "description": "NYSDOT TMC - Albany: Disabled vehicle on I-87 Northway southbound after Exit 4; Wolf Road; Albany International Airport (Colonie) right shoulder closed HT 104",
+      "published": "Wed, 25 Nov 2026 15:08:08 -0500",
+      "link": "https://511nj.org/",
+      "latitude": 42.7272318359375,
+      "longitude": -73.7990104101563
     },
     {
       "type": "incident",
       "title": "I-287 - Cross Westchester Expwy eastbound : Crash",
-      "description": "NYSTA - Statewide Ops.: crash on I-287 - Cross Westchester Expwy eastbound at Before Exit 3 (I-287) - Sprain Brook Parkway starting 10:55 AM, 11/25/2026 [CARS CAD-263290137]",
-      "published": "Wed, 25 Nov 2026 10:55:41 -0500",
+      "description": "NYSTA - Statewide Ops.: crash on I-287 - Cross Westchester Expwy eastbound at Before Exit 11 (I-287) - Portchester- Rye (US 1) starting 3:09 PM, 11/25/2026 [CARS CAD-263290242]",
+      "published": "Wed, 25 Nov 2026 15:09:57 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.055167,
-      "longitude": -73.810198
+      "latitude": 41.000791,
+      "longitude": -73.684724
     },
     {
       "type": "incident",
-      "title": "I-495 eastbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-495 eastbound between 23rd Street Ramp (New York) and Exit 32 - Little Neck Parkway (New York) 1 Right lane of 3 lanes closed alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 10:47:10 -0500",
+      "title": "Taconic State Parkway northbound : Crash",
+      "description": "NYSDOT - Region 8: Crash on Taconic State Parkway northbound at Stevens Avenue (Mount Pleasant) right shoulder of 2 lanes blocked MM 2.4 CAD #98879080",
+      "published": "Wed, 25 Nov 2026 14:11:26 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.7415652778175,
-      "longitude": -73.9494369447227
+      "latitude": 41.0968,
+      "longitude": -73.7936
     },
     {
       "type": "incident",
-      "title": "CT 15 southbound : Disabled vehicle",
-      "description": "ConnDOT: Crash (Tractor Trailer) on RT 15 Southbound between Exits 90 and 86. The right lane is closed. Reported Wednesday, November 25 at 10:40 am.",
-      "published": "Wed, 25 Nov 2026 10:41:00 -0500",
+      "title": "I-87 Major Deegan Expressway southbound : Disabled tractor trailer",
+      "description": "NYSDOT - Region 11: Disabled tractor trailer on I-87 Major Deegan Expressway southbound Exit ramp Washington Bridge (New York) 1 Left lane of 2 lanes blocked",
+      "published": "Wed, 25 Nov 2026 13:50:57 -0500",
       "link": "https://511nj.org/",
-      "latitude": 41.754453,
-      "longitude": -72.652211
-    },
-    {
-      "type": "incident",
-      "title": "I-91 northbound : Crash",
-      "description": "ConnDOT: Crash (1 Vehicle) on I-91 Northbound between Exits 23 and 24. The 2 left lanes are closed. Reported Wednesday, November 25 at 10:36 am.",
-      "published": "Wed, 25 Nov 2026 10:36:40 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.674969,
-      "longitude": -72.658705
-    },
-    {
-      "type": "incident",
-      "title": "NJ 33 eastbound : Crash",
-      "description": "NJ DOT - TOC South: Crash on NJ 33 Eastbound West of Millstone Rd (Millstone Twp), 1 left lane of 2 lanes closed",
-      "published": "Wed, 25 Nov 2026 10:26:23 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.2621192932129,
-      "longitude": -74.4201507568359
-    },
-    {
-      "type": "incident",
-      "title": "NJ 33 westbound : Tractor trailer fire",
-      "description": "NJ DOT - TOC South: Tractor Trailer Fire on NJ 33 Westbound West of NJ 133 (East Windsor Twp), 3 right lanes of 5 lanes closed",
-      "published": "Wed, 25 Nov 2026 10:38:44 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.2690582275391,
-      "longitude": -74.5015487670898
-    },
-    {
-      "type": "incident",
-      "title": "I-678 northbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-678 northbound between College Point Boulevard; I-678 (New York) and Exit 17 - Whitestone Expressway; 3rd Avenue (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:20:49 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7663326835995,
-      "longitude": -73.8383451757781
-    },
-    {
-      "type": "incident",
-      "title": "I-678 southbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-678 southbound between Exit 17 - Whitestone Expressway; 3rd Avenue (New York) and College Point Boulevard; I-678 (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:19:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.795742132712,
-      "longitude": -73.8257516028161
-    },
-    {
-      "type": "incident",
-      "title": "NJ 33 eastbound : Tractor trailer fire",
-      "description": "NJ DOT - TOC South: Tractor Trailer Fire on NJ 33 Eastbound West of NJ 133 (East Windsor Twp), 2 right lanes of 3 lanes closed",
-      "published": "Wed, 25 Nov 2026 10:16:45 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.2690582275391,
-      "longitude": -74.5015487670898
-    },
-    {
-      "type": "incident",
-      "title": "I-295 northbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-295 northbound between Exit 1- 212th Street; NY 25; Hillside Avenue (New York) and Exit 7 - Roe Place (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:16:44 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7252411594436,
-      "longitude": -73.7548636156121
-    },
-    {
-      "type": "incident",
-      "title": "I-295 southbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-295 southbound between Exit 7 - Roe Place (New York) and Exit 1- 212th Street; NY 25; Hillside Avenue (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:15:28 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.785898742978,
-      "longitude": -73.7876188128126
-    },
-    {
-      "type": "incident",
-      "title": "Harlem River Drive northbound : Disabled vehicle",
-      "description": "NYSDOT - Region 11: Disabled vehicle on Harlem River Drive northbound at West 167th Street (New York) 1 Right lane of 3 lanes blocked",
-      "published": "Wed, 25 Nov 2026 10:11:22 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8374896082889,
-      "longitude": -73.9339548634406
-    },
-    {
-      "type": "incident",
-      "title": "NY 9A southbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on NY 9A southbound between Dyckman Street (New York) and West 57th Street; 12th Avenue (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:09:50 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8690289508846,
-      "longitude": -73.9311548988925
-    },
-    {
-      "type": "incident",
-      "title": "NY 9A northbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on NY 9A northbound between West 57th Street; 12th Avenue (New York) and Dyckman Street (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:07:51 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7716420755797,
-      "longitude": -73.9941636020092
-    },
-    {
-      "type": "incident",
-      "title": "Belt System - Cross Island Parkway southbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on Belt System - Cross Island Parkway southbound between 147th Street (New York) and Exit 30W - I-495 - Long island Expressway (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:05:39 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7892242232,
-      "longitude": -73.8196498010907
-    },
-    {
-      "type": "incident",
-      "title": "Belt System - Cross Island Parkway northbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on Belt System - Cross Island Parkway northbound between Exit 30E - Long Island Expressway Service Road; Horace Harding Expressway (New York) and Exit 36S 36N - I-678 (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:04:18 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7524332859483,
-      "longitude": -73.7432817794123
-    },
-    {
-      "type": "incident",
-      "title": "I-678 southbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-678 southbound between Belt System - Cross Island Parkway; Exit 16 - Cross Island Parkway (New York) and I-495 Long Island Expressway (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:03:02 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7883741549033,
-      "longitude": -73.823681753529
-    },
-    {
-      "type": "incident",
-      "title": "I-678 northbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-678 northbound between Exit 12B - I-495; Ramp (New York) and Belt System - Cross Island Parkway; Exit 16 - Cross Island Parkway (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:01:56 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7414809479191,
-      "longitude": -73.837446421208
-    },
-    {
-      "type": "incident",
-      "title": "I-278 westbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-278 westbound between Grand Central Parkway (New York) and Exit 35 - I-495 Long Island Expressway (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:00:51 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7639137402819,
-      "longitude": -73.8955575843908
-    },
-    {
-      "type": "incident",
-      "title": "I-278 eastbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-278 eastbound between Exit 35 - I-495 Long Island Expressway (New York) and Grand Central Parkway (New York) All lanes alternating lane closures until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 09:59:31 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7319685296449,
-      "longitude": -73.9250945797098
-    },
-    {
-      "type": "incident",
-      "title": "NJ 17 southbound : Watermain break",
-      "description": "NJ DOT - STMC: Water Main Break on NJ 17 Southbound North of Franklin Av (Hasbrouck Heights), 1 right lane of 3 lanes closed",
-      "published": "Wed, 25 Nov 2026 10:09:28 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8579063415527,
-      "longitude": -74.0688247680664
-    },
-    {
-      "type": "incident",
-      "title": "Harlem River Drive southbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on Harlem River Drive southbound between START ROUTE Harlem River Drive; Dyckman Street; 10th Avenue (New York) and Franklin D. Roosevelt Drive at Exit 1 - South Street (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:57:55 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8587453108929,
-      "longitude": -73.9229556246429
-    },
-    {
-      "type": "incident",
-      "title": "Franklin D. Roosevelt Drive northbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on Franklin D. Roosevelt Drive northbound between Exit 1 - South Street (New York) and Harlem River Drive at START ROUTE Harlem River Drive; Dyckman Street; 10th Avenue (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:51:42 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7014198088216,
-      "longitude": -74.0118463538675
-    },
-    {
-      "type": "incident",
-      "title": "Jackie Robinson Parkway westbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on Jackie Robinson Parkway westbound between Interborough Parkway; Exit 7 - I-678; END ROUTE; Ramp (New York) and START ROUTE Jackie Robinson Parkway; Pennsylvania Avenue; Jamaica Avenue (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:42:17 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7148264208678,
-      "longitude": -73.8292610627723
-    },
-    {
-      "type": "incident",
-      "title": "NJ 23 both directions : Overturned tractor trailer",
-      "description": "NJ DOT - STMC: Crash on NJ 23 Both Directions South of Sawmill Rd (Montague Twp), All lanes closed northbound; All lanes closed southbound",
-      "published": "Wed, 25 Nov 2026 10:27:46 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 41.3089599609375,
-      "longitude": -74.6733627319336
-    },
-    {
-      "type": "incident",
-      "title": "I-278 eastbound : Roving repairs",
-      "description": "NYSDOT - Region 11: Roving repairs on I-278 eastbound between Zerega Avenue (New York) and northbound I-95 at Exit 7C - Bruckner Expressway (New York) 1 Right lane of 2 lanes blocked from 11:30 A.M. until 2:30 P.M.",
-      "published": "Wed, 25 Nov 2026 07:28:47 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8283386934657,
-      "longitude": -73.8439928356137
+      "latitude": 40.847596374112,
+      "longitude": -73.925251709024
     },
     {
       "type": "incident",
@@ -630,219 +450,21 @@
     },
     {
       "type": "construction",
-      "title": "Belt System - Shore Parkway westbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on Belt System - Shore Parkway westbound at Bay Ridge Avenue (New York) 1 Right lane of 3 lanes closed until 12:30 P.M.",
-      "published": "Wed, 25 Nov 2026 10:23:20 -0500",
+      "title": "NY 80 both directions : Roadwork",
+      "description": "NYSDOT - Region 9: Roadwork on NY 80 both directions between Copperstown (Springfield) and Springfield alternate lanes closed ForCutting and chipping due to storm damage on 11/25/26. Work is weather dependent. There will be a slagger on scene. IR 12050090",
+      "published": "Wed, 25 Nov 2026 15:02:13 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.6390101949671,
-      "longitude": -74.0365223103152
+      "latitude": 42.7671754319084,
+      "longitude": -74.9007922253602
     },
     {
       "type": "construction",
-      "title": "NY 9A southbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on NY 9A southbound at George Washington Bridge (Upper); I-95 (New York) 1 Left lane of 3 lanes closed until 11:00 A.M.",
-      "published": "Wed, 25 Nov 2026 09:53:49 -0500",
+      "title": "NY 52 both directions : Construction",
+      "description": "NYSDOT - Region 8: Construction, bridge rehabilitation on NY 52 both directions between Brookside Farms Road (Newburgh) and 5th Avenue (Newburgh) left lane closed to traffic until 12:00 A.M. on December 21, 2026 D265160/B1026780/32728109 - 24/7 LEFT LANE CLOSURE - Plan travel accordingly; delays may exist",
+      "published": "Wed, 25 Nov 2026 14:28:18 -0500",
       "link": "https://511nj.org/",
-      "latitude": 40.8486542085934,
-      "longitude": -73.9452318837582
-    },
-    {
-      "type": "construction",
-      "title": "NY 440 southbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on NY 440 southbound between Exit - I-278; Ramp (Staten Island) and Englewood Avenue (Staten Island) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:46:37 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.6183282936355,
-      "longitude": -74.1774601431732
-    },
-    {
-      "type": "construction",
-      "title": "NY 440 northbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on NY 440 northbound between Englewood Avenue (Staten Island) and Exit 9 - I-278 (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:44:27 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.5321692294676,
-      "longitude": -74.2238399518417
-    },
-    {
-      "type": "construction",
-      "title": "Jackie Robinson Parkway eastbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on Jackie Robinson Parkway eastbound between START ROUTE Jackie Robinson Parkway; Pennsylvania Avenue; Jamaica Avenue (New York) and Interborough Parkway; Exit 7 - I-678; END ROUTE; Ramp (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:40:26 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.6787890158447,
-      "longitude": -73.8973062509089
-    },
-    {
-      "type": "construction",
-      "title": "I-278 westbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-278 westbound between Grand Central Parkway (New York) and Exit 34 - Meeker Avenue (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:37:15 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7638338057406,
-      "longitude": -73.8956485380333
-    },
-    {
-      "type": "construction",
-      "title": "I-278 eastbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-278 eastbound between North Henry Street (New York) and Grand Central Parkway (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:34:37 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7203177615638,
-      "longitude": -73.9438525605728
-    },
-    {
-      "type": "construction",
-      "title": "Grand Central Parkway westbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on Grand Central Parkway westbound between Exit 20A - Francis Lewis Boulevard North (New York) and Exit 12 - Route 25 Queens Boulevard (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:29:37 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7264187703458,
-      "longitude": -73.7660272151584
-    },
-    {
-      "type": "construction",
-      "title": "Grand Central Parkway westbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on Grand Central Parkway westbound between Jewel Avenue (New York) and Exit 20A - Francis Lewis Boulevard North (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:27:35 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7259582280926,
-      "longitude": -73.8379700950386
-    },
-    {
-      "type": "construction",
-      "title": "I-678 southbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-678 southbound between Linden Place; I-678 (New York) and Exit - Federal Cirle; Ramp (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:24:44 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7715193269544,
-      "longitude": -73.8332977884094
-    },
-    {
-      "type": "construction",
-      "title": "I-678 northbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-678 northbound between Exit - Federal Cirle; Ramp (New York) and Linden Place; I-678 (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:23:06 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.655869352012,
-      "longitude": -73.8073839448336
-    },
-    {
-      "type": "construction",
-      "title": "Belt System - Cross Island Parkway northbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on Belt System - Cross Island Parkway northbound between Exit 30E - Long Island Expressway Service Road; Horace Harding Expressway (New York) and Exit 31W - NY 25A- Northern Boulevard; Ramp (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:19:50 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7522908680424,
-      "longitude": -73.7431657052844
-    },
-    {
-      "type": "construction",
-      "title": "Belt System - Cross Island Parkway southbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on Belt System - Cross Island Parkway southbound between Exit 31W - NY 25A- Northern Boulevard; Ramp (New York) and Exit 30E - Long Island Expressway Service Road; Horace Harding Expressway (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:18:36 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7643908702251,
-      "longitude": -73.7586203916013
-    },
-    {
-      "type": "construction",
-      "title": "I-295 southbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-295 southbound between Throgs Neck Bridge (New York) and Exit 1- 212th Street; NY 25; Hillside Avenue (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:17:33 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7877434063738,
-      "longitude": -73.7900539923629
-    },
-    {
-      "type": "construction",
-      "title": "I-295 northbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-295 northbound between Exit 1- 212th Street; NY 25; Hillside Avenue (New York) and Throgs Neck Bridge (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:16:27 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7252243039048,
-      "longitude": -73.754826356
-    },
-    {
-      "type": "construction",
-      "title": "I-95 southbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-95 southbound between Country Club Road (New York) and westbound I-278 at East 138th Street; I-278-Bruckner Expressway (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:14:58 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8430340128248,
-      "longitude": -73.8258348635629
-    },
-    {
-      "type": "construction",
-      "title": "I-278 eastbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on I-278 eastbound between East 138th Street; I-278-Bruckner Expressway (New York) and northbound I-95 at Country Club Road (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:13:59 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8045488864639,
-      "longitude": -73.9119865477905
-    },
-    {
-      "type": "construction",
-      "title": "Harlem River Drive southbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on Harlem River Drive southbound between Franklin D. Roosevelt Drive; END ROUTE Harlem River Drive (New York) and Franklin D. Roosevelt Drive at Exit 1 - South Street (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:05:48 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.8003889873814,
-      "longitude": -73.9298914995147
-    },
-    {
-      "type": "construction",
-      "title": "Franklin D. Roosevelt Drive northbound : Road sweeping",
-      "description": "NYSDOT - Region 11: Road sweeping on Franklin D. Roosevelt Drive northbound between Exit 1 - South Street (New York) and Harlem River Drive at Franklin D. Roosevelt Drive; END ROUTE Harlem River Drive (New York) All lanes alternating lane closures until 2:00 P.M.",
-      "published": "Wed, 25 Nov 2026 09:03:26 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.7014467552399,
-      "longitude": -74.0117436206478
-    },
-    {
-      "type": "construction",
-      "title": "NY 14 both directions : Construction",
-      "description": "NYSDOT - Region 6: Construction , installation of fiber optics on NY 14 both directions West Broad Street (Horseheads) to Town of Veteran; Town of Catlin Line (Catlin) All lanes of 2 lanes open until 3:00 PM 2 lanes reduced to 1",
-      "published": "Wed, 25 Nov 2026 09:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.1650665922639,
-      "longitude": -76.8400798324124
-    },
-    {
-      "type": "construction",
-      "title": "I-81 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , drainage improvements on I-81 northbound between Exit 78 (Old Exit 16) - US 11; Nedrow; Onondaga Nation (Onondaga) and Exit 16A - I-481 (Syracuse) All lanes of 3 lanes open until 3:00 PM ; Alternating left and right lane closures",
-      "published": "Wed, 25 Nov 2026 09:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.9524358170613,
-      "longitude": -76.1383555013009
-    },
-    {
-      "type": "construction",
-      "title": "I-690 eastbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , longterm construction on I-690 eastbound ramp from North Geddes Street (Syracuse) All lanes of 1 lane open until 3:00 PM ; Alternating shoulder closures",
-      "published": "Wed, 25 Nov 2026 09:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.055727,
-      "longitude": -76.168776
-    },
-    {
-      "type": "construction",
-      "title": "IRVING AVE both directions : Construction",
-      "description": "NYSDOT - Region 3: Construction , longterm construction on IRVING AVE both directions between E ADAMS ST (Syracuse) and E FAYETTE ST (Syracuse) All lanes of 1 lane open until 3:00 PM ; Alternating one-way traffic with flaggers",
-      "published": "Wed, 25 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0427520182119,
-      "longitude": -76.1378729532482
-    },
-    {
-      "type": "construction",
-      "title": "I-81 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , repaving on I-81 northbound between Exit 5A (Syracuse) and Exit 8 - US 11; Mattydale (Salina) All lanes of 4 lanes open until 3:00 PM ; Alternating lane closures",
-      "published": "Wed, 25 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.074192,
-      "longitude": -76.170649
+      "latitude": 41.5130253486982,
+      "longitude": -74.0492785615146
     },
     {
       "type": "construction",
@@ -852,42 +474,6 @@
       "link": "https://511nj.org/",
       "latitude": 43.083364,
       "longitude": -76.053714
-    },
-    {
-      "type": "construction",
-      "title": "NY 15A southbound : Construction",
-      "description": "NYSDOT - Region 4: Construction , utility work on NY 15A southbound at 1555 E Henrietta Rd (Henrietta) All lanes of 3 lanes open until 3:00 PM",
-      "published": "Wed, 25 Nov 2026 09:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0898838307506,
-      "longitude": -77.6102898922994
-    },
-    {
-      "type": "construction",
-      "title": "I-481 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on I-481 northbound between Exit 86B (Old Exit 3W) - NY 5; NY 92 (De Witt) and Exit 89B (Old Exit 5W) - Kirkville Road; CR 53 (De Witt) All lanes of 2 lanes open until 3:00 PM ; Alternating left and right lane closures",
-      "published": "Wed, 25 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0321009526616,
-      "longitude": -76.060574819744
-    },
-    {
-      "type": "construction",
-      "title": "I-690 eastbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , roadwork on I-690 eastbound between Exit 15 - West St (Syracuse) and Exit 17 - Teall Ave (Syracuse) All lanes of 2 lanes open until 3:00 PM ; Alternating lane closures",
-      "published": "Wed, 25 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.054206,
-      "longitude": -76.156108
-    },
-    {
-      "type": "construction",
-      "title": "S CROUSE AVE northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , longterm construction on S CROUSE AVE northbound between E ADAMS ST (Syracuse) and NY-5 - ERIE BLVD E (Syracuse) 1 Right lane of 2 lanes closed until 3:00 PM",
-      "published": "Wed, 25 Nov 2026 09:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.043027,
-      "longitude": -76.136618
     },
     {
       "type": "construction",
@@ -918,39 +504,12 @@
     },
     {
       "type": "construction",
-      "title": "I-81 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , repaving on I-81 southbound between Exit 8 - US 11; Mattydale (Salina) and Exit 5A (Salina) All lanes of 3 lanes open until 3:00 PM ; Alternating lane closures",
-      "published": "Wed, 25 Nov 2026 09:00:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.107046,
-      "longitude": -76.150765
-    },
-    {
-      "type": "construction",
-      "title": "NY 27 eastbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on NY 27 eastbound at Nassau Expressway; NY 878 (New York) 1 Right lane of 2 lanes closed until 3:00 P.M.",
-      "published": "Wed, 25 Nov 2026 08:33:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.6651598485843,
-      "longitude": -73.8316588643823
-    },
-    {
-      "type": "construction",
       "title": "NY 14 both directions : Construction",
       "description": "NYSDOT - Region 6: Construction , installation of fiber optics on NY 14 both directions Town of Veteran; Town of Montour Line; Schuyler - Chemung County Line (Veteran) to Clawson Boulevard; NY 224 (Montour) All lanes of 1 lane open until 3:30 PM 1 lane, 2 way, flagger control",
       "published": "Wed, 25 Nov 2026 08:30:08 -0500",
       "link": "https://511nj.org/",
       "latitude": 42.2925984622753,
       "longitude": -76.8443169394748
-    },
-    {
-      "type": "construction",
-      "title": "G.E. Access Rd westbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , bridge work on G.E. Access Rd westbound under I-890 (Rotterdam) left shoulder of 3 lanes closed until 11:30 AM",
-      "published": "Wed, 25 Nov 2026 08:30:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.813699,
-      "longitude": -73.956518
     },
     {
       "type": "construction",
@@ -981,48 +540,12 @@
     },
     {
       "type": "construction",
-      "title": "I-81 northbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , mowing on I-81 northbound between Exit 23 - NY 370 East; Park Street; Hiawatha Boulevard (Syracuse) and Exit 6 - 7th North Street; Liverpool (Salina) right shoulder of 3 lanes closed until 2:30 PM",
-      "published": "Wed, 25 Nov 2026 08:00:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.068192973273,
-      "longitude": -76.1665773532677
-    },
-    {
-      "type": "construction",
       "title": "NY 370 both directions : Construction",
       "description": "NYSDOT - Region 3: Construction , utility work on NY 370 both directions at Old State Road (Conquest) All lanes of 1 lane open until 4:00 PM ; Alternating one-way traffic with flaggers",
       "published": "Wed, 25 Nov 2026 08:00:07 -0500",
       "link": "https://511nj.org/",
       "latitude": 43.1665603945614,
       "longitude": -76.6064819509483
-    },
-    {
-      "type": "construction",
-      "title": "VAN WYCK EXPY southbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on VAN WYCK EXPY service road southbound between 111TH AVE (New York) and LINDEN BLVD (New York) All lanes closed from 8:00 A.M. until 3:00 P.M.",
-      "published": "Wed, 25 Nov 2026 07:51:10 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.6845098741231,
-      "longitude": -73.8070301200241
-    },
-    {
-      "type": "construction",
-      "title": "NY 27 eastbound : Construction",
-      "description": "NYSDOT - Region 11: Construction, construction on NY 27 eastbound between 134th Street (New York) and I-678 (New York) 1 Left lane of 2 lanes closed from 8:00 A.M. until 3:00 P.M.",
-      "published": "Wed, 25 Nov 2026 07:48:41 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.6661497876285,
-      "longitude": -73.8057319298841
-    },
-    {
-      "type": "construction",
-      "title": "NJ 12 westbound : Construction",
-      "description": "NJ DOT - STMC: Roadwork on NJ 12 Westbound from In the vicinity of Horseshoe Bend Rd (Frenchtown) to CR 519 (Kingwood Twp) Wednesday November 25, 2026 07:30 AM thru 03:00 PM, right shoulder closed",
-      "published": "Wed, 25 Nov 2026 07:30:07 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 40.522819519043,
-      "longitude": -75.0479583740234
     },
     {
       "type": "construction",
@@ -1044,30 +567,12 @@
     },
     {
       "type": "construction",
-      "title": "NY 15 both directions : Construction",
-      "description": "NYSDOT - Region 4: Construction , traffic signal repairs on NY 15 both directions from Jefferson Road; NY 252 (Henrietta) to Lehigh Station Road; NY 253 (Henrietta) All lanes and both shoulder closed intermittently until 3:00 PM",
-      "published": "Wed, 25 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0885491274652,
-      "longitude": -77.636060254438
-    },
-    {
-      "type": "construction",
       "title": "NY 54A both directions : Construction",
       "description": "NYSDOT - Region 6: Construction , culvert repairs on NY 54A both directions Yates - Steuben County Line (Pulteney) to Yates - Steuben County Line (Pulteney) All lanes of 1 lane open until 5:00 PM 1 Lane, 2 Way, Flagger Control",
       "published": "Wed, 25 Nov 2026 07:00:11 -0500",
       "link": "https://511nj.org/",
       "latitude": 42.5772836398403,
       "longitude": -77.1505546064691
-    },
-    {
-      "type": "construction",
-      "title": "CR-92 eastbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , roadwork on CR-92 eastbound between BEACH RD (Halfmoon) and ROUTE 9 (Halfmoon) All lanes of 1 lane open until 3:00 PM pipe fusing",
-      "published": "Wed, 25 Nov 2026 07:00:11 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.8228470051322,
-      "longitude": -73.7427269538102
     },
     {
       "type": "construction",
@@ -1251,15 +756,6 @@
     },
     {
       "type": "construction",
-      "title": "I-81 southbound : Construction",
-      "description": "NYSDOT - Region 3: Construction , drainage improvements on I-81 southbound between Exit 1C (Old Exit 17) - South Salina Street; Brighton Avenue; State Street (Syracuse) and Exit 78 (Old Exit 16) - US 11; Nedrow; Onondaga Nation (Onondaga) All lanes of 2 lanes open until 3:00 PM ; Alternating left and right lane closures",
-      "published": "Wed, 25 Nov 2026 07:00:09 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.0199654196533,
-      "longitude": -76.1405422028076
-    },
-    {
-      "type": "construction",
       "title": "NY 54 both directions : Construction",
       "description": "NYSDOT - Region 6: Construction , utility work on NY 54 both directions Liberty Street; End NY 415 overlap (Bath) to Liberty Street; End NY 415 overlap (Bath) All lanes and both shoulder of 1 lane open southbound; All lanes of 1 lane open northbound until 3:30 PM 2 lanes reduced to 1 lane.",
       "published": "Wed, 25 Nov 2026 07:00:10 -0500",
@@ -1410,15 +906,6 @@
       "link": "https://511nj.org/",
       "latitude": 40.9716415405273,
       "longitude": -74.6010589599609
-    },
-    {
-      "type": "construction",
-      "title": "946C; NY 104 EB service road eastbound : Construction",
-      "description": "NYSDOT - Region 4: Construction , culvert repairs on 946C; NY 104 EB service road eastbound at Five Mile Line Road; CR 18 (Webster) 1 Left lane of 2 lanes closed until 2:30 PM",
-      "published": "Thu, 19 Nov 2026 09:58:08 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 43.213497,
-      "longitude": -77.464752
     },
     {
       "type": "construction",
@@ -1665,15 +1152,6 @@
     },
     {
       "type": "construction",
-      "title": "NY 23 : Roadwork",
-      "description": "NYSDOT - Region 9: Roadwork on NY 23 (Norwich) alternate lanes blocked For slip line/ outlet repair. 11/9 to 11/25 from 7am to 6pm. This work is weather dependent, with flagger present. IR 11944090",
-      "published": "Wed, 18 Nov 2026 18:55:14 -0500",
-      "link": "https://511nj.org/",
-      "latitude": 42.5501742993457,
-      "longitude": -75.4903038053834
-    },
-    {
-      "type": "construction",
       "title": "NY 17C : Roadwork",
       "description": "NYSDOT - Region 9: Roadwork on NY 17C between Glenmary Drive (Tioga) and Skyline Drive left lane blocked For guiderail repair. 11/9 to 11/27 from 8am to 2:30pm. This work is weather dependent, with flagger present. IR-11942090",
       "published": "Fri, 20 Nov 2026 15:55:25 -0500",
@@ -1917,24 +1395,6 @@
     },
     {
       "type": "construction",
-      "title": "NY 2 westbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , bridge work on NY 2 westbound Congress Street Bridge; Albany-Rensselaer County Line (Watervliet) to 2nd Avenue; NY 32 (Watervliet) 1 Left lane of 2 lanes closed until 12:00 AM on November 30,2026",
-      "published": "Mon, 19 Oct 2026 07:00:08 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 42.72841,
-      "longitude": -73.69492
-    },
-    {
-      "type": "construction",
-      "title": "NY 2 eastbound : Construction",
-      "description": "NYSDOT TMC - Albany: Construction , bridge work on NY 2 eastbound 2nd Avenue; NY 32 (Watervliet) to Congress Street Bridge; Albany-Rensselaer County Line (Watervliet) 1 Left lane of 2 lanes closed until 12:00 AM on November 30,2026",
-      "published": "Mon, 19 Oct 2026 07:00:08 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 42.7300626303219,
-      "longitude": -73.7014651758211
-    },
-    {
-      "type": "construction",
       "title": "US 322 eastbound : Construction",
       "description": "NJDOT - TOC South: Roadwork on US 322 Eastbound near East of US 130 (Logan Twp), Continuous left shoulder",
       "published": "Thu, 15 Oct 2026 09:51:18 -0400",
@@ -2175,15 +1635,6 @@
       "link": "https://511nj.org/",
       "latitude": 43.0768629491718,
       "longitude": -76.0559744237577
-    },
-    {
-      "type": "construction",
-      "title": "NY 17 [Tioga] both directions : Roadwork",
-      "description": "NYSDOT - Region 9: Roadwork on NY 17 [Tioga] both directions between Exit 61 - NY 199 (Barton) and Exit 62 - NY 282 (Nichols) alternate lanes blocked prepare crossovers and complete steel repairs BIN( 1061511, 1061512) 9/8 to 11/16 from 7am to 4pm. Not weather dependent, no flagger present. IR: 11353091",
-      "published": "Fri, 30 Oct 2026 17:17:47 -0400",
-      "link": "https://511nj.org/",
-      "latitude": 42.0000566190317,
-      "longitude": -76.5214630230164
     },
     {
       "type": "construction",
@@ -2702,8 +2153,8 @@
   "news": [],
   "statuses": {
     "weather": "available",
-    "incidents": "available: 29 records",
-    "construction": "available: 230 records",
+    "incidents": "available: 9 records",
+    "construction": "available: 189 records",
     "news": "unavailable: HTTP Error 429: Too Many Requests"
   }
 }

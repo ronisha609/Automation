@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-25",
+  "sentAt": "2026-11-25T20:29:31.727764+00:00",
+  "message": "Good morning, Central New Jersey. The weather service has a High Wind Warning for parts of the area, so check it before you head out. No crashes nearby right now, but 3 construction zones could slow you down. It's 44°F, Cloudy, up to 45°.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "weather alert",
+    "flooding",
+    "construction"
+  ],
+  "nearbyIncidents": 0,
+  "nearbyConstruction": 3,
+  "weatherAlerts": [
+    "High Wind Warning",
+    "High Wind Warning",
+    "High Wind Warning",
+    "Coastal Flood Advisory",
+    "Coastal Flood Warning",
+    "Coastal Flood Warning",
+    "Wind Advisory"
+  ],
+  "weather": {
+    "now": "44°F, Cloudy",
+    "low": 43,
+    "high": 45,
+    "maxRainChance": 5,
+    "wettestHour": "2 AM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-25.jpg"
+}

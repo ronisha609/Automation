@@ -1,62 +1,68 @@
 {
-  "generatedAt": "2026-11-24T21:16:57.280884+00:00",
+  "generatedAt": "2026-11-25T20:29:31.727764+00:00",
   "area": "Central New Jersey",
-  "text": "Good morning, Central New Jersey. The weather service has a Coastal Flood Warning for parts of the area, so check it before you head out. Watch for a crash or incident at US 206 northbound (2.5 mi away). It's 48°F, Sunny, up to 48°. Watch for frost or slick spots early.",
+  "text": "Good morning, Central New Jersey. The weather service has a High Wind Warning for parts of the area, so check it before you head out. No crashes nearby right now, but 3 construction zones could slow you down. It's 44°F, Cloudy, up to 45°.",
   "source": "rules",
-  "fingerprint": "e633e9ccebeaad15",
+  "fingerprint": "30fae5976d5b8dd1",
   "channelUrl": "",
   "facts": {
     "area": "Central New Jersey",
     "trafficAvailable": true,
-    "date": "Tuesday, November 24",
+    "date": "Wednesday, November 25",
     "special": "",
     "weather": {
-      "now": "48°F, Sunny",
-      "low": 31,
-      "high": 48,
-      "maxRainChance": 0,
-      "wettestHour": "4 PM",
+      "now": "44°F, Cloudy",
+      "low": 43,
+      "high": 45,
+      "maxRainChance": 5,
+      "wettestHour": "2 AM",
       "hoursCovered": 12
     },
     "weatherAlerts": [
       {
-        "event": "Coastal Flood Warning",
-        "headline": "Coastal Flood Warning issued November 24 at 2:30PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+        "event": "High Wind Warning",
+        "headline": "High Wind Warning issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
         "severity": "Severe",
-        "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood wate"
-      },
-      {
-        "event": "Coastal Flood Warning",
-        "headline": "Coastal Flood Warning issued November 24 at 2:30PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
-        "severity": "Severe",
-        "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood wate"
+        "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive."
       },
       {
         "event": "High Wind Warning",
-        "headline": "High Wind Warning issued November 24 at 1:51PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+        "headline": "High Wind Warning issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
         "severity": "Severe",
-        "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind."
+        "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive."
       },
       {
-        "event": "High Wind Watch",
-        "headline": "High Wind Watch issued November 24 at 1:51PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
+        "event": "High Wind Warning",
+        "headline": "High Wind Warning issued November 25 at 1:56PM EST until November 27 at 1:00AM EST by NWS Mount Holly NJ",
         "severity": "Severe",
-        "instruction": "Monitor the latest forecasts and warnings for updates. Fasten loose objects or shelter objects in a safe location prior to the onset of winds."
+        "instruction": "People are urged to secure loose objects that could be blown around or damaged by the wind. Remain in the lower levels of your home during the windstorm, and avoid windows. Watch for falling debris and tree limbs. Use caution if you must drive."
+      },
+      {
+        "event": "Coastal Flood Advisory",
+        "headline": "Coastal Flood Advisory issued November 25 at 1:54PM EST until November 27 at 7:00PM EST by NWS Mount Holly NJ",
+        "severity": "Minor",
+        "instruction": "A Coastal Flood Advisory means that minor tidal flooding is expected. Minor tidal flooding often results in some road closures. Usually, the most vulnerable roadways will flood. Do not leave your vehicle at a location that is prone to tidal flooding. Do not drive your vehicle through flood waters. T"
+      },
+      {
+        "event": "Coastal Flood Warning",
+        "headline": "Coastal Flood Warning issued November 25 at 1:54PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+        "severity": "Severe",
+        "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood wate"
+      },
+      {
+        "event": "Coastal Flood Warning",
+        "headline": "Coastal Flood Warning issued November 25 at 1:54PM EST until November 27 at 3:00AM EST by NWS Mount Holly NJ",
+        "severity": "Severe",
+        "instruction": "A Coastal Flood Warning means that moderate or major tidal flooding is occurring or imminent. Be prepared for rising water levels and take appropriate action to protect life and property. Follow the recommendations of local emergency management officials. Do not drive your vehicle through flood wate"
       },
       {
         "event": "Wind Advisory",
-        "headline": "Wind Advisory issued November 24 at 1:11PM EST until November 27 at 5:00AM EST by NWS Upton NY",
+        "headline": "Wind Advisory issued November 25 at 1:50PM EST until November 27 at 5:00AM EST by NWS Upton NY",
         "severity": "Moderate",
         "instruction": "Winds this strong can make driving difficult, especially for high profile vehicles. Use extra caution. Secure outdoor objects."
       }
     ],
     "roads": [
-      {
-        "what": "crash or incident",
-        "where": "US 206 northbound",
-        "detail": "NJ DOT - TOC South: Crash on US 206 Northbound North of CR 524/White Horse Circle (Hamilton Twp), 1 left lane of 2 lanes closed",
-        "milesAway": 2.5
-      },
       {
         "what": "construction",
         "where": "US 202 northbound",
@@ -77,7 +83,7 @@
       }
     ],
     "roadCounts": {
-      "incidents": 1,
+      "incidents": 0,
       "construction": 3
     },
     "headlines": []
