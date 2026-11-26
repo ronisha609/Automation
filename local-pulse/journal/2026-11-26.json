@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-26",
+  "sentAt": "2026-11-26T20:13:31.181603+00:00",
+  "message": "Good morning, Central New Jersey. The weather service has a High Wind Warning for parts of the area, so check it before you head out. Watch for a closure at NJ 31 both directions : Malfunctioning traffic light (12.1 mi away). It's 50°F, Rain, up to 55°. Rain is likely around 3 PM, so bring an umbrella.",
+  "writtenBy": "built-in rules",
+  "flags": [
+    "weather alert",
+    "flooding",
+    "crash or closure",
+    "construction",
+    "rain"
+  ],
+  "nearbyIncidents": 1,
+  "nearbyConstruction": 3,
+  "weatherAlerts": [
+    "High Wind Warning",
+    "High Wind Warning",
+    "High Wind Warning",
+    "Coastal Flood Advisory",
+    "Coastal Flood Warning",
+    "Coastal Flood Warning",
+    "Wind Advisory"
+  ],
+  "weather": {
+    "now": "50°F, Rain",
+    "low": 50,
+    "high": 55,
+    "maxRainChance": 100,
+    "wettestHour": "3 PM",
+    "hoursCovered": 12
+  },
+  "screenshot": "screens/2026-11-26.jpg"
+}
