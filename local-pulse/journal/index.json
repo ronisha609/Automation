@@ -2,24 +2,53 @@
   "summary": {
     "start": "2026-11-01",
     "plannedDays": 90,
-    "dayNumber": 26,
-    "briefsSent": 26,
+    "dayNumber": 27,
+    "briefsSent": 27,
     "writtenByAI": 0,
     "daysWith": {
       "crash or closure": 15,
-      "weather alert": 6,
-      "flooding": 6,
+      "weather alert": 7,
+      "flooding": 7,
       "rain": 6,
       "cold or frost": 5,
-      "construction": 26,
+      "construction": 27,
       "quiet day": 0
     },
-    "screenshots": 26,
+    "screenshots": 27,
     "townRequests": 0,
     "areasCovered": 68,
     "areaMessagesLastRun": 68
   },
   "entries": [
+    {
+      "date": "2026-11-27",
+      "sentAt": "2026-11-27T19:59:41.725729+00:00",
+      "message": "Good morning, Central New Jersey. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. No crashes nearby right now, but 3 construction zones could slow you down. It's 50°F, Scattered Rain Showers, up to 50°.",
+      "writtenBy": "built-in rules",
+      "flags": [
+        "weather alert",
+        "flooding",
+        "construction"
+      ],
+      "nearbyIncidents": 0,
+      "nearbyConstruction": 3,
+      "weatherAlerts": [
+        "Coastal Flood Advisory",
+        "Coastal Flood Advisory",
+        "Coastal Flood Warning",
+        "Flood Warning"
+      ],
+      "weather": {
+        "now": "50°F, Scattered Rain Showers",
+        "low": 45,
+        "high": 50,
+        "maxRainChance": 29,
+        "wettestHour": "3 PM",
+        "hoursCovered": 12
+      },
+      "screenshot": "screens/2026-11-27.jpg",
+      "hasScreenshot": true
+    },
     {
       "date": "2026-11-26",
       "sentAt": "2026-11-26T20:13:31.181603+00:00",

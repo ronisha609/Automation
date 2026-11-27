@@ -1,13 +1,14 @@
 # Local Pulse: 90-Day Log
 
-Started 2026-11-01. Day 26 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
+Started 2026-11-01. Day 27 of 90. Covering 68 areas, with 0 town requests so far. Each morning GitHub Actions collects public data, writes one plain-language message, posts it, takes a screenshot and saves the entry here.
 
 | Briefs sent | Days with a crash or closure nearby | Weather alerts | Rain | Cold or frost | Quiet days |
 | --- | --- | --- | --- | --- | --- |
-| 26 | 15 | 6 | 6 | 5 | 0 |
+| 27 | 15 | 7 | 6 | 5 | 0 |
 
 | Date | Message | Flagged | Screenshot |
 | --- | --- | --- | --- |
+| 2026-11-27 | Good morning, Central New Jersey. The weather service has a Coastal Flood Advisory for parts of the area, so check it before you head out. No crashes nearby right now, but 3 construction zones could slow you down. It's 50°F, Scattered Rain Showers, up to 50°. | weather alert, flooding, construction | [view](screens/2026-11-27.jpg) |
 | 2026-11-26 | Good morning, Central New Jersey. The weather service has a High Wind Warning for parts of the area, so check it before you head out. Watch for a closure at NJ 31 both directions : Malfunctioning traffic light (12.1 mi away). It's 50°F, Rain, up to 55°. Rain is likely around 3 PM, so bring an umbrella. | weather alert, flooding, crash or closure, construction, rain | [view](screens/2026-11-26.jpg) |
 | 2026-11-25 | Good morning, Central New Jersey. The weather service has a High Wind Warning for parts of the area, so check it before you head out. No crashes nearby right now, but 3 construction zones could slow you down. It's 44°F, Cloudy, up to 45°. | weather alert, flooding, construction | [view](screens/2026-11-25.jpg) |
 | 2026-11-24 | Good morning, Central New Jersey. The weather service has a Coastal Flood Warning for parts of the area, so check it before you head out. Watch for a crash or incident at US 206 northbound (2.5 mi away). It's 48°F, Sunny, up to 48°. Watch for frost or slick spots early. | weather alert, flooding, crash or closure, construction, cold or frost | [view](screens/2026-11-24.jpg) |
